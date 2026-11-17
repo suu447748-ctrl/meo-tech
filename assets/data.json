@@ -784,6 +784,38 @@
       "title": "HONOR X6 / X7 không sạc được: kiểm tra và thay bo sạc phụ",
       "id": 27,
       "img": "assets/honor-x6-x7-khong-sac.jpg"
+    },
+    {
+      "brand": "Vivo",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Vivo Y02 và Y02s bấm nút nguồn không lên, máy không mở nguồn — hướng xử lý: câu jumper ở vị trí được khoanh trong ảnh để khôi phục đường nút nguồn. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Vivo Y02 hoặc Y02s của bạn bấm nút nguồn không lên, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Vivo Y02 hoặc Y02s bấm nút nguồn không có phản hồi, máy không mở nguồn dù pin còn và đã cắm sạc. Đây là lỗi đường nút nguồn (Power Switch) trên main — không phải do pin chai hay do hết pin, nên cắm sạc cũng không lên.",
+        "Thử các bước đơn giản trước khi mở máy: cắm sạc một lúc rồi bấm giữ nút nguồn lâu hơn bình thường, thử sạc bằng cáp và củ sạc khác mà bạn biết là còn tốt. Nếu máy vẫn không lên chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh tròn trong ảnh: khu vực nút nguồn trên main, ở góc dưới của cụm main. Đường nút nguồn đi từ phím nguồn qua vị trí này — khi đường này đứt hoặc tiếp xúc kém, máy sẽ không nhận lệnh mở nguồn.",
+        "Kiểm tra kỹ vị trí được khoanh và đường mạch xung quanh như ghi chú trong ảnh ('Please check thoroughly' — kiểm tra kỹ). Đo thông mạch đường nút nguồn, xem có đứt mạch hay chân tiếp xúc nào bong không. Câu jumper theo đường dây trong ảnh cận cảnh, nối lại đúng hai điểm được chỉ (các điểm test V, G, RXPX, TX xung quanh để đối chiếu).",
+        "Câu xong thì lắp tạm pin và bấm nút nguồn test trước khi ráp hoàn thiện: máy phải mở nguồn bình thường, bấm nút nguồn tắt/mở đều nhận. Test thêm sạc, sóng, loa và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "vivo",
+        "vivo y02",
+        "vivo y02s",
+        "y02",
+        "y02s",
+        "nut nguon",
+        "power switch",
+        "mat nguon",
+        "jumper",
+        "sua chua"
+      ],
+      "title": "Vivo Y02 / Y02s lỗi nút nguồn (Power Switch): câu jumper khôi phục",
+      "id": 28,
+      "img": "assets/vivo-y02-y02s-nut-nguon-jumper.jpg"
     }
   ],
   "subs": {
