@@ -1108,6 +1108,41 @@
       "title": "Oppo A5 2020 không hiện logo sạc khi cắm sạc: thay tụ (Cap Replace)",
       "id": 37,
       "img": "assets/oppo-a5-2020-khong-hien-logo-sac.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo A15, A15s, A16 và A16e không sạc được — hướng xử lý: câu jumper nối 2 điểm như trong ảnh cận cảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Oppo A15/A15s/A16/A16e của bạn không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Oppo A15, A15s, A16 hoặc A16e cắm sạc không vào pin, máy không báo sạc dù đã thử cáp và củ sạc khác còn tốt. Đây là lỗi đường sạc — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không nhận sạc chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát 2 điểm được đánh số 1 và 2 trong ảnh cận cảnh: điểm 1 trên main và điểm 2 trên bo sạc phụ. Đường sạc đi từ cổng sạc qua bo sạc phụ rồi lên main — khi đường này đứt, máy sẽ không sạc được.",
+        "Câu jumper nối điểm 1 với điểm 2 như trong ảnh (dây jumper nối hai điểm được đánh số). Đo thông mạch sau khi câu để chắc đường đã thông. Kiểm tra luôn các điểm nối và chân tiếp xúc quanh đó.",
+        "Câu xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo",
+        "oppo a15",
+        "oppo a15s",
+        "oppo a16",
+        "oppo a16e",
+        "a15",
+        "a15s",
+        "a16",
+        "a16e",
+        "khong sac",
+        "jumper",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Oppo A15, A15s, A16, A16e không sạc được: câu jumper 2 điểm như trong ảnh",
+      "id": 38,
+      "img": "assets/oppo-a15-a15s-a16-a16e-khong-sac-jumper.jpg"
     }
   ],
   "subs": {
