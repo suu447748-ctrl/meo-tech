@@ -1523,6 +1523,37 @@
       "title": "OPPO Reno17 ra mắt: pin 8.000mAh, chip Snapdragon 7 Gen 4, 3 màu Encounter Cat, Ice Moon White, Cocoa Brown",
       "id": 50,
       "img": "assets/oppo-reno17-mau-sac.webp"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "OPPO Reno17 Pro vừa ra mắt tại Trung Quốc với camera chính 200MP, màn hình 6,32 inch 120Hz nhỏ gọn, chip Dimensity 8550 Super và pin 7.250mAh. Máy có 3 màu: Encounter Cat, First Snow White và Cocoa Brown, giá từ 4.199 tệ, bán ra từ 20/11.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Bài giới thiệu cấu hình từ thông tin ra mắt chính thức của OPPO tại Trung Quốc (16/11/2026). Giá và ngày bán tại Việt Nam chưa được công bố. Ảnh trong bài là ảnh minh họa màu sắc, không phải ảnh chính thức của OPPO.",
+      "steps": [
+        "Ra mắt khi nào, giá bao nhiêu: OPPO Reno17 Pro ra mắt tại Trung Quốc ngày 16/11/2026 cùng Reno17, mở bán từ 20/11. Giá từ 4.199 tệ (khoảng 15 triệu đồng) cho bản 8GB + 256GB, bản 12GB + 256GB là 4.599 tệ, bản 12GB + 512GB là 4.999 tệ. Hiện OPPO chưa công bố ngày bán và giá chính thức tại Việt Nam.",
+        "Màn hình nhỏ gọn: 6,32 inch OLED phẳng 1.5K (2640×1216), tần số quét 120Hz, độ sáng tối đa 1.800 nits, kính cường lực OPPO Crystal Shield Glass, cảm biến vân tay quang học dưới màn hình. Đây là bản Pro nhỏ gọn hơn hẳn bản thường.",
+        "Hiệu năng: chip Dimensity 8550 Super, RAM 8GB hoặc 12GB (LPDDR5X), bộ nhớ 256GB/512GB chuẩn UFS 3.1. Máy chạy ColorOS 17 trên nền Android 17, được cập nhật tới 6 năm.",
+        "Camera 200MP: camera chính 200MP cảm biến 1/1.56 inch, khẩu độ f/1.8, chống rung OIS; camera góc siêu rộng 50MP (góc 116°, lấy nét tự động); camera tele tiềm vọng 50MP zoom quang 3.5x, chống rung OIS. Camera trước 50MP lấy nét tự động, quay video 4K 60fps.",
+        "Pin và sạc: pin 7.250mAh (tăng từ 6.700mAh trên Reno16 Pro quốc tế), sạc nhanh 80W SuperVOOC. Khung kim loại, chuẩn chống bụi nước IP69K. Máy nặng 192g (194g bản Encounter Cat), dày 8,32mm (8,5mm bản Encounter Cat).",
+        "Màu sắc: 3 màu — Encounter Cat (xanh nhạt, hình mèo nổi trên mặt lưng, phát sáng dưới ánh sáng xanh), First Snow White (trắng trơn, sáng và sạch), Cocoa Brown (nâu nhám). Xem ảnh minh họa 3 màu trong bài."
+      ],
+      "sub": "Tin mới & Đánh giá",
+      "tags": [
+        "oppo",
+        "reno17 pro",
+        "reno 17 pro",
+        "ra mat",
+        "tin moi",
+        "cau hinh",
+        "dimensity 8550",
+        "camera 200mp"
+      ],
+      "title": "OPPO Reno17 Pro ra mắt: camera chính 200MP, chip Dimensity 8550 Super, 3 màu Encounter Cat, First Snow White, Cocoa Brown",
+      "id": 51,
+      "img": "assets/oppo-reno17-pro-mau-sac.webp"
     }
   ],
   "subs": {
