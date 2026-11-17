@@ -1554,6 +1554,53 @@
       "title": "OPPO Reno17 Pro ra mắt: camera chính 200MP, chip Dimensity 8550 Super, 3 màu Encounter Cat, First Snow White, Cocoa Brown",
       "id": 51,
       "img": "assets/oppo-reno17-pro-mau-sac.webp"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Điện thoại vẫn bắt được Wi-Fi nhưng sóng chỉ còn 1 vạch, xem video cứ xoay vòng, đang lướt web thì tự rớt mạng — phần lớn trường hợp lỗi nằm ở vị trí đặt router, mạng Wi-Fi bị lưu sai hoặc cài đặt trên máy. Bạn chỉ cần kiểm tra theo thứ tự dưới đây là tìm ra nguyên nhân, chưa cần mang ra tiệm ngay.",
+      "mins": 5,
+      "note": "Lưu ý an toàn: Bài này chỉ hướng dẫn kiểm tra mạng, cài đặt và vị trí router bên ngoài — bạn không cần mở máy hay tháo bất cứ linh kiện nào. Nếu phải mở máy để kiểm tra phần cứng Wi-Fi bên trong, hãy mang ra tiệm để thợ có kinh nghiệm xử lý.",
+      "steps": [
+        "Nhận biết lỗi: Bạn vẫn thấy tên Wi-Fi nhà mình trong danh sách mạng, nhưng sóng chỉ còn 1 vạch, mở video thì cứ xoay vòng mãi không tải nổi, đang lướt web thì tự dưng rớt mạng rồi lại bắt lại. Có khi ngồi ngay cạnh router thì mạng khỏe, nhưng sang phòng khác là yếu hẳn. Trước khi nghĩ tới chuyện Wi-Fi trong máy bị hỏng, bạn hãy kiểm tra theo từng bước dưới đây — phần lớn trường hợp nguyên nhân rất đơn giản và bạn tự xử lý được tại nhà.",
+        "Kiểm tra nhanh trước khi xử lý — Hỏi người nhà hoặc thử một điện thoại khác: nếu máy khác cũng bắt Wi-Fi yếu ở đúng chỗ đó thì lỗi nằm ở sóng Wi-Fi trong nhà, không phải ở máy của bạn.",
+        "Đứng ngay cạnh router rồi xem vạch sóng: nếu đứng gần mà sóng vẫn yếu thì khả năng cao là router hoặc mạng nhà bạn đang có vấn đề.",
+        "Xem bạn có đang bật VPN, chế độ tiết kiệm pin hay chế độ máy bay không: VPN và chế độ tiết kiệm pin đôi khi làm mạng chậm và chập chờn.",
+        "Nhớ lại xem lỗi bắt đầu từ khi nào: sau khi bạn đổi mật khẩu Wi-Fi, đổi router mới, hay sau khi cập nhật phần mềm thì rất có thể mạng cũ đang bị lưu sai trên máy.",
+        "Các bước xử lý — Bước 1: Tắt Wi-Fi rồi bật lại trên điện thoại. Cách đơn giản này giúp máy kết nối lại từ đầu và xử lý được nhiều lỗi chập chờn tạm thời.",
+        "Bước 2: Khởi động lại điện thoại một lần. Sau khi khởi động lại, bạn bật Wi-Fi và kết nối lại mạng nhà mình xem sóng đã ổn định chưa.",
+        "Bước 3: Quên mạng Wi-Fi rồi kết nối lại. Bạn vào phần cài đặt Wi-Fi, chọn mạng nhà mình, bấm quên mạng, sau đó chọn lại tên mạng và nhập đúng mật khẩu để kết nối mới hoàn toàn. Bước này xử lý được trường hợp mạng bị lưu sai mật khẩu hoặc sai cài đặt cũ.",
+        "Bước 4: Kiểm tra vị trí đặt router. Router nên đặt ở chỗ cao, thoáng, giữa nhà, tránh để trong tủ kín, sau tivi, dưới gầm bàn hoặc gần các thiết bị như lò vi sóng, loa không dây. Tường dày và cửa kim loại cũng chặn sóng Wi-Fi khá nhiều, nên bạn thử đứng gần router hơn để xem sóng có cải thiện không.",
+        "Bước 5: Khởi động lại router. Bạn rút nguồn router, chờ khoảng 30 giây rồi cắm lại, đợi 2–3 phút cho router khởi động xong rồi kết nối lại trên điện thoại. Router chạy liên tục nhiều tuần cũng hay bị treo nhẹ, khởi động lại là cách xử lý rất hiệu quả.",
+        "Bước 6: Thử chuyển sang mạng 5GHz hoặc 2.4GHz. Nếu router nhà bạn phát cả hai băng tần, bạn thử đổi qua băng tần còn lại: băng tần 5GHz nhanh nhưng sóng đi không xa, băng tần 2.4GHz chậm hơn một chút nhưng xuyên tường tốt hơn. Ngồi xa router thì 2.4GHz thường ổn định hơn.",
+        "Bước 7: Tắt chế độ tiết kiệm pin khi cần dùng mạng ổn định. Một số máy khi bật tiết kiệm pin sẽ hạn chế Wi-Fi chạy nền, khiến mạng chập chờn khi màn hình tắt.",
+        "Bước 8: Cập nhật phần mềm cho điện thoại. Bạn vào phần cài đặt, kiểm tra cập nhật hệ thống và cài bản mới nhất nếu có — bản cập nhật thường sửa các lỗi Wi-Fi đã biết.",
+        "Test lại sau khi xử lý — Đứng ở chỗ trước đây hay rớt mạng, mở một video hoặc lướt web vài phút xem còn bị xoay vòng hay tự rớt nữa không.",
+        "Thử di chuyển giữa các phòng trong nhà: nếu sóng vẫn đủ dùng ở mọi phòng thì lỗi đã được xử lý.",
+        "So sánh với một điện thoại khác ở cùng vị trí: nếu hai máy bắt sóng ngang nhau thì máy của bạn đã bình thường trở lại.",
+        "Nếu sau tất cả các bước trên mà máy vẫn bắt Wi-Fi yếu dù đứng ngay cạnh router thì khả năng cao ăng-ten Wi-Fi trong máy đã có vấn đề — lúc này bạn cần mang ra tiệm để kiểm tra chuyên sâu.",
+        "Khi nào nên mang ra tiệm — Đã quên mạng, khởi động lại cả máy lẫn router, đổi băng tần mà Wi-Fi vẫn yếu ở mọi vị trí, kể cả đứng sát router.",
+        "Điện thoại không tìm thấy bất kỳ mạng Wi-Fi nào xung quanh trong khi máy khác vẫn thấy bình thường.",
+        "Wi-Fi tự bật tắt liên tục, hoặc nút Wi-Fi trong cài đặt bị mờ, không bấm được.",
+        "Máy từng bị rơi mạnh hoặc vào nước rồi mới xuất hiện lỗi Wi-Fi.",
+        "Khi mang ra tiệm, bạn hãy mô tả rõ những gì mình đã thử (quên mạng, khởi động lại router, thử máy khác) để thợ kiểm tra nhanh hơn và tránh bị báo sai lỗi."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "wifi yếu",
+        "rớt mạng",
+        "wifi điện thoại",
+        "không vào được wifi",
+        "sua-chua",
+        "wifi yeu",
+        "rot mang",
+        "mat wifi",
+        "router wifi"
+      ],
+      "title": "Điện thoại bắt Wi-Fi yếu, hay rớt mạng: quên mạng, kiểm tra router và cài đặt trước khi mang ra tiệm",
+      "id": 52,
+      "img": "assets/dien-thoai-wifi-yeu-hay-rot-mang.jpg"
     }
   ],
   "subs": {
