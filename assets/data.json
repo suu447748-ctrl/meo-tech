@@ -722,6 +722,37 @@
       "title": "POCO C71 không sạc được: câu jumper khôi phục đường sạc",
       "id": 25,
       "img": "assets/poco-c71-duong-sac-jumper.jpg"
+    },
+    {
+      "brand": "POCO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "POCO M3 và Xiaomi Redmi 9T bỗng dưng mất nguồn, cắm sạc cũng không có phản ứng gì — đây là hướng xử lý đã được kiểm chứng: kiểm tra cụm linh kiện nguồn trên main ở vị trí được đánh dấu trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng trên main — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn, kính hiển vi và kinh nghiệm sửa mạch nhỏ. Ảnh minh họa vị trí cụm nguồn và các linh kiện cần kiểm tra (đánh dấu bằng mũi tên); khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu POCO M3 hoặc Redmi 9T của bạn mất nguồn, không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: POCO M3 hoặc Redmi 9T bỗng dưng tắt nguồn và không mở lên được, cắm sạc cũng không hiện gì, không rung, không lên logo. Máy trước đó vẫn dùng bình thường rồi tự dưng mất nguồn — đây là lỗi phần cứng trên main, không phải do pin chai hay do phần mềm.",
+        "Thử các bước đơn giản trước khi mở máy: cắm sạc và giữ nút nguồn 10–15 giây xem máy có phản ứng không, thử cáp và củ sạc khác còn tốt, kiểm tra chân sạc có bụi bẩn không. Nếu máy hoàn toàn không có phản ứng gì thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát cụm nguồn trên main như trong ảnh: khu vực có tấm chắn kim loại lớn và cụm linh kiện nhỏ bên phải. Đây là khu vực cấp nguồn cho máy — khi linh kiện trong cụm này lỗi, máy sẽ mất nguồn và không sạc được.",
+        "Kiểm tra các linh kiện được đánh dấu bằng mũi tên trong ảnh: mũi tên xanh và các mũi tên đỏ chỉ vào những linh kiện nhỏ trong cụm nguồn. Đo kiểm các linh kiện này xem có linh kiện nào chập, đứt hoặc giá trị bất thường không, rồi thay đúng linh kiện lỗi. Không thay cả cụm khi chỉ một linh kiện hỏng.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải lên nguồn và nhận sạc bình thường. Để máy chạy thử thêm một lúc, kiểm tra máy không nóng bất thường, sóng, loa, mic và cảm ứng đều hoạt động, rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "poco",
+        "poco m3",
+        "xiaomi",
+        "redmi 9t",
+        "redmi",
+        "mat nguon",
+        "khong sac",
+        "khong len nguon",
+        "sua chua"
+      ],
+      "title": "POCO M3 / Xiaomi Redmi 9T mất nguồn, không sạc: kiểm tra cụm linh kiện nguồn trên main",
+      "id": 26,
+      "img": "assets/poco-m3-redmi-9t-mat-nguon-khong-sac.jpg"
     }
   ],
   "subs": {
