@@ -1873,6 +1873,36 @@
       "title": "Samsung M02 / A02 sạc chậm (slow charging): câu jumper bypass OVP",
       "id": 61,
       "img": "assets/samsung-m02-a02-sac-cham-bypass-ovp.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A10s sạc không vào, thay bo sạc rồi vẫn không được — hướng xử lý: câu jumper như hình. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A10s của bạn sạc không vào, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A10s cắm sạc không vào pin, máy không báo sạc dù đã thử cáp và củ sạc khác còn tốt, thậm chí thay bo sạc mới rồi vẫn không được. Đây là lỗi đường sạc trên main — không phải do bo sạc hay do phụ kiện, nên thay bo sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không nhận sạc chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát điểm được khoanh tròn trong ảnh: đường sạc trên main bị đứt ở vị trí được chỉ. Khi đường này đứt, tín hiệu sạc không tới được main dù bo sạc vẫn tốt.",
+        "Câu jumper như hình ('Samsung A10S xạc không vào, thay bo xạc không được, câu như hình'). Nối jumper theo đúng đường được khoanh trong ảnh. Đo kiểm sau khi câu để chắc đường đã thông và không chập.",
+        "Câu xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a10s",
+        "galaxy a10s",
+        "khong sac",
+        "sac khong vao",
+        "jumper",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung A10s sạc không vào, thay bo sạc không được: câu jumper như hình",
+      "id": 62,
+      "img": "assets/samsung-a10s-sac-khong-vao-jumper.jpg"
     }
   ],
   "subs": {
