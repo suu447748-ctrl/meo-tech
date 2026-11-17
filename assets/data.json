@@ -1016,6 +1016,36 @@
       "title": "Realme C21y không hiện logo sạc khi cắm sạc (Charging Logo Fix)",
       "id": 34,
       "img": "assets/realme-c21y-khong-hien-logo-sac.jpg"
+    },
+    {
+      "brand": "Realme",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Realme Note 60 cắm sạc báo lỗi ẩm hoặc vật thể lạ dù cổng sạc khô và sạch — hướng xử lý: gỡ linh kiện được chỉ bằng mũi tên trong ảnh trên bo sạc. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Realme Note 60 của bạn cắm sạc báo ẩm hoặc vật thể lạ, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Realme Note 60 cắm sạc thì máy báo lỗi ẩm hoặc vật thể lạ trong cổng sạc, không cho sạc — dù cổng sạc khô ráo và sạch, máy chưa từng vào nước. Đây là lỗi báo ẩm sai — không phải do cổng sạc thật sự ẩm, nên lau khô hay đổi cáp cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: vệ sinh nhẹ cổng sạc xem có bụi bẩn kẹt không, thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, để máy khô hẳn rồi cắm lại. Nếu máy vẫn báo ẩm/vật thể lạ thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát bo sạc phụ như trong ảnh: bo mạch màu xanh ở cạnh dưới máy, gồm cổng sạc USB-C và cụm linh kiện xung quanh. Mũi tên xanh ('Remove') chỉ vào một linh kiện nhỏ trên bo sạc, gần cổng sạc — linh kiện này liên quan đến mạch phát hiện ẩm, khi nó lỗi sẽ báo ẩm sai.",
+        "Gỡ linh kiện được chỉ bằng mũi tên trong ảnh ra khỏi bo sạc. Dùng mỏ hàn gỡ cẩn thận, tránh làm bong các linh kiện xung quanh. Sau khi gỡ, vệ sinh sạch khu vực đó và kiểm tra đường mạch quanh cổng sạc.",
+        "Gỡ xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc bình thường, không còn báo ẩm hay vật thể lạ, pin lên đều. Test thêm loa, mic, sóng và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "realme",
+        "realme note 60",
+        "note 60",
+        "bao am",
+        "vat the la",
+        "loi sac",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Realme Note 60 lỗi báo ẩm, vật thể lạ khi cắm sạc: gỡ linh kiện gây báo sai",
+      "id": 35,
+      "img": "assets/realme-note-60-loi-bao-am-vat-the-la.jpg"
     }
   ],
   "subs": {
