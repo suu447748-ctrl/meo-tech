@@ -1429,6 +1429,40 @@
       "title": "Redmi 9A không sạc được: câu jumper đường sạc",
       "id": 47,
       "img": "assets/redmi-9a-khong-sac-jumper.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi 9A báo No SIM card, không có sóng dù đã gắn SIM — hướng xử lý: câu jumper mạch SIM như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Redmi 9A của bạn báo No SIM card hoặc mất sóng, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Redmi 9A báo No SIM card, không nhận SIM dù đã gắn SIM đúng chiều, hoặc có SIM mà không có sóng. Ảnh chụp màn hình cho thấy cả 2 khay SIM đều báo No SIM card, sau khi sửa thì SIM 2 hiện Jio 4G. Đây là lỗi mạch SIM trên main — không phải do SIM hỏng, nên đổi SIM khác cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: tháo SIM ra lau nhẹ mặt tiếp xúc rồi gắn lại cho đúng chiều, thử một SIM khác mà bạn biết là còn hoạt động, khởi động lại máy. Nếu máy vẫn báo No SIM card thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh (ô đỏ) trong ảnh: khu vực mạch SIM trên main, gần IC lớn. Đường SIM đi qua khu vực này — khi đường này đứt hoặc tiếp xúc kém, máy sẽ không nhận SIM và mất sóng.",
+        "Câu jumper mạch SIM như trong ảnh (đường đỏ nối các điểm trong ô đỏ). Nối jumper theo đúng đường được chỉ. Đo kiểm sau khi câu để chắc đường đã thông và không chập.",
+        "Câu xong thì lắp tạm pin và gắn SIM test trước khi ráp hoàn thiện: máy phải nhận SIM, hiện sóng và gọi được. Test thêm Wi-Fi, Bluetooth và sạc rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "xiaomi",
+        "redmi",
+        "redmi 9a",
+        "9a",
+        "khong nhan sim",
+        "no sim",
+        "mat song",
+        "no network",
+        "jumper",
+        "sua chua",
+        "sim",
+        "song"
+      ],
+      "title": "Redmi 9A không nhận SIM, mất sóng (No SIM card / No network): câu jumper mạch SIM",
+      "id": 48,
+      "img": "assets/redmi-9a-khong-nhan-sim-mat-song.jpg"
     }
   ],
   "subs": {
