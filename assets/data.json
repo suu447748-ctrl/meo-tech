@@ -1177,6 +1177,37 @@
       "title": "Oppo A16e, A15, A15s màn hình mất đèn nền (LCD Backlight): thay diode",
       "id": 39,
       "img": "assets/oppo-a16e-a15-a15s-man-hinh-mat-den-nen.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo A5s không sạc được — hướng xử lý: bypass (nối tắt) IC OVP như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Oppo A5s của bạn không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Oppo A5s cắm sạc không vào pin, máy không báo sạc dù đã thử cáp và củ sạc khác còn tốt. Đây là lỗi đường sạc, liên quan đến IC bảo vệ quá áp (OVP IC) — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không nhận sạc chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát IC OVP được khoanh tròn trong ảnh: IC nhỏ trên main, ở khu vực đường sạc. IC OVP bảo vệ máy khỏi quá áp khi sạc — khi IC này lỗi, nó sẽ ngắt đường sạc khiến máy không sạc được.",
+        "Bypass IC OVP như ghi trong ảnh ('OVP Ic By pass'). Nối tắt qua IC OVP theo đường được chỉ (đường đỏ trong ảnh) để khôi phục đường sạc. Đo kiểm sau khi bypass để chắc đường đã thông và không chập.",
+        "Bypass xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng. Lưu ý: sau khi bypass IC OVP, máy mất lớp bảo vệ quá áp — nên dùng củ sạc chính hãng, đúng chuẩn để sạc."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo",
+        "oppo a5s",
+        "a5s",
+        "khong sac",
+        "ovp",
+        "bypass",
+        "ic ovp",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Oppo A5s không sạc được: bypass IC OVP (By pass OVP IC)",
+      "id": 40,
+      "img": "assets/oppo-a5s-khong-sac-bypass-ovp.jpg"
     }
   ],
   "subs": {
