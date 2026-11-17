@@ -884,6 +884,41 @@
       "title": "Vivo Y200 5G mất sóng (No service): kiểm tra cụm ăng-ten trên main",
       "id": 30,
       "img": "assets/vivo-y200-5g-mat-song.jpg"
+    },
+    {
+      "brand": "Vivo",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Vivo Y01, Y02 và Y02s cắm sạc báo Charging Error kèm biểu tượng nhiệt độ pin — hướng xử lý: thay hoặc câu điện trở 100k trên bo sạc như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Vivo Y01/Y02/Y02s của bạn sạc báo Charging Error, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Vivo Y01, Y02 hoặc Y02s cắm sạc thì máy báo Charging Error kèm biểu tượng nhiệt độ pin (như ảnh chụp màn hình trong ảnh). Máy không vào pin dù cáp và củ sạc còn tốt. Đây là lỗi đường cảm biến nhiệt khi sạc — máy hiểu sai nhiệt độ pin nên báo lỗi và dừng sạc.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn báo Charging Error thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát bo sạc phụ và đầu nối như trong ảnh: đầu nối trên main (ảnh cận cảnh bên trái) và bo sạc phụ với cổng sạc (ảnh trên, bên phải). Điện trở 100k nằm trên bo sạc phụ — khi điện trở này lỗi, máy sẽ báo sai nhiệt độ và dừng sạc.",
+        "Kiểm tra vị trí được khoanh và điện trở 100k như ghi trong ảnh ('100k Resistor', 'Replace/Jumper'). Đo điện trở 100k xem còn đúng trị số không; nếu điện trở đã hư thì thay điện trở 100k mới, hoặc câu jumper thay thế như hướng dẫn trong ảnh. Kiểm tra luôn các điểm nối quanh đó.",
+        "Thay hoặc câu xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc, không còn báo Charging Error, pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "vivo",
+        "vivo y01",
+        "vivo y02",
+        "vivo y02s",
+        "y01",
+        "y02",
+        "y02s",
+        "loi sac",
+        "charging error",
+        "dien tro 100k",
+        "100k",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Vivo Y01, Y02, Y02s lỗi sạc (Charging Error): thay/câu điện trở 100k",
+      "id": 31,
+      "img": "assets/vivo-y01-y02-y02s-loi-sac-dien-tro-100k.jpg"
     }
   ],
   "subs": {
