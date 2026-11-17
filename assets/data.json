@@ -1750,6 +1750,36 @@
       "title": "Samsung A21s lỗi nhiệt độ khi sạc (Charging Temperature error): câu jumper, gỡ linh kiện",
       "id": 57,
       "img": "assets/samsung-a21s-loi-nhiet-do-sac-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung Galaxy A23 sạc báo cảnh báo nhiệt độ (temperature warning) — hướng xử lý: thay hoặc câu điện trở 100k trên bo sạc như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Galaxy A23 của bạn sạc báo lỗi nhiệt độ, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung Galaxy A23 cắm sạc báo cảnh báo nhiệt độ (temperature warning), máy không cho sạc hoặc sạc rồi ngắt. Đây là lỗi đường cảm biến nhiệt độ trên bo sạc — không phải do máy thật sự quá nóng, nên để máy nguội hay đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: để máy nguội hẳn rồi cắm sạc lại, thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, khởi động lại máy. Nếu máy vẫn báo lỗi nhiệt độ thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát bo sạc trong ảnh: đường cảm biến nhiệt độ đi qua điện trở 100k. Khi điện trở 100k này lỗi, máy sẽ báo sai nhiệt độ. Ảnh cũng chỉ điểm '7 No Point' — điểm số 7 trên đầu nối bo sạc.",
+        "Thay hoặc câu điện trở 100k như ghi trong ảnh ('100k.resistor replace/jumper'). Thay điện trở 100k mới đúng loại, hoặc câu jumper qua điện trở nếu không có linh kiện thay. Kiểm tra luôn điểm nối số 7 và các linh kiện xung quanh.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc bình thường, không còn báo lỗi nhiệt độ. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a23",
+        "galaxy a23",
+        "loi nhiet do",
+        "temperature warning",
+        "dien tro 100k",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung Galaxy A23 báo lỗi nhiệt độ khi sạc (Temperature warning): thay/câu điện trở 100k trên bo sạc",
+      "id": 58,
+      "img": "assets/samsung-a23-bao-loi-nhiet-do-dien-tro-100k.jpg"
     }
   ],
   "subs": {
