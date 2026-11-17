@@ -347,7 +347,7 @@
       "id": 6,
       "cat": "phone",
       "catLabel": "Điện thoại",
-      "sub": "Mẹo iPhone",
+      "sub": "Mẹo",
       "brand": "Apple",
       "img": "assets/phone.webp",
       "title": "Mẹo iPhone: tiết kiệm pin & chụp ảnh đẹp hơn",
@@ -705,8 +705,7 @@
       "Tất cả",
       "Tin mới & Đánh giá",
       "So sánh",
-      "Mẹo iPhone",
-      "Mẹo Android",
+      "Mẹo",
       "Sửa chữa",
       "Phần mềm",
       "Mua bán"
