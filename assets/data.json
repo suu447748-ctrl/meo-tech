@@ -1399,6 +1399,36 @@
       "title": "Redmi 9A sóng yếu (Low Signal): câu jumper mạng",
       "id": 46,
       "img": "assets/redmi-9a-song-yeu-jumper-mang.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi 9A không sạc được — hướng xử lý: câu jumper đường sạc từ bo sạc phụ lên main như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Redmi 9A của bạn không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Redmi 9A cắm sạc không vào pin, máy không báo sạc dù đã thử cáp và củ sạc khác còn tốt. Đây là lỗi đường sạc — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không nhận sạc chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát đường sạc như trong ảnh: đường đỏ đi từ bo sạc phụ (dưới cùng, gần cổng sạc) lên điểm nối trên main. Đường sạc đi từ cổng sạc qua bo sạc phụ rồi lên main chính — khi đường này đứt hoặc tiếp xúc kém, máy sẽ không nhận sạc.",
+        "Câu jumper đường sạc như ghi trong ảnh ('Redmi 9a charging problem jumper solution'). Nối jumper từ điểm trên bo sạc phụ lên điểm trên main theo đúng đường đỏ được chỉ. Đo thông mạch sau khi câu để chắc đường đã thông.",
+        "Câu xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "xiaomi",
+        "redmi",
+        "redmi 9a",
+        "9a",
+        "khong sac",
+        "jumper",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Redmi 9A không sạc được: câu jumper đường sạc",
+      "id": 47,
+      "img": "assets/redmi-9a-khong-sac-jumper.jpg"
     }
   ],
   "subs": {
