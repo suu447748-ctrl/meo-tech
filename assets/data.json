@@ -1492,6 +1492,37 @@
       "title": "Redmi Note 9 tự khởi động lại (Restart Problem): xử lý linh kiện được chỉ",
       "id": 49,
       "img": "assets/redmi-note-9-tu-khoi-dong-lai.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "OPPO Reno17 vừa ra mắt tại Trung Quốc với pin 8.000mAh lớn nhất dòng Reno, màn hình 6,56 inch 120Hz, chip Snapdragon 7 Gen 4 và camera tele tiềm vọng 50MP. Máy có 3 màu: Encounter Cat, Ice Moon White và Cocoa Brown, giá từ 3.599 tệ, bán ra từ 20/11.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Bài giới thiệu cấu hình từ thông tin ra mắt chính thức của OPPO tại Trung Quốc (16/11/2026). Giá và ngày bán tại Việt Nam chưa được công bố. Ảnh trong bài là ảnh minh họa màu sắc, không phải ảnh chính thức của OPPO.",
+      "steps": [
+        "Ra mắt khi nào, giá bao nhiêu: OPPO Reno17 ra mắt tại Trung Quốc ngày 16/11/2026, mở bán từ 20/11. Giá từ 3.599 tệ (khoảng 13 triệu đồng) cho bản 8GB + 256GB. Hiện OPPO chưa công bố ngày bán và giá chính thức tại Việt Nam.",
+        "Màn hình: 6,56 inch OLED phẳng 1.5K (2624×1208), tần số quét 120Hz, độ sáng tối đa 1.800 nits, kính cường lực OPPO Crystal Shield Glass, cảm biến vân tay quang học dưới màn hình.",
+        "Hiệu năng: chip Snapdragon 7 Gen 4 (4nm), GPU Adreno 722, RAM 8GB hoặc 12GB, bộ nhớ 256GB/512GB/1TB chuẩn UFS 3.1. Máy chạy ColorOS 17 trên nền Android 17, được cập nhật tới 6 năm.",
+        "Camera: 3 camera sau — camera chính 50MP có chống rung OIS, camera góc siêu rộng 50MP (góc 116°), camera tele tiềm vọng 50MP zoom quang 3.5x có chống rung OIS. Camera trước 50MP lấy nét tự động.",
+        "Pin và sạc: pin 8.000mAh — lớn nhất từ trước đến nay trên dòng Reno, sạc nhanh 80W SuperVOOC. Khung kim loại, chuẩn chống bụi nước IP69K. Máy nặng 206g (208g bản Encounter Cat), dày 8,28mm (8,47mm bản Encounter Cat).",
+        "Màu sắc: 3 màu — Encounter Cat (xanh nhạt, hình mèo nổi trên mặt lưng, phát sáng dưới ánh sáng xanh), Ice Moon White (trắng, vân gợn sóng như ánh trăng), Cocoa Brown (nâu nhám). Xem ảnh minh họa 3 màu trong bài."
+      ],
+      "sub": "Tin mới & Đánh giá",
+      "tags": [
+        "oppo",
+        "reno17",
+        "reno 17",
+        "ra mat",
+        "tin moi",
+        "cau hinh",
+        "snapdragon 7 gen 4",
+        "pin 8000mah"
+      ],
+      "title": "OPPO Reno17 ra mắt: pin 8.000mAh, chip Snapdragon 7 Gen 4, 3 màu Encounter Cat, Ice Moon White, Cocoa Brown",
+      "id": 50,
+      "img": "assets/oppo-reno17-mau-sac.webp"
     }
   ],
   "subs": {
