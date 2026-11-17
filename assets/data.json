@@ -1274,6 +1274,37 @@
       "title": "Oppo A57 (4G) sơ đồ chân bo sạc (Sub Board): VBUS, USB_DP, USB_DM",
       "id": 42,
       "img": "assets/oppo-a57-4g-so-do-chan-bo-sac.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi 13C 5G tự khởi động lại liên tục — hướng xử lý: gỡ linh kiện được khoanh tròn trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Redmi 13C 5G của bạn tự khởi động lại liên tục, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Redmi 13C 5G tự khởi động lại liên tục, máy lên logo rồi tắt rồi lên lại, không vào được màn hình chính. Đây là lỗi phần cứng trên main — không phải do phần mềm hay do hết pin, nên khôi phục cài đặt gốc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử khởi động lại máy, tháo SIM và thẻ nhớ ra rồi mở máy lại, cắm sạc xem máy có khởi động lại nữa không. Nếu máy vẫn tự khởi động lại thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát linh kiện được khoanh tròn trong ảnh: một linh kiện nhỏ trên main, gần IC nguồn (chip MT6833). Linh kiện này lỗi gây chập, làm máy tự khởi động lại.",
+        "Gỡ linh kiện được khoanh tròn ('Removed') ra khỏi main. Dùng mỏ hàn gỡ cẩn thận, tránh làm bong các linh kiện xung quanh. Sau khi gỡ, vệ sinh sạch khu vực đó và kiểm tra các linh kiện lân cận.",
+        "Gỡ xong thì lắp tạm pin và mở nguồn test trước khi ráp hoàn thiện: máy phải lên nguồn bình thường, không còn tự khởi động lại. Test thêm sạc, sóng, loa, camera và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "xiaomi",
+        "redmi",
+        "redmi 13c",
+        "redmi 13c 5g",
+        "13c",
+        "13c 5g",
+        "tu khoi dong",
+        "auto restart",
+        "sua chua"
+      ],
+      "title": "Redmi 13C 5G tự khởi động lại (Auto Restart): gỡ linh kiện được khoanh",
+      "id": 43,
+      "img": "assets/redmi-13c-5g-tu-khoi-dong-lai.jpg"
     }
   ],
   "subs": {
