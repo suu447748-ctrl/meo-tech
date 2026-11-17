@@ -1240,6 +1240,40 @@
       "title": "Oppo A53 4G nhận SIM nhưng mất sóng / có sóng không gọi được: thay IC SDR425",
       "id": 41,
       "img": "assets/oppo-a53-4g-mat-song-thay-sdr425.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Sơ đồ chân bo sạc (sub-board) Oppo A57 (4G): VBUS, USB_DP, USB_DM — dùng để đo và sửa đường sạc khi máy không nhận sạc. Thợ sửa lưu lại để đối chiếu nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là tài liệu kỹ thuật cho thợ sửa — cần đồng hồ đo và kinh nghiệm sửa mạch nhỏ. Ảnh là sơ đồ chân bo sạc; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Oppo A57 (4G) của bạn không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Dùng sơ đồ này khi nào: Oppo A57 (4G) không sạc được, không nhận USB, hoặc sạc lúc nhận lúc không — cần đo đường sạc trên bo sạc phụ (sub-board) để tìm điểm đứt. Sơ đồ cho biết chân nào là VBUS, USB_DP, USB_DM trên đầu nối bo sạc.",
+        "Đọc sơ đồ: chân VBUS (màu đỏ) là đường nguồn sạc 5V đi từ cổng sạc lên main; chân USB_DP (màu xanh lá) và USB_DM (màu vàng) là hai đường dữ liệu USB. Ba đường này đi từ cổng sạc qua đầu nối bo sạc rồi lên main chính.",
+        "Mở máy, ngắt pin trước khi thao tác. Đo các chân VBUS, USB_DP, USB_DM trên đầu nối bo sạc theo sơ đồ: đo thông mạch từ cổng sạc đến từng chân, xem chân nào đứt hoặc tiếp xúc kém. Đối chiếu với sơ đồ để xác định đúng chân cần sửa.",
+        "Xử lý điểm lỗi: chân nào đứt thì câu jumper nối lại, chân nào tiếp xúc kém thì vệ sinh hoặc hàn lại. Nếu bo sạc phụ đã hư nhiều thì thay cả bo sạc mới cho đúng đời máy (A57 4G).",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc, pin lên đều, cắm máy tính nhận USB. Test thêm loa, mic, sóng và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo",
+        "oppo a57",
+        "a57",
+        "a57 4g",
+        "bo sac",
+        "sub board",
+        "vbus",
+        "usb dp",
+        "usb dm",
+        "so do chan",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Oppo A57 (4G) sơ đồ chân bo sạc (Sub Board): VBUS, USB_DP, USB_DM",
+      "id": 42,
+      "img": "assets/oppo-a57-4g-so-do-chan-bo-sac.jpg"
     }
   ],
   "subs": {
