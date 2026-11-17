@@ -1720,6 +1720,36 @@
       "title": "Samsung A73 lỗi báo ẩm (Water Error): gỡ linh kiện trên bo sạc",
       "id": 56,
       "img": "assets/samsung-a73-loi-bao-am-go-linh-kien.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A21s sạc báo lỗi nhiệt độ (Charging Temperature error) — hướng xử lý: câu jumper và gỡ linh kiện được khoanh trên bo sạc như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A21s của bạn sạc báo lỗi nhiệt độ, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A21s cắm sạc báo lỗi nhiệt độ (Charging Temperature error), máy không cho sạc hoặc sạc rồi ngắt. Đây là lỗi đường cảm biến nhiệt độ trên bo sạc — không phải do máy thật sự quá nóng, nên để máy nguội hay đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: để máy nguội hẳn rồi cắm sạc lại, thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, khởi động lại máy. Nếu máy vẫn báo lỗi nhiệt độ thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát các linh kiện được khoanh tròn trên bo sạc (A21S) trong ảnh: cụm linh kiện nhỏ gần đầu nối, thuộc đường cảm biến nhiệt độ (thermistor). Khi các linh kiện này lỗi, máy sẽ báo sai nhiệt độ.",
+        "Xử lý như trong ảnh: câu jumper ('Jumper') nối các điểm được chỉ, và gỡ ('Remove') linh kiện gây lỗi. Đo kiểm sau khi xử lý để chắc đường đã thông và không chập.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc bình thường, không còn báo lỗi nhiệt độ. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a21s",
+        "galaxy a21s",
+        "loi nhiet do",
+        "charging temperature",
+        "jumper",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung A21s lỗi nhiệt độ khi sạc (Charging Temperature error): câu jumper, gỡ linh kiện",
+      "id": 57,
+      "img": "assets/samsung-a21s-loi-nhiet-do-sac-jumper.jpg"
     }
   ],
   "subs": {
