@@ -954,6 +954,38 @@
       "title": "Vivo V7, V7 Plus lỗi sạc (Charging Error): câu jumper điện trở 10k đường Thermistor",
       "id": 32,
       "img": "assets/vivo-v7-v7-plus-loi-sac-thermistor-10k.jpg"
+    },
+    {
+      "brand": "Realme",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Realme 8 5G và 9 5G màn hình không sáng đèn nền, máy vẫn chạy nhưng màn tối đen — hướng xử lý: thay 2 diode ở mạch đèn nền như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Realme 8 5G hoặc 9 5G của bạn màn hình tối đen mất đèn nền, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Realme 8 5G hoặc 9 5G mở nguồn máy vẫn chạy (có rung, có tiếng) nhưng màn hình tối đen, không thấy hình — soi đèn vào màn thì thấy mờ mờ. Đây là lỗi mất đèn nền LCD (LCD Backlight) — không phải do màn hình vỡ hay do hết pin, nên thay màn khác chưa chắc hết.",
+        "Thử các bước đơn giản trước khi mở máy: cắm sạc xem máy có rung/báo sạc không, bấm giữ nút nguồn để khởi động lại. Nếu máy vẫn chạy mà màn vẫn tối thì lỗi nằm ở mạch đèn nền bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh tròn trong ảnh: khu vực mạch đèn nền trên main, gần cụm linh kiện và IC đèn nền. Mạch đèn nền cấp điện cho đèn nền màn hình — khi diode trong mạch này lỗi, màn hình sẽ mất đèn nền.",
+        "Kiểm tra 2 diode như ghi trong ảnh ('2 Diode', 'Replace'). Đo 2 diode ở vị trí được chỉ xem có diode nào chập hoặc đứt không; thay cả 2 diode mới đúng loại. Kiểm tra luôn các linh kiện và đường mạch xung quanh khu vực đèn nền.",
+        "Thay xong thì lắp tạm pin và màn hình test trước khi ráp hoàn thiện: màn hình phải sáng đèn nền bình thường, hiển thị rõ. Test thêm cảm ứng, sạc, sóng và loa rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "realme",
+        "realme 8 5g",
+        "realme 9 5g",
+        "8 5g",
+        "9 5g",
+        "man hinh",
+        "den nen",
+        "lcd backlight",
+        "diode",
+        "sua chua"
+      ],
+      "title": "Realme 8 5G, 9 5G màn hình mất đèn nền (LCD Backlight): thay 2 diode",
+      "id": 33,
+      "img": "assets/realme-8-5g-9-5g-man-hinh-mat-den-nen.jpg"
     }
   ],
   "subs": {
