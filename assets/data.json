@@ -1903,6 +1903,36 @@
       "title": "Samsung A10s sạc không vào, thay bo sạc không được: câu jumper như hình",
       "id": 62,
       "img": "assets/samsung-a10s-sac-khong-vao-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A14 5G sạc báo nhiệt độ — hướng xử lý: gỡ linh kiện được chỉ trên bo sạc (A146B) như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A14 5G của bạn sạc báo nhiệt độ, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A14 5G cắm sạc báo lỗi nhiệt độ, máy không cho sạc hoặc sạc rồi ngắt. Đây là lỗi đường cảm biến nhiệt độ trên bo sạc — không phải do máy thật sự quá nóng, nên để máy nguội hay đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: để máy nguội hẳn rồi cắm sạc lại, thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, khởi động lại máy. Nếu máy vẫn báo lỗi nhiệt độ thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát bo sạc (A146B/M146B) trong ảnh: linh kiện được chỉ bằng nhíp là linh kiện thuộc đường cảm biến nhiệt độ. Khi linh kiện này lỗi, máy sẽ báo sai nhiệt độ.",
+        "Gỡ linh kiện được chỉ ('Sạc báo nhiệt độ, Lụm nó' — gỡ nó ra). Dùng nhíp/mỏ hàn gỡ linh kiện ra khỏi bo sạc. Sau khi gỡ, vệ sinh sạch khu vực đó và kiểm tra các linh kiện lân cận.",
+        "Gỡ xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc bình thường, không còn báo lỗi nhiệt độ. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a14",
+        "a14 5g",
+        "galaxy a14",
+        "loi nhiet do",
+        "sac bao nhiet do",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung A14 5G sạc báo nhiệt độ: gỡ linh kiện được chỉ",
+      "id": 63,
+      "img": "assets/samsung-a14-5g-sac-bao-nhiet-do-go-linh-kien.jpg"
     }
   ],
   "subs": {
