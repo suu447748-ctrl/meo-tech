@@ -1631,6 +1631,36 @@
       "title": "Redmi 7 lỗi WiFi: tháo điện trở R3604",
       "id": 53,
       "img": "assets/redmi-7-loi-wifi-thao-r3604.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi Note 10 treo logo, mở nguồn chỉ hiện logo rồi đứng im — hướng xử lý: câu jumper điểm được khoanh trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Redmi Note 10 của bạn treo logo, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Redmi Note 10 mở nguồn chỉ hiện logo Redmi rồi đứng im, không vào được màn hình chính. Đây là lỗi phần cứng trên main — không phải do phần mềm hay do hết pin, nên khôi phục cài đặt gốc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: bấm giữ nút nguồn để khởi động lại, tháo SIM và thẻ nhớ ra rồi mở máy lại, cắm sạc xem máy có lên không. Nếu máy vẫn treo logo thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát điểm được khoanh tròn trong ảnh cận cảnh: một điểm nhỏ trên main, gần cụm linh kiện. Đường tín hiệu đi qua điểm này — khi đường này đứt, máy sẽ treo logo.",
+        "Câu jumper điểm được khoanh trong ảnh ('Jumper'). Nối jumper theo đúng điểm được chỉ. Đo kiểm sau khi câu để chắc đường đã thông và không chập.",
+        "Câu xong thì lắp tạm pin và mở nguồn test trước khi ráp hoàn thiện: máy phải lên nguồn, qua logo và vào màn hình chính bình thường. Test thêm sạc, sóng, loa, camera và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "xiaomi",
+        "redmi",
+        "redmi note 10",
+        "note 10",
+        "treo logo",
+        "hang on logo",
+        "jumper",
+        "sua chua"
+      ],
+      "title": "Redmi Note 10 treo logo (Hang on logo): câu jumper",
+      "id": 54,
+      "img": "assets/redmi-note-10-treo-logo-jumper.jpg"
     }
   ],
   "subs": {
