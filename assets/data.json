@@ -1780,6 +1780,36 @@
       "title": "Samsung Galaxy A23 báo lỗi nhiệt độ khi sạc (Temperature warning): thay/câu điện trở 100k trên bo sạc",
       "id": 58,
       "img": "assets/samsung-a23-bao-loi-nhiet-do-dien-tro-100k.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A12 mất sóng, báo No service dù đã gắn SIM — hướng xử lý: câu jumper nối 2 điểm như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A12 của bạn mất sóng, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A12 mất sóng, báo No service dù đã gắn SIM đúng chiều và ở nơi sóng tốt. Đây là lỗi phần sóng trên main — không phải do SIM hỏng hay do hết tiền, nên đổi SIM khác cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: tháo SIM ra lau nhẹ mặt tiếp xúc rồi gắn lại cho đúng chiều, thử một SIM khác mà bạn biết là còn hoạt động, khởi động lại máy, kiểm tra cài đặt mạng. Nếu máy vẫn mất sóng thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát 2 điểm được chỉ trong ảnh cận cảnh (đường đỏ nối 2 điểm, mỗi điểm có dấu xanh): hai điểm trên main, ở khu vực mạch sóng. Đường sóng đi qua hai điểm này — khi đường này đứt, máy sẽ mất sóng.",
+        "Câu jumper nối 2 điểm như trong ảnh ('Jumper'). Nối jumper theo đúng đường đỏ được chỉ. Đo kiểm sau khi câu để chắc đường đã thông và không chập.",
+        "Câu xong thì lắp tạm pin và gắn SIM test trước khi ráp hoàn thiện: máy phải bắt được sóng, hiện cột sóng, gọi được. Test thêm Wi-Fi, Bluetooth và sạc rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a12",
+        "galaxy a12",
+        "mat song",
+        "no service",
+        "jumper",
+        "sua chua",
+        "song"
+      ],
+      "title": "Samsung A12 mất sóng (No service): câu jumper",
+      "id": 59,
+      "img": "assets/samsung-a12-mat-song-jumper.jpg"
     }
   ],
   "subs": {
