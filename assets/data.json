@@ -853,6 +853,37 @@
       "title": "Vivo Y11, Y12, Y15, Y17, U10 lỗi sạc báo hỏi chấm đỏ: khắc phục đường sạc",
       "id": 29,
       "img": "assets/vivo-y11-y12-y15-y17-u10-loi-sac-hoi-cham-do.jpg"
+    },
+    {
+      "brand": "Vivo",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Vivo Y200 5G báo No service, không có sóng dù đã gắn SIM — hướng xử lý: kiểm tra cụm ăng-ten ở vị trí được khoanh trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Vivo Y200 5G của bạn mất sóng, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Vivo Y200 5G báo No service, máy không có sóng dù đã gắn SIM và ở nơi sóng tốt. Ảnh chụp màn hình cho thấy máy nhận SIM (card2) nhưng cột sóng không lên. Đây là lỗi phần sóng — không phải do SIM hỏng hay do hết tiền, nên đổi SIM khác cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: tháo SIM ra lau nhẹ mặt tiếp xúc rồi gắn lại cho đúng chiều, thử một SIM khác mà bạn biết là còn hoạt động, khởi động lại máy. Nếu máy vẫn báo No service thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh tròn (vòng xanh) và mũi tên đỏ trong ảnh: cụm ăng-ten ở góc trên của main, gần đầu nối ăng-ten và cụm linh kiện sóng. Đường sóng đi từ cụm ăng-ten qua khu vực này — khi tiếp xúc ăng-ten kém hoặc linh kiện sóng lỗi, máy sẽ mất sóng.",
+        "Kiểm tra kỹ vị trí được khoanh và các điểm tiếp xúc ăng-ten xung quanh, xem có điểm nào bong, gãy hoặc tiếp xúc kém không. Đo kiểm và xử lý lại điểm tiếp xúc — vệ sinh, hàn lại hoặc thay linh kiện ở khu vực này nếu cần.",
+        "Xử lý xong thì lắp tạm pin và gắn SIM test trước khi ráp hoàn thiện: máy phải bắt được sóng, hiện cột sóng và gọi được. Test thêm Wi-Fi, Bluetooth và sạc rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "vivo",
+        "vivo y200",
+        "y200",
+        "y200 5g",
+        "mat song",
+        "no service",
+        "song",
+        "ang ten",
+        "sua chua"
+      ],
+      "title": "Vivo Y200 5G mất sóng (No service): kiểm tra cụm ăng-ten trên main",
+      "id": 30,
+      "img": "assets/vivo-y200-5g-mat-song.jpg"
     }
   ],
   "subs": {
