@@ -1,0 +1,697 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "cat": "hot",
+      "catLabel": "Tin HOT",
+      "sub": "Tin nóng 24h",
+      "brand": "Nhiều hãng",
+      "img": "assets/phone.webp",
+      "title": "Tin nóng 24h: điện thoại & PC có gì mới tuần này?",
+      "excerpt": "Cách theo dõi tin ra mắt, rò rỉ và giá dự kiến mà không bị tin giả dẫn dắt.",
+      "tags": [
+        "iphone",
+        "samsung",
+        "rtx",
+        "tin-nong"
+      ],
+      "mins": 4,
+      "steps": [
+        "Chép lại nguồn tin gốc, ngày đăng và mức độ tin cậy (ảnh rò rỉ, thông cáo chính hãng hay tin đồn).",
+        "Đối chiếu ít nhất 2 nguồn trước khi chia sẻ lại.",
+        "Ghi rõ đâu là giá dự kiến, đâu là giá bán chính thức."
+      ],
+      "note": "Đừng đăng lại ảnh rò rỉ chưa rõ nguồn như tin chính thức — ghi rõ “tin đồn / rò rỉ” trong tiêu đề."
+    },
+    {
+      "id": 2,
+      "cat": "hot",
+      "catLabel": "Tin HOT",
+      "sub": "Bảng xếp hạng",
+      "brand": "Nhiều hãng",
+      "img": "assets/laptop.jpg",
+      "title": "Top 5 laptop sinh viên đáng mua trong tháng",
+      "excerpt": "Tiêu chí chọn laptop học tập: pin, cân nặng, bàn phím và khả năng nâng cấp RAM/SSD.",
+      "tags": [
+        "laptop",
+        "sinh-vien",
+        "top-5",
+        "dang-mua"
+      ],
+      "mins": 5,
+      "steps": [
+        "Chốt ngân sách và nhu cầu thật: học, code, đồ họa hay gaming nhẹ.",
+        "Ưu tiên SSD 512GB, RAM 16GB nếu dùng 3–4 năm.",
+        "Kiểm tra cổng kết nối và trọng lượng nếu mang đi học mỗi ngày."
+      ],
+      "note": "Bảng xếp hạng nên ghi rõ ngày cập nhật và tầm giá tại thời điểm viết."
+    },
+    {
+      "id": 19,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Nokia",
+      "img": "assets/nokia-105-ta1034-duong-sac.jpg",
+      "fit": "contain",
+      "title": "Nokia 105 TA-1034 không sạc, không nhận USB: câu jumper khôi phục đường sạc",
+      "excerpt": "Cắm sạc không vào, cắm máy tính không nhận USB, chân sạc lỏng hoặc đứt đường mạch trên main. Ảnh hướng dẫn chỉ rõ đường dây đỏ câu jumper từ chân sạc lên phía trên main để khôi phục cả đường sạc và đường dữ liệu USB.",
+      "tags": [
+        "nokia",
+        "105",
+        "ta-1034",
+        "nokia 105",
+        "sua-chua",
+        "sac",
+        "khong sac",
+        "usb",
+        "jumper",
+        "duong sac"
+      ],
+      "mins": 6,
+      "steps": [
+        "Nhận biết đúng lỗi như mục “Vấn đề” trên ảnh: Nokia 105 TA-1034 sạc không hoạt động, cắm USB máy tính không nhận, kết nối chập chờn do chân sạc lỏng hoặc đường mạch (track) trên main bị đứt / hư. Đây là lỗi phần cứng ở đường sạc, không phải lỗi phần mềm.",
+        "Kiểm tra chân sạc trước: vệ sinh cổng sạc ở cạnh dưới máy, thử cáp và củ sạc khác, kiểm tra chân sạc có lỏng, cong hay oxy hóa không. Nếu thay / hàn lại chân sạc mà máy vẫn không sạc và không nhận USB thì mới nghi đứt đường trên main và chuyển sang làm jumper.",
+        "Mở máy, ngắt pin trước khi thao tác. Đối chiếu main thật với ảnh: main màu xanh lá, cổng sạc nằm ở cạnh dưới, ngay phía trên cổng sạc có hai điểm được ghi DN và DP — đây là hai đường dữ liệu USB. Đường màu đỏ trong ảnh là đường jumper cần câu, chạy dọc từ khu vực chân sạc ở dưới lên điểm nối ở phía trên main, gần cụm linh kiện ở mép trên.",
+        "Câu jumper đúng như hướng dẫn trong ảnh: dùng dây jumper mảnh, hàn nối lại đoạn đường sạc / USB đã đứt theo đúng đường đỏ đã vẽ, từ điểm ở chân sạc lên điểm phía trên main để khôi phục đồng thời đường sạc và hai đường dữ liệu DN / DP.",
+        "Hàn sạch và gọn ở mọi điểm nối như mục “Lưu ý quan trọng” trên ảnh: không để thiếc lem sang chân bên cạnh, không để dây chạm vào đường mạch khác. Kiểm tra lại toàn bộ mối nối trước khi cấp nguồn.",
+        "Lắp tạm pin, cắm sạc và cắm thử USB để test trước khi ráp hoàn thiện: máy phải báo sạc ổn định và máy tính nhận USB mới được ráp kín máy. Nếu vẫn không nhận, ngắt nguồn và đo kiểm lại điểm nối, không cố sạc lâu."
+      ],
+      "note": "Đây là sửa main bằng dây jumper — cần mỏ hàn, dây đồng mảnh và kinh nghiệm hàn linh kiện nhỏ. Làm sai dễ chập đường khác hoặc đứt thêm mạch. Người dùng bình thường nên mang ra thợ sửa main uy tín; chỉ thợ quen tay mới nên tự câu jumper theo sơ đồ này."
+    },
+    {
+      "id": 20,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Apple",
+      "img": "assets/iphone-13-man-hinh-trang-xanh-vang.jpg",
+      "fit": "contain",
+      "title": "iPhone 13 / 13 Pro / 13 Pro Max màn hình trắng, xanh, vàng: câu jumper xử lý lỗi hiển thị",
+      "excerpt": "Cả ba máy iPhone 13, 13 Pro và 13 Pro Max đều có thể gặp màn hình trắng, màn hình xanh hoặc màn hình vàng. Ảnh hướng dẫn vẽ riêng sơ đồ câu dây jumper cho từng model — vị trí chân khác nhau nên tuyệt đối không áp dụng chéo sơ đồ giữa các máy.",
+      "tags": [
+        "iphone",
+        "iphone 13",
+        "13 pro",
+        "13 pro max",
+        "sua-chua",
+        "man hinh",
+        "man hinh xanh",
+        "man hinh trang",
+        "man hinh vang",
+        "jumper"
+      ],
+      "mins": 7,
+      "steps": [
+        "Nhận biết đúng lỗi như tiêu đề trên ảnh: màn hình chỉ hiện một màu trắng, xanh lá hoặc vàng (white screen / green screen / yellow screen), không hiển thị nội dung bình thường. Lỗi áp dụng cho cả ba model: iPhone 13, iPhone 13 Pro và iPhone 13 Pro Max.",
+        "Loại trừ màn hình trước: thử một màn hình tốt khác và kiểm tra lại socket / cáp màn hình trên main. Nếu đã thay màn tốt mà máy vẫn trắng / xanh / vàng màn thì lỗi nằm ở đường hiển thị trên main, lúc đó mới tính tới phương án câu jumper theo sơ đồ trong ảnh.",
+        "Mở máy, ngắt pin trước khi thao tác và soi main dưới kính hiển vi. Ảnh chia làm 3 khung riêng cho 3 model, mỗi khung là một cụm chân kết nối khác nhau — bước đầu tiên là xác định đúng máy của mình thuộc khung nào, không nhìn nhầm sang khung của model khác.",
+        "Với iPhone 13 Pro Max (khung trên cùng): hàng chân được đánh số từ 1 đến 21, ở giữa là chip mang logo Apple. Các đường jumper gồm 3 màu xanh dương, đỏ và xanh lá nối các chân ở phía trái sang các chân ở phía phải của cụm — câu đúng từng đường theo đúng màu và đúng số chân như ảnh, thiếu hoặc lệch một chân là màn hình vẫn lỗi.",
+        "Với iPhone 13 Pro (khung ở giữa): cụm chân và cách đi dây khác hẳn bản Pro Max, cũng gồm các đường đỏ, xanh lá và xanh dương nối hai phía của cụm chân quanh chip Apple ở giữa. Đối chiếu kỹ vị trí điểm đầu và điểm cuối của từng đường trên main thật trước khi hàn.",
+        "Với iPhone 13 (khung dưới cùng): sơ đồ đơn giản hơn, điểm cần câu được đánh dấu bằng điểm đỏ phát sáng và đường jumper ngắn màu đỏ ở cụm chân phía bên phải của chip Apple. Chỉ câu đúng điểm đã đánh dấu, không câu thêm sang chân bên cạnh.",
+        "Sau khi câu xong, lắp tạm màn hình, gắn pin và bật máy test: kiểm tra màn hình đã về hiển thị bình thường chưa, test thêm cảm ứng, độ sáng, Face ID, camera và sạc. Ổn định mới ráp hoàn thiện máy."
+      ],
+      "note": "Câu jumper trên main iPhone 13 series là sửa main cấp linh kiện, các chân rất nhỏ và sát nhau — cần kính hiển vi, mỏ hàn đầu nhỏ, dây jumper mảnh và tay nghề đo mạch. Sơ đồ của 13, 13 Pro và 13 Pro Max khác nhau, áp dụng chéo sẽ không hết lỗi, thậm chí làm hỏng thêm đường khác. Người dùng bình thường không nên tự làm, hãy mang ra thợ sửa main iPhone uy tín."
+    },
+    {
+      "id": 21,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Chung",
+      "img": "assets/sac-cham-ve-sinh-chan-sac.jpg",
+      "title": "Điện thoại sạc chậm, lúc nhận lúc không: vệ sinh chân sạc và kiểm tra cáp, củ sạc trước khi mang ra tiệm",
+      "excerpt": "Cắm sạc mà pin tăng ì ạch, lúc nhận lúc không, phải xoay đầu cáp mới vào điện — thủ phạm thường là chân sạc bám bụi, xơ vải hoặc cáp, củ sạc đã hỏng. Vệ sinh chân sạc đúng cách và kiểm tra phụ kiện tại nhà trước khi mang ra tiệm.",
+      "tags": [
+        "sạc chậm",
+        "chân sạc",
+        "cáp sạc",
+        "vệ sinh điện thoại",
+        "sua-chua",
+        "sac cham",
+        "chan sac",
+        "cap sac",
+        "cu sac"
+      ],
+      "mins": 6,
+      "steps": [
+        "Nhận biết lỗi: Bạn cắm sạc mà điện thoại báo sạc rất chậm, phần trăm pin tăng ì ạch, hoặc lúc nhận sạc lúc không, phải xoay xoay đầu cáp mới vào điện. Đôi khi máy báo “đang sạc” rồi tự ngắt, cắm lại mới sạc tiếp. Đây là dấu hiệu rất thường gặp, và trong nhiều trường hợp nguyên nhân nằm ở bên ngoài máy, bạn hoàn toàn có thể tự kiểm tra tại nhà trước khi nghĩ tới chuyện mang ra tiệm.",
+        "Kiểm tra nhanh trước khi xử lý — Thử một sợi cáp khác và một củ sạc khác mà bạn biết là còn tốt. Nếu đổi cáp, củ sạc mà máy sạc bình thường thì vấn đề nằm ở phụ kiện, không phải ở máy.",
+        "Thử cắm vào một ổ điện khác, tránh ổ cắm lỏng hoặc ổ chia nhiều thiết bị.",
+        "Quan sát đầu cáp khi cắm vào máy: nếu cắm vào mà lỏng lẻo, lắc lư, không “khớp” chắc như trước thì nhiều khả năng chân sạc đã bám bụi hoặc có xơ vải kẹt bên trong.",
+        "Nhìn vào lỗ chân sạc dưới ánh sáng mạnh: nếu thấy bụi bẩn, xơ vải bám thành lớp thì đó chính là thủ phạm thường gặp nhất.",
+        "Các bước xử lý — Bước 1: Tắt nguồn điện thoại trước khi vệ sinh để đảm bảo an toàn.",
+        "Bước 2: Dùng cọ mềm nhỏ hoặc bàn chải lông mềm, nhẹ nhàng quét bụi quanh miệng chân sạc. Không dùng vật kim loại chọc sâu vào trong vì dễ làm hỏng các chân tiếp xúc.",
+        "Bước 3: Dùng tăm gỗ hoặc que nhựa mỏng, đầu tù, khều nhẹ phần xơ vải bám ở đáy chân sạc ra ngoài. Làm thật nhẹ tay, chỉ gạt phần bẩn ra, không cạy mạnh.",
+        "Bước 4: Thổi nhẹ hoặc dùng bóng thổi bụi để đẩy hết bụi còn sót lại ra ngoài. Không dùng máy sấy tóc thổi hơi nóng trực tiếp vào cổng sạc.",
+        "Bước 5: Lau đầu cáp sạc bằng khăn khô, kiểm tra xem đầu cáp có cong, gỉ hay bám bẩn không. Nếu đầu cáp đã cong hoặc vỏ cáp nứt, rách thì nên thay cáp mới.",
+        "Bước 6: Bật máy lên, cắm sạc lại bằng cáp và củ sạc tốt, để yên khoảng 10 phút rồi kiểm tra.",
+        "Test lại sau khi xử lý — Cắm sạc và xem biểu tượng sạc có ổn định không, không còn chập chờn khi chạm nhẹ vào dây.",
+        "Để máy sạc 15–30 phút, ghi nhớ phần trăm pin lúc bắt đầu và lúc kết thúc để xem tốc độ sạc đã cải thiện chưa.",
+        "Thử rút ra cắm lại vài lần: nếu lần nào cũng nhận sạc ngay thì chân sạc đã sạch và tiếp xúc tốt.",
+        "Nếu máy vẫn sạc chậm dù chân sạc đã sạch và đã thử cáp, củ sạc khác thì khả năng cao pin đã chai hoặc có vấn đề bên trong máy — lúc này bạn cần mang ra tiệm để kiểm tra chuyên sâu.",
+        "Khi nào nên mang ra tiệm — Chân sạc lỏng hẳn, cắm cáp vào là rơi ra dù đã vệ sinh sạch.",
+        "Máy nóng bất thường khi sạc, có mùi khét hoặc cổng sạc bị biến dạng.",
+        "Đã thử đủ cách trên mà máy vẫn không nhận sạc hoặc sạc rất chậm.",
+        "Điện thoại từng bị rơi mạnh hoặc vào nước rồi mới xuất hiện lỗi sạc.",
+        "Khi mang ra tiệm, bạn hãy mô tả rõ những gì mình đã thử (đổi cáp, đổi củ sạc, đã vệ sinh chân sạc) để thợ kiểm tra nhanh hơn và tránh bị báo sai lỗi."
+      ],
+      "note": "Lưu ý an toàn: Tuyệt đối không tự tháo máy, không dùng vật kim loại chọc vào chân sạc, không dùng dung dịch tẩy rửa đổ vào cổng sạc. Bài này chỉ hướng dẫn các thao tác vệ sinh bên ngoài, an toàn cho người dùng phổ thông."
+    },
+    {
+      "id": 22,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Samsung",
+      "img": "assets/samsung-a53-tam-dung-sac-loi-qua-nhiet.jpg",
+      "fit": "contain",
+      "title": "Samsung A53 tạm dừng sạc, báo lỗi quá nhiệt (Charging Paused): cách sửa đã kiểm chứng",
+      "excerpt": "Samsung A53 không sạc được, cắm sạc là báo lỗi quá nhiệt và tự tạm dừng sạc (Charging Paused) dù máy không hề nóng. Đây là giải pháp sửa chữa đã được kiểm chứng: kiểm tra bo sạc và linh kiện cảm biến nhiệt trên mạch — xử lý xong máy sạc lại bình thường. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "tags": [
+        "samsung",
+        "a53",
+        "samsung a53",
+        "sua-chua",
+        "sac",
+        "khong sac",
+        "tam dung sac",
+        "charging paused",
+        "qua nhiet",
+        "nong may",
+        "loi nhiet do"
+      ],
+      "mins": 6,
+      "steps": [
+        "Nhận biết đúng lỗi như tiêu đề gốc và ô ảnh phía trên bên trái: Samsung A53 cắm sạc không vào pin, màn hình hiện cảnh báo nhiệt độ (hình tam giác màu cam có biểu tượng nhiệt kế) và báo tạm dừng sạc — Charging Paused, lỗi quá nhiệt (Heating Error). Nhiều máy báo lỗi này ngay cả khi thân máy đang mát, không nóng thật — dấu hiệu đường cảm biến nhiệt độ đang báo sai, nên máy tự ngắt sạc để bảo vệ pin.",
+        "Thử các bước đơn giản trước khi mở máy: rút sạc, để máy nguội hẳn 15–20 phút ở nơi thoáng mát, tháo ốp lưng, thử cáp và củ sạc khác còn tốt, vệ sinh nhẹ chân sạc rồi cắm lại. Nếu máy vẫn báo quá nhiệt và tạm dừng sạc ngay khi vừa cắm, dù máy đang mát, thì lỗi nằm ở phần cứng bên trong chứ không phải do máy nóng thật hay do phụ kiện.",
+        "Mở máy, ngắt pin trước khi thao tác. Kiểm tra bo sạc phụ ở cạnh dưới máy như ô ảnh phía trên bên phải: bo mạch màu xanh dương gồm chân sạc, các socket / cáp nối từ bo sạc lên main chính và cụm linh kiện xung quanh. Kiểm tra cáp nối có lỏng, oxy hóa hay đứt không, chân sạc có hư không — đường cảm biến nhiệt của máy đi qua khu vực này, bo sạc lỗi là nguyên nhân rất hay gặp của lỗi báo quá nhiệt khi sạc.",
+        "Đo kiểm linh kiện cảm biến nhiệt được đánh dấu trong ảnh như ô ảnh phía dưới bên trái: mũi tên đỏ chỉ vào linh kiện màu đen in chữ “177 C1-8” trên mạch xanh — đây là vị trí cần kiểm tra trong giải pháp đã test. Nếu linh kiện này hoặc đường mạch liên quan bị lỗi, máy sẽ hiểu sai là pin / máy đang quá nóng và liên tục tự tạm dừng sạc.",
+        "Xử lý đúng điểm lỗi theo kết quả đo kiểm: sửa lại đường mạch, thay linh kiện cảm biến nhiệt hoặc thay bo sạc phụ nếu bo đã hư; vệ sinh lại các điểm tiếp xúc và cắm chặt lại toàn bộ socket, cáp nối trước khi test. Không câu tắt cảm biến nhiệt để ép máy sạc — làm mất chức năng bảo vệ quá nhiệt sẽ rất nguy hiểm cho pin.",
+        "Lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện như ô ảnh phía dưới bên phải: máy hết báo lỗi quá nhiệt, vòng sạc hiện màu xanh lá và pin lên đều (trong ảnh là 57%). Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, không tự tạm dừng sạc lại, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "note": "Đây là sửa phần cứng trên bo sạc / main — cần dụng cụ mở máy, đồng hồ đo và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh ghép 4 ô minh họa (màn hình báo lỗi, bo sạc, linh kiện được đánh dấu và kết quả sau khi sửa), khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A53 của bạn gặp đúng lỗi tạm dừng sạc, báo quá nhiệt này, hãy mang ra thợ sửa Samsung uy tín — máy bạn gặp vấn đề giống vậy thì mang qua sửa nhé."
+    },
+    {
+      "id": 23,
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "sub": "Lỗi thường gặp",
+      "brand": "Chung",
+      "img": "assets/laptop-nong-may-ve-sinh-khe-tan-nhiet.jpg",
+      "title": "Laptop nóng máy, quạt kêu to: vệ sinh khe tản nhiệt và kiểm tra cách đặt máy trước khi mang ra tiệm",
+      "excerpt": "Laptop dùng một thời gian bỗng nóng ran, quạt quay ầm ầm ngay cả khi chỉ mở trình duyệt — lỗi rất phổ biến và phần lớn trường hợp bạn có thể tự xử lý tại nhà: vệ sinh khe tản nhiệt, kiểm tra cách đặt máy và ứng dụng chạy ngầm, chưa cần mở máy hay mang ra tiệm ngay.",
+      "tags": [
+        "laptop nóng máy",
+        "quạt kêu to",
+        "vệ sinh laptop",
+        "tản nhiệt",
+        "laptop chạy chậm",
+        "nong may",
+        "quat keu",
+        "ve sinh laptop",
+        "tan nhiet",
+        "khe tan nhiet"
+      ],
+      "mins": 6,
+      "steps": [
+        "Nhận biết lỗi: Laptop dùng một thời gian bỗng nóng ran, quạt quay ầm ầm ngay cả khi bạn chỉ mở trình duyệt — đây là lỗi rất phổ biến và phần lớn trường hợp bạn có thể tự xử lý tại nhà bằng vài bước đơn giản dưới đây, không cần mở máy hay mang ra tiệm ngay. Dấu hiệu dễ thấy nhất: mặt đáy và bàn phím nóng ran khi chạm vào, quạt quay mạnh và kêu to liên tục.",
+        "Máy chạy chậm, giật lag mỗi khi nóng lên, có khi tự tắt đột ngột rồi bật lại được.",
+        "Khe tản nhiệt ở hông hoặc mặt đáy máy bám bụi dày, sờ thấy gió thổi ra rất yếu.",
+        "Kiểm tra trước khi xử lý — Xem bạn có hay đặt laptop trên giường, gối, chăn hay đùi không: bề mặt mềm sẽ bịt kín khe gió bên dưới, máy không thoát được nhiệt.",
+        "Quan sát khe tản nhiệt: bụi bám nhiều là nguyên nhân đầu tiên cần xử lý.",
+        "Mở Task Manager (Ctrl + Shift + Esc) xem có ứng dụng nào chạy ngầm ngốn CPU bất thường không.",
+        "Nghe tiếng quạt: quạt kêu to đều thì thường do nóng và bụi; quạt kêu lạch cạch, rè thì khác, cần mang ra tiệm.",
+        "Các bước xử lý — Bước 1: Tắt máy hoàn toàn, rút sạc. Đặt laptop trên mặt bàn phẳng, cứng và thoáng.",
+        "Bước 2: Dùng chổi lông mềm quét nhẹ bụi bám ở khe tản nhiệt, quét theo chiều ra ngoài.",
+        "Bước 3: Dùng bình xịt khí nén thổi bụi ra khỏi khe: giữ bình thẳng đứng, thổi từng nhịp ngắn, không xịt liên tục một chỗ quá lâu.",
+        "Bước 4: Kê cao mặt sau laptop bằng đế tản nhiệt hoặc kê hai đầu lên một chút để gió lưu thông tốt hơn dưới đáy máy.",
+        "Bước 5: Đóng các ứng dụng nặng và phần mềm chạy ngầm không cần thiết; khi chỉ làm việc nhẹ, bật chế độ tiết kiệm pin hoặc chế độ cân bằng.",
+        "Bước 6: Vệ sinh khe tản nhiệt định kỳ mỗi 3–6 tháng, tùy môi trường bạn dùng máy có nhiều bụi hay không.",
+        "Test lại — Mở máy và dùng bình thường khoảng 15–20 phút: sờ đáy máy xem còn nóng ran không, nghe tiếng quạt đã êm hơn chưa.",
+        "Thử đúng tác vụ trước đây hay làm máy nóng (xem video, mở nhiều tab): nếu máy mát hơn, không còn giật lag hay tự tắt thì đã cải thiện.",
+        "Nếu vẫn nóng như cũ, hãy kiểm tra lại cách đặt máy và thử vệ sinh thêm một lần nữa trước khi nghĩ đến lỗi khác.",
+        "Khi nào nên mang ra tiệm — Đã vệ sinh ngoài và đặt máy đúng cách mà máy vẫn nóng, quạt vẫn gào và hay tự tắt.",
+        "Quạt kêu lạch cạch, rè, hoặc không quay — có thể quạt đã hỏng.",
+        "Máy nóng kèm mùi khét, pin bị phồng, vỏ máy cong vênh: tắt máy ngay và mang ra tiệm, không cố dùng tiếp.",
+        "Cần tháo máy vệ sinh sâu bên trong: nên mang ra tiệm uy tín, đừng tự tháo vì có thể mất bảo hành hoặc làm hỏng linh kiện."
+      ],
+      "note": "Lưu ý: bài này chỉ hướng dẫn vệ sinh bên ngoài và kiểm tra cơ bản, an toàn cho người dùng phổ thông. Tuyệt đối không tự tháo máy nếu bạn không có kinh nghiệm."
+    },
+    {
+      "id": 3,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Apple",
+      "img": "assets/repair.jpg",
+      "title": "iPhone hao pin nhanh: kiểm tra tại nhà trước khi thay pin",
+      "excerpt": "7 bước kiểm tra hao pin, xem độ chai pin và nhận biết khi nào thật sự cần thay pin mới.",
+      "tags": [
+        "iphone",
+        "pin",
+        "hao pin",
+        "sua-chua",
+        "thay pin"
+      ],
+      "mins": 6,
+      "steps": [
+        "Vào Cài đặt > Pin > Tình trạng pin, xem dung lượng tối đa. Dưới 80% là dấu hiệu nên thay.",
+        "Xem biểu đồ pin 24h để tìm app ngốn pin bất thường.",
+        "Tắt làm mới ứng dụng nền cho app ít dùng, giảm độ sáng và thử lại 1 ngày.",
+        "Nếu máy nóng và tụt pin cả khi không dùng, sao lưu dữ liệu rồi mang kiểm tra pin / main."
+      ],
+      "note": "Không tự mở máy nếu không có dụng cụ và kinh nghiệm — dễ làm đứt cáp màn hình, mất chống nước."
+    },
+    {
+      "id": 4,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Chung",
+      "img": "assets/repair.jpg",
+      "title": "Điện thoại sập nguồn, không lên nguồn: thử gì trước?",
+      "excerpt": "Phân biệt hết pin, treo máy, hỏng màn hình và lỗi nguồn — tránh bị báo giá sửa sai.",
+      "tags": [
+        "sap nguon",
+        "khong len nguon",
+        "nong may",
+        "sua-chua"
+      ],
+      "mins": 5,
+      "steps": [
+        "Cắm sạc chính hãng 30 phút rồi thử khởi động lại bằng tổ hợp phím cứng.",
+        "Thử gọi vào máy: có chuông mà màn đen thường là lỗi màn hình.",
+        "Để máy nguội hẳn nếu vừa nóng / vô nước, không sạc tiếp.",
+        "Vẫn không lên: mang ra tiệm uy tín, yêu cầu báo rõ lỗi trước khi sửa."
+      ],
+      "note": "Máy vô nước tuyệt đối không sấy nóng và không cắm sạc ngay."
+    },
+    {
+      "id": 5,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Chung",
+      "img": "assets/repair.jpg",
+      "title": "Màn hình sọc, liệt cảm ứng & loa rè: giá sửa tham khảo",
+      "excerpt": "Cách nhận biết lỗi màn, lỗi cảm ứng, loa rè / mất mic và checklist check máy sau khi sửa.",
+      "tags": [
+        "man hinh",
+        "liet cam ung",
+        "loa re",
+        "mat mic",
+        "sua-chua",
+        "gia sua"
+      ],
+      "mins": 6,
+      "steps": [
+        "Chụp lại tình trạng máy và số IMEI trước khi giao máy.",
+        "Hỏi rõ màn thay là loại nào, bảo hành bao lâu, có giữ lại linh kiện cũ không.",
+        "Sau sửa: test cảm ứng toàn màn, Face ID, loa, mic, camera và sạc."
+      ],
+      "note": "Giá sửa thay đổi theo model và loại linh kiện — luôn hỏi giá trọn gói trước khi đồng ý sửa."
+    },
+    {
+      "id": 18,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Samsung",
+      "img": "assets/ss-a52.jpg",
+      "fit": "contain",
+      "title": "Samsung A52 tự mất hiển thị (blank display): xử lý bằng jumper trên main",
+      "excerpt": "Máy vẫn còn nguồn nhưng màn hình tự đen, mất hiển thị. Ảnh ss a52 chỉ rõ vị trí linh kiện T7 2EA trên main và cách câu dây jumper để khôi phục đường hiển thị.",
+      "tags": [
+        "samsung",
+        "a52",
+        "ss a52",
+        "sua-chua",
+        "man hinh",
+        "mat hien thi",
+        "blank display",
+        "jumper"
+      ],
+      "mins": 6,
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A52 đang dùng thì tự mất hiển thị, màn hình đen (Automatic blank display như ghi trên ảnh) nhưng máy vẫn rung, đổ chuông khi có cuộc gọi hoặc vẫn báo sạc — dấu hiệu máy còn nguồn, lỗi nằm ở phần hiển thị chứ không phải mất nguồn hoàn toàn.",
+        "Loại trừ màn hình trước: thử một màn hình tốt khác và kiểm tra lại socket, cáp nối màn hình trên main. Nếu thay màn vẫn không lên hình thì mới chuyển sang kiểm tra main, tránh thay màn oan.",
+        "Mở máy, ngắt pin trước khi thao tác. Soi dưới kính hiển vi đúng khu vực trong ảnh ss a52: vòng tròn bên trái là linh kiện đen in chữ T7 / 2EA trên mạch xanh, hai mũi tên đỏ chỉ vào hai chân ở hai đầu linh kiện — đây là vị trí cần đo kiểm trên đường hiển thị.",
+        "Đo kiểm đường đi qua linh kiện T7 2EA: nếu đường hiển thị bị đứt hoặc linh kiện này hỏng làm mất đường tín hiệu / nguồn cấp cho hiển thị, máy sẽ có hiện tượng tự blank màn dù vẫn hoạt động.",
+        "Câu jumper như vòng tròn bên phải trong ảnh: dùng dây đồng mảnh, hàn nối thẳng hai điểm ở hai đầu vị trí linh kiện (sợi dây bạc chạy dọc nối điểm hàn phía trên xuống điểm hàn phía dưới, mũi tên đỏ chỉ vào giữa sợi dây) để nối lại đường hiển thị đã đứt. Hàn gọn, tránh để thiếc chạm sang chân bên cạnh.",
+        "Lắp tạm màn hình, gắn lại pin và bật máy test: kiểm tra màn hình có lên hình ổn định không, test thêm cảm ứng, độ sáng, camera và sạc. Nếu hiển thị trở lại bình thường mới ráp hoàn thiện máy."
+      ],
+      "note": "Đây là sửa main cấp linh kiện — cần kính hiển vi, mỏ hàn, dây jumper và kinh nghiệm đo mạch. Ảnh ss a52 là bản render minh họa vị trí linh kiện và đường câu dây, khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự làm: hàn sai dễ chập đường khác, làm lỗi nặng hơn — nên mang ra thợ sửa main uy tín."
+    },
+    {
+      "id": 6,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Mẹo iPhone",
+      "brand": "Apple",
+      "img": "assets/phone.webp",
+      "title": "Mẹo iPhone: tiết kiệm pin & chụp ảnh đẹp hơn",
+      "excerpt": "Tinh chỉnh cài đặt pin, camera và bộ nhớ để iPhone dùng mượt hơn mỗi ngày.",
+      "tags": [
+        "iphone",
+        "meo",
+        "pin",
+        "camera"
+      ],
+      "mins": 4,
+      "steps": [
+        "Bật Tối ưu hóa sạc pin và giới hạn sạc nếu máy hỗ trợ.",
+        "Dùng lưới 3x3 và khóa sáng khi chụp ngược sáng.",
+        "Dọn ảnh trùng và video 4K cũ lên cloud / máy tính định kỳ."
+      ],
+      "note": "Tránh app “tăng tốc / dọn rác” không rõ nguồn trên iPhone — iOS không cần các app này."
+    },
+    {
+      "id": 7,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Phần mềm",
+      "brand": "Chung",
+      "img": "assets/phone.webp",
+      "title": "Phần mềm điện thoại: app chỉnh ảnh, ghi chú & chặn quảng cáo nên dùng",
+      "excerpt": "Nhóm app hay cho iPhone và Android, kèm mẹo cập nhật iOS/Android an toàn và bảo mật.",
+      "tags": [
+        "phan mem",
+        "app",
+        "capcut",
+        "ios",
+        "android",
+        "bao mat",
+        "chan quang cao"
+      ],
+      "mins": 5,
+      "steps": [
+        "Chỉ cài app từ App Store / CH Play, xem kỹ quyền app xin truy cập.",
+        "Trước khi cập nhật iOS/Android: sao lưu ảnh và danh bạ, cắm sạc trên 50%.",
+        "Bật Tìm thiết bị / Find My và khóa từng app chứa thông tin riêng tư."
+      ],
+      "note": "Lỗi sau cập nhật thường hết sau 1–2 ngày máy tối ưu lại — đừng vội hạ cấp hệ điều hành."
+    },
+    {
+      "id": 8,
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "So sánh",
+      "brand": "Chung",
+      "img": "assets/phone.webp",
+      "title": "So sánh điện thoại tầm 5–10–15 triệu: chọn theo nhu cầu nào?",
+      "excerpt": "Camera, pin, hiệu năng hay màn hình — ưu tiên gì ở từng tầm giá để không mua thừa.",
+      "tags": [
+        "so sanh",
+        "tam gia",
+        "mua ban",
+        "check may cu"
+      ],
+      "mins": 5,
+      "steps": [
+        "Liệt kê 2 nhu cầu quan trọng nhất của bạn trước khi xem cấu hình.",
+        "So sánh pin, sạc nhanh và thời gian hỗ trợ cập nhật, không chỉ chip.",
+        "Mua máy cũ: test IMEI, màn hình, camera, sạc và tài khoản ẩn."
+      ],
+      "note": "Đừng mua theo điểm benchmark nếu nhu cầu chỉ là mạng xã hội và chụp ảnh."
+    },
+    {
+      "id": 9,
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "sub": "Mẹo dùng",
+      "brand": "Chung",
+      "img": "assets/laptop.jpg",
+      "title": "Laptop chậm: tăng tốc Windows & nâng cấp RAM / SSD",
+      "excerpt": "Dọn startup, kiểm tra ổ cứng và nhận biết khi nào nâng RAM/SSD là đáng tiền nhất.",
+      "tags": [
+        "windows",
+        "tang toc",
+        "ram",
+        "ssd",
+        "meo"
+      ],
+      "mins": 6,
+      "steps": [
+        "Mở Task Manager > Startup, tắt app không cần khởi động cùng máy.",
+        "Kiểm tra ổ C còn trống ít nhất 15–20%.",
+        "Máy còn dùng HDD hoặc RAM 8GB: nâng SSD / RAM cho hiệu quả rõ nhất."
+      ],
+      "note": "Sao lưu dữ liệu quan trọng trước khi thay ổ cứng hoặc cài lại Windows."
+    },
+    {
+      "id": 10,
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "sub": "Lỗi thường gặp",
+      "brand": "Chung",
+      "img": "assets/laptop.jpg",
+      "title": "Laptop chai pin, quạt kêu to, không lên nguồn: xử lý sao?",
+      "excerpt": "Tìm theo triệu chứng để khoanh đúng lỗi, tránh thay linh kiện không cần thiết.",
+      "tags": [
+        "chai pin",
+        "pin",
+        "quat keu",
+        "khong len nguon",
+        "man hinh soc",
+        "loi"
+      ],
+      "mins": 6,
+      "steps": [
+        "Quạt kêu: kiểm tra nhiệt độ, vệ sinh khe gió và đế tản nhiệt.",
+        "Chai pin: xem số chu kỳ sạc và chỉ dùng pin rời / giới hạn sạc nếu máy hỗ trợ.",
+        "Không lên nguồn: thử sạc khác cùng công suất, tháo pin rời (nếu có) và xả điện tĩnh."
+      ],
+      "note": "Màn hình sọc khi gập mở thường do cáp màn — test bằng màn hình rời để phân biệt lỗi card / màn."
+    },
+    {
+      "id": 11,
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "sub": "Phần mềm",
+      "brand": "Chung",
+      "img": "assets/laptop.jpg",
+      "title": "Phần mềm laptop: Windows, Office, PDF & diệt virus",
+      "excerpt": "Cài đặt, cập nhật driver, sao lưu dữ liệu và nhóm phần mềm văn phòng / học tập / đồ họa.",
+      "tags": [
+        "phan mem",
+        "windows",
+        "macos",
+        "office",
+        "pdf",
+        "driver",
+        "virus",
+        "sao luu"
+      ],
+      "mins": 5,
+      "steps": [
+        "Cập nhật Windows và driver từ trang hãng laptop, không dùng tool driver lạ.",
+        "Dùng 1 phần mềm diệt virus là đủ, bật sao lưu tự động lên cloud / ổ rời.",
+        "Cài Office / PDF từ nguồn chính thức, tránh bản crack chứa mã độc."
+      ],
+      "note": "Trước khi cài lại Windows, chép riêng driver Wi-Fi ra USB phòng khi máy không có mạng."
+    },
+    {
+      "id": 12,
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "sub": "Theo nhu cầu",
+      "brand": "Nhiều hãng",
+      "img": "assets/laptop.jpg",
+      "title": "Chọn laptop theo nhu cầu: văn phòng, gaming, đồ họa, mỏng nhẹ",
+      "excerpt": "Khung chọn nhanh theo nhu cầu và hãng Dell, HP, Lenovo, Asus, Acer, MacBook.",
+      "tags": [
+        "van phong",
+        "gaming",
+        "do hoa",
+        "mong nhe",
+        "dell",
+        "lenovo",
+        "macbook"
+      ],
+      "mins": 5,
+      "steps": [
+        "Văn phòng: ưu tiên bàn phím, pin và cân nặng.",
+        "Gaming / đồ họa: ưu tiên GPU, tản nhiệt và màn hình màu chuẩn.",
+        "Mỏng nhẹ: chấp nhận ít cổng kết nối và khó nâng cấp hơn."
+      ],
+      "note": "Cùng tầm giá, máy gaming mạnh hơn nhưng nặng và pin yếu hơn máy văn phòng."
+    },
+    {
+      "id": 13,
+      "cat": "pc",
+      "catLabel": "PC",
+      "sub": "Build PC",
+      "brand": "Chung",
+      "img": "assets/pc.webp",
+      "title": "Build PC 15 triệu chơi game mượt: chọn linh kiện thế nào?",
+      "excerpt": "Cân bằng CPU, card đồ họa RTX và nguồn — công thức build theo ngân sách 10 / 15 / 20 / 30 triệu.",
+      "tags": [
+        "build",
+        "15tr",
+        "rtx 4060",
+        "gaming",
+        "cpu",
+        "gpu"
+      ],
+      "mins": 7,
+      "steps": [
+        "Dành tỉ trọng lớn nhất cho card đồ họa nếu mục tiêu là gaming.",
+        "Chọn nguồn có chứng nhận, công suất dư khoảng 30% cho cấu hình.",
+        "Ưu tiên SSD NVMe 1TB và RAM dual-channel 16–32GB.",
+        "Để lại đường nâng cấp: main và nguồn đừng chọn sát giới hạn."
+      ],
+      "note": "Đừng dồn tiền vào case đèn RGB mà cắt nguồn — nguồn kém là lỗi khó chịu nhất của PC."
+    },
+    {
+      "id": 14,
+      "cat": "pc",
+      "catLabel": "PC",
+      "sub": "Linh kiện",
+      "brand": "Chung",
+      "img": "assets/pc.webp",
+      "title": "Linh kiện PC: CPU, GPU, Main, RAM, SSD, Nguồn — đọc thông số sao cho đúng?",
+      "excerpt": "Giải thích thông số quan trọng của từng linh kiện và cách test hiệu năng / benchmark.",
+      "tags": [
+        "linh kien",
+        "cpu",
+        "gpu",
+        "main",
+        "ram",
+        "ssd",
+        "nguon",
+        "benchmark",
+        "rtx"
+      ],
+      "mins": 6,
+      "steps": [
+        "CPU/GPU: xem benchmark đúng game / phần mềm bạn dùng.",
+        "RAM: ưu tiên 2 thanh chạy dual-channel, đúng chuẩn main hỗ trợ.",
+        "Nguồn: xem công suất thực, chuẩn 80 Plus và số đầu cấp nguồn cho GPU."
+      ],
+      "note": "Thông số quảng cáo không thay được test thực tế ở độ phân giải bạn chơi."
+    },
+    {
+      "id": 15,
+      "cat": "pc",
+      "catLabel": "PC",
+      "sub": "Lỗi PC",
+      "brand": "Chung",
+      "img": "assets/pc.webp",
+      "title": "PC không lên hình, màn hình xanh, kêu bíp, tự tắt: bắt bệnh nhanh",
+      "excerpt": "Quy trình kiểm tra từ dễ tới khó: RAM, cáp màn, nguồn và nhiệt độ.",
+      "tags": [
+        "khong len hinh",
+        "man hinh xanh",
+        "keu bip",
+        "tu tat",
+        "loi pc"
+      ],
+      "mins": 6,
+      "steps": [
+        "Nghe tiếng bíp và đếm số bíp — đó là mã lỗi của main.",
+        "Tháo RAM lau chân tiếp xúc, cắm thử từng thanh / từng khe.",
+        "Kiểm tra cáp màn cắm vào card đồ họa chứ không phải main (khi có GPU rời).",
+        "Tự tắt khi tải nặng: nghi ngờ nhiệt độ hoặc nguồn yếu."
+      ],
+      "note": "Tháo lắp linh kiện khi đã rút điện hoàn toàn và xả điện tĩnh."
+    },
+    {
+      "id": 16,
+      "cat": "pc",
+      "catLabel": "PC",
+      "sub": "Phần mềm",
+      "brand": "Chung",
+      "img": "assets/pc.webp",
+      "title": "Phần mềm PC: cài Windows, driver GPU, OBS & tăng FPS",
+      "excerpt": "Steam, Discord, OBS / Premiere, cập nhật BIOS an toàn và tối ưu PC chơi game.",
+      "tags": [
+        "phan mem",
+        "windows",
+        "driver",
+        "obs",
+        "steam",
+        "discord",
+        "tang fps",
+        "bios",
+        "photoshop"
+      ],
+      "mins": 6,
+      "steps": [
+        "Cài Windows sạch rồi cài driver card đồ họa từ trang NVIDIA / AMD chính thức.",
+        "OBS: chọn encoder của GPU (NVENC) để livestream nhẹ máy hơn.",
+        "Tăng FPS: giảm setting nặng như ray tracing / khử răng cưa trước, đừng ép xung vội.",
+        "Cập nhật BIOS chỉ khi cần hỗ trợ CPU mới hoặc sửa lỗi — cắm điện ổn định khi update."
+      ],
+      "note": "Không dùng phần mềm “tối ưu 1 click” không rõ nguồn — dễ cài thêm rác và lỗi Windows."
+    },
+    {
+      "id": 17,
+      "cat": "accessory",
+      "catLabel": "Phụ kiện",
+      "sub": "Tai nghe & âm thanh",
+      "brand": "Chung",
+      "img": "assets/phone.webp",
+      "title": "Chọn tai nghe, chuột, bàn phím & màn hình không phí tiền",
+      "excerpt": "Tiêu chí mua phụ kiện theo nhu cầu thật: họp online, gaming, làm việc dài giờ.",
+      "tags": [
+        "tai nghe",
+        "chuot",
+        "ban phim",
+        "man hinh",
+        "phu kien"
+      ],
+      "mins": 4,
+      "steps": [
+        "Xác định dùng có dây hay không dây, độ trễ có quan trọng không.",
+        "Màn hình: ưu tiên độ sáng, màu sắc và kích thước bàn làm việc.",
+        "Thử cảm giác gõ / cầm nắm nếu mua bàn phím, chuột dùng mỗi ngày."
+      ],
+      "note": "Phụ kiện đắt nhất không phải phụ kiện hợp nhất — hợp tay và hợp nhu cầu mới quan trọng."
+    }
+  ],
+  "subs": {
+    "hot": [
+      "Tất cả",
+      "Tin nóng 24h",
+      "Rò rỉ / Tin đồn",
+      "Sự kiện & Sale",
+      "Bảng xếp hạng"
+    ],
+    "phone": [
+      "Tất cả",
+      "Tin mới & Đánh giá",
+      "So sánh",
+      "Mẹo iPhone",
+      "Mẹo Android",
+      "Sửa chữa",
+      "Phần mềm",
+      "Mua bán"
+    ],
+    "laptop": [
+      "Tất cả",
+      "Theo nhu cầu",
+      "Theo hãng",
+      "Đánh giá & So sánh",
+      "Mẹo dùng",
+      "Lỗi thường gặp",
+      "Phần mềm"
+    ],
+    "pc": [
+      "Tất cả",
+      "Build PC",
+      "Linh kiện",
+      "Đánh giá",
+      "Mẹo",
+      "Lỗi PC",
+      "Phần mềm"
+    ],
+    "accessory": [
+      "Tất cả",
+      "Tai nghe & âm thanh",
+      "Chuột & Bàn phím",
+      "Màn hình",
+      "Tablet & Đồng hồ"
+    ]
+  }
+}
