@@ -1366,6 +1366,39 @@
       "title": "Redmi Note 10T không sạc được: câu jumper đường sạc",
       "id": 45,
       "img": "assets/redmi-note-10t-khong-sac-jumper.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi 9A sóng yếu, cột sóng thấp, hay mất sóng — hướng xử lý: câu jumper mạng ở vị trí được khoanh trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Redmi 9A của bạn sóng yếu hay mất sóng, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Redmi 9A sóng yếu, cột sóng thấp hoặc chập chờn, hay mất sóng dù ở nơi sóng tốt và SIM còn hoạt động. Đây là lỗi phần sóng/ăng-ten — không phải do SIM hỏng hay do hết tiền, nên đổi SIM khác cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: tháo SIM ra lau nhẹ mặt tiếp xúc rồi gắn lại cho đúng chiều, thử một SIM khác mà bạn biết là còn hoạt động, khởi động lại máy. Nếu sóng vẫn yếu thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh (ô đỏ) trong ảnh: khu vực ăng-ten trên main, gần đầu nối ăng-ten. Đường sóng đi từ cụm ăng-ten qua khu vực này — khi đường này đứt hoặc tiếp xúc kém, sóng sẽ yếu.",
+        "Câu jumper mạng như ghi trong ảnh ('Redmi 9a Low Network Jumper Solution'). Nối jumper theo đường đỏ trong ảnh cận cảnh, từ điểm trên main đến điểm ăng-ten. Đo kiểm sau khi câu để chắc đường đã thông.",
+        "Câu xong thì lắp tạm pin và gắn SIM test trước khi ráp hoàn thiện: sóng phải lên cao, ổn định, gọi được. Test thêm Wi-Fi, Bluetooth và sạc rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "xiaomi",
+        "redmi",
+        "redmi 9a",
+        "9a",
+        "song yeu",
+        "low signal",
+        "mat song",
+        "jumper",
+        "mang",
+        "sua chua",
+        "song"
+      ],
+      "title": "Redmi 9A sóng yếu (Low Signal): câu jumper mạng",
+      "id": 46,
+      "img": "assets/redmi-9a-song-yeu-jumper-mang.jpg"
     }
   ],
   "subs": {
