@@ -1691,6 +1691,35 @@
       "title": "Samsung Galaxy On7 Prime (SM-G610F) không sạc được: câu jumper, gỡ linh kiện",
       "id": 55,
       "img": "assets/samsung-on7-prime-khong-sac-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A73 báo lỗi ẩm (Water Error) khi cắm sạc dù máy không vào nước — hướng xử lý: gỡ linh kiện được khoanh trên bo sạc như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A73 của bạn báo lỗi ẩm khi sạc, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A73 cắm sạc báo lỗi ẩm (Water Error), máy không cho sạc dù máy không vào nước. Đây là lỗi cảm biến ẩm trên bo sạc báo sai — không phải do máy thật sự ướt, nên sấy khô hay đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: lau khô cổng sạc, thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, khởi động lại máy. Nếu máy vẫn báo lỗi ẩm thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát linh kiện được khoanh tròn trên bo sạc (A736 03A) trong ảnh: một linh kiện nhỏ gần cổng sạc. Linh kiện này thuộc mạch cảm biến ẩm — khi nó lỗi, máy sẽ báo ẩm sai.",
+        "Gỡ linh kiện được khoanh ('Remove') ra khỏi bo sạc. Dùng mỏ hàn gỡ cẩn thận, tránh làm bong các linh kiện xung quanh. Sau khi gỡ, vệ sinh sạch khu vực đó.",
+        "Gỡ xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc bình thường, không còn báo lỗi ẩm. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a73",
+        "galaxy a73",
+        "loi bao am",
+        "water error",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung A73 lỗi báo ẩm (Water Error): gỡ linh kiện trên bo sạc",
+      "id": 56,
+      "img": "assets/samsung-a73-loi-bao-am-go-linh-kien.jpg"
     }
   ],
   "subs": {
