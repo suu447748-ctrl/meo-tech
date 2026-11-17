@@ -1933,6 +1933,36 @@
       "title": "Samsung A14 5G sạc báo nhiệt độ: gỡ linh kiện được chỉ",
       "id": 63,
       "img": "assets/samsung-a14-5g-sac-bao-nhiet-do-go-linh-kien.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A04e gặp sự cố lỗi sạc, cắm sạc báo lỗi — hướng xử lý: kiểm tra linh kiện bị chập (Short) như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A04e của bạn gặp sự cố lỗi sạc, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A04e cắm sạc báo lỗi (màn hình hiện cảnh báo tam giác và biểu tượng sạc), máy không nhận sạc. Đây là lỗi đường sạc trên bo sạc — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại, khởi động lại máy. Nếu máy vẫn báo lỗi sạc thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát linh kiện được chỉ trong ảnh cận cảnh: linh kiện bị chập (Short) trên bo sạc. Khi linh kiện này chập, đường sạc sẽ bị ngắn mạch và máy báo lỗi.",
+        "Kiểm tra và xử lý linh kiện bị chập ('Short') như trong ảnh: đo kiểm linh kiện được chỉ, xác định linh kiện nào chập rồi thay hoặc gỡ nó ra. Đo kiểm sau khi xử lý để chắc đường đã thông và không còn chập.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc bình thường, không còn báo lỗi. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a04e",
+        "galaxy a04e",
+        "loi sac",
+        "su co loi sac",
+        "short",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung A04e sự cố lỗi sạc: kiểm tra linh kiện bị chập (Short)",
+      "id": 64,
+      "img": "assets/samsung-a04e-loi-sac-linh-kien-chap.jpg"
     }
   ],
   "subs": {
