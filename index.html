@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:,">
+<title>Mẹo Tech — Tin hot, mẹo hay cho Điện thoại, Laptop & PC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f8;--surface:#fff;--surface2:#eef1f3;--ink:#12181d;--muted:#5b6a74;--line:#dde3e7;--accent:#0f766e;--accent2:#ea580c;--hot:#dc2626;--chip:#e6f2f0;--shadow:0 8px 28px rgba(18,24,29,.08)}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1417;--surface:#171e23;--surface2:#202a30;--ink:#eef3f5;--muted:#a7b6bd;--line:#2b3840;--chip:#173a36;--shadow:none}}
+*{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:smooth}body{margin:0;font-family:"Be Vietnam Pro",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+a{color:inherit}button,input,select{font:inherit;min-height:44px}
+.topbar{background:var(--ink);color:#fff}
+.topbar-in{max-width:1180px;margin:auto;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;font-size:.85rem}
+.topbar b{letter-spacing:.02em}.live-dot{display:inline-block;width:8px;height:8px;background:#f87171;border-radius:50%;margin-right:6px}
+header.hero{background:var(--surface);border-bottom:1px solid var(--line)}
+.hero-in{max-width:1180px;margin:auto;padding:28px 16px 22px;display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:center}
+.hero h1{font-size:clamp(28px,5vw,46px);line-height:1.05;margin:8px 0 10px;font-weight:900;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:var(--muted);max-width:56ch;margin:0 0 16px}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent2);font-weight:700}
+.hero-img{border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.hero-img img{width:100%;height:100%;min-height:260px;object-fit:cover;display:block}
+.global-search{display:flex;gap:8px;flex-wrap:wrap}
+.global-search input{flex:1;min-width:220px;padding:12px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink)}
+.btn{background:var(--accent);color:#fff;border:0;padding:12px 18px;border-radius:12px;font-weight:700;cursor:pointer}
+.btn.alt{background:var(--ink)}
+nav.main{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 12px rgba(0,0,0,.04)}
+nav.main .wrap{max-width:1180px;margin:auto;padding:8px 12px;display:flex;flex-wrap:wrap;gap:6px}
+.navbtn{border:1px solid transparent;background:transparent;padding:10px 14px;border-radius:999px;cursor:pointer;font-weight:600;color:var(--muted)}
+.navbtn.active{background:var(--ink);color:#fff}
+.navbtn.hot{color:var(--hot)}
+main{max-width:1180px;margin:auto;padding:22px 16px 40px}
+.view{display:none}.view.active{display:block}
+.section-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;flex-wrap:wrap;margin:26px 0 14px}
+.section-head h2{margin:0;font-size:1.55rem;letter-spacing:-.02em}
+.section-head p{margin:4px 0 0;color:var(--muted)}
+.hot-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.hot-card{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--hot);border-radius:14px;padding:14px}
+.hot-card span{font-size:.75rem;font-weight:800;color:var(--hot);text-transform:uppercase;letter-spacing:.06em}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.card img{width:100%;height:170px;object-fit:cover;display:block}
+.card img.contain,.gitem img.contain{object-fit:contain;background:var(--surface2)}
+.dialog-in img.article-img{width:100%;max-height:560px;object-fit:contain;background:var(--surface2);border:1px solid var(--line);border-radius:12px;display:block;margin:12px 0}
+.card-body{padding:14px 14px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{margin:0;font-size:1.02rem;line-height:1.35}
+.card p{margin:0;color:var(--muted);font-size:.92rem;flex:1}
+.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tag{font-size:.72rem;font-weight:700;background:var(--chip);color:var(--accent);padding:4px 8px;border-radius:999px}
+.tag.orange{background:#fff1e6;color:#9a3412}@media(prefers-color-scheme:dark){.tag.orange{background:#3a2413;color:#fdba74}}
+.readbtn{margin-top:6px;align-self:flex-start;background:none;border:0;color:var(--accent);font-weight:800;cursor:pointer;padding:8px 0;min-height:36px}
+.searchbox{background:var(--surface);border:1.5px solid var(--accent);border-radius:16px;padding:16px;margin-bottom:16px}
+.searchbox label{font-weight:800;display:block;margin-bottom:8px}
+.searchbox label small{display:block;font-weight:400;color:var(--muted);margin-top:2px}
+.search-row{display:flex;gap:8px;flex-wrap:wrap}
+.search-row input{flex:1;min-width:200px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.result-count{font-size:.88rem;color:var(--muted);margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 16px}
+.chip{padding:9px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-weight:600}
+.chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.brand-filter{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 16px}
+.brand-filter .brand-head{font-weight:800;font-size:.95rem;margin-bottom:2px}
+.brand-filter .brand-head small{display:block;font-weight:400;color:var(--muted);margin-top:2px;font-size:.86rem}
+.brand-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.bchip{padding:8px 12px;border-radius:999px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;font-weight:700;font-size:.88rem;min-height:38px}
+.bchip .cnt{font-weight:500;color:var(--muted);font-size:.8rem}
+.bchip.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+.bchip.active .cnt{color:#ffe7d6}
+.tag.brand{background:var(--ink);color:#fff}
+.repair-brands{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+[data-brandfolders]:not(:empty){margin:0 0 16px}
+.folders{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:10px}
+.folder{display:flex;flex-direction:column;align-items:flex-start;gap:2px;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:14px;cursor:pointer;text-align:left;color:var(--ink);min-height:44px}
+.folder:hover{border-color:var(--accent2)}
+.folder .fic{font-size:1.5rem;line-height:1}
+.folder .fname{font-weight:800;font-size:1.02rem}
+.folder .fcount{color:var(--muted);font-size:.85rem}
+.folder.empty-folder{opacity:.65}
+.folders-head{font-weight:700}
+.folders-head small{display:block;font-weight:400;color:var(--muted);margin-top:2px}
+.folder-open{background:var(--chip);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+@media(max-width:820px){.folders{grid-template-columns:repeat(2,1fr)}}
+.empty{padding:28px;text-align:center;border:1.5px dashed var(--line);border-radius:16px;color:var(--muted);background:var(--surface)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px}
+.panel h3{margin-top:0}
+.panel ul{margin:8px 0;padding-left:18px}.panel li{margin:6px 0}
+code,pre{font-family:"IBM Plex Mono",monospace}
+pre{background:var(--ink);color:#d1fae5;padding:14px;border-radius:12px;overflow:auto;font-size:.82rem;line-height:1.6}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gitem{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.gitem img{width:100%;height:180px;object-fit:cover;display:block}
+.gitem div{padding:12px}
+dialog{border:1px solid var(--line);border-radius:18px;background:var(--surface);color:var(--ink);max-width:680px;width:calc(100% - 32px);padding:0}
+dialog::backdrop{background:rgba(0,0,0,.55)}
+.dialog-in{padding:22px}
+.dialog-in h2{margin:6px 0 10px;line-height:1.25}
+.dialog-in ol{padding-left:20px}.dialog-in li{margin:8px 0}
+.closebtn{float:right;border:1px solid var(--line);background:var(--surface2);border-radius:999px;padding:8px 14px;cursor:pointer;font-weight:700}
+footer{border-top:1px solid var(--line);background:var(--surface);padding:22px 16px;text-align:center;color:var(--muted);font-size:.9rem}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;background:var(--ink);color:#fff;padding:12px 16px;border-radius:999px;font-weight:600;display:none;z-index:50}
+.postform{display:grid;gap:12px}
+.postform label{font-weight:700;font-size:.92rem;display:block}
+.postform input,.postform select,.postform textarea{width:100%;margin-top:6px;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-weight:400}
+.postform textarea{min-height:84px;resize:vertical;font:inherit}
+.postform .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:820px){.postform .row2{grid-template-columns:1fr}}
+body:not(.admin-on) .admin-only{display:none!important}
+.mini{padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-weight:700;min-height:38px;color:var(--ink)}
+.mini.danger{color:var(--hot);border-color:var(--hot)}
+.subrow{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:8px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;background:var(--bg)}
+.adminnote{border:1.5px dashed var(--accent2);border-radius:12px;padding:12px 14px;font-size:.93rem}
+@media(max-width:820px){.hero-in{grid-template-columns:1fr}.grid,.hot-strip,.gallery,.two-col{grid-template-columns:1fr}.hero-img img{min-height:200px}}
+@media(min-width:821px) and (max-width:1020px){.grid,.gallery{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-in"><span><span class="live-dot"></span><b>TIN HOT</b> · Cập nhật mẹo mới mỗi ngày</span><span>Điện thoại · Laptop · PC</span></div></div>
+
+<header class="hero">
+  <div class="hero-in">
+    <div>
+      <div class="kicker">Mẹo Tech — Tin hot · Mẹo hay · Mua đúng</div>
+      <h1>Mẹo công nghệ <em>dễ hiểu,</em><br>tra là thấy ngay.</h1>
+      <p>Chia sẻ tin hot, mẹo hay và kinh nghiệm sửa chữa cho điện thoại, laptop và PC. Mỗi mục có ô tìm kiếm riêng — gõ đúng từ khóa trong mục đó là ra bài, không lẫn sang mục khác.</p>
+      <form class="global-search" id="globalForm">
+        <input id="globalInput" type="search" placeholder="Tìm tất cả: hao pin, RTX 4060, OBS, chai pin…" aria-label="Tìm kiếm toàn trang">
+        <button class="btn" type="submit">Tìm tất cả</button>
+      </form>
+      <p style="margin-top:10px;font-size:.88rem">Thử gõ: <button type="button" class="chip" data-q="hao pin">hao pin</button> <button type="button" class="chip" data-q="RTX">RTX</button> <button type="button" class="chip" data-q="phần mềm">phần mềm</button></p>
+      <p style="margin-top:6px"><button type="button" class="btn alt admin-only" data-goto="guide">✍️ Đăng bài mới</button></p>
+    </div>
+    <div class="hero-img"><img src="assets/repair.jpg" alt="Kỹ thuật viên đang sửa chữa điện thoại, mở máy kiểm tra linh kiện bên trong"></div>
+  </div>
+</header>
+
+<nav class="main" aria-label="Menu chính"><div class="wrap" id="navWrap">
+  <button class="navbtn active" data-view="home">Trang chủ</button>
+  <button class="navbtn hot" data-view="hot">🔥 Tin HOT</button>
+  <button class="navbtn" data-view="phone">📱 Điện thoại</button>
+  <button class="navbtn" data-view="laptop">💻 Laptop</button>
+  <button class="navbtn" data-view="pc">🖥️ PC</button>
+  <button class="navbtn" data-view="accessory">🎧 Phụ kiện</button>
+  <button class="navbtn" data-view="gallery">🖼️ Thư viện ảnh</button>
+  <button class="navbtn admin-only" data-view="guide">✍️ Đăng bài & up ảnh</button>
+  <button class="navbtn" id="adminBtn" type="button">🔐 Đăng nhập Admin</button>
+  <button class="navbtn admin-only" id="logoutBtn" type="button">Đăng xuất</button>
+</div></nav>
+
+<main>
+<!-- HOME -->
+<section class="view active" id="view-home">
+  <div class="section-head"><div><h2>🔥 Tin hot hôm nay</h2><p>Rò rỉ, ra mắt mới và đợt sale đáng chú ý — bấm vào để xem chi tiết từng mục.</p></div></div>
+  <div class="hot-strip">
+    <article class="hot-card"><span>Nóng 24h</span><h3>Tin ra mắt & rò rỉ mới nhất</h3><p style="color:var(--muted)">iPhone, Samsung, Xiaomi, NVIDIA, Intel, AMD — tổng hợp ở mục Tin HOT.</p></article>
+    <article class="hot-card"><span>Bảng xếp hạng tháng</span><h3>Top đáng mua theo tầm giá</h3><p style="color:var(--muted)">Top 5 điện thoại, Top 5 laptop sinh viên, Top 5 PC gaming.</p></article>
+    <article class="hot-card"><span>Sự kiện & Sale</span><h3>11.11 · Black Friday · Tết</h3><p style="color:var(--muted)">Săn sale đúng món, tránh mua hớ với checklist kiểm tra giá.</p></article>
+  </div>
+
+  <div id="globalResults"></div>
+
+  <div class="section-head"><div><h2>Bài mới nhất</h2><p>Bài mẫu để bạn hình dung cách trình bày — thay bằng bài của bạn khi đăng lên GitHub.</p></div></div>
+  <div class="grid" id="homeGrid"></div>
+
+  <div class="section-head"><div><h2>Đi nhanh tới từng mục</h2><p>Mỗi mục có tìm kiếm riêng, lọc riêng.</p></div></div>
+  <div class="grid">
+    <article class="card"><img src="assets/phone.webp" alt="Điện thoại cầm trên tay"><div class="card-body"><h3>Điện thoại — có mục Sửa chữa</h3><p>Tin mới, so sánh, mẹo iPhone/Android, sửa chữa theo triệu chứng và Phần mềm điện thoại.</p><button class="readbtn" data-goto="phone">Vào mục Điện thoại →</button></div></article>
+    <article class="card"><img src="assets/laptop.jpg" alt="Laptop trên bàn làm việc"><div class="card-body"><h3>Laptop — theo nhu cầu & hãng</h3><p>Học tập, văn phòng, gaming, đồ họa. Có mục Lỗi thường gặp và Phần mềm laptop riêng.</p><button class="readbtn" data-goto="laptop">Vào mục Laptop →</button></div></article>
+    <article class="card"><img src="assets/pc.webp" alt="PC gaming lắp ráp với đèn RGB bên trong case"><div class="card-body"><h3>PC — Build theo ngân sách</h3><p>Build 10–30 triệu, linh kiện, benchmark, lỗi PC và Phần mềm PC (OBS, Steam, driver).</p><button class="readbtn" data-goto="pc">Vào mục PC →</button></div></article>
+  </div>
+</section>
+
+<!-- HOT -->
+<section class="view" id="view-hot">
+  <div class="section-head"><div><h2>🔥 Tin HOT</h2><p>Tin nóng 24h · Rò rỉ / tin đồn · Sự kiện & sale · Bảng xếp hạng tháng</p></div></div>
+  <div class="searchbox"><label for="s-hot">Tìm riêng trong Tin HOT <small>Chỉ lọc bài thuộc Tin HOT, không lẫn bài ở mục khác.</small></label><div class="search-row"><input id="s-hot" type="search" placeholder="Ví dụ: iPhone, RTX, sale, Samsung…"><button class="btn" data-clear="s-hot">Xóa lọc</button></div><div class="result-count" id="c-hot"></div></div>
+  <div class="chips" data-chips="hot"></div><div class="grid" data-grid="hot"></div><div class="empty" data-empty="hot" hidden>Không thấy bài nào khớp. Thử từ ngắn hơn, ví dụ “iPhone” hoặc “sale”.</div>
+</section>
+
+<!-- PHONE -->
+<section class="view" id="view-phone">
+  <div class="section-head"><div><h2>📱 Điện thoại</h2><p>Tin mới · Đánh giá · So sánh · Mẹo iPhone · Mẹo Android · <strong>Sửa chữa</strong> · <strong>Theo hãng</strong> · <strong>Phần mềm</strong> · Mua bán — lọc theo hãng (Apple, Samsung, Xiaomi, Nokia…) để tìm đúng bài của đúng máy</p></div></div>
+  <div class="searchbox"><label for="s-phone">Tìm riêng trong Điện thoại <small>Gõ “hao pin” chỉ ra bài điện thoại về pin — không ra bài PC hay Laptop.</small></label><div class="search-row"><input id="s-phone" type="search" placeholder="Ví dụ: hao pin, Face ID, CapCut, sập nguồn…"><button class="btn" data-clear="s-phone">Xóa lọc</button></div><div class="result-count" id="c-phone"></div></div>
+  <div class="chips" data-chips="phone"></div><div class="brand-filter" data-brandwrap="phone"></div><div data-brandfolders="phone"></div><div class="grid" data-grid="phone"></div><div class="empty" data-empty="phone" hidden>Không thấy bài nào khớp trong Điện thoại. Thử “pin”, “màn hình” hoặc “sạc”.</div>
+  <div class="panel admin-only" style="margin-top:18px"><h3>🗂️ Admin: quản lý mục con — Điện thoại</h3><p style="color:var(--muted);margin-top:0">Thêm, đổi tên hoặc xóa mục con (thư mục con) bên trong mục Điện thoại. Bài thuộc mục con bị xóa sẽ chuyển sang mục con đầu tiên còn lại.</p><div data-sublist="phone"></div><div class="search-row"><input data-newsub="phone" placeholder="Tên mục con mới, ví dụ: Sửa Samsung…"><button class="btn" data-addsub="phone" type="button">+ Thêm mục con</button></div></div>
+  <div class="two-col" style="margin-top:18px">
+    <div class="panel"><h3>🔧 Sửa chữa — theo hãng &amp; theo triệu chứng</h3><p style="color:var(--muted);margin-top:0;font-size:.92rem">Bấm vào một hãng để xem riêng các bài <strong>Sửa chữa</strong> của hãng đó:</p><div class="repair-brands" data-repairbrands="phone"></div><p style="font-weight:700;margin:14px 0 4px">Hoặc tìm theo triệu chứng:</p><ul><li><button class="readbtn" data-phoneq="hao pin">Hao pin / tụt pin nhanh</button></li><li><button class="readbtn" data-phoneq="nóng máy">Nóng máy, sập nguồn</button></li><li><button class="readbtn" data-phoneq="màn hình">Màn sọc, liệt cảm ứng</button></li><li><button class="readbtn" data-phoneq="loa">Loa rè, mất mic</button></li><li><button class="readbtn" data-phoneq="vô nước">Vô nước, mất sóng, không lên nguồn</button></li></ul><p style="color:var(--muted);font-size:.9rem">Mỗi bài sửa có ảnh từng bước, phần “tự làm tại nhà hay mang ra tiệm”, rủi ro và cách check máy sau khi sửa.</p></div>
+    <div class="panel"><h3>📲 Phần mềm điện thoại</h3><ul><li>App hay iPhone / Android: chỉnh ảnh, ghi chú, dọn rác</li><li>Cập nhật iOS / Android — lỗi sau cập nhật & cách sửa</li><li>Bảo mật: khóa app, ẩn ảnh, tìm máy mất, chặn quảng cáo</li><li>Cài đặt ẩn, phím tắt, tùy chỉnh hệ điều hành</li></ul></div>
+  </div>
+</section>
+
+<!-- LAPTOP -->
+<section class="view" id="view-laptop">
+  <div class="section-head"><div><h2>💻 Laptop</h2><p>Theo nhu cầu · <strong>Theo hãng</strong> · Đánh giá &amp; so sánh · Mẹo dùng · <strong>Lỗi thường gặp (sửa chữa)</strong> · <strong>Phần mềm</strong> — lọc theo hãng (Dell, HP, Lenovo, Asus, MacBook…) để tìm đúng bài của đúng máy</p></div></div>
+  <div class="searchbox"><label for="s-laptop">Tìm riêng trong Laptop <small>Gõ “chai pin” chỉ ra bài laptop — không lẫn pin điện thoại.</small></label><div class="search-row"><input id="s-laptop" type="search" placeholder="Ví dụ: chai pin, RAM, SSD, Windows, quạt kêu…"><button class="btn" data-clear="s-laptop">Xóa lọc</button></div><div class="result-count" id="c-laptop"></div></div>
+  <div class="chips" data-chips="laptop"></div><div class="brand-filter" data-brandwrap="laptop"></div><div data-brandfolders="laptop"></div><div class="grid" data-grid="laptop"></div><div class="empty" data-empty="laptop" hidden>Không thấy bài nào khớp trong Laptop. Thử “pin”, “Windows” hoặc “SSD”.</div>
+  <div class="panel admin-only" style="margin-top:18px"><h3>🗂️ Admin: quản lý mục con — Laptop</h3><p style="color:var(--muted);margin-top:0">Thêm, đổi tên hoặc xóa mục con (thư mục con) bên trong mục Laptop. Bài thuộc mục con bị xóa sẽ chuyển sang mục con đầu tiên còn lại.</p><div data-sublist="laptop"></div><div class="search-row"><input data-newsub="laptop" placeholder="Tên mục con mới, ví dụ: Theo hãng Dell…"><button class="btn" data-addsub="laptop" type="button">+ Thêm mục con</button></div></div>
+  <div class="panel" style="margin-top:18px"><h3>🔧 Lỗi &amp; sửa chữa laptop — theo hãng</h3><p style="color:var(--muted);margin-top:0">Bấm vào một hãng để xem riêng các bài <strong>Lỗi thường gặp</strong> của hãng đó (chai pin, quạt kêu, không lên nguồn…):</p><div class="repair-brands" data-repairbrands="laptop"></div></div>
+  <div class="panel" style="margin-top:18px"><h3>🧩 Phần mềm laptop nằm ở đâu?</h3><p>Ngay trong mục Laptop này: Windows / macOS, Office & PDF, phần mềm đồ họa / cắt video, diệt virus và sao lưu dữ liệu. Dùng ô tìm phía trên, gõ tên phần mềm là ra.</p></div>
+</section>
+
+<!-- PC -->
+<section class="view" id="view-pc">
+  <div class="section-head"><div><h2>🖥️ PC — Máy tính để bàn</h2><p>Build theo ngân sách · Linh kiện · Đánh giá & benchmark · Mẹo · Lỗi PC · <strong>Phần mềm</strong></p></div></div>
+  <div class="searchbox"><label for="s-pc">Tìm riêng trong PC <small>Gõ “RTX 4060” chỉ ra bài build PC & card đồ họa trong mục PC.</small></label><div class="search-row"><input id="s-pc" type="search" placeholder="Ví dụ: RTX 4060, nguồn, OBS, màn hình xanh…"><button class="btn" data-clear="s-pc">Xóa lọc</button></div><div class="result-count" id="c-pc"></div></div>
+  <div class="chips" data-chips="pc"></div><div class="grid" data-grid="pc"></div><div class="empty" data-empty="pc" hidden>Không thấy bài nào khớp trong PC. Thử “build”, “nguồn” hoặc “FPS”.</div>
+  <div class="panel admin-only" style="margin-top:18px"><h3>🗂️ Admin: quản lý mục con — PC</h3><p style="color:var(--muted);margin-top:0">Thêm, đổi tên hoặc xóa mục con (thư mục con) bên trong mục PC. Bài thuộc mục con bị xóa sẽ chuyển sang mục con đầu tiên còn lại.</p><div data-sublist="pc"></div><div class="search-row"><input data-newsub="pc" placeholder="Tên mục con mới, ví dụ: Build livestream…"><button class="btn" data-addsub="pc" type="button">+ Thêm mục con</button></div></div>
+  <div class="panel" style="margin-top:18px"><h3>🧩 Phần mềm PC nằm ở đâu?</h3><p>Ngay trong mục PC này: cài Windows, driver card đồ họa, Steam / Discord / tăng FPS, OBS & Premiere cho livestream, dọn rác và chống virus.</p></div>
+</section>
+
+<!-- ACCESSORY -->
+<section class="view" id="view-accessory">
+  <div class="section-head"><div><h2>🎧 Phụ kiện & mở rộng</h2><p>Tai nghe · Chuột · Bàn phím · Loa · Màn hình · Tablet · Đồng hồ thông minh · Hỏi đáp</p></div></div>
+  <div class="searchbox"><label for="s-accessory">Tìm riêng trong Phụ kiện</label><div class="search-row"><input id="s-accessory" type="search" placeholder="Ví dụ: tai nghe, chuột, màn hình…"><button class="btn" data-clear="s-accessory">Xóa lọc</button></div><div class="result-count" id="c-accessory"></div></div>
+  <div class="chips" data-chips="accessory"></div><div class="grid" data-grid="accessory"></div><div class="empty" data-empty="accessory" hidden>Chưa có bài khớp trong Phụ kiện.</div>
+</section>
+
+<!-- GALLERY -->
+<section class="view" id="view-gallery">
+  <div class="section-head"><div><h2>🖼️ Thư viện ảnh — tài liệu tham khảo</h2><p>Ảnh bạn up lên GitHub, chia theo Điện thoại / Laptop / PC / Sửa chữa. Mỗi ảnh có tiêu đề, tag và link tới bài gốc.</p></div></div>
+  <div class="searchbox"><label for="s-gallery">Tìm ảnh theo tag</label><div class="search-row"><input id="s-gallery" type="search" placeholder="Ví dụ: pin, build-pc, rtx, sua-chua…"><button class="btn" data-clear="s-gallery">Xóa lọc</button></div><div class="result-count" id="c-gallery"></div></div>
+  <div class="gallery" id="galleryGrid"></div><div class="empty" id="galleryEmpty" hidden>Không thấy ảnh nào khớp tag đó.</div>
+</section>
+
+<!-- GUIDE -->
+<section class="view" id="view-guide">
+  <div class="section-head"><div><h2>📁 Dành cho chủ web: up ảnh & đăng bài trên GitHub</h2><p>Chỉ mình bạn up ảnh là đủ — không cần nút upload cho người xem.</p></div></div>
+  <div class="panel admin-only" style="margin-bottom:16px"><h3>✍️ Đăng bài mới</h3>
+    <p style="color:var(--muted);margin-top:0">Điền bài vào form rồi bấm <strong>Đăng bài ngay</strong> — nhớ chọn đúng <strong>Hãng</strong> của máy để bài được chia theo hãng — bài hiện ngay trên web, ở đúng mục bạn chọn, bấm “Đọc bài” xem được luôn và ô tìm kiếm của mục đó cũng tìm thấy. Bài mới được <strong>lưu trong trình duyệt này</strong>; muốn mọi người cùng thấy, xuống mục 💾 <em>Dữ liệu &amp; đưa lên GitHub</em> bên dưới, tải file <code>data.json</code> rồi up lên GitHub. Web cũng tạo sẵn file <code>.md</code> của từng bài để bạn lưu trữ riêng nếu muốn.</p>
+    <form class="postform" id="postForm">
+      <label>Tiêu đề bài viết<input id="pTitle" required placeholder="Ví dụ: iPhone hao pin nhanh: 7 cách kiểm tra tại nhà"></label>
+      <div class="row2">
+        <label>Mục đăng<select id="pCat"><option value="hot">🔥 Tin HOT</option><option value="phone" selected>📱 Điện thoại</option><option value="laptop">💻 Laptop</option><option value="pc">🖥️ PC</option><option value="accessory">🎧 Phụ kiện</option></select></label>
+        <label>Mục con<select id="pSub"></select></label>
+      </div>
+      <div class="row2">
+        <label>Hãng của máy (để chia bài theo hãng, tìm cho nhanh)<select id="pBrand"></select></label>
+        <label>Hãng khác — nếu chưa có trong danh sách bên<input id="pBrandCustom" placeholder="Ví dụ: Sony, Tecno, Vaio, Honor… (để trống nếu đã chọn hãng ở ô bên)"></label>
+      </div>
+      <p style="margin:0;color:var(--muted);font-size:.88rem">💡 Đăng cho dễ tìm: chọn đúng <strong>Mục con</strong> + đúng <strong>Hãng</strong> — ví dụ bài sửa Samsung thì chọn Mục con “Sửa chữa” và Hãng “Samsung”. Người xem vào mục Điện thoại / Laptop, bấm lọc hãng đó (kết hợp mục Sửa chữa) là thấy bài ngay.</p>
+      <div class="row2">
+        <label>Ảnh minh họa<select id="pImg"><option value="assets/phone.webp">Ảnh điện thoại</option><option value="assets/laptop.jpg">Ảnh laptop</option><option value="assets/pc.webp">Ảnh PC</option><option value="assets/repair.jpg">Ảnh sửa chữa</option><option value="assets/ss-a52.jpg">Ảnh Samsung A52 (ss a52)</option><option value="assets/nokia-105-ta1034-duong-sac.jpg">Ảnh Nokia 105 TA-1034 đường sạc</option><option value="assets/iphone-13-man-hinh-trang-xanh-vang.jpg">Ảnh iPhone 13 màn hình trắng / xanh / vàng</option><option value="assets/sac-cham-ve-sinh-chan-sac.jpg">Ảnh sạc chậm — vệ sinh chân sạc</option><option value="assets/samsung-a53-tam-dung-sac-loi-qua-nhiet.jpg">Ảnh Samsung A53 tạm dừng sạc / lỗi quá nhiệt</option><option value="assets/laptop-nong-may-ve-sinh-khe-tan-nhiet.jpg">Ảnh laptop nóng máy — vệ sinh khe tản nhiệt</option></select></label>
+        <label>Tag (cách nhau bằng dấu phẩy)<input id="pTags" placeholder="iphone, pin, sua-chua"></label>
+      </div>
+      <label>Tóm tắt ngắn<input id="pExcerpt" placeholder="1–2 câu tóm tắt nội dung bài…"></label>
+      <label>Các bước làm (mỗi dòng 1 bước)<textarea id="pSteps" placeholder="Vào Cài đặt &gt; Pin &gt; Tình trạng pin…&#10;Kiểm tra app ngốn pin nhất…"></textarea></label>
+      <label>Lưu ý<textarea id="pNote" style="min-height:56px" placeholder="Khi nào không nên tự làm, khi nào nên mang ra tiệm…"></textarea></label>
+      <div><button class="btn" type="submit" id="postSubmitBtn" style="font-size:1.02rem;padding:13px 26px">Đăng bài ngay</button> <button class="btn alt" type="button" id="cancelEdit" hidden>Hủy sửa bài</button></div>
+    </form>
+    <div id="postResult" hidden style="margin-top:16px">
+      <p style="font-weight:700;color:var(--accent)">✅ Đã đăng xong! Bài đang lưu trong trình duyệt này — nhớ tải file data.json ở mục 💾 bên dưới và up lên GitHub để mọi người cùng thấy. Đây là file .md của bài, để bạn lưu trữ riêng:</p>
+      <pre id="postMd"></pre>
+      <button class="btn" id="copyPostMd" type="button">Copy file bài</button>
+      <button class="btn alt" id="downloadPostMd" type="button">Tải file .md về máy</button>
+      <button class="btn alt" id="viewPosted" type="button">Xem bài vừa đăng →</button>
+    </div>
+  </div>
+  <div class="panel admin-only" style="margin-bottom:16px"><h3>💾 Dữ liệu & đưa lên GitHub</h3>
+    <p class="adminnote">⚠️ <strong>Quan trọng:</strong> mọi thay đổi của Admin (thêm / sửa / xóa bài viết, thêm / sửa / xóa mục con) hiện chỉ lưu trong <strong>trình duyệt này</strong> — người xem khác chưa thấy được. Muốn mọi người cùng thấy: bấm <strong>Tải file dữ liệu</strong> ở dưới, rồi up file <code>data.json</code> lên GitHub vào thư mục <code>assets/</code> (ghi đè file cũ). Sau khi up xong, ai mở web cũng thấy bản mới.</p>
+    <p style="color:var(--muted)">Lưu ý: web tĩnh không có máy chủ nên khóa Admin ở đây chỉ để ẩn phần chỉnh sửa khỏi người xem thường trên trình duyệt của bạn, không phải bảo mật cấp máy chủ. “Khóa” thật cho việc phát hành nội dung là tài khoản GitHub của bạn — chỉ bạn mới up được file lên repo. Mật khẩu Admin do bạn tự tạo ở lần đăng nhập đầu tiên trên mỗi trình duyệt, file web không chứa mật khẩu mặc định nào.</p>
+    <div style="border-top:1px solid var(--line);margin-top:14px;padding-top:12px">
+      <h4 style="margin:0 0 6px">🔑 Đổi mật khẩu Admin (trình duyệt này)</h4>
+      <p style="color:var(--muted);margin:0 0 10px">Đổi mật khẩu cho trình duyệt này. Máy hay trình duyệt khác thì bạn tự đặt mật khẩu ở lần đăng nhập đầu tiên trên máy đó.</p>
+      <div class="search-row"><input type="password" id="newPass" placeholder="Mật khẩu mới, ít nhất 8 ký tự…"><button class="btn" id="changePassBtn" type="button">Đổi mật khẩu</button></div>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn" id="exportData" type="button">⬇️ Tải file dữ liệu (data.json)</button>
+      <button class="btn alt" id="importBtn" type="button">⬆️ Nhập file dữ liệu</button>
+      <input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button class="btn alt" id="resetData" type="button">↩️ Khôi phục dữ liệu gốc</button>
+    </div>
+  </div>
+  <div class="two-col">
+    <div class="panel"><h3>Up ảnh bằng điện thoại (1 phút)</h3><ol style="padding-left:20px"><li>Mở Chrome vào <strong>github.com</strong> → mở repo web của bạn</li><li>Vào thư mục <code>images</code> → chọn thư mục con đúng mục, ví dụ <code>images/sua-chua/</code></li><li>Bấm <strong>Add file → Upload files</strong></li><li>Chọn ảnh trong máy → bấm <strong>Commit changes</strong> là xong</li></ol><p style="color:var(--muted)">Đặt tên ảnh không dấu, dễ tìm: <code>iphone-hao-pin.jpg</code>, <code>build-pc-15tr.jpg</code>. Nén dưới 1–2MB để web load nhanh.</p></div>
+    <div class="panel"><h3>Cấu trúc thư mục trên GitHub</h3><pre>meo-tech/
+├─ index.html
+├─ images/
+│  ├─ dien-thoai/
+│  ├─ laptop/
+│  ├─ pc/
+│  ├─ sua-chua/
+│  └─ phu-kien/
+└─ bai-viet/
+   ├─ dien-thoai/
+   ├─ laptop/
+   └─ pc/</pre><button class="btn" id="copyStruct">Copy cấu trúc này</button></div>
+  </div>
+  <div class="panel" style="margin-top:16px"><h3>Mẫu 1 bài chuẩn (copy về điền)</h3><pre id="templateText"># Tiêu đề rõ vấn đề — ví dụ: iPhone hao pin nhanh: 7 cách kiểm tra tại nhà
+
+**Mục:** Điện thoại &gt; Sửa chữa
+**Hãng:** Apple (chọn đúng hãng khi đăng để người xem lọc theo hãng trong mục Sửa chữa là thấy ngay)
+**Tag:** iphone, pin, sua-chua, hao-pin
+
+## Vấn đề
+2–3 câu: máy gặp gì, ai hay bị.
+
+## Cách làm từng bước (kèm ảnh)
+1. ...
+2. ...
+![Ảnh bước 1](../images/sua-chua/iphone-hao-pin.jpg)
+
+## Lưu ý
+Khi nào không nên tự làm, nên mang ra tiệm.
+
+## Kết luận
+Nên làm gì tiếp theo.</pre><button class="btn alt" id="copyTemplate">Copy mẫu bài viết</button> <button class="btn" id="downloadTemplate">Tải mẫu .md về máy</button></div>
+  <div class="panel" style="margin-top:16px"><h3>Đưa web này lên GitHub Pages</h3><ol style="padding-left:20px"><li>Tạo repo mới trên GitHub, tên ví dụ <code>meo-tech</code></li><li>Upload file <code>index.html</code>, thư mục <code>assets/</code> (trong đó có file <code>data.json</code> chứa bài viết &amp; mục con) và thư mục <code>images/</code> lên repo</li><li>Vào <strong>Settings → Pages</strong> → Source: <em>Deploy from a branch</em> → chọn <code>main / (root)</code> → Save</li><li>Đợi 1–2 phút, GitHub sẽ cho bạn link web dạng <code>ten-cua-ban.github.io/meo-tech/</code></li></ol></div>
+</section>
+</main>
+
+<footer>Mẹo Tech — Tin hot · Mẹo hay · Mua đúng, không phí tiền &nbsp;|&nbsp; Điện thoại (có Sửa chữa & Phần mềm) · Laptop (có Phần mềm) · PC (có Phần mềm)</footer>
+
+<dialog id="loginDialog"><div class="dialog-in"><button class="closebtn" id="closeLogin">Đóng ✕</button><div class="kicker">Khu vực Admin</div><h2 id="loginTitle">Đăng nhập Admin</h2>
+<form class="postform" id="loginForm"><p style="color:var(--muted);margin:0">Nhập mật khẩu Admin của trình duyệt này để mở chế độ chỉnh sửa: thêm / sửa / xóa bài viết và quản lý mục con. Người xem bình thường chỉ xem được bài, không sửa được gì.</p><label>Mật khẩu Admin<input type="password" id="adminPass" autocomplete="current-password" placeholder="Nhập mật khẩu…"></label><p id="loginError" style="color:var(--hot);font-weight:700;margin:0" hidden>Sai mật khẩu, thử lại nhé.</p><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" type="submit">Đăng nhập</button><button class="btn alt" type="button" id="resetPassBtn">Quên mật khẩu — đặt lại</button></div></form>
+<form class="postform" id="setupForm" hidden><p style="color:var(--muted);margin:0">Trình duyệt này chưa có mật khẩu Admin — web không có mật khẩu mặc định. Hãy tự tạo mật khẩu của riêng bạn (ít nhất 8 ký tự, nên gồm chữ và số, đừng dùng lại mật khẩu của tài khoản khác). Web chỉ lưu mã băm của mật khẩu trong trình duyệt này; đổi máy hay trình duyệt thì bạn tạo lại ở máy đó. Còn việc bài có hiện cho mọi người hay không là do tài khoản GitHub của bạn quyết định khi up file dữ liệu.</p><label>Mật khẩu mới<input type="password" id="setupPass1" autocomplete="new-password" placeholder="Ít nhất 8 ký tự…"></label><label>Nhập lại mật khẩu<input type="password" id="setupPass2" autocomplete="new-password" placeholder="Nhập lại giống hệt…"></label><p id="setupError" style="color:var(--hot);font-weight:700;margin:0" hidden></p><div><button class="btn" type="submit">Tạo mật khẩu &amp; đăng nhập</button></div></form>
+</div></dialog>
+<dialog id="confirmDialog"><div class="dialog-in"><h2 id="confirmTitle">Xác nhận</h2><p id="confirmMsg" style="color:var(--muted)"></p><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn" id="confirmYes" type="button" style="background:var(--hot)">Đồng ý</button><button class="btn alt" id="confirmNo" type="button">Hủy</button></div></div></dialog>
+<dialog id="promptDialog"><div class="dialog-in"><h2 id="promptTitle">Nhập tên</h2><form class="postform" id="promptForm"><label><span id="promptLabel">Tên mới</span><input id="promptInput"></label><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" type="submit">Lưu</button><button class="btn alt" type="button" id="promptCancel">Hủy</button></div></form></div></dialog>
+<dialog id="reader"><div class="dialog-in"><button class="closebtn" id="closeReader">Đóng ✕</button><div class="kicker" id="rCat"></div><h2 id="rTitle"></h2><p id="rExcerpt" style="color:var(--muted)"></p><img class="article-img" id="rImg" alt=""><div class="meta" id="rTags"></div><h3>Cách làm từng bước</h3><ol id="rSteps"></ol><h3>Lưu ý</h3><p id="rNote"></p></div></dialog>
+<div class="toast" id="toast">Đã copy!</div>
+
+<script>
+/* ===== ADMIN =====
+   File này KHÔNG chứa mật khẩu mặc định hay mã băm nào. Lần đầu bấm "Đăng nhập Admin" trên một trình duyệt,
+   chủ web tự tạo mật khẩu của riêng mình; web chỉ lưu mã băm SHA-256 của mật khẩu đó trong chính trình duyệt ấy. */
+var LS_ADMIN='meotech-admin-hash-v1';
+var LS_KEY='meotech-data-v1';
+var DEFAULT_ARTICLES=[
+{id:1,cat:'hot',catLabel:'Tin HOT',sub:'Tin nóng 24h',brand:'Nhiều hãng',img:'assets/phone.webp',title:'Tin nóng 24h: điện thoại & PC có gì mới tuần này?',excerpt:'Cách theo dõi tin ra mắt, rò rỉ và giá dự kiến mà không bị tin giả dẫn dắt.',tags:['iphone','samsung','rtx','tin-nong'],mins:4,steps:['Chép lại nguồn tin gốc, ngày đăng và mức độ tin cậy (ảnh rò rỉ, thông cáo chính hãng hay tin đồn).','Đối chiếu ít nhất 2 nguồn trước khi chia sẻ lại.','Ghi rõ đâu là giá dự kiến, đâu là giá bán chính thức.'],note:'Đừng đăng lại ảnh rò rỉ chưa rõ nguồn như tin chính thức — ghi rõ “tin đồn / rò rỉ” trong tiêu đề.'},
+{id:2,cat:'hot',catLabel:'Tin HOT',sub:'Bảng xếp hạng',brand:'Nhiều hãng',img:'assets/laptop.jpg',title:'Top 5 laptop sinh viên đáng mua trong tháng',excerpt:'Tiêu chí chọn laptop học tập: pin, cân nặng, bàn phím và khả năng nâng cấp RAM/SSD.',tags:['laptop','sinh-vien','top-5','dang-mua'],mins:5,steps:['Chốt ngân sách và nhu cầu thật: học, code, đồ họa hay gaming nhẹ.','Ưu tiên SSD 512GB, RAM 16GB nếu dùng 3–4 năm.','Kiểm tra cổng kết nối và trọng lượng nếu mang đi học mỗi ngày.'],note:'Bảng xếp hạng nên ghi rõ ngày cập nhật và tầm giá tại thời điểm viết.'},
+{id:19,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Nokia',img:'assets/nokia-105-ta1034-duong-sac.jpg',fit:'contain',brand:'Nokia',title:'Nokia 105 TA-1034 không sạc, không nhận USB: câu jumper khôi phục đường sạc',excerpt:'Cắm sạc không vào, cắm máy tính không nhận USB, chân sạc lỏng hoặc đứt đường mạch trên main. Ảnh hướng dẫn chỉ rõ đường dây đỏ câu jumper từ chân sạc lên phía trên main để khôi phục cả đường sạc và đường dữ liệu USB.',tags:['nokia','105','ta-1034','nokia 105','sua-chua','sac','khong sac','usb','jumper','duong sac'],mins:6,steps:['Nhận biết đúng lỗi như mục “Vấn đề” trên ảnh: Nokia 105 TA-1034 sạc không hoạt động, cắm USB máy tính không nhận, kết nối chập chờn do chân sạc lỏng hoặc đường mạch (track) trên main bị đứt / hư. Đây là lỗi phần cứng ở đường sạc, không phải lỗi phần mềm.','Kiểm tra chân sạc trước: vệ sinh cổng sạc ở cạnh dưới máy, thử cáp và củ sạc khác, kiểm tra chân sạc có lỏng, cong hay oxy hóa không. Nếu thay / hàn lại chân sạc mà máy vẫn không sạc và không nhận USB thì mới nghi đứt đường trên main và chuyển sang làm jumper.','Mở máy, ngắt pin trước khi thao tác. Đối chiếu main thật với ảnh: main màu xanh lá, cổng sạc nằm ở cạnh dưới, ngay phía trên cổng sạc có hai điểm được ghi DN và DP — đây là hai đường dữ liệu USB. Đường màu đỏ trong ảnh là đường jumper cần câu, chạy dọc từ khu vực chân sạc ở dưới lên điểm nối ở phía trên main, gần cụm linh kiện ở mép trên.','Câu jumper đúng như hướng dẫn trong ảnh: dùng dây jumper mảnh, hàn nối lại đoạn đường sạc / USB đã đứt theo đúng đường đỏ đã vẽ, từ điểm ở chân sạc lên điểm phía trên main để khôi phục đồng thời đường sạc và hai đường dữ liệu DN / DP.','Hàn sạch và gọn ở mọi điểm nối như mục “Lưu ý quan trọng” trên ảnh: không để thiếc lem sang chân bên cạnh, không để dây chạm vào đường mạch khác. Kiểm tra lại toàn bộ mối nối trước khi cấp nguồn.','Lắp tạm pin, cắm sạc và cắm thử USB để test trước khi ráp hoàn thiện: máy phải báo sạc ổn định và máy tính nhận USB mới được ráp kín máy. Nếu vẫn không nhận, ngắt nguồn và đo kiểm lại điểm nối, không cố sạc lâu.'],note:'Đây là sửa main bằng dây jumper — cần mỏ hàn, dây đồng mảnh và kinh nghiệm hàn linh kiện nhỏ. Làm sai dễ chập đường khác hoặc đứt thêm mạch. Người dùng bình thường nên mang ra thợ sửa main uy tín; chỉ thợ quen tay mới nên tự câu jumper theo sơ đồ này.'},
+{id:20,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Apple',img:'assets/iphone-13-man-hinh-trang-xanh-vang.jpg',fit:'contain',brand:'Apple',title:'iPhone 13 / 13 Pro / 13 Pro Max màn hình trắng, xanh, vàng: câu jumper xử lý lỗi hiển thị',excerpt:'Cả ba máy iPhone 13, 13 Pro và 13 Pro Max đều có thể gặp màn hình trắng, màn hình xanh hoặc màn hình vàng. Ảnh hướng dẫn vẽ riêng sơ đồ câu dây jumper cho từng model — vị trí chân khác nhau nên tuyệt đối không áp dụng chéo sơ đồ giữa các máy.',tags:['iphone','iphone 13','13 pro','13 pro max','sua-chua','man hinh','man hinh xanh','man hinh trang','man hinh vang','jumper'],mins:7,steps:['Nhận biết đúng lỗi như tiêu đề trên ảnh: màn hình chỉ hiện một màu trắng, xanh lá hoặc vàng (white screen / green screen / yellow screen), không hiển thị nội dung bình thường. Lỗi áp dụng cho cả ba model: iPhone 13, iPhone 13 Pro và iPhone 13 Pro Max.','Loại trừ màn hình trước: thử một màn hình tốt khác và kiểm tra lại socket / cáp màn hình trên main. Nếu đã thay màn tốt mà máy vẫn trắng / xanh / vàng màn thì lỗi nằm ở đường hiển thị trên main, lúc đó mới tính tới phương án câu jumper theo sơ đồ trong ảnh.','Mở máy, ngắt pin trước khi thao tác và soi main dưới kính hiển vi. Ảnh chia làm 3 khung riêng cho 3 model, mỗi khung là một cụm chân kết nối khác nhau — bước đầu tiên là xác định đúng máy của mình thuộc khung nào, không nhìn nhầm sang khung của model khác.','Với iPhone 13 Pro Max (khung trên cùng): hàng chân được đánh số từ 1 đến 21, ở giữa là chip mang logo Apple. Các đường jumper gồm 3 màu xanh dương, đỏ và xanh lá nối các chân ở phía trái sang các chân ở phía phải của cụm — câu đúng từng đường theo đúng màu và đúng số chân như ảnh, thiếu hoặc lệch một chân là màn hình vẫn lỗi.','Với iPhone 13 Pro (khung ở giữa): cụm chân và cách đi dây khác hẳn bản Pro Max, cũng gồm các đường đỏ, xanh lá và xanh dương nối hai phía của cụm chân quanh chip Apple ở giữa. Đối chiếu kỹ vị trí điểm đầu và điểm cuối của từng đường trên main thật trước khi hàn.','Với iPhone 13 (khung dưới cùng): sơ đồ đơn giản hơn, điểm cần câu được đánh dấu bằng điểm đỏ phát sáng và đường jumper ngắn màu đỏ ở cụm chân phía bên phải của chip Apple. Chỉ câu đúng điểm đã đánh dấu, không câu thêm sang chân bên cạnh.','Sau khi câu xong, lắp tạm màn hình, gắn pin và bật máy test: kiểm tra màn hình đã về hiển thị bình thường chưa, test thêm cảm ứng, độ sáng, Face ID, camera và sạc. Ổn định mới ráp hoàn thiện máy.'],note:'Câu jumper trên main iPhone 13 series là sửa main cấp linh kiện, các chân rất nhỏ và sát nhau — cần kính hiển vi, mỏ hàn đầu nhỏ, dây jumper mảnh và tay nghề đo mạch. Sơ đồ của 13, 13 Pro và 13 Pro Max khác nhau, áp dụng chéo sẽ không hết lỗi, thậm chí làm hỏng thêm đường khác. Người dùng bình thường không nên tự làm, hãy mang ra thợ sửa main iPhone uy tín.'},
+{id:21,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Chung',img:'assets/sac-cham-ve-sinh-chan-sac.jpg',title:'Điện thoại sạc chậm, lúc nhận lúc không: vệ sinh chân sạc và kiểm tra cáp, củ sạc trước khi mang ra tiệm',excerpt:'Cắm sạc mà pin tăng ì ạch, lúc nhận lúc không, phải xoay đầu cáp mới vào điện — thủ phạm thường là chân sạc bám bụi, xơ vải hoặc cáp, củ sạc đã hỏng. Vệ sinh chân sạc đúng cách và kiểm tra phụ kiện tại nhà trước khi mang ra tiệm.',tags:['sạc chậm','chân sạc','cáp sạc','vệ sinh điện thoại','sua-chua','sac cham','chan sac','cap sac','cu sac'],mins:6,steps:['Nhận biết lỗi: Bạn cắm sạc mà điện thoại báo sạc rất chậm, phần trăm pin tăng ì ạch, hoặc lúc nhận sạc lúc không, phải xoay xoay đầu cáp mới vào điện. Đôi khi máy báo “đang sạc” rồi tự ngắt, cắm lại mới sạc tiếp. Đây là dấu hiệu rất thường gặp, và trong nhiều trường hợp nguyên nhân nằm ở bên ngoài máy, bạn hoàn toàn có thể tự kiểm tra tại nhà trước khi nghĩ tới chuyện mang ra tiệm.','Kiểm tra nhanh trước khi xử lý — Thử một sợi cáp khác và một củ sạc khác mà bạn biết là còn tốt. Nếu đổi cáp, củ sạc mà máy sạc bình thường thì vấn đề nằm ở phụ kiện, không phải ở máy.','Thử cắm vào một ổ điện khác, tránh ổ cắm lỏng hoặc ổ chia nhiều thiết bị.','Quan sát đầu cáp khi cắm vào máy: nếu cắm vào mà lỏng lẻo, lắc lư, không “khớp” chắc như trước thì nhiều khả năng chân sạc đã bám bụi hoặc có xơ vải kẹt bên trong.','Nhìn vào lỗ chân sạc dưới ánh sáng mạnh: nếu thấy bụi bẩn, xơ vải bám thành lớp thì đó chính là thủ phạm thường gặp nhất.','Các bước xử lý — Bước 1: Tắt nguồn điện thoại trước khi vệ sinh để đảm bảo an toàn.','Bước 2: Dùng cọ mềm nhỏ hoặc bàn chải lông mềm, nhẹ nhàng quét bụi quanh miệng chân sạc. Không dùng vật kim loại chọc sâu vào trong vì dễ làm hỏng các chân tiếp xúc.','Bước 3: Dùng tăm gỗ hoặc que nhựa mỏng, đầu tù, khều nhẹ phần xơ vải bám ở đáy chân sạc ra ngoài. Làm thật nhẹ tay, chỉ gạt phần bẩn ra, không cạy mạnh.','Bước 4: Thổi nhẹ hoặc dùng bóng thổi bụi để đẩy hết bụi còn sót lại ra ngoài. Không dùng máy sấy tóc thổi hơi nóng trực tiếp vào cổng sạc.','Bước 5: Lau đầu cáp sạc bằng khăn khô, kiểm tra xem đầu cáp có cong, gỉ hay bám bẩn không. Nếu đầu cáp đã cong hoặc vỏ cáp nứt, rách thì nên thay cáp mới.','Bước 6: Bật máy lên, cắm sạc lại bằng cáp và củ sạc tốt, để yên khoảng 10 phút rồi kiểm tra.','Test lại sau khi xử lý — Cắm sạc và xem biểu tượng sạc có ổn định không, không còn chập chờn khi chạm nhẹ vào dây.','Để máy sạc 15–30 phút, ghi nhớ phần trăm pin lúc bắt đầu và lúc kết thúc để xem tốc độ sạc đã cải thiện chưa.','Thử rút ra cắm lại vài lần: nếu lần nào cũng nhận sạc ngay thì chân sạc đã sạch và tiếp xúc tốt.','Nếu máy vẫn sạc chậm dù chân sạc đã sạch và đã thử cáp, củ sạc khác thì khả năng cao pin đã chai hoặc có vấn đề bên trong máy — lúc này bạn cần mang ra tiệm để kiểm tra chuyên sâu.','Khi nào nên mang ra tiệm — Chân sạc lỏng hẳn, cắm cáp vào là rơi ra dù đã vệ sinh sạch.','Máy nóng bất thường khi sạc, có mùi khét hoặc cổng sạc bị biến dạng.','Đã thử đủ cách trên mà máy vẫn không nhận sạc hoặc sạc rất chậm.','Điện thoại từng bị rơi mạnh hoặc vào nước rồi mới xuất hiện lỗi sạc.','Khi mang ra tiệm, bạn hãy mô tả rõ những gì mình đã thử (đổi cáp, đổi củ sạc, đã vệ sinh chân sạc) để thợ kiểm tra nhanh hơn và tránh bị báo sai lỗi.'],note:'Lưu ý an toàn: Tuyệt đối không tự tháo máy, không dùng vật kim loại chọc vào chân sạc, không dùng dung dịch tẩy rửa đổ vào cổng sạc. Bài này chỉ hướng dẫn các thao tác vệ sinh bên ngoài, an toàn cho người dùng phổ thông.'},
+{id:22,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Samsung',img:'assets/samsung-a53-tam-dung-sac-loi-qua-nhiet.jpg',fit:'contain',title:'Samsung A53 tạm dừng sạc, báo lỗi quá nhiệt (Charging Paused): cách sửa đã kiểm chứng',excerpt:'Samsung A53 không sạc được, cắm sạc là báo lỗi quá nhiệt và tự tạm dừng sạc (Charging Paused) dù máy không hề nóng. Đây là giải pháp sửa chữa đã được kiểm chứng: kiểm tra bo sạc và linh kiện cảm biến nhiệt trên mạch — xử lý xong máy sạc lại bình thường. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.',tags:['samsung','a53','samsung a53','sua-chua','sac','khong sac','tam dung sac','charging paused','qua nhiet','nong may','loi nhiet do'],mins:6,steps:['Nhận biết đúng lỗi như tiêu đề gốc và ô ảnh phía trên bên trái: Samsung A53 cắm sạc không vào pin, màn hình hiện cảnh báo nhiệt độ (hình tam giác màu cam có biểu tượng nhiệt kế) và báo tạm dừng sạc — Charging Paused, lỗi quá nhiệt (Heating Error). Nhiều máy báo lỗi này ngay cả khi thân máy đang mát, không nóng thật — dấu hiệu đường cảm biến nhiệt độ đang báo sai, nên máy tự ngắt sạc để bảo vệ pin.','Thử các bước đơn giản trước khi mở máy: rút sạc, để máy nguội hẳn 15–20 phút ở nơi thoáng mát, tháo ốp lưng, thử cáp và củ sạc khác còn tốt, vệ sinh nhẹ chân sạc rồi cắm lại. Nếu máy vẫn báo quá nhiệt và tạm dừng sạc ngay khi vừa cắm, dù máy đang mát, thì lỗi nằm ở phần cứng bên trong chứ không phải do máy nóng thật hay do phụ kiện.','Mở máy, ngắt pin trước khi thao tác. Kiểm tra bo sạc phụ ở cạnh dưới máy như ô ảnh phía trên bên phải: bo mạch màu xanh dương gồm chân sạc, các socket / cáp nối từ bo sạc lên main chính và cụm linh kiện xung quanh. Kiểm tra cáp nối có lỏng, oxy hóa hay đứt không, chân sạc có hư không — đường cảm biến nhiệt của máy đi qua khu vực này, bo sạc lỗi là nguyên nhân rất hay gặp của lỗi báo quá nhiệt khi sạc.','Đo kiểm linh kiện cảm biến nhiệt được đánh dấu trong ảnh như ô ảnh phía dưới bên trái: mũi tên đỏ chỉ vào linh kiện màu đen in chữ “177 C1-8” trên mạch xanh — đây là vị trí cần kiểm tra trong giải pháp đã test. Nếu linh kiện này hoặc đường mạch liên quan bị lỗi, máy sẽ hiểu sai là pin / máy đang quá nóng và liên tục tự tạm dừng sạc.','Xử lý đúng điểm lỗi theo kết quả đo kiểm: sửa lại đường mạch, thay linh kiện cảm biến nhiệt hoặc thay bo sạc phụ nếu bo đã hư; vệ sinh lại các điểm tiếp xúc và cắm chặt lại toàn bộ socket, cáp nối trước khi test. Không câu tắt cảm biến nhiệt để ép máy sạc — làm mất chức năng bảo vệ quá nhiệt sẽ rất nguy hiểm cho pin.','Lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện như ô ảnh phía dưới bên phải: máy hết báo lỗi quá nhiệt, vòng sạc hiện màu xanh lá và pin lên đều (trong ảnh là 57%). Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, không tự tạm dừng sạc lại, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng.'],note:'Đây là sửa phần cứng trên bo sạc / main — cần dụng cụ mở máy, đồng hồ đo và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh ghép 4 ô minh họa (màn hình báo lỗi, bo sạc, linh kiện được đánh dấu và kết quả sau khi sửa), khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A53 của bạn gặp đúng lỗi tạm dừng sạc, báo quá nhiệt này, hãy mang ra thợ sửa Samsung uy tín — máy bạn gặp vấn đề giống vậy thì mang qua sửa nhé.'},
+{id:23,cat:'laptop',catLabel:'Laptop',sub:'Lỗi thường gặp',brand:'Chung',img:'assets/laptop-nong-may-ve-sinh-khe-tan-nhiet.jpg',title:'Laptop nóng máy, quạt kêu to: vệ sinh khe tản nhiệt và kiểm tra cách đặt máy trước khi mang ra tiệm',excerpt:'Laptop dùng một thời gian bỗng nóng ran, quạt quay ầm ầm ngay cả khi chỉ mở trình duyệt — lỗi rất phổ biến và phần lớn trường hợp bạn có thể tự xử lý tại nhà: vệ sinh khe tản nhiệt, kiểm tra cách đặt máy và ứng dụng chạy ngầm, chưa cần mở máy hay mang ra tiệm ngay.',tags:['laptop nóng máy','quạt kêu to','vệ sinh laptop','tản nhiệt','laptop chạy chậm','nong may','quat keu','ve sinh laptop','tan nhiet','khe tan nhiet'],mins:6,steps:['Nhận biết lỗi: Laptop dùng một thời gian bỗng nóng ran, quạt quay ầm ầm ngay cả khi bạn chỉ mở trình duyệt — đây là lỗi rất phổ biến và phần lớn trường hợp bạn có thể tự xử lý tại nhà bằng vài bước đơn giản dưới đây, không cần mở máy hay mang ra tiệm ngay. Dấu hiệu dễ thấy nhất: mặt đáy và bàn phím nóng ran khi chạm vào, quạt quay mạnh và kêu to liên tục.','Máy chạy chậm, giật lag mỗi khi nóng lên, có khi tự tắt đột ngột rồi bật lại được.','Khe tản nhiệt ở hông hoặc mặt đáy máy bám bụi dày, sờ thấy gió thổi ra rất yếu.','Kiểm tra trước khi xử lý — Xem bạn có hay đặt laptop trên giường, gối, chăn hay đùi không: bề mặt mềm sẽ bịt kín khe gió bên dưới, máy không thoát được nhiệt.','Quan sát khe tản nhiệt: bụi bám nhiều là nguyên nhân đầu tiên cần xử lý.','Mở Task Manager (Ctrl + Shift + Esc) xem có ứng dụng nào chạy ngầm ngốn CPU bất thường không.','Nghe tiếng quạt: quạt kêu to đều thì thường do nóng và bụi; quạt kêu lạch cạch, rè thì khác, cần mang ra tiệm.','Các bước xử lý — Bước 1: Tắt máy hoàn toàn, rút sạc. Đặt laptop trên mặt bàn phẳng, cứng và thoáng.','Bước 2: Dùng chổi lông mềm quét nhẹ bụi bám ở khe tản nhiệt, quét theo chiều ra ngoài.','Bước 3: Dùng bình xịt khí nén thổi bụi ra khỏi khe: giữ bình thẳng đứng, thổi từng nhịp ngắn, không xịt liên tục một chỗ quá lâu.','Bước 4: Kê cao mặt sau laptop bằng đế tản nhiệt hoặc kê hai đầu lên một chút để gió lưu thông tốt hơn dưới đáy máy.','Bước 5: Đóng các ứng dụng nặng và phần mềm chạy ngầm không cần thiết; khi chỉ làm việc nhẹ, bật chế độ tiết kiệm pin hoặc chế độ cân bằng.','Bước 6: Vệ sinh khe tản nhiệt định kỳ mỗi 3–6 tháng, tùy môi trường bạn dùng máy có nhiều bụi hay không.','Test lại — Mở máy và dùng bình thường khoảng 15–20 phút: sờ đáy máy xem còn nóng ran không, nghe tiếng quạt đã êm hơn chưa.','Thử đúng tác vụ trước đây hay làm máy nóng (xem video, mở nhiều tab): nếu máy mát hơn, không còn giật lag hay tự tắt thì đã cải thiện.','Nếu vẫn nóng như cũ, hãy kiểm tra lại cách đặt máy và thử vệ sinh thêm một lần nữa trước khi nghĩ đến lỗi khác.','Khi nào nên mang ra tiệm — Đã vệ sinh ngoài và đặt máy đúng cách mà máy vẫn nóng, quạt vẫn gào và hay tự tắt.','Quạt kêu lạch cạch, rè, hoặc không quay — có thể quạt đã hỏng.','Máy nóng kèm mùi khét, pin bị phồng, vỏ máy cong vênh: tắt máy ngay và mang ra tiệm, không cố dùng tiếp.','Cần tháo máy vệ sinh sâu bên trong: nên mang ra tiệm uy tín, đừng tự tháo vì có thể mất bảo hành hoặc làm hỏng linh kiện.'],note:'Lưu ý: bài này chỉ hướng dẫn vệ sinh bên ngoài và kiểm tra cơ bản, an toàn cho người dùng phổ thông. Tuyệt đối không tự tháo máy nếu bạn không có kinh nghiệm.'},
+{id:3,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Apple',img:'assets/repair.jpg',title:'iPhone hao pin nhanh: kiểm tra tại nhà trước khi thay pin',excerpt:'7 bước kiểm tra hao pin, xem độ chai pin và nhận biết khi nào thật sự cần thay pin mới.',tags:['iphone','pin','hao pin','sua-chua','thay pin'],mins:6,steps:['Vào Cài đặt > Pin > Tình trạng pin, xem dung lượng tối đa. Dưới 80% là dấu hiệu nên thay.','Xem biểu đồ pin 24h để tìm app ngốn pin bất thường.','Tắt làm mới ứng dụng nền cho app ít dùng, giảm độ sáng và thử lại 1 ngày.','Nếu máy nóng và tụt pin cả khi không dùng, sao lưu dữ liệu rồi mang kiểm tra pin / main.'],note:'Không tự mở máy nếu không có dụng cụ và kinh nghiệm — dễ làm đứt cáp màn hình, mất chống nước.'},
+{id:4,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Chung',img:'assets/repair.jpg',title:'Điện thoại sập nguồn, không lên nguồn: thử gì trước?',excerpt:'Phân biệt hết pin, treo máy, hỏng màn hình và lỗi nguồn — tránh bị báo giá sửa sai.',tags:['sap nguon','khong len nguon','nong may','sua-chua'],mins:5,steps:['Cắm sạc chính hãng 30 phút rồi thử khởi động lại bằng tổ hợp phím cứng.','Thử gọi vào máy: có chuông mà màn đen thường là lỗi màn hình.','Để máy nguội hẳn nếu vừa nóng / vô nước, không sạc tiếp.','Vẫn không lên: mang ra tiệm uy tín, yêu cầu báo rõ lỗi trước khi sửa.'],note:'Máy vô nước tuyệt đối không sấy nóng và không cắm sạc ngay.'},
+{id:5,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Chung',img:'assets/repair.jpg',title:'Màn hình sọc, liệt cảm ứng & loa rè: giá sửa tham khảo',excerpt:'Cách nhận biết lỗi màn, lỗi cảm ứng, loa rè / mất mic và checklist check máy sau khi sửa.',tags:['man hinh','liet cam ung','loa re','mat mic','sua-chua','gia sua'],mins:6,steps:['Chụp lại tình trạng máy và số IMEI trước khi giao máy.','Hỏi rõ màn thay là loại nào, bảo hành bao lâu, có giữ lại linh kiện cũ không.','Sau sửa: test cảm ứng toàn màn, Face ID, loa, mic, camera và sạc.'],note:'Giá sửa thay đổi theo model và loại linh kiện — luôn hỏi giá trọn gói trước khi đồng ý sửa.'},
+{id:18,cat:'phone',catLabel:'Điện thoại',sub:'Sửa chữa',brand:'Samsung',img:'assets/ss-a52.jpg',fit:'contain',brand:'Samsung',title:'Samsung A52 tự mất hiển thị (blank display): xử lý bằng jumper trên main',excerpt:'Máy vẫn còn nguồn nhưng màn hình tự đen, mất hiển thị. Ảnh ss a52 chỉ rõ vị trí linh kiện T7 2EA trên main và cách câu dây jumper để khôi phục đường hiển thị.',tags:['samsung','a52','ss a52','sua-chua','man hinh','mat hien thi','blank display','jumper'],mins:6,steps:['Nhận biết đúng lỗi: Samsung A52 đang dùng thì tự mất hiển thị, màn hình đen (Automatic blank display như ghi trên ảnh) nhưng máy vẫn rung, đổ chuông khi có cuộc gọi hoặc vẫn báo sạc — dấu hiệu máy còn nguồn, lỗi nằm ở phần hiển thị chứ không phải mất nguồn hoàn toàn.','Loại trừ màn hình trước: thử một màn hình tốt khác và kiểm tra lại socket, cáp nối màn hình trên main. Nếu thay màn vẫn không lên hình thì mới chuyển sang kiểm tra main, tránh thay màn oan.','Mở máy, ngắt pin trước khi thao tác. Soi dưới kính hiển vi đúng khu vực trong ảnh ss a52: vòng tròn bên trái là linh kiện đen in chữ T7 / 2EA trên mạch xanh, hai mũi tên đỏ chỉ vào hai chân ở hai đầu linh kiện — đây là vị trí cần đo kiểm trên đường hiển thị.','Đo kiểm đường đi qua linh kiện T7 2EA: nếu đường hiển thị bị đứt hoặc linh kiện này hỏng làm mất đường tín hiệu / nguồn cấp cho hiển thị, máy sẽ có hiện tượng tự blank màn dù vẫn hoạt động.','Câu jumper như vòng tròn bên phải trong ảnh: dùng dây đồng mảnh, hàn nối thẳng hai điểm ở hai đầu vị trí linh kiện (sợi dây bạc chạy dọc nối điểm hàn phía trên xuống điểm hàn phía dưới, mũi tên đỏ chỉ vào giữa sợi dây) để nối lại đường hiển thị đã đứt. Hàn gọn, tránh để thiếc chạm sang chân bên cạnh.','Lắp tạm màn hình, gắn lại pin và bật máy test: kiểm tra màn hình có lên hình ổn định không, test thêm cảm ứng, độ sáng, camera và sạc. Nếu hiển thị trở lại bình thường mới ráp hoàn thiện máy.'],note:'Đây là sửa main cấp linh kiện — cần kính hiển vi, mỏ hàn, dây jumper và kinh nghiệm đo mạch. Ảnh ss a52 là bản render minh họa vị trí linh kiện và đường câu dây, khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự làm: hàn sai dễ chập đường khác, làm lỗi nặng hơn — nên mang ra thợ sửa main uy tín.'},
+{id:6,cat:'phone',catLabel:'Điện thoại',sub:'Mẹo iPhone',brand:'Apple',img:'assets/phone.webp',title:'Mẹo iPhone: tiết kiệm pin & chụp ảnh đẹp hơn',excerpt:'Tinh chỉnh cài đặt pin, camera và bộ nhớ để iPhone dùng mượt hơn mỗi ngày.',tags:['iphone','meo','pin','camera'],mins:4,steps:['Bật Tối ưu hóa sạc pin và giới hạn sạc nếu máy hỗ trợ.','Dùng lưới 3x3 và khóa sáng khi chụp ngược sáng.','Dọn ảnh trùng và video 4K cũ lên cloud / máy tính định kỳ.'],note:'Tránh app “tăng tốc / dọn rác” không rõ nguồn trên iPhone — iOS không cần các app này.'},
+{id:7,cat:'phone',catLabel:'Điện thoại',sub:'Phần mềm',brand:'Chung',img:'assets/phone.webp',title:'Phần mềm điện thoại: app chỉnh ảnh, ghi chú & chặn quảng cáo nên dùng',excerpt:'Nhóm app hay cho iPhone và Android, kèm mẹo cập nhật iOS/Android an toàn và bảo mật.',tags:['phan mem','app','capcut','ios','android','bao mat','chan quang cao'],mins:5,steps:['Chỉ cài app từ App Store / CH Play, xem kỹ quyền app xin truy cập.','Trước khi cập nhật iOS/Android: sao lưu ảnh và danh bạ, cắm sạc trên 50%.','Bật Tìm thiết bị / Find My và khóa từng app chứa thông tin riêng tư.'],note:'Lỗi sau cập nhật thường hết sau 1–2 ngày máy tối ưu lại — đừng vội hạ cấp hệ điều hành.'},
+{id:8,cat:'phone',catLabel:'Điện thoại',sub:'So sánh',brand:'Chung',img:'assets/phone.webp',title:'So sánh điện thoại tầm 5–10–15 triệu: chọn theo nhu cầu nào?',excerpt:'Camera, pin, hiệu năng hay màn hình — ưu tiên gì ở từng tầm giá để không mua thừa.',tags:['so sanh','tam gia','mua ban','check may cu'],mins:5,steps:['Liệt kê 2 nhu cầu quan trọng nhất của bạn trước khi xem cấu hình.','So sánh pin, sạc nhanh và thời gian hỗ trợ cập nhật, không chỉ chip.','Mua máy cũ: test IMEI, màn hình, camera, sạc và tài khoản ẩn.'],note:'Đừng mua theo điểm benchmark nếu nhu cầu chỉ là mạng xã hội và chụp ảnh.'},
+{id:9,cat:'laptop',catLabel:'Laptop',sub:'Mẹo dùng',brand:'Chung',img:'assets/laptop.jpg',title:'Laptop chậm: tăng tốc Windows & nâng cấp RAM / SSD',excerpt:'Dọn startup, kiểm tra ổ cứng và nhận biết khi nào nâng RAM/SSD là đáng tiền nhất.',tags:['windows','tang toc','ram','ssd','meo'],mins:6,steps:['Mở Task Manager > Startup, tắt app không cần khởi động cùng máy.','Kiểm tra ổ C còn trống ít nhất 15–20%.','Máy còn dùng HDD hoặc RAM 8GB: nâng SSD / RAM cho hiệu quả rõ nhất.'],note:'Sao lưu dữ liệu quan trọng trước khi thay ổ cứng hoặc cài lại Windows.'},
+{id:10,cat:'laptop',catLabel:'Laptop',sub:'Lỗi thường gặp',brand:'Chung',img:'assets/laptop.jpg',title:'Laptop chai pin, quạt kêu to, không lên nguồn: xử lý sao?',excerpt:'Tìm theo triệu chứng để khoanh đúng lỗi, tránh thay linh kiện không cần thiết.',tags:['chai pin','pin','quat keu','khong len nguon','man hinh soc','loi'],mins:6,steps:['Quạt kêu: kiểm tra nhiệt độ, vệ sinh khe gió và đế tản nhiệt.','Chai pin: xem số chu kỳ sạc và chỉ dùng pin rời / giới hạn sạc nếu máy hỗ trợ.','Không lên nguồn: thử sạc khác cùng công suất, tháo pin rời (nếu có) và xả điện tĩnh.'],note:'Màn hình sọc khi gập mở thường do cáp màn — test bằng màn hình rời để phân biệt lỗi card / màn.'},
+{id:11,cat:'laptop',catLabel:'Laptop',sub:'Phần mềm',brand:'Chung',img:'assets/laptop.jpg',title:'Phần mềm laptop: Windows, Office, PDF & diệt virus',excerpt:'Cài đặt, cập nhật driver, sao lưu dữ liệu và nhóm phần mềm văn phòng / học tập / đồ họa.',tags:['phan mem','windows','macos','office','pdf','driver','virus','sao luu'],mins:5,steps:['Cập nhật Windows và driver từ trang hãng laptop, không dùng tool driver lạ.','Dùng 1 phần mềm diệt virus là đủ, bật sao lưu tự động lên cloud / ổ rời.','Cài Office / PDF từ nguồn chính thức, tránh bản crack chứa mã độc.'],note:'Trước khi cài lại Windows, chép riêng driver Wi-Fi ra USB phòng khi máy không có mạng.'},
+{id:12,cat:'laptop',catLabel:'Laptop',sub:'Theo nhu cầu',brand:'Nhiều hãng',img:'assets/laptop.jpg',title:'Chọn laptop theo nhu cầu: văn phòng, gaming, đồ họa, mỏng nhẹ',excerpt:'Khung chọn nhanh theo nhu cầu và hãng Dell, HP, Lenovo, Asus, Acer, MacBook.',tags:['van phong','gaming','do hoa','mong nhe','dell','lenovo','macbook'],mins:5,steps:['Văn phòng: ưu tiên bàn phím, pin và cân nặng.','Gaming / đồ họa: ưu tiên GPU, tản nhiệt và màn hình màu chuẩn.','Mỏng nhẹ: chấp nhận ít cổng kết nối và khó nâng cấp hơn.'],note:'Cùng tầm giá, máy gaming mạnh hơn nhưng nặng và pin yếu hơn máy văn phòng.'},
+{id:13,cat:'pc',catLabel:'PC',sub:'Build PC',brand:'Chung',img:'assets/pc.webp',title:'Build PC 15 triệu chơi game mượt: chọn linh kiện thế nào?',excerpt:'Cân bằng CPU, card đồ họa RTX và nguồn — công thức build theo ngân sách 10 / 15 / 20 / 30 triệu.',tags:['build','15tr','rtx 4060','gaming','cpu','gpu'],mins:7,steps:['Dành tỉ trọng lớn nhất cho card đồ họa nếu mục tiêu là gaming.','Chọn nguồn có chứng nhận, công suất dư khoảng 30% cho cấu hình.','Ưu tiên SSD NVMe 1TB và RAM dual-channel 16–32GB.','Để lại đường nâng cấp: main và nguồn đừng chọn sát giới hạn.'],note:'Đừng dồn tiền vào case đèn RGB mà cắt nguồn — nguồn kém là lỗi khó chịu nhất của PC.'},
+{id:14,cat:'pc',catLabel:'PC',sub:'Linh kiện',brand:'Chung',img:'assets/pc.webp',title:'Linh kiện PC: CPU, GPU, Main, RAM, SSD, Nguồn — đọc thông số sao cho đúng?',excerpt:'Giải thích thông số quan trọng của từng linh kiện và cách test hiệu năng / benchmark.',tags:['linh kien','cpu','gpu','main','ram','ssd','nguon','benchmark','rtx'],mins:6,steps:['CPU/GPU: xem benchmark đúng game / phần mềm bạn dùng.','RAM: ưu tiên 2 thanh chạy dual-channel, đúng chuẩn main hỗ trợ.','Nguồn: xem công suất thực, chuẩn 80 Plus và số đầu cấp nguồn cho GPU.'],note:'Thông số quảng cáo không thay được test thực tế ở độ phân giải bạn chơi.'},
+{id:15,cat:'pc',catLabel:'PC',sub:'Lỗi PC',brand:'Chung',img:'assets/pc.webp',title:'PC không lên hình, màn hình xanh, kêu bíp, tự tắt: bắt bệnh nhanh',excerpt:'Quy trình kiểm tra từ dễ tới khó: RAM, cáp màn, nguồn và nhiệt độ.',tags:['khong len hinh','man hinh xanh','keu bip','tu tat','loi pc'],mins:6,steps:['Nghe tiếng bíp và đếm số bíp — đó là mã lỗi của main.','Tháo RAM lau chân tiếp xúc, cắm thử từng thanh / từng khe.','Kiểm tra cáp màn cắm vào card đồ họa chứ không phải main (khi có GPU rời).','Tự tắt khi tải nặng: nghi ngờ nhiệt độ hoặc nguồn yếu.'],note:'Tháo lắp linh kiện khi đã rút điện hoàn toàn và xả điện tĩnh.'},
+{id:16,cat:'pc',catLabel:'PC',sub:'Phần mềm',brand:'Chung',img:'assets/pc.webp',title:'Phần mềm PC: cài Windows, driver GPU, OBS & tăng FPS',excerpt:'Steam, Discord, OBS / Premiere, cập nhật BIOS an toàn và tối ưu PC chơi game.',tags:['phan mem','windows','driver','obs','steam','discord','tang fps','bios','photoshop'],mins:6,steps:['Cài Windows sạch rồi cài driver card đồ họa từ trang NVIDIA / AMD chính thức.','OBS: chọn encoder của GPU (NVENC) để livestream nhẹ máy hơn.','Tăng FPS: giảm setting nặng như ray tracing / khử răng cưa trước, đừng ép xung vội.','Cập nhật BIOS chỉ khi cần hỗ trợ CPU mới hoặc sửa lỗi — cắm điện ổn định khi update.'],note:'Không dùng phần mềm “tối ưu 1 click” không rõ nguồn — dễ cài thêm rác và lỗi Windows.'},
+{id:17,cat:'accessory',catLabel:'Phụ kiện',sub:'Tai nghe & âm thanh',brand:'Chung',img:'assets/phone.webp',title:'Chọn tai nghe, chuột, bàn phím & màn hình không phí tiền',excerpt:'Tiêu chí mua phụ kiện theo nhu cầu thật: họp online, gaming, làm việc dài giờ.',tags:['tai nghe','chuot','ban phim','man hinh','phu kien'],mins:4,steps:['Xác định dùng có dây hay không dây, độ trễ có quan trọng không.','Màn hình: ưu tiên độ sáng, màu sắc và kích thước bàn làm việc.','Thử cảm giác gõ / cầm nắm nếu mua bàn phím, chuột dùng mỗi ngày.'],note:'Phụ kiện đắt nhất không phải phụ kiện hợp nhất — hợp tay và hợp nhu cầu mới quan trọng.'}
+];
+var DEFAULT_SUBS={hot:['Tất cả','Tin nóng 24h','Rò rỉ / Tin đồn','Sự kiện & Sale','Bảng xếp hạng'],phone:['Tất cả','Tin mới & Đánh giá','So sánh','Mẹo iPhone','Mẹo Android','Sửa chữa','Phần mềm','Mua bán'],laptop:['Tất cả','Theo nhu cầu','Theo hãng','Đánh giá & So sánh','Mẹo dùng','Lỗi thường gặp','Phần mềm'],pc:['Tất cả','Build PC','Linh kiện','Đánh giá','Mẹo','Lỗi PC','Phần mềm'],accessory:['Tất cả','Tai nghe & âm thanh','Chuột & Bàn phím','Màn hình','Tablet & Đồng hồ']};
+var ARTICLES=JSON.parse(JSON.stringify(DEFAULT_ARTICLES));
+var SUBS=JSON.parse(JSON.stringify(DEFAULT_SUBS));
+var activeSub={};
+var BRANDS={phone:['Apple','Samsung','Xiaomi','OPPO','Vivo','Realme','Nokia','Huawei','Honor','Khác'],laptop:['Apple','Dell','HP','Lenovo','Asus','Acer','MSI','LG','Gigabyte','Khác'],pc:['Apple','Dell','HP','Lenovo','Asus','Acer','MSI','Khác'],hot:['Apple','Samsung','Xiaomi','OPPO','Nokia','Dell','HP','Lenovo','Khác'],accessory:['Apple','Samsung','Sony','JBL','Logitech','Khác']};
+var REPAIR_SUB={phone:'Sửa chữa',laptop:'Lỗi thường gặp'};
+var activeBrand={};
+function inferBrand(a){var h=norm((a.title||'')+' '+((a.tags||[]).join(' ')));var keys=[['iphone','Apple'],['macbook','Apple'],['apple','Apple'],['samsung','Samsung'],['nokia','Nokia'],['xiaomi','Xiaomi'],['redmi','Xiaomi'],['poco','Xiaomi'],['oppo','OPPO'],['vivo','Vivo'],['realme','Realme'],['huawei','Huawei'],['honor','Honor'],['thinkpad','Lenovo'],['lenovo','Lenovo'],['dell','Dell'],['asus','Asus'],['acer','Acer'],['msi','MSI'],['sony','Sony'],['jbl','JBL'],['logitech','Logitech']];for(var i=0;i<keys.length;i++){if(h.indexOf(keys[i][0])>-1)return keys[i][1]}if(/(^|\s)hp(\s|$)/.test(h))return 'HP';if(/(^|\s)lg(\s|$)/.test(h))return 'LG';return 'Chung'}
+function brandOf(a){return a.brand?a.brand:inferBrand(a)}
+function brandListFor(cat){var list=(BRANDS[cat]||[]).slice();ARTICLES.forEach(function(a){if(a.cat===cat){var b=brandOf(a);if(b&&b!=='Chung'&&b!=='Nhiều hãng'&&list.indexOf(b)===-1)list.push(b)}});return list}
+function syncSubChips(cat){var wrap=document.querySelector('[data-chips="'+cat+'"]');if(!wrap)return;wrap.querySelectorAll('.chip').forEach(function(x){x.classList.toggle('active',x.dataset.sub===(activeSub[cat]||'Tất cả'))})}
+function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d')}
+function matches(a,q){if(!q)return true;var h=norm(a.title+' '+a.excerpt+' '+a.sub+' '+(a.brand||'')+' '+a.tags.join(' '));return norm(q).split(/\s+/).every(function(w){return h.indexOf(w)>-1})}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function cardHTML(a){return '<article class="card"><img src="'+esc(a.img)+'" class="'+(a.fit==='contain'?'contain':'')+'" alt=""><div class="card-body"><div class="meta"><span class="tag">'+esc(a.catLabel)+'</span><span class="tag orange">'+esc(a.sub)+'</span>'+(brandOf(a)?'<span class="tag brand">Hãng: '+esc(brandOf(a))+'</span>':'')+'<span style="font-size:.8rem;color:var(--muted)">'+a.mins+' phút đọc</span></div><h3>'+esc(a.title)+'</h3><p>'+esc(a.excerpt)+'</p><div class="meta">'+a.tags.slice(0,3).map(function(t){return '<span class="tag">#'+esc(t)+'</span>'}).join('')+'</div><button class="readbtn" data-read="'+a.id+'">Đọc bài →</button><div class="admin-only" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:4px"><button class="mini" data-edit="'+a.id+'" type="button">✏️ Sửa bài</button><button class="mini danger" data-del="'+a.id+'" type="button">🗑️ Xóa bài</button></div></div></article>'}
+function renderSection(cat){
+  var grid=document.querySelector('[data-grid="'+cat+'"]'); if(!grid)return;
+  var input=document.getElementById('s-'+cat); var q=input?input.value.trim():'';
+  var sub=activeSub[cat]||'Tất cả';
+  var brand=activeBrand[cat]||'Tất cả hãng';
+  var list=ARTICLES.filter(function(a){return a.cat===cat && (sub==='Tất cả'||a.sub===sub) && (brand==='Tất cả hãng'||brandOf(a)===brand) && matches(a,q)});
+  grid.innerHTML=list.map(cardHTML).join('');
+  var empty=document.querySelector('[data-empty="'+cat+'"]'); if(empty)empty.hidden=list.length>0;
+  var c=document.getElementById('c-'+cat); if(c)c.textContent=(q||sub!=='Tất cả'||brand!=='Tất cả hãng')?('Đang hiện '+list.length+' bài trong mục này'+(sub!=='Tất cả'?' · mục con “'+sub+'”':'')+(brand!=='Tất cả hãng'?' · hãng “'+brand+'”':'')+(q?' cho “'+q+'”':'')):('Tổng '+list.length+' bài trong mục này');
+  renderBrandFilter(cat);renderBrandFolders(cat);renderRepairBrands(cat);
+  bindRead();
+}
+function buildChips(cat){
+  var wrap=document.querySelector('[data-chips="'+cat+'"]'); if(!wrap)return; activeSub[cat]='Tất cả'; activeBrand[cat]='Tất cả hãng';
+  wrap.innerHTML=SUBS[cat].map(function(s){return '<button class="chip'+(s==='Tất cả'?' active':'')+'" data-cat="'+cat+'" data-sub="'+esc(s)+'">'+esc(s)+'</button>'}).join('');
+  wrap.querySelectorAll('.chip').forEach(function(b){b.addEventListener('click',function(){activeSub[cat]=b.dataset.sub;wrap.querySelectorAll('.chip').forEach(function(x){x.classList.toggle('active',x===b)});renderSection(cat)})});
+}
+function renderBrandFilter(cat){
+  var box=document.querySelector('[data-brandwrap="'+cat+'"]'); if(!box)return;
+  var sub=activeSub[cat]||'Tất cả';
+  var base=ARTICLES.filter(function(a){return a.cat===cat && (sub==='Tất cả'||a.sub===sub)});
+  var cur=activeBrand[cat]||'Tất cả hãng';
+  var chips=['Tất cả hãng'].concat(brandListFor(cat));
+  if(base.some(function(a){return brandOf(a)==='Chung'}))chips.push('Chung');
+  if(base.some(function(a){return brandOf(a)==='Nhiều hãng'}))chips.push('Nhiều hãng');
+  box.innerHTML='<div class="brand-head">🏷️ Lọc theo hãng<small>Chọn một hãng để chỉ xem bài của hãng đó. Kết hợp với mục con ở trên — ví dụ chọn mục con “'+(REPAIR_SUB[cat]||'Sửa chữa')+'” rồi chọn hãng — là ra đúng thư mục bài sửa của hãng đó.</small></div><div class="brand-chips">'+chips.map(function(b){var n=b==='Tất cả hãng'?base.length:base.filter(function(a){return brandOf(a)===b}).length;return '<button class="bchip'+(b===cur?' active':'')+'" data-bchip="'+cat+'" data-brand="'+esc(b)+'" type="button">'+esc(b)+' <span class="cnt">('+n+')</span></button>'}).join('')+'</div>';
+  box.querySelectorAll('[data-bchip]').forEach(function(btn){btn.addEventListener('click',function(){activeBrand[cat]=btn.dataset.brand;renderSection(cat)})});
+}
+function renderBrandFolders(cat){
+  var box=document.querySelector('[data-brandfolders="'+cat+'"]'); if(!box)return;
+  var rsub=REPAIR_SUB[cat];
+  if(!rsub||(activeSub[cat]||'Tất cả')!==rsub){box.innerHTML='';return}
+  var base=ARTICLES.filter(function(a){return a.cat===cat&&a.sub===rsub});
+  var cur=activeBrand[cat]||'Tất cả hãng';
+  if(cur!=='Tất cả hãng'){
+    var n=base.filter(function(a){return brandOf(a)===cur}).length;
+    box.innerHTML='<div class="folder-open"><span>📁 <b>'+esc(rsub)+' › Hãng '+esc(cur)+'</b> — '+n+' bài trong thư mục này</span><button class="mini" data-backfolder="'+cat+'" type="button">← Quay lại tất cả hãng</button></div>';
+    var back=box.querySelector('[data-backfolder]'); if(back)back.onclick=function(){activeBrand[cat]='Tất cả hãng';renderSection(cat)};
+    return;
+  }
+  var names=brandListFor(cat).slice();
+  if(base.some(function(a){return brandOf(a)==='Chung'}))names.push('Chung');
+  if(base.some(function(a){return brandOf(a)==='Nhiều hãng'}))names.push('Nhiều hãng');
+  var folders=names.map(function(b){return {name:b,count:base.filter(function(a){return brandOf(a)===b}).length}});
+  folders.sort(function(x,y){return (y.count-x.count)||x.name.localeCompare(y.name)});
+  box.innerHTML='<div class="folders-head">📁 Thư mục hãng trong mục '+esc(rsub)+'<small>Mỗi hãng một thư mục riêng — bấm vào thư mục của hãng để xem riêng các bài '+esc(rsub.toLowerCase())+' của hãng đó. Khi đăng bài sửa, chọn đúng hãng là bài tự vào đúng thư mục này.</small></div><div class="folders">'+folders.map(function(f){return '<button class="folder'+(f.count?'':' empty-folder')+'" data-folder="'+cat+'" data-brand="'+esc(f.name)+'" type="button"><span class="fic">📁</span><span class="fname">'+esc(f.name)+'</span><span class="fcount">'+(f.count?f.count+' bài':'Chưa có bài')+'</span></button>'}).join('')+'</div>';
+  box.querySelectorAll('[data-folder]').forEach(function(btn){btn.addEventListener('click',function(){activeBrand[cat]=btn.dataset.brand;renderSection(cat);window.scrollTo({top:0,behavior:'smooth'})})});
+}
+function renderRepairBrands(cat){
+  var box=document.querySelector('[data-repairbrands="'+cat+'"]'); if(!box)return;
+  var rsub=REPAIR_SUB[cat]; if(!rsub)return;
+  var base=ARTICLES.filter(function(a){return a.cat===cat&&a.sub===rsub});
+  var names=brandListFor(cat).filter(function(b){return base.some(function(a){return brandOf(a)===b})});
+  if(base.some(function(a){return brandOf(a)==='Chung'}))names.push('Chung');
+  box.innerHTML=names.length?names.map(function(b){var n=base.filter(function(a){return brandOf(a)===b}).length;return '<button class="bchip" data-rbrand="'+cat+'" data-brand="'+esc(b)+'" type="button">📁 '+esc(b)+' <span class="cnt">('+n+' bài)</span></button>'}).join(''):'<span style="color:var(--muted);font-size:.9rem">Chưa có bài sửa chữa nào — đăng bài mới và chọn hãng là thư mục hãng sẽ hiện ở đây.</span>';
+  box.querySelectorAll('[data-rbrand]').forEach(function(btn){btn.addEventListener('click',function(){activeSub[cat]=rsub;syncSubChips(cat);activeBrand[cat]=btn.dataset.brand;var inp=document.getElementById('s-'+cat);if(inp)inp.value='';renderSection(cat);window.scrollTo({top:0,behavior:'smooth'})})});
+}
+function bindRead(){document.querySelectorAll('[data-read]').forEach(function(b){b.onclick=function(){openReader(+b.dataset.read)}});document.querySelectorAll('[data-edit]').forEach(function(b){b.onclick=function(){startEdit(+b.dataset.edit)}});document.querySelectorAll('[data-del]').forEach(function(b){b.onclick=function(){askDelete(+b.dataset.del)}})}
+function openReader(id){var a=ARTICLES.find(function(x){return x.id===id});if(!a)return;document.getElementById('rCat').textContent=a.catLabel+' · '+a.sub+(brandOf(a)?' · Hãng: '+brandOf(a):'');document.getElementById('rTitle').textContent=a.title;document.getElementById('rExcerpt').textContent=a.excerpt;var rImg=document.getElementById('rImg');rImg.src=a.img||'';rImg.alt=a.title||'';rImg.style.display=a.img?'block':'none';document.getElementById('rTags').innerHTML=(brandOf(a)?'<span class="tag brand">Hãng: '+esc(brandOf(a))+'</span>':'')+a.tags.map(function(t){return '<span class="tag">#'+esc(t)+'</span>'}).join('');document.getElementById('rSteps').innerHTML=a.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('');document.getElementById('rNote').textContent=a.note;document.getElementById('reader').showModal()}
+document.getElementById('closeReader').onclick=function(){document.getElementById('reader').close()};
+['hot','phone','laptop','pc','accessory'].forEach(function(cat){var inp=document.getElementById('s-'+cat);if(inp)inp.addEventListener('input',function(){renderSection(cat)})});
+function latestArticles(){return ARTICLES.slice().sort(function(a,b){return b.id-a.id}).slice(0,6)}
+function refreshAll(){['hot','phone','laptop','pc','accessory'].forEach(function(cat){buildChips(cat);renderSection(cat)});document.getElementById('homeGrid').innerHTML=latestArticles().map(cardHTML).join('');bindRead();renderSubLists();fillSubs()}
+/* Gallery */
+var GALLERY=[{img:'assets/laptop-nong-may-ve-sinh-khe-tan-nhiet.jpg',title:'Laptop nóng máy, quạt kêu to — vệ sinh khe tản nhiệt & kiểm tra cách đặt máy',cat:'Laptop',tags:'laptop nong-may quat-keu ve-sinh khe-tan-nhiet tan-nhiet loi-thuong-gap'},{img:'assets/samsung-a53-tam-dung-sac-loi-qua-nhiet.jpg',fit:'contain',title:'Samsung A53 — tạm dừng sạc, báo lỗi quá nhiệt (Charging Paused): kiểm tra bo sạc & cảm biến nhiệt',cat:'Sửa chữa',tags:'samsung a53 sua-chua sac tam-dung-sac charging-paused qua-nhiet nong-may cam-bien-nhiet'},{img:'assets/sac-cham-ve-sinh-chan-sac.jpg',title:'Điện thoại sạc chậm — vệ sinh chân sạc & kiểm tra cáp, củ sạc',cat:'Sửa chữa',tags:'sac-cham chan-sac cap-sac ve-sinh sua-chua dien-thoai'},{img:'assets/nokia-105-ta1034-duong-sac.jpg',fit:'contain',title:'Nokia 105 TA-1034 — đường sạc: câu jumper khôi phục sạc & USB',cat:'Sửa chữa',tags:'nokia 105 ta-1034 sua-chua jumper duong-sac khong-sac usb'},{img:'assets/iphone-13-man-hinh-trang-xanh-vang.jpg',fit:'contain',title:'iPhone 13 / 13 Pro / 13 Pro Max — jumper xử lý màn hình trắng, xanh, vàng',cat:'Sửa chữa',tags:'iphone 13 13-pro 13-pro-max sua-chua jumper man-hinh-xanh man-hinh-trang man-hinh-vang'},{img:'assets/ss-a52.jpg',fit:'contain',title:'Samsung A52 — ss a52: jumper xử lý tự mất hiển thị',cat:'Sửa chữa',tags:'samsung a52 ss-a52 sua-chua jumper blank-display mat-hien-thi'},{img:'assets/repair.jpg',title:'Thay pin & mở máy iPhone / Android',cat:'Sửa chữa',tags:'iphone pin sua-chua thay-pin'},{img:'assets/repair.jpg',title:'Kiểm tra main & cáp màn hình',cat:'Sửa chữa',tags:'man-hinh sua-chua main'},{img:'assets/pc.webp',title:'Build PC 15tr — đi dây & tản nhiệt',cat:'PC',tags:'build-pc rtx-4060 pc 15tr'},{img:'assets/pc.webp',title:'Linh kiện PC: GPU / RAM / Nguồn',cat:'PC',tags:'linh-kien gpu ram nguon pc'},{img:'assets/laptop.jpg',title:'Setup laptop văn phòng',cat:'Laptop',tags:'laptop van-phong setup'},{img:'assets/phone.webp',title:'Trên tay điện thoại — góc chụp tham khảo',cat:'Điện thoại',tags:'dien-thoai iphone camera'}];
+function renderGallery(){var q=document.getElementById('s-gallery').value.trim();var list=GALLERY.filter(function(g){return !q||norm(g.title+' '+g.cat+' '+(g.brand||'')+' '+g.tags).indexOf(norm(q))>-1});document.getElementById('galleryGrid').innerHTML=list.map(function(g){return '<article class="gitem"><img src="'+esc(g.img)+'" class="'+(g.fit==='contain'?'contain':'')+'" alt="'+esc(g.title)+'"><div><span class="tag">'+esc(g.cat)+'</span>'+(g.brand?'<span class="tag brand" style="margin-left:6px">Hãng: '+esc(g.brand)+'</span>':'')+'<h3 style="margin:8px 0 4px;font-size:1rem">'+esc(g.title)+'</h3><p style="margin:0;color:var(--muted);font-size:.88rem">'+g.tags.split(' ').map(function(t){return '#'+esc(t)}).join(' ')+'</p></div></article>'}).join('');document.getElementById('galleryEmpty').hidden=list.length>0;document.getElementById('c-gallery').textContent='Đang hiện '+list.length+' / '+GALLERY.length+' ảnh'}
+document.getElementById('s-gallery').addEventListener('input',renderGallery);renderGallery();
+/* Nav */
+function go(view){document.querySelectorAll('.view').forEach(function(v){v.classList.toggle('active',v.id==='view-'+view)});document.querySelectorAll('.navbtn').forEach(function(b){b.classList.toggle('active',b.dataset.view===view)});window.scrollTo({top:0,behavior:'smooth'})}
+document.querySelectorAll('.navbtn[data-view]').forEach(function(b){b.addEventListener('click',function(){go(b.dataset.view)})});
+document.querySelectorAll('[data-goto]').forEach(function(b){b.addEventListener('click',function(){go(b.dataset.goto)})});
+document.querySelectorAll('[data-clear]').forEach(function(b){b.addEventListener('click',function(){var inp=document.getElementById(b.dataset.clear);inp.value='';inp.dispatchEvent(new Event('input'));if(b.dataset.clear==='s-gallery')renderGallery()})});
+document.querySelectorAll('[data-phoneq]').forEach(function(b){b.addEventListener('click',function(){var inp=document.getElementById('s-phone');inp.value=b.dataset.phoneq;activeSub.phone='Sửa chữa';syncSubChips('phone');activeBrand.phone='Tất cả hãng';renderSection('phone');window.scrollTo({top:0,behavior:'smooth'})})});
+/* Global search */
+function doGlobal(q){var box=document.getElementById('globalResults');if(!q){box.innerHTML='';return}var list=ARTICLES.filter(function(a){return matches(a,q)});box.innerHTML='<div class="section-head"><div><h2>Kết quả tìm tất cả cho “'+esc(q)+'”</h2><p>'+list.length+' bài ở mọi mục. Muốn tìm nhanh hơn, vào từng mục và dùng ô tìm riêng của mục đó.</p></div></div>'+(list.length?'<div class="grid">'+list.map(cardHTML).join('')+'</div>':'<div class="empty">Không thấy bài nào khớp. Thử từ ngắn hơn.</div>');bindRead()}
+document.getElementById('globalForm').addEventListener('submit',function(e){e.preventDefault();doGlobal(document.getElementById('globalInput').value.trim())});
+document.querySelectorAll('[data-q]').forEach(function(b){b.addEventListener('click',function(){document.getElementById('globalInput').value=b.dataset.q;doGlobal(b.dataset.q)})});
+/* Copy / download */
+function toast(msg){var t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(function(){t.style.display='none'},2200)}
+function copyText(txt,msg){
+  function fallback(){var ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.focus();ta.select();var ok=false;try{ok=document.execCommand('copy')}catch(e){ok=false}document.body.removeChild(ta);toast(ok?msg:'Không copy tự động được — đoạn mã đang hiện sẵn trên trang, bạn bôi đen rồi copy thủ công nhé')}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){toast(msg)},function(){fallback()})}else{fallback()}
+}
+document.getElementById('copyStruct').onclick=function(){copyText('meo-tech/\n├─ index.html\n├─ images/dien-thoai, laptop, pc, sua-chua, phu-kien\n└─ bai-viet/dien-thoai, laptop, pc','Đã copy cấu trúc thư mục!')};
+document.getElementById('copyTemplate').onclick=function(){copyText(document.getElementById('templateText').innerText,'Đã copy mẫu bài viết!')};
+document.getElementById('downloadTemplate').onclick=function(){var blob=new Blob([document.getElementById('templateText').innerText],{type:'text/markdown'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mau-bai-viet-meo-tech.md';a.click();setTimeout(function(){URL.revokeObjectURL(a.href)},2000);toast('Đã tải mẫu bài viết .md')};
+/* Post composer — đăng bài ngay trên web */
+var CAT_LABELS={hot:'Tin HOT',phone:'Điện thoại',laptop:'Laptop',pc:'PC',accessory:'Phụ kiện'};
+var CAT_IMG={hot:'assets/phone.webp',phone:'assets/phone.webp',laptop:'assets/laptop.jpg',pc:'assets/pc.webp',accessory:'assets/phone.webp'};
+var lastPosted=null,lastMd='';
+function fillSubs(){var cat=document.getElementById('pCat').value;document.getElementById('pSub').innerHTML=SUBS[cat].slice(1).map(function(s){return '<option>'+esc(s)+'</option>'}).join('');document.getElementById('pImg').value=CAT_IMG[cat];fillBrands()}
+function fillBrands(){var cat=document.getElementById('pCat').value;var sel=document.getElementById('pBrand');if(!sel)return;var cur=sel.value;var opts=['Chung','Nhiều hãng'].concat(BRANDS[cat]||[]);sel.innerHTML=opts.map(function(b){return '<option value="'+esc(b)+'">'+esc(b)+(b==='Chung'?' (áp dụng chung)':b==='Nhiều hãng'?' (bài tổng hợp nhiều hãng)':'')+'</option>'}).join('');if(opts.indexOf(cur)>-1)sel.value=cur}
+function getFormBrand(){var c=document.getElementById('pBrandCustom').value.trim();if(c)return c;var v=document.getElementById('pBrand').value;return v?v:'Chung'}
+document.getElementById('pCat').addEventListener('change',fillSubs);fillSubs();
+function slugify(s){return norm(s).replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'bai-viet'}
+document.getElementById('postForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  var title=document.getElementById('pTitle').value.trim();if(!title){toast('Bạn chưa nhập tiêu đề bài');return}
+  var cat=document.getElementById('pCat').value;
+  var steps=document.getElementById('pSteps').value.split('\n').map(function(s){return s.trim()}).filter(function(s){return s});
+  var tags=document.getElementById('pTags').value.split(/[,\s]+/).map(function(s){return s.trim()}).filter(function(s){return s}).slice(0,6);
+  var excerpt=document.getElementById('pExcerpt').value.trim();
+  var a={id:ARTICLES.reduce(function(m,x){return Math.max(m,x.id)},0)+1,cat:cat,catLabel:CAT_LABELS[cat],sub:document.getElementById('pSub').value,brand:getFormBrand(),img:document.getElementById('pImg').value,title:title,excerpt:excerpt||'Bài mới đăng trên Mẹo Tech.',tags:tags.length?tags:['bai-moi'],mins:Math.max(2,Math.round(steps.join(' ').split(/\s+/).filter(Boolean).length/60)+2),steps:steps.length?steps:['Nội dung chi tiết đang được cập nhật.'],note:document.getElementById('pNote').value.trim()||'—'};
+  var doneMsg;
+  if(editingId){var idx=ARTICLES.findIndex(function(x){return x.id===editingId});a.id=editingId;if(idx>-1)ARTICLES[idx]=a;editingId=null;document.getElementById('postSubmitBtn').textContent='Đăng bài ngay';document.getElementById('cancelEdit').hidden=true;doneMsg='Đã lưu bài đã sửa vào mục '+a.catLabel+'!'}
+  else{ARTICLES.unshift(a);doneMsg='Đã đăng bài vào mục '+a.catLabel+'!'}
+  lastPosted=a;saveData();
+  lastMd='# '+a.title+'\n\n**Mục:** '+a.catLabel+' > '+a.sub+'\n**Hãng:** '+a.brand+'\n**Tag:** '+a.tags.join(', ')+'\n\n## Tóm tắt\n'+a.excerpt+'\n\n## Cách làm từng bước\n'+a.steps.map(function(s,i){return (i+1)+'. '+s}).join('\n')+'\n\n## Lưu ý\n'+a.note+'\n';
+  buildChips(cat);activeSub[cat]=a.sub;syncSubChips(cat);activeBrand[cat]=a.brand;var inp=document.getElementById('s-'+cat);if(inp)inp.value='';renderSection(cat);renderSubLists();
+  document.getElementById('homeGrid').innerHTML=latestArticles().map(cardHTML).join('');bindRead();
+  document.getElementById('postMd').textContent=lastMd;
+  document.getElementById('postResult').hidden=false;
+  document.getElementById('postResult').scrollIntoView({behavior:'smooth',block:'nearest'});
+  toast(doneMsg);
+  document.getElementById('postForm').reset();fillSubs();
+});
+document.getElementById('copyPostMd').onclick=function(){if(lastMd)copyText(lastMd,'Đã copy file bài!')};
+document.getElementById('downloadPostMd').onclick=function(){if(!lastPosted)return;var blob=new Blob([lastMd],{type:'text/markdown'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=slugify(lastPosted.title)+'.md';a.click();setTimeout(function(){URL.revokeObjectURL(a.href)},2000);toast('Đã tải file bài .md')};
+document.getElementById('viewPosted').onclick=function(){if(lastPosted)go(lastPosted.cat)};
+/* ===== ADMIN: đăng nhập, sửa/xóa bài, quản lý mục con, lưu & xuất dữ liệu ===== */
+function sha256Hex(str){var buf=new TextEncoder().encode(str);return crypto.subtle.digest('SHA-256',buf).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('0'+b.toString(16)).slice(-2)}).join('')})}
+function saveData(){try{localStorage.setItem(LS_KEY,JSON.stringify({articles:ARTICLES,subs:SUBS}))}catch(e){toast('Trình duyệt không lưu được thay đổi — hãy tải file dữ liệu để giữ lại')}}
+function applyData(d){if(d&&Object.prototype.toString.call(d.articles)==='[object Array]'&&d.subs&&typeof d.subs==='object'){ARTICLES=d.articles;SUBS=d.subs;ARTICLES.forEach(function(a){if(!a.brand)a.brand=inferBrand(a)});return true}return false}
+/* Hộp xác nhận dùng chung */
+var confirmCb=null;
+function askConfirm(title,msg,cb){document.getElementById('confirmTitle').textContent=title;document.getElementById('confirmMsg').textContent=msg;confirmCb=cb;document.getElementById('confirmDialog').showModal()}
+document.getElementById('confirmNo').onclick=function(){document.getElementById('confirmDialog').close();confirmCb=null};
+document.getElementById('confirmYes').onclick=function(){document.getElementById('confirmDialog').close();if(confirmCb){var cb=confirmCb;confirmCb=null;cb()}};
+/* Hộp nhập tên dùng chung */
+var promptCb=null;
+function askPrompt(title,label,value,cb){document.getElementById('promptTitle').textContent=title;document.getElementById('promptLabel').textContent=label;document.getElementById('promptInput').value=value||'';promptCb=cb;document.getElementById('promptDialog').showModal();setTimeout(function(){document.getElementById('promptInput').focus()},60)}
+document.getElementById('promptForm').addEventListener('submit',function(e){e.preventDefault();var v=document.getElementById('promptInput').value.trim();document.getElementById('promptDialog').close();if(promptCb){var cb=promptCb;promptCb=null;if(v)cb(v)}});
+document.getElementById('promptCancel').onclick=function(){document.getElementById('promptDialog').close();promptCb=null};
+/* Sửa / xóa bài viết */
+var editingId=null;
+function startEdit(id){var a=ARTICLES.find(function(x){return x.id===id});if(!a)return;editingId=id;go('guide');document.getElementById('pCat').value=a.cat;fillSubs();document.getElementById('pSub').value=a.sub;document.getElementById('pTitle').value=a.title;document.getElementById('pExcerpt').value=a.excerpt;document.getElementById('pTags').value=a.tags.join(', ');document.getElementById('pImg').value=a.img;var bd=brandOf(a);var bsel=document.getElementById('pBrand');var bcus=document.getElementById('pBrandCustom');bcus.value='';if(bsel&&['Chung','Nhiều hãng'].concat(BRANDS[a.cat]||[]).indexOf(bd)>-1){bsel.value=bd}else if(bsel){bsel.value='Chung';bcus.value=bd}document.getElementById('pSteps').value=a.steps.join('\n');document.getElementById('pNote').value=a.note==='—'?'':a.note;document.getElementById('postSubmitBtn').textContent='💾 Lưu thay đổi';document.getElementById('cancelEdit').hidden=false;document.getElementById('postForm').scrollIntoView({behavior:'smooth'});toast('Đang sửa bài: '+a.title)}
+document.getElementById('cancelEdit').onclick=function(){editingId=null;document.getElementById('postForm').reset();fillSubs();document.getElementById('postSubmitBtn').textContent='Đăng bài ngay';document.getElementById('cancelEdit').hidden=true;toast('Đã hủy sửa bài')};
+function askDelete(id){var a=ARTICLES.find(function(x){return x.id===id});if(!a)return;askConfirm('Xóa bài viết?','Xóa hẳn bài “'+a.title+'” khỏi mục '+a.catLabel+'? Thay đổi được lưu trong trình duyệt này; up file data.json lên GitHub để áp dụng cho mọi người.',function(){ARTICLES=ARTICLES.filter(function(x){return x.id!==id});saveData();refreshAll();toast('Đã xóa bài viết')})}
+/* Quản lý mục con (thư mục con) */
+function renderSubLists(){document.querySelectorAll('[data-sublist]').forEach(function(box){var cat=box.dataset.sublist;var subs=SUBS[cat]?SUBS[cat].slice(1):[];box.innerHTML=subs.length?subs.map(function(s){var n=ARTICLES.filter(function(a){return a.cat===cat&&a.sub===s}).length;return '<div class="subrow"><b>'+esc(s)+'</b><span style="color:var(--muted);font-size:.85rem">'+n+' bài</span><span><button class="mini" data-rensub="'+cat+'" data-name="'+esc(s)+'" type="button">Đổi tên</button> <button class="mini danger" data-delsub="'+cat+'" data-name="'+esc(s)+'" type="button">Xóa</button></span></div>'}).join(''):'<p style="color:var(--muted)">Chưa có mục con nào.</p>';box.querySelectorAll('[data-rensub]').forEach(function(b){b.onclick=function(){renameSub(b.dataset.rensub,b.dataset.name)}});box.querySelectorAll('[data-delsub]').forEach(function(b){b.onclick=function(){deleteSub(b.dataset.delsub,b.dataset.name)}})})}
+document.querySelectorAll('[data-addsub]').forEach(function(b){b.addEventListener('click',function(){var cat=b.dataset.addsub;var inp=document.querySelector('[data-newsub="'+cat+'"]');var name=inp.value.trim();if(!name){toast('Bạn chưa nhập tên mục con');return}addSub(cat,name);inp.value=''})});
+function addSub(cat,name){if(SUBS[cat].some(function(s){return norm(s)===norm(name)})){toast('Mục con này đã có rồi');return}SUBS[cat].push(name);saveData();refreshAll();toast('Đã thêm mục con “'+name+'”')}
+function renameSub(cat,oldName){askPrompt('Đổi tên mục con','Tên mới cho mục con',oldName,function(v){if(v===oldName)return;if(SUBS[cat].some(function(s){return s!==oldName&&norm(s)===norm(v)})){toast('Tên này đã có trong mục');return}var i=SUBS[cat].indexOf(oldName);if(i>-1)SUBS[cat][i]=v;ARTICLES.forEach(function(a){if(a.cat===cat&&a.sub===oldName)a.sub=v});saveData();refreshAll();toast('Đã đổi tên mục con thành “'+v+'”')})}
+function deleteSub(cat,name){askConfirm('Xóa mục con?','Xóa mục con “'+name+'”? Các bài trong mục con này sẽ chuyển sang mục con đầu tiên còn lại.',function(){var i=SUBS[cat].indexOf(name);if(i>-1)SUBS[cat].splice(i,1);var rest=SUBS[cat].slice(1);var target=rest.length?rest[0]:'Khác';if(!rest.length)SUBS[cat].push('Khác');ARTICLES.forEach(function(a){if(a.cat===cat&&a.sub===name)a.sub=target});saveData();refreshAll();toast('Đã xóa mục con — bài đã chuyển sang “'+target+'”')})}
+/* Đăng nhập / đăng xuất Admin */
+var isAdmin=false;
+function setAdmin(on){isAdmin=on;document.body.classList.toggle('admin-on',on);document.getElementById('adminBtn').textContent=on?'🔓 Admin đang bật — mở khu vực Admin':'🔐 Đăng nhập Admin'}
+function getAdminHash(){try{return localStorage.getItem(LS_ADMIN)}catch(e){return null}}
+function setAdminHash(h){try{localStorage.setItem(LS_ADMIN,h)}catch(e){}}
+document.getElementById('adminBtn').onclick=function(){if(isAdmin){go('guide')}else{var has=!!getAdminHash();document.getElementById('loginForm').hidden=!has;document.getElementById('setupForm').hidden=has;document.getElementById('loginTitle').textContent=has?'Đăng nhập Admin':'Thiết lập Admin lần đầu';document.getElementById('loginError').hidden=true;document.getElementById('setupError').hidden=true;document.getElementById('adminPass').value='';document.getElementById('loginDialog').showModal();setTimeout(function(){var f=has?document.getElementById('adminPass'):document.getElementById('setupPass1');f.focus()},60)}};
+document.getElementById('closeLogin').onclick=function(){document.getElementById('loginDialog').close()};
+document.getElementById('loginForm').addEventListener('submit',function(e){e.preventDefault();var v=document.getElementById('adminPass').value;if(!window.crypto||!crypto.subtle){toast('Trình duyệt này không hỗ trợ đăng nhập Admin');return}sha256Hex(v).then(function(h){if(h===getAdminHash()){document.getElementById('loginDialog').close();setAdmin(true);go('guide');toast('Xin chào Admin! Đã bật chế độ chỉnh sửa')}else{document.getElementById('loginError').hidden=false}})});
+document.getElementById('setupForm').addEventListener('submit',function(e){e.preventDefault();var p1=document.getElementById('setupPass1').value,p2=document.getElementById('setupPass2').value,err=document.getElementById('setupError');function fail(m){err.textContent=m;err.hidden=false}if(p1.length<8){fail('Mật khẩu cần ít nhất 8 ký tự.');return}if(p1!==p2){fail('Hai lần nhập chưa giống nhau.');return}if(!window.crypto||!crypto.subtle){toast('Trình duyệt này không hỗ trợ tạo mật khẩu Admin');return}sha256Hex(p1).then(function(h){setAdminHash(h);document.getElementById('loginDialog').close();setAdmin(true);go('guide');toast('Đã tạo mật khẩu Admin cho trình duyệt này — chào Admin!')})});
+document.getElementById('resetPassBtn').onclick=function(){askConfirm('Đặt lại mật khẩu Admin?','Xóa mật khẩu Admin đang lưu trong trình duyệt này để bạn tạo mật khẩu mới ở lần đăng nhập sau. Chỉ ảnh hưởng trình duyệt này.',function(){try{localStorage.removeItem(LS_ADMIN)}catch(e){}document.getElementById('loginDialog').close();toast('Đã xóa mật khẩu — bấm Đăng nhập Admin để tạo mật khẩu mới')})};
+document.getElementById('logoutBtn').onclick=function(){setAdmin(false);go('home');toast('Đã đăng xuất — web quay về chế độ chỉ xem')};
+/* Xuất / nhập / khôi phục dữ liệu */
+document.getElementById('changePassBtn').onclick=function(){var v=document.getElementById('newPass').value;if(v.length<8){toast('Mật khẩu mới cần ít nhất 8 ký tự');return}if(!window.crypto||!crypto.subtle){toast('Trình duyệt này không hỗ trợ đổi mật khẩu');return}sha256Hex(v).then(function(h){setAdminHash(h);document.getElementById('newPass').value='';toast('Đã đổi mật khẩu Admin cho trình duyệt này')})};
+document.getElementById('exportData').onclick=function(){var blob=new Blob([JSON.stringify({articles:ARTICLES,subs:SUBS},null,2)],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='data.json';a.click();setTimeout(function(){URL.revokeObjectURL(a.href)},2000);toast('Đã tải data.json — up file này vào thư mục assets/ trên GitHub nhé')};
+document.getElementById('importBtn').onclick=function(){document.getElementById('importFile').click()};
+document.getElementById('importFile').addEventListener('change',function(){var f=this.files[0];this.value='';if(!f)return;var rd=new FileReader();rd.onload=function(){try{var d=JSON.parse(rd.result);if(applyData(d)){saveData();refreshAll();toast('Đã nhập file dữ liệu thành công')}else{toast('File không đúng định dạng dữ liệu của Mẹo Tech')}}catch(e){toast('Không đọc được file — kiểm tra lại file .json')}};rd.readAsText(f)});
+document.getElementById('resetData').onclick=function(){askConfirm('Khôi phục dữ liệu gốc?','Mọi thay đổi Admin đang lưu trong trình duyệt này sẽ bị xóa, web quay về dữ liệu gốc như lúc mới làm. Tiếp tục?',function(){try{localStorage.removeItem(LS_KEY)}catch(e){}location.reload()})};
+/* Nạp dữ liệu khi mở web: ưu tiên bản Admin đã lưu trong trình duyệt này, không có thì đọc file assets/data.json trên GitHub, không đọc được nữa thì dùng dữ liệu gốc trong trang */
+function loadData(){
+  var stored=null;try{stored=localStorage.getItem(LS_KEY)}catch(e){}
+  if(stored){try{if(applyData(JSON.parse(stored))){refreshAll();return}}catch(e){}}
+  var done=false;function finish(d){if(done)return;done=true;if(d)applyData(d);refreshAll()}
+  var timer=setTimeout(function(){finish(null)},1500);
+  try{fetch('assets/data.json').then(function(r){return r.ok?r.json():null}).then(function(d){clearTimeout(timer);finish(d)}).catch(function(){clearTimeout(timer);finish(null)})}catch(e){clearTimeout(timer);finish(null)}
+}
+loadData();
+</script>
+</body>
+</html>
