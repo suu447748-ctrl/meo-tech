@@ -1810,6 +1810,36 @@
       "title": "Samsung A12 mất sóng (No service): câu jumper",
       "id": 59,
       "img": "assets/samsung-a12-mat-song-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A32 (SM-A325) sạc báo lỗi nhiệt độ (nhiệt độ cao) — hướng xử lý: kiểm tra các điện trở 120K/1.8V và 100K/0.8V như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Samsung A32 của bạn sạc báo lỗi nhiệt độ, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung A32 (SM-A325) cắm sạc báo lỗi nhiệt độ (nhiệt độ cao), máy không cho sạc hoặc sạc rồi ngắt. Đây là lỗi đường cảm biến nhiệt độ trên bo sạc — không phải do máy thật sự quá nóng, nên để máy nguội hay đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: để máy nguội hẳn rồi cắm sạc lại, thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, khởi động lại máy. Nếu máy vẫn báo lỗi nhiệt độ thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát bo sạc trong ảnh: đường cảm biến nhiệt độ đi qua 2 điện trở được chỉ — điện trở 120K (1.8V) và điện trở 100K (0.8V). Khi các điện trở này lỗi, máy sẽ báo sai nhiệt độ.",
+        "Kiểm tra và xử lý các điện trở 120K và 100K như trong ảnh ('Sửa lỗi'). Đo điện trở: 120K phải đúng giá trị 120K với điện áp 1.8V, 100K phải đúng giá trị 100K với điện áp 0.8V. Thay điện trở nào sai giá trị hoặc bị chập.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc bình thường, không còn báo lỗi nhiệt độ. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "a32",
+        "sm-a325",
+        "galaxy a32",
+        "loi nhiet do",
+        "nhiet do cao",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung A32 (SM-A325) lỗi nhiệt độ khi sạc: kiểm tra điện trở 120K/100K",
+      "id": 60,
+      "img": "assets/samsung-a32-sm-a325-loi-nhiet-do-sac.jpg"
     }
   ],
   "subs": {
