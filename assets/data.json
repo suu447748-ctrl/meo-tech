@@ -1143,6 +1143,40 @@
       "title": "Oppo A15, A15s, A16, A16e không sạc được: câu jumper 2 điểm như trong ảnh",
       "id": 38,
       "img": "assets/oppo-a15-a15s-a16-a16e-khong-sac-jumper.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo A16e, A15 và A15s màn hình không sáng đèn nền, máy vẫn chạy nhưng màn tối đen — hướng xử lý: thay diode ở mạch đèn nền như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Oppo A16e/A15/A15s của bạn màn hình tối đen mất đèn nền, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Oppo A16e, A15 hoặc A15s mở nguồn máy vẫn chạy (có rung, có tiếng) nhưng màn hình tối đen, không thấy hình — soi đèn vào màn thì thấy mờ mờ. Đây là lỗi mất đèn nền LCD (LCD Backlight) — không phải do màn hình vỡ hay do hết pin, nên thay màn khác chưa chắc hết.",
+        "Thử các bước đơn giản trước khi mở máy: cắm sạc xem máy có rung/báo sạc không, bấm giữ nút nguồn để khởi động lại. Nếu máy vẫn chạy mà màn vẫn tối thì lỗi nằm ở mạch đèn nền bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh tròn trong ảnh: khu vực mạch đèn nền trên main, gần cụm linh kiện và IC đèn nền. Mạch đèn nền cấp điện cho đèn nền màn hình — khi diode trong mạch này lỗi, màn hình sẽ mất đèn nền.",
+        "Thay diode như ghi trong ảnh ('Diode', 'Replace'). Đo diode ở vị trí được chỉ trong ảnh cận cảnh xem có diode nào chập hoặc đứt không; thay diode mới đúng loại. Kiểm tra luôn các linh kiện và đường mạch xung quanh khu vực đèn nền.",
+        "Thay xong thì lắp tạm pin và màn hình test trước khi ráp hoàn thiện: màn hình phải sáng đèn nền bình thường, hiển thị rõ. Test thêm cảm ứng, sạc, sóng và loa rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo",
+        "oppo a16e",
+        "oppo a15",
+        "oppo a15s",
+        "a16e",
+        "a15",
+        "a15s",
+        "man hinh",
+        "den nen",
+        "lcd backlight",
+        "diode",
+        "sua chua"
+      ],
+      "title": "Oppo A16e, A15, A15s màn hình mất đèn nền (LCD Backlight): thay diode",
+      "id": 39,
+      "img": "assets/oppo-a16e-a15-a15s-man-hinh-mat-den-nen.jpg"
     }
   ],
   "subs": {
