@@ -986,6 +986,36 @@
       "title": "Realme 8 5G, 9 5G màn hình mất đèn nền (LCD Backlight): thay 2 diode",
       "id": 33,
       "img": "assets/realme-8-5g-9-5g-man-hinh-mat-den-nen.jpg"
+    },
+    {
+      "brand": "Realme",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Realme C21y cắm sạc không hiện logo sạc, máy không nhận sạc — hướng xử lý: kiểm tra đường sạc từ cổng sạc lên main ở vị trí được chỉ trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Realme C21y của bạn cắm sạc không hiện logo sạc, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Realme C21y cắm sạc không hiện logo sạc, máy không báo đang sạc và pin không lên dù cáp và củ sạc còn tốt. Đây là lỗi đường sạc — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không hiện logo sạc thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát đường sạc như trong ảnh: đường đỏ đi từ cổng sạc ở bo sạc phụ (dưới cùng) lên điểm nối trên main (điểm được khoanh tròn, gần đầu nối pin). Đường sạc đi từ cổng sạc qua bo sạc phụ rồi lên main chính — khi đường này đứt hoặc tiếp xúc kém, máy sẽ không nhận sạc.",
+        "Kiểm tra kỹ điểm nối được chỉ trong ảnh: điểm trên main (ảnh cận cảnh giữa) và điểm tương ứng trên bo sạc phụ (ảnh cận cảnh dưới, gần cổng sạc). Đo thông mạch đường sạc giữa hai điểm này, xem có đứt mạch hay chân tiếp xúc nào bong không. Xử lý lại điểm nối — vệ sinh, hàn lại chân hoặc câu jumper nối lại đường sạc nếu cần.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải hiện logo sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "realme",
+        "realme c21y",
+        "c21y",
+        "khong sac",
+        "logo sac",
+        "charging",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Realme C21y không hiện logo sạc khi cắm sạc (Charging Logo Fix)",
+      "id": 34,
+      "img": "assets/realme-c21y-khong-hien-logo-sac.jpg"
     }
   ],
   "subs": {
