@@ -1463,6 +1463,35 @@
       "title": "Redmi 9A không nhận SIM, mất sóng (No SIM card / No network): câu jumper mạch SIM",
       "id": 48,
       "img": "assets/redmi-9a-khong-nhan-sim-mat-song.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi Note 9 tự khởi động lại liên tục — hướng xử lý: kiểm tra linh kiện được chỉ bằng mũi tên đỏ trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Redmi Note 9 của bạn tự khởi động lại liên tục, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Redmi Note 9 tự khởi động lại liên tục, máy lên logo rồi tắt rồi lên lại, không vào được màn hình chính. Đây là lỗi phần cứng trên main — không phải do phần mềm hay do hết pin, nên khôi phục cài đặt gốc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử khởi động lại máy, tháo SIM và thẻ nhớ ra rồi mở máy lại, cắm sạc xem máy có khởi động lại nữa không. Nếu máy vẫn tự khởi động lại thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát linh kiện được chỉ bằng mũi tên đỏ trong ảnh: một linh kiện nhỏ trên main, gần IC (chip 7215M-41). Linh kiện này lỗi gây chập, làm máy tự khởi động lại.",
+        "Kiểm tra linh kiện được chỉ trong ảnh: đo xem linh kiện có chập hoặc đứt không, xử lý lại — thay linh kiện mới hoặc gỡ ra nếu linh kiện gây chập. Kiểm tra luôn các linh kiện và đường mạch xung quanh.",
+        "Xử lý xong thì lắp tạm pin và mở nguồn test trước khi ráp hoàn thiện: máy phải lên nguồn bình thường, không còn tự khởi động lại. Test thêm sạc, sóng, loa, camera và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "xiaomi",
+        "redmi",
+        "redmi note 9",
+        "note 9",
+        "tu khoi dong",
+        "restart",
+        "sua chua"
+      ],
+      "title": "Redmi Note 9 tự khởi động lại (Restart Problem): xử lý linh kiện được chỉ",
+      "id": 49,
+      "img": "assets/redmi-note-9-tu-khoi-dong-lai.jpg"
     }
   ],
   "subs": {
