@@ -1305,6 +1305,37 @@
       "title": "Redmi 13C 5G tự khởi động lại (Auto Restart): gỡ linh kiện được khoanh",
       "id": 43,
       "img": "assets/redmi-13c-5g-tu-khoi-dong-lai.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi 8a mở camera báo lỗi, không chụp được — hướng xử lý: câu tắt điện trở R3099 như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Redmi 8a của bạn mở camera báo lỗi, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Redmi 8a mở camera báo lỗi, camera không lên hình hoặc máy thoát ra ngay, không chụp được. Đây là lỗi đường camera trên main — không phải do phần mềm hay do camera bẩn, nên xóa dữ liệu camera hay khởi động lại cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: lau sạch mặt kính camera, vào Cài đặt xóa dữ liệu ứng dụng Camera rồi mở lại, khởi động lại máy. Nếu camera vẫn báo lỗi thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát điện trở R3099 được chỉ bằng mũi tên đỏ trong ảnh: điện trở nhỏ trên main, gần cụm linh kiện camera. Đường camera đi qua điện trở này — khi điện trở lỗi, camera sẽ báo lỗi.",
+        "Câu tắt điện trở R3099 như ghi trong ảnh ('Camera lỗi câu tắt R3099'). Nối tắt qua điện trở R3099 theo đúng điểm được chỉ. Đo kiểm sau khi câu để chắc đường đã thông và không chập.",
+        "Câu xong thì lắp tạm pin và mở camera test trước khi ráp hoàn thiện: camera phải lên hình bình thường, chụp được, lấy nét được. Test thêm sạc, sóng, loa và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "xiaomi",
+        "redmi",
+        "redmi 8a",
+        "8a",
+        "camera",
+        "loi camera",
+        "r3099",
+        "jumper",
+        "sua chua"
+      ],
+      "title": "Redmi 8a lỗi camera: câu tắt R3099",
+      "id": 44,
+      "img": "assets/redmi-8a-loi-camera-cau-tat-r3099.jpg"
     }
   ],
   "subs": {
