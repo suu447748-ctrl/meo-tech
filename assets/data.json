@@ -753,6 +753,37 @@
       "title": "POCO M3 / Xiaomi Redmi 9T mất nguồn, không sạc: kiểm tra cụm linh kiện nguồn trên main",
       "id": 26,
       "img": "assets/poco-m3-redmi-9t-mat-nguon-khong-sac.jpg"
+    },
+    {
+      "brand": "Honor",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "HONOR X6 và X7 cắm sạc không vào pin — hướng xử lý: kiểm tra bo sạc phụ (cụm chân sạc) ở vị trí được chỉ trong ảnh, thay bo sạc nếu linh kiện trên bo lỗi. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn, vị trí cần kiểm tra được chỉ bằng ngón tay trong ảnh; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu HONOR X6 hoặc X7 của bạn không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: HONOR X6 hoặc X7 cắm sạc không vào pin, máy không báo sạc dù đã thử cáp và củ sạc khác còn tốt. Đây là lỗi đường sạc — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không nhận sạc chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát bo sạc phụ như trong ảnh: bo mạch nhỏ ở cạnh dưới máy, gồm cổng sạc (chân cắm sạc màu bạc bên phải) và cụm linh kiện xung quanh. Đường sạc đi từ cổng sạc qua bo sạc phụ rồi lên main chính — khi bo sạc phụ lỗi, máy sẽ không sạc được.",
+        "Kiểm tra vị trí được chỉ trong ảnh: ngón tay chỉ vào khu vực trên bo sạc phụ, gần cụm linh kiện và socket nối. Đo kiểm khu vực này và các linh kiện xung quanh xem có linh kiện nào chập, đứt hoặc tiếp xúc kém không. Nếu bo sạc phụ đã hư thì thay cả bo sạc mới cho đúng đời máy (X6/X7).",
+        "Thay hoặc xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "honor",
+        "honor x6",
+        "honor x7",
+        "x6",
+        "x7",
+        "khong sac",
+        "bo sac",
+        "sua chua",
+        "sac"
+      ],
+      "title": "HONOR X6 / X7 không sạc được: kiểm tra và thay bo sạc phụ",
+      "id": 27,
+      "img": "assets/honor-x6-x7-khong-sac.jpg"
     }
   ],
   "subs": {
