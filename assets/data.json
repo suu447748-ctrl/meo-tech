@@ -1076,6 +1076,38 @@
       "title": "Oppo A57 vào nước, bấm nguồn không lên: gỡ tụ được chỉ trong ảnh",
       "id": 36,
       "img": "assets/oppo-a57-vao-nuoc-bam-nguon-khong-len.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo A5 2020 cắm sạc không hiện logo sạc — hướng xử lý: thay tụ ở vị trí được khoanh trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Oppo A5 2020 của bạn cắm sạc không hiện logo sạc, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Oppo A5 2020 cắm sạc không hiện logo sạc, máy không báo đang sạc và pin không lên dù cáp và củ sạc còn tốt. Đây là lỗi đường sạc — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không hiện logo sạc thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh tròn trong ảnh: khu vực trên main, ở góc trên bên phải. Tụ trong khu vực này liên quan đến đường sạc — khi tụ lỗi, máy sẽ không hiện logo sạc.",
+        "Thay tụ như ghi trong ảnh ('Cap Replace'). Đo tụ ở vị trí được chỉ trong ảnh cận cảnh xem còn đúng trị số không; thay tụ mới đúng loại. Kiểm tra luôn các tụ và linh kiện xung quanh khu vực này.",
+        "Thay xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải hiện logo sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo",
+        "oppo a5 2020",
+        "a5 2020",
+        "khong sac",
+        "logo sac",
+        "charging",
+        "tu",
+        "cap",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Oppo A5 2020 không hiện logo sạc khi cắm sạc: thay tụ (Cap Replace)",
+      "id": 37,
+      "img": "assets/oppo-a5-2020-khong-hien-logo-sac.jpg"
     }
   ],
   "subs": {
