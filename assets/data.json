@@ -1661,6 +1661,36 @@
       "title": "Redmi Note 10 treo logo (Hang on logo): câu jumper",
       "id": 54,
       "img": "assets/redmi-note-10-treo-logo-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung Galaxy On7 Prime (SM-G610F) không sạc được — hướng xử lý: câu jumper và gỡ các linh kiện ZD7001, ZD7002, D7000 như trong sơ đồ. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là sơ đồ đường sạc; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu Galaxy On7 Prime của bạn không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Samsung Galaxy On7 Prime (SM-G610F) cắm sạc không vào pin, máy không báo sạc dù đã thử cáp và củ sạc khác còn tốt. Đây là lỗi đường sạc trên bo sạc — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không nhận sạc chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát sơ đồ trong ảnh: đường sạc đi từ cổng sạc qua các linh kiện ZD7001, ZD7002 (điốt bảo vệ) và D7000, rồi qua các điện trở R7015, R7016 lên IC sạc U7009. Khi các linh kiện bảo vệ này chập, máy sẽ không sạc được.",
+        "Xử lý như trong sơ đồ ('SAMSUNG SM-G610F On7 Prime Charging Solution'): gỡ các linh kiện ZD7001, ZD7002 và D7000 (ghi 'Remove'), rồi câu jumper nối đường sạc lên IC U7009 theo đúng đường được chỉ. Đo kiểm sau khi xử lý để chắc đường đã thông và không chập.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung",
+        "on7 prime",
+        "sm-g610f",
+        "g610f",
+        "khong sac",
+        "jumper",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Samsung Galaxy On7 Prime (SM-G610F) không sạc được: câu jumper, gỡ linh kiện",
+      "id": 55,
+      "img": "assets/samsung-on7-prime-khong-sac-jumper.jpg"
     }
   ],
   "subs": {
