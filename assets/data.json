@@ -919,6 +919,41 @@
       "title": "Vivo Y01, Y02, Y02s lỗi sạc (Charging Error): thay/câu điện trở 100k",
       "id": 31,
       "img": "assets/vivo-y01-y02-y02s-loi-sac-dien-tro-100k.jpg"
+    },
+    {
+      "brand": "Vivo",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Vivo V7 và V7 Plus cắm sạc báo lỗi, máy hiện 'Phone temperature too low, charging has stopped' — hướng xử lý: câu jumper điện trở 10k trên đường Thermistor như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Vivo V7 hoặc V7 Plus của bạn sạc báo lỗi nhiệt độ, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Vivo V7 hoặc V7 Plus cắm sạc thì máy báo lỗi, màn hình hiện biểu tượng pin kèm dấu hỏi và dòng 'Phone temperature too low, charging has stopped' (nhiệt độ điện thoại quá thấp, đã dừng sạc). Máy không vào pin dù cáp và củ sạc còn tốt. Đây là lỗi đường cảm biến nhiệt (Thermistor) — máy hiểu sai nhiệt độ pin nên tự ngắt sạc.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn báo lỗi thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được khoanh tròn trong ảnh: khu vực đường Thermistor trên main, ở góc dưới của cụm main. Đường Thermistor là đường cảm biến nhiệt của pin — khi đường này đứt hoặc tiếp xúc kém, máy sẽ báo sai nhiệt độ và dừng sạc.",
+        "Kiểm tra đường Thermistor như ghi trong ảnh ('Thermistor Line'). Câu jumper điện trở 10k ('10k Resistor Jumper') nối lại đường Thermistor theo đúng điểm được chỉ trong ảnh cận cảnh (dây jumper màu đỏ). Đo kiểm sau khi câu để chắc đường đã thông.",
+        "Câu xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc, không còn báo lỗi nhiệt độ, pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "vivo",
+        "vivo v7",
+        "vivo v7 plus",
+        "v7",
+        "v7 plus",
+        "loi sac",
+        "charging error",
+        "thermistor",
+        "dien tro 10k",
+        "10k",
+        "jumper",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Vivo V7, V7 Plus lỗi sạc (Charging Error): câu jumper điện trở 10k đường Thermistor",
+      "id": 32,
+      "img": "assets/vivo-v7-v7-plus-loi-sac-thermistor-10k.jpg"
     }
   ],
   "subs": {
