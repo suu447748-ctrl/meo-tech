@@ -816,6 +816,43 @@
       "title": "Vivo Y02 / Y02s lỗi nút nguồn (Power Switch): câu jumper khôi phục",
       "id": 28,
       "img": "assets/vivo-y02-y02s-nut-nguon-jumper.jpg"
+    },
+    {
+      "brand": "Vivo",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Vivo Y11, Y12, Y15, Y17 và U10 cắm sạc báo biểu tượng pin hỏi chấm đỏ, máy báo 'Phone temperature too low, Charging stopped' — hướng xử lý ở cụm đầu nối và cáp nối trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, đồng hồ đo, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Vivo Y11/Y12/Y15/Y17/U10 của bạn sạc báo hỏi chấm đỏ, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Vivo Y11, Y12, Y15, Y17 hoặc U10 cắm sạc thì màn hình hiện biểu tượng pin kèm dấu hỏi chấm đỏ, máy báo 'Phone temperature too low, Charging stopped' (nhiệt độ điện thoại quá thấp, đã dừng sạc). Máy không vào pin dù cáp và củ sạc còn tốt. Đây là lỗi đường sạc — máy hiểu sai nhiệt độ pin nên tự ngắt sạc.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn báo hỏi chấm đỏ thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát cụm đầu nối và cáp nối như trong ảnh: đầu nối trên main và đầu cáp nối (flex) màu vàng cam. Đường sạc và đường cảm biến nhiệt đi qua cụm đầu nối này — khi đầu nối tiếp xúc kém hoặc cáp nối lỗi, máy sẽ báo sai nhiệt độ và dừng sạc.",
+        "Kiểm tra kỹ vị trí được khoanh tròn trong ảnh: điểm nối trên main (ảnh giữa) và điểm tương ứng trên cáp nối (ảnh dưới). Đo thông mạch và kiểm tra chân tiếp xúc ở hai điểm này, xem có chân nào gãy, bong hoặc tiếp xúc kém không. Xử lý lại điểm nối — vệ sinh, hàn lại chân hoặc thay cáp nối nếu cáp đã hư.",
+        "Xử lý xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc, không còn báo hỏi chấm đỏ, pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "vivo",
+        "vivo y11",
+        "vivo y12",
+        "vivo y15",
+        "vivo y17",
+        "vivo u10",
+        "y11",
+        "y12",
+        "y15",
+        "y17",
+        "u10",
+        "loi sac",
+        "hoi cham do",
+        "sua chua",
+        "sac"
+      ],
+      "title": "Vivo Y11, Y12, Y15, Y17, U10 lỗi sạc báo hỏi chấm đỏ: khắc phục đường sạc",
+      "id": 29,
+      "img": "assets/vivo-y11-y12-y15-y17-u10-loi-sac-hoi-cham-do.jpg"
     }
   ],
   "subs": {
