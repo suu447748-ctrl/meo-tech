@@ -1046,6 +1046,36 @@
       "title": "Realme Note 60 lỗi báo ẩm, vật thể lạ khi cắm sạc: gỡ linh kiện gây báo sai",
       "id": 35,
       "img": "assets/realme-note-60-loi-bao-am-vat-the-la.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo A57 vào nước, bấm nguồn không nhúc nhích — hướng xử lý: gỡ tụ được chỉ bằng mũi tên đỏ trong ảnh là máy lên nguồn lại. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, mỏ hàn và kinh nghiệm sửa mạch nhỏ, xử lý máy vào nước. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Oppo A57 của bạn vào nước mà bấm nguồn không lên, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Oppo A57 vào nước, bấm nút nguồn không có phản hồi, máy không lên nguồn dù đã sấy khô và cắm sạc. Đây là lỗi do nước làm chập tụ trên main — không phải do pin chai hay do hết pin, nên cắm sạc cũng không lên.",
+        "Xử lý vào nước trước khi sửa: ngắt pin ngay, sấy khô máy và vệ sinh sạch main bằng dung dịch vệ sinh chuyên dụng, để khô hẳn. Không cắm sạc hay bấm nguồn khi máy còn ẩm — dễ chập thêm.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát vị trí được chỉ bằng mũi tên đỏ trong ảnh: một tụ nhỏ trên main, ở khu vực gần đầu nối camera. Tụ này bị chập sau khi vào nước nên làm treo đường nguồn — gỡ tụ này ra là máy lên nguồn lại.",
+        "Gỡ tụ được chỉ bằng mũi tên trong ảnh ra khỏi main. Dùng mỏ hàn gỡ cẩn thận, tránh làm bong các linh kiện xung quanh. Sau khi gỡ, vệ sinh sạch khu vực đó và kiểm tra các tụ, linh kiện lân cận xem còn chập không.",
+        "Gỡ xong thì lắp tạm pin và bấm nút nguồn test trước khi ráp hoàn thiện: máy phải mở nguồn bình thường. Test thêm sạc, sóng, loa, camera và cảm ứng rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo",
+        "oppo a57",
+        "a57",
+        "vao nuoc",
+        "bam nguon",
+        "mat nguon",
+        "tu",
+        "sua chua"
+      ],
+      "title": "Oppo A57 vào nước, bấm nguồn không lên: gỡ tụ được chỉ trong ảnh",
+      "id": 36,
+      "img": "assets/oppo-a57-vao-nuoc-bam-nguon-khong-len.jpg"
     }
   ],
   "subs": {
