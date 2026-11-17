@@ -1208,6 +1208,38 @@
       "title": "Oppo A5s không sạc được: bypass IC OVP (By pass OVP IC)",
       "id": 40,
       "img": "assets/oppo-a5s-khong-sac-bypass-ovp.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo A53 4G nhận SIM nhưng mất sóng, hoặc có sóng mà không gọi được — hướng xử lý: thay IC SDR425 như trong ảnh. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng — cần dụng cụ mở máy, máy khò, mỏ hàn và kinh nghiệm sửa mạch nhỏ. Ảnh là ảnh chụp màn hình video hướng dẫn; khi làm thật phải đối chiếu với main thật của máy. Người dùng bình thường không nên tự mở máy; nếu Oppo A53 4G của bạn nhận SIM nhưng mất sóng hoặc không gọi được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: Oppo A53 4G nhận SIM bình thường nhưng mất sóng, hoặc có cột sóng mà gọi đi không được, người khác gọi đến không được. Đây là lỗi phần sóng — không phải do SIM hỏng hay do hết tiền, nên đổi SIM khác cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: tháo SIM ra lau nhẹ mặt tiếp xúc rồi gắn lại cho đúng chiều, thử một SIM khác mà bạn biết là còn hoạt động, khởi động lại máy, kiểm tra cài đặt mạng. Nếu máy vẫn mất sóng hoặc không gọi được thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát IC SDR425 như trong ảnh: IC lớn ở giữa main (IC thu phát sóng). IC SDR425 xử lý tín hiệu sóng — khi IC này lỗi, máy sẽ nhận SIM nhưng mất sóng hoặc có sóng mà không gọi được.",
+        "Thay IC SDR425 như ghi trong ảnh ('Thay SDR425'). Dùng máy khò gỡ IC cũ ra, vệ sinh sạch chân, đóng IC SDR425 mới đúng loại. Kiểm tra các linh kiện và đường mạch xung quanh IC sau khi thay.",
+        "Thay xong thì lắp tạm pin và gắn SIM test trước khi ráp hoàn thiện: máy phải bắt được sóng, hiện cột sóng, gọi đi và nhận cuộc gọi đều được. Test thêm Wi-Fi, Bluetooth và sạc rồi mới ráp kín máy."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo",
+        "oppo a53",
+        "a53",
+        "a53 4g",
+        "mat song",
+        "nhan sim",
+        "khong goi duoc",
+        "sdr425",
+        "sua chua",
+        "song"
+      ],
+      "title": "Oppo A53 4G nhận SIM nhưng mất sóng / có sóng không gọi được: thay IC SDR425",
+      "id": 41,
+      "img": "assets/oppo-a53-4g-mat-song-thay-sdr425.jpg"
     }
   ],
   "subs": {
