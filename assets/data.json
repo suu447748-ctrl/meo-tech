@@ -691,6 +691,37 @@
       "note": "Lưu ý an toàn: Bài này chỉ hướng dẫn kiểm tra dây, cổng và cài đặt phần mềm bên ngoài — bạn không cần mở thùng máy hay tháo bất cứ linh kiện nào. Nếu phải mở máy để kiểm tra phần cứng bên trong, hãy mang ra tiệm để thợ có kinh nghiệm xử lý.",
       "id": 24,
       "img": "assets/pc-mat-tieng-kiem-tra-loa.jpg"
+    },
+    {
+      "brand": "POCO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "POCO C71 cắm sạc không vào pin — đây là giải pháp câu jumper đã được kiểm chứng: nối một sợi dây jumper từ bo sạc phụ lên điểm tiếp xúc trên main chính theo đường màu đỏ trong ảnh, khôi phục lại đường sạc. Máy bạn gặp đúng lỗi này thì mang qua sửa nhé.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là sửa phần cứng trên main — cần dụng cụ mở máy, mỏ hàn, kính hiển vi và kinh nghiệm sửa mạch nhỏ. Ảnh minh họa đường câu jumper màu đỏ từ bo sạc phụ lên main chính; khi làm thật phải đối chiếu với bo thật của máy. Người dùng bình thường không nên tự mở máy; nếu POCO C71 của bạn không sạc được, hãy mang ra thợ sửa uy tín.",
+      "steps": [
+        "Nhận biết đúng lỗi: POCO C71 cắm sạc không vào pin, máy không báo sạc dù đã thử cáp và củ sạc khác còn tốt. Đây là lỗi đường sạc trên main — không phải do pin chai hay do phụ kiện, nên đổi cáp, củ sạc cũng không hết.",
+        "Thử các bước đơn giản trước khi mở máy: thử một sợi cáp khác và củ sạc khác mà bạn biết là còn tốt, vệ sinh nhẹ chân sạc xem có bụi bẩn kẹt không rồi cắm lại. Nếu máy vẫn không nhận sạc chút nào thì lỗi nằm ở phần cứng bên trong.",
+        "Mở máy, ngắt pin trước khi thao tác. Quan sát main chính và bo sạc phụ như trong ảnh: bo sạc phụ nằm ở cạnh dưới máy, gần cổng sạc; main chính nằm ở nửa trên, dưới tấm chắn kim loại. Đường sạc đi từ bo sạc phụ lên main chính qua cáp nối — khi đường này đứt hoặc tiếp xúc kém, máy sẽ không sạc được.",
+        "Câu jumper theo đường màu đỏ trong ảnh: nối một sợi dây jumper mảnh từ điểm trên bo sạc phụ (ô tròn phóng to phía dưới bên trái trong ảnh, gần cổng sạc) lên điểm tiếp xúc trên main chính (ô tròn phóng to phía trên bên trái trong ảnh, gần socket cáp nối). Dùng dây jumper mảnh, hàn sạch, tránh để thiếc chạm sang chân linh kiện bên cạnh.",
+        "Hàn xong thì lắp tạm pin và cắm sạc test trước khi ráp hoàn thiện: máy phải nhận sạc và pin lên đều. Để máy sạc thử thêm một lúc, kiểm tra máy không nóng bất thường, rồi mới ráp kín máy và test thêm loa, mic, sóng và cảm ứng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "poco",
+        "poco c71",
+        "c71",
+        "khong sac",
+        "duong sac",
+        "jumper",
+        "cau jumper",
+        "sua chua",
+        "sac"
+      ],
+      "title": "POCO C71 không sạc được: câu jumper khôi phục đường sạc",
+      "id": 25,
+      "img": "assets/poco-c71-duong-sac-jumper.jpg"
     }
   ],
   "subs": {
