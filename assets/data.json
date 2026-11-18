@@ -2156,6 +2156,51 @@
       "title": "Mã cường lực dùng chung bổ sung — các máy mới chưa có trong bảng (Samsung A18, OPPO Reno17, iPhone 16e…)",
       "id": 70,
       "img": "assets/cuong-luc-bo-sung-may-moi.webp"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Bạn gọi điện mà bên kia bảo nghe nhỏ, rè rè hoặc lúc được lúc mất, trong khi loa nghe vẫn bình thường — phần lớn do lỗ mic bám bụi, ốp lưng che mất mic hoặc máy đang kết nối nhầm sang tai nghe Bluetooth. Bạn có thể tự kiểm tra theo các bước dưới đây trước khi mang ra tiệm.",
+      "mins": 4,
+      "note": "Lưu ý an toàn: Tuyệt đối không dùng vật kim loại, tăm nhọn hay ghim chọc vào lỗ mic, không đổ nước hay dung dịch vào lỗ mic, không tự tháo máy. Bài này chỉ hướng dẫn các thao tác vệ sinh và kiểm tra bên ngoài, an toàn cho người dùng phổ thông.",
+      "steps": [
+        "Nhận biết lỗi: Bạn gọi điện thoại, gọi Zalo hay Messenger mà bên kia cứ bảo nghe nhỏ, nghe rè rè, tiếng lúc được lúc mất, thậm chí không nghe thấy gì, trong khi bạn vẫn nghe rõ tiếng của họ qua loa. Nếu lỗi chỉ xảy ra khi gọi điện mà khi quay video hay ghi âm vẫn bình thường thì càng có khả năng nguyên nhân nằm ở lỗ mic hoặc cài đặt — bạn hoàn toàn có thể tự kiểm tra tại nhà trước khi mang ra tiệm.",
+        "Kiểm tra nhanh trước khi xử lý — Thử ghi âm: Bạn mở ứng dụng ghi âm, nói vài câu bình thường rồi nghe lại. Nếu bản ghi âm cũng nhỏ hoặc rè thì đúng là mic đang có vấn đề; nếu ghi âm vẫn rõ thì lỗi có thể nằm ở ứng dụng gọi điện hoặc mạng.",
+        "Thử gọi bằng ứng dụng khác: Nếu gọi điện thoại thường bị rè mà gọi Zalo lại rõ (hoặc ngược lại), thì lỗi nằm ở ứng dụng hoặc đường truyền, bạn chỉ cần cập nhật ứng dụng hoặc khởi động lại máy.",
+        "Kiểm tra tai nghe Bluetooth: Bạn xem máy có đang kết nối với tai nghe hay loa Bluetooth không. Nhiều khi máy tự chuyển mic sang tai nghe đang để trong túi, nên bên kia nghe rất nhỏ. Bạn tắt Bluetooth rồi gọi thử lại.",
+        "Xem cách bạn cầm máy: Khi gọi điện, bạn có thể vô tình che mất lỗ mic ở cạnh dưới máy bằng ngón tay, hoặc ốp lưng dày che mất lỗ mic. Thử tháo ốp lưng ra rồi gọi lại xem bên kia nghe có rõ hơn không.",
+        "Các bước xử lý — Bước 1: Tắt nguồn điện thoại trước khi vệ sinh để đảm bảo an toàn.",
+        "Bước 2: Tìm lỗ mic trên máy của bạn, thường là một lỗ tròn nhỏ ở cạnh dưới, gần cổng sạc. Dùng cọ mềm nhỏ hoặc bàn chải lông mềm, nhẹ nhàng quét bụi quanh miệng lỗ mic. Tuyệt đối không dùng vật kim loại, tăm nhọn hay ghim chọc sâu vào trong vì rất dễ làm rách màng mic bên trong.",
+        "Bước 3: Dùng bóng thổi bụi hoặc thổi nhẹ để đẩy bụi còn sót ra ngoài. Không dùng máy sấy tóc thổi hơi nóng trực tiếp vào lỗ mic, không đổ nước hay dung dịch tẩy rửa vào lỗ mic.",
+        "Bước 4: Kiểm tra ốp lưng: Bạn lắp ốp lưng vào rồi soi xem lỗ mic trên ốp có khớp đúng vị trí lỗ mic trên máy không. Nếu ốp che lệch, bịt kín lỗ mic hoặc ốp quá dày thì bạn nên đổi ốp khác có lỗ khoét đúng vị trí.",
+        "Bước 5: Kiểm tra quyền truy cập mic của ứng dụng. Bạn vào phần cài đặt, tìm mục quyền của ứng dụng gọi điện (điện thoại, Zalo, Messenger), đảm bảo quyền Microphone đang được bật. Nếu quyền mic bị tắt thì bên kia sẽ không nghe thấy bạn nói gì.",
+        "Bước 6: Khởi động lại điện thoại một lần. Sau khi khởi động lại, bạn gọi thử cho người nhà để kiểm tra.",
+        "Bước 7: Cập nhật phần mềm và ứng dụng gọi điện lên bản mới nhất. Bạn vào phần cài đặt, kiểm tra cập nhật hệ thống và cập nhật ứng dụng — bản cập nhật thường sửa các lỗi âm thanh đã biết.",
+        "Test lại sau khi xử lý — Ghi âm lại một đoạn ngắn rồi nghe thử: nếu giọng đã rõ, to và không còn rè thì mic đã hoạt động bình thường trở lại.",
+        "Gọi thử cho người nhà vài phút, hỏi xem họ nghe có rõ không, tiếng có bị ngắt quãng không. Thử gọi cả bằng cuộc gọi thường và bằng Zalo để chắc chắn cả hai đều ổn.",
+        "Thử lắp lại ốp lưng rồi gọi thử một lần nữa: nếu lắp ốp vào mà bên kia lại nghe nhỏ thì chắc chắn ốp lưng của bạn đang che mic, bạn nên đổi ốp khác.",
+        "Khi nào nên mang ra tiệm — Đã vệ sinh lỗ mic, đổi ốp lưng, kiểm tra quyền mic và khởi động lại mà bên kia vẫn nghe rè hoặc không nghe thấy gì.",
+        "Mic mất tiếng hẳn sau khi máy bị rơi mạnh hoặc vào nước, hoặc mic lúc được lúc mất không theo quy luật.",
+        "Cả mic ghi âm, mic gọi điện và mic quay video đều rè cùng lúc — khả năng cao phần cứng mic bên trong máy đã hỏng.",
+        "Khi mang ra tiệm, bạn hãy mô tả rõ những gì mình đã thử (đã vệ sinh lỗ mic, đã tháo ốp, đã thử ghi âm) để thợ kiểm tra nhanh hơn và tránh bị báo sai lỗi."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "mic rè",
+        "gọi điện nghe nhỏ",
+        "mic điện thoại",
+        "vệ sinh mic",
+        "sua-chua",
+        "mic re",
+        "goi dien nghe nho",
+        "mic dien thoai",
+        "lo mic",
+        "mat tieng khi goi"
+      ],
+      "title": "Điện thoại gọi điện bên kia nghe nhỏ, rè hoặc mất tiếng: vệ sinh lỗ mic và kiểm tra ốp lưng, cài đặt trước khi mang ra tiệm",
+      "id": 71,
+      "img": "assets/dien-thoai-mic-re-ve-sinh-lo-mic.jpg"
     }
   ],
   "subs": {
