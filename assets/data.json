@@ -2063,6 +2063,34 @@
       "title": "Samsung Galaxy A08 4G ra mắt: pin 6.000mAh lớn nhất dòng A giá rẻ, màn hình 90Hz, 6 năm cập nhật",
       "id": 67,
       "img": "assets/samsung-galaxy-a08-mau-sac.webp"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung Galaxy A07s vừa ra mắt tháng 9/2026: chip MediaTek Helio G99+ mới, màn hình 6.7 inch 90Hz, camera chính 50MP, pin 5.000mAh sạc nhanh 25W, kháng nước IP54 và cập nhật phần mềm tới 6 lần. Giá từ khoảng ₹14.990 (Ấn Độ), chưa có giá Việt Nam.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Ảnh minh họa trong bài là ảnh do AI tạo, không phải ảnh chính thức của Samsung. Giá và ngày bán tại Việt Nam chưa được công bố; giá trên là giá tham khảo tại Ấn Độ và Nepal, có thể khác khi về Việt Nam.",
+      "steps": [
+        "Hiệu năng: chip MediaTek Helio G99+ (6nm) mới, mạnh hơn chip Helio G99 trên Galaxy A07. RAM 4GB, bộ nhớ 64GB / 128GB, hỗ trợ thẻ nhớ microSD tới 1TB.",
+        "Màn hình: 6.7 inch PLS LCD, độ phân giải HD+ (720 x 1600), tần số quét 90Hz. Màn hình lớn, lướt mượt, phù hợp xem phim, lướt mạng xã hội.",
+        "Camera: camera chính 50MP (f/1.8) và camera đo chiều sâu 2MP; camera trước 8MP. Camera chính 50MP chụp đủ sáng tốt, quay video Full HD.",
+        "Pin và sạc: pin 5.000mAh, sạc nhanh có dây 25W. Pin đủ dùng thoải mái cả ngày với nhu cầu thông thường.",
+        "Thiết kế và độ bền: kháng bụi, kháng nước bắn IP54, 3 màu Xám, Xanh lá đậm, Tím nhạt. Máy ra mắt ngày 7/9/2026, chạy Android 16, được cập nhật hệ điều hành tới 6 lần. Giá tại Ấn Độ từ ₹14.990, tại Nepal khoảng NPR 30.499 (bản 4GB/64GB). Giá và ngày bán tại Việt Nam chưa công bố."
+      ],
+      "sub": "Tin mới & Đánh giá",
+      "tags": [
+        "samsung",
+        "galaxy a07s",
+        "a07s",
+        "ra mat",
+        "tin moi",
+        "danh gia"
+      ],
+      "title": "Samsung Galaxy A07s ra mắt: chip Helio G99+, màn hình 90Hz, camera 50MP, pin 5.000mAh",
+      "id": 68,
+      "img": "assets/samsung-galaxy-a07s-mau-sac.webp"
     }
   ],
   "subs": {
