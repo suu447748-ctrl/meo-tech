@@ -2007,6 +2007,34 @@
       "title": "Laptop touchpad không di chuyển, con trỏ nhảy loạn: kiểm tra phím tắt, cài đặt và vệ sinh trước khi mang ra tiệm",
       "id": 65,
       "img": "assets/laptop-touchpad-khong-nhan.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung Galaxy A18 4G vừa ra mắt tháng 9/2026: màn hình 6.7 inch Super AMOLED 90Hz, chip Exynos 1610 mới, camera 50MP chống rung OIS, pin 5.000mAh sạc nhanh 25W, kháng nước IP64 và 6 năm cập nhật phần mềm. Giá từ khoảng €199, chưa có giá Việt Nam.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Ảnh minh họa trong bài là ảnh do AI tạo, không phải ảnh chính thức của Samsung. Giá và ngày bán tại Việt Nam chưa được công bố; giá trên là giá tham khảo tại châu Âu, có thể khác khi về Việt Nam. Bản Singapore của máy dùng chip MediaTek Helio G99+ thay cho Exynos 1610.",
+      "steps": [
+        "Màn hình: 6.7 inch Super AMOLED, độ phân giải Full HD+ (1080 x 2340), tần số quét 90Hz, kính Gorilla Glass 3. Màn hình Super AMOLED cho màu sắc rực rỡ, dùng ngoài trời vẫn rõ.",
+        "Hiệu năng: chip Exynos 1610 mới của Samsung (bản châu Âu; bản Singapore dùng MediaTek Helio G99+), RAM 4GB, bộ nhớ 64GB / 128GB / 256GB. Máy chạy Android 17 với One UI 9 ngay khi xuất xưởng, được cập nhật hệ điều hành tới 6 lần và bảo mật tới tháng 10/2032.",
+        "Camera: camera chính 50MP có chống rung quang học OIS, camera góc siêu rộng 5MP và camera macro 2MP; camera trước 13MP. Camera chính có OIS giúp chụp thiếu sáng và quay video ổn định hơn.",
+        "Pin và sạc: pin 5.000mAh, sạc nhanh có dây 25W, sạc được 50% trong khoảng 30 phút. Samsung cho biết pin bền ít nhất 1.200 chu kỳ sạc.",
+        "Thiết kế và độ bền: kháng bụi, kháng nước bắn IP64, 3 màu Đen, Xám, Xanh nhạt. Máy ra mắt ngày 15/9/2026, bán ra từ 18/9/2026, giá từ khoảng €199 (bản 4GB/128GB tại Pháp khoảng €279). Giá và ngày bán tại Việt Nam chưa công bố."
+      ],
+      "sub": "Tin mới & Đánh giá",
+      "tags": [
+        "samsung",
+        "galaxy a18",
+        "a18",
+        "ra mat",
+        "tin moi",
+        "danh gia"
+      ],
+      "title": "Samsung Galaxy A18 4G ra mắt: màn hình Super AMOLED 90Hz, chip Exynos 1610, pin 5.000mAh, 6 năm cập nhật",
+      "id": 66,
+      "img": "assets/samsung-galaxy-a18-mau-sac.webp"
     }
   ],
   "subs": {
