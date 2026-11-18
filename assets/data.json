@@ -2123,6 +2123,39 @@
       "title": "PC không nhận USB, chuột và bàn phím lúc nhận lúc không: kiểm tra cổng, dây và driver trước khi mang ra tiệm",
       "id": 69,
       "img": "assets/pc-khong-nhan-usb-chuot-ban-phim.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Bảng tra mã cường lực gốc có 85 mã, 996 máy — nhưng các máy mới ra mắt như Samsung A18/A08/A07s, OPPO Reno17/17 Pro, iPhone 16e/17e, Redmi Note 14 Pro, Xiaomi 15/17, Vivo Y29/V50, Realme 14/Note 60/C71, Honor X9c chưa có trong bảng. Bài này tra cứu mã dùng chung cho từng máy, ghi rõ máy nào dán thử được, máy nào phải lấy hộp riêng (đặc biệt là máy màn cong).",
+      "mins": 5,
+      "note": "Bài bổ sung cho bảng tra mã cường lực dùng chung (mục Cường lực trên web). Các mã ghi 'dán thử' là chưa xác nhận chính thức — thợ nên dán thử 1 miếng lên máy mẫu trước khi dán cho khách. Máy màn cong bắt buộc dùng kính cong (keo UV), không dùng kính phẳng. Nếu gặp máy chưa có trong bài này, nhắn mình tra thêm.",
+      "steps": [
+        "Samsung A18 / A08 / A07s (6.7 inch, giọt nước, màn phẳng): A18 thử hộp Samsung A16/A17 (mã SAM A16, cùng 6.7 inch Super AMOLED giọt nước); A08 và A07s thử hộp Samsung A07 (cùng 6.7 inch giọt nước). Cả 3 đều chưa xác nhận chính thức — dán thử 1 miếng trước khi dán cho khách.",
+        "OPPO Reno17 / Reno17 Pro (màn phẳng, đục lỗ giữa): Reno17 (6.56 inch) và Reno17 Pro (6.32 inch) đều chưa có mã dùng chung — lấy hộp riêng từng máy. Reno17 Pro cùng cỡ với Reno16 Pro quốc tế (6.32 inch) nhưng bảng chưa có mã này.",
+        "OPPO Reno14 / Reno14 Pro (màn phẳng, đục lỗ giữa): Reno14 (6.59 inch) và Reno14 Pro (6.83 inch) đều chưa có mã dùng chung — lấy hộp riêng từng máy. Lưu ý: Reno14 F 5G đã có trong bảng, khác với Reno14.",
+        "iPhone 16e / iPhone 17e (6.1 inch, tai thỏ): dùng chung mã iPhone 13 / 13 Pro / 14 trong bảng — 'Dùng chung khít hoàn toàn'. Cả 5 máy (13, 13 Pro, 14, 16e, 17e) cùng 6.1 inch tai thỏ, cùng vị trí loa và Face ID.",
+        "Redmi Note 14 Pro (6.67 inch, màn cong, đục lỗ): màn cong nên KHÔNG dùng chung với Redmi Note 14 phẳng. Lấy hộp riêng Note 14 Pro, dùng kính cong (dán keo UV).",
+        "Redmi Note 15 5G (6.77 inch, đục lỗ) — lưu ý bảng gốc: bảng gốc ghi Note 15 là 'phẳng', nhưng bản 5G thực tế là màn cong 3D. Bản 5G phải dùng kính cong UV, không dùng kính phẳng của bản 4G. Hỏi rõ khách là bản 4G hay 5G trước khi lấy hộp.",
+        "Xiaomi 15 / Xiaomi 17 (màn phẳng, đục lỗ giữa): Xiaomi 15 (6.36 inch) thử hộp Xiaomi 13/14 (mã MI 13, cùng 6.36 inch), dán thử 1 miếng trước. Xiaomi 17 (6.3 inch) chưa có mã dùng chung — lấy hộp riêng, không dùng chung với Xiaomi 15 vì khác cỡ (6.3 inch so với 6.36 inch) và khác tỉ lệ màn hình.",
+        "Vivo Y29 / Y19s / V50: Y29 và Y19s (bản 4G) cùng 6.68 inch đục lỗ, cùng thân máy (165.8 x 76.1 mm) — dùng chung với nhau, lấy hộp riêng Y29/Y19s. Lưu ý bản 5G của Y19s là giọt nước 6.74 inch, khác — hỏi rõ bản trước khi dán. V50 (6.77 inch, cong 4 cạnh, đục lỗ) là màn cong — lấy hộp riêng (kính cong UV); cùng cỡ với Vivo T4 (6.77 inch cong) nên có thể dùng chung, dán thử 1 miếng trước.",
+        "Realme 14 / Note 60 / C71: Realme 14 5G (6.67 inch AMOLED, đục lỗ) chưa có mã dùng chung xác nhận — lấy hộp riêng (cùng thân với Realme 14T). Realme Note 60 và Note 60x (6.74 inch, đục lỗ) dùng chung với nhau, lấy hộp riêng. Realme C71 có 2 bản khác nhau: bản 4G giọt nước 6.75 inch và bản 5G đục lỗ 6.67 inch — không dùng chung với nhau; bản 4G thử hộp Samsung A07 (cùng 6.7 inch giọt nước), dán thử trước, bản 5G lấy hộp riêng.",
+        "Honor X9c (6.78 inch, màn cong, đục lỗ): màn cong nên không dùng chung với máy phẳng. Lấy hộp riêng Honor X9c, dùng kính cong (dán keo UV)."
+      ],
+      "sub": "Mẹo",
+      "tags": [
+        "cuong-luc",
+        "kinh-cuong-luc",
+        "ma-dung-chung",
+        "samsung-a18",
+        "oppo-reno17",
+        "iphone-16e",
+        "meo"
+      ],
+      "title": "Mã cường lực dùng chung bổ sung — các máy mới chưa có trong bảng (Samsung A18, OPPO Reno17, iPhone 16e…)",
+      "id": 70,
+      "img": "assets/cuong-luc-bo-sung-may-moi.webp"
     }
   ],
   "subs": {
