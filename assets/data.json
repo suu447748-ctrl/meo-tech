@@ -2201,6 +2201,37 @@
       "title": "Điện thoại gọi điện bên kia nghe nhỏ, rè hoặc mất tiếng: vệ sinh lỗ mic và kiểm tra ốp lưng, cài đặt trước khi mang ra tiệm",
       "id": 71,
       "img": "assets/dien-thoai-mic-re-ve-sinh-lo-mic.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "ColorOS 17 — phần mềm mới nhất của OPPO trên nền Android 17, ra mắt toàn cầu 13/10/2026, cài sẵn trên Reno17 series và Find X10. Giao diện Living Flow mới, AI Mind Pilot làm việc nhiều bước thay bạn, AI Photo Agent chỉnh ảnh bằng câu nói, OSee nhận diện vật thể qua camera, chống lừa đảo deepfake, và một hệ thống chung cho cả OPPO, OnePlus, Realme. Dòng Reno15 nằm trong đợt cập nhật tháng 11.",
+      "mins": 5,
+      "note": "ColorOS 17 ra mắt toàn cầu 13/10/2026, cài sẵn trên Find X10 series, Reno17 series, OnePlus 16 và Watch S2. Máy cũ cập nhật dần theo từng đợt: đợt đầu từ 8/10/2026 (Find X9, OnePlus 15, Realme GT8 Pro), đợt tháng 11 gồm Reno15, Reno14, Find N3 và các máy Realme. Một số tính năng AI (như trợ lý Xiao Bu) chỉ có ở bản Trung Quốc, bản quốc tế có thể khác. Cập nhật chia theo khu vực và từng đợt máy, nên máy trong diện cập nhật có thể nhận muộn hơn vài ngày.",
+      "steps": [
+        "Giao diện Living Flow Design mới — thanh điều hướng nổi dạng viên thuốc thay vì thanh cố định dưới đáy màn hình; hiệu ứng kính mờ ở Trung tâm điều khiển, trình phát nhạc và màn hình khóa; đồng hồ màn hình khóa mới; ánh sáng mềm, trong suốt, phản hồi linh hoạt theo thao tác chạm.",
+        "Mượt hơn hẳn — Laminar Flow Engine phân bổ tài nguyên thông minh: app mở ổn định hơn 55%, ảnh thu nhỏ trong Thư viện tải nhanh hơn 50%, giữ app chạy nền tốt hơn 55,6% so với ColorOS 16.",
+        "AI Mind Pilot — Agent Mode: AI làm việc nhiều bước thay bạn — sắp xếp file lộn xộn, tìm kiếm trên mạng, tạo lịch trình, tạo cả trang web từ yêu cầu của bạn; kết hợp ChatGPT, Gemini và Perplexity.",
+        "AI Photo Agent — chỉnh ảnh bằng câu mô tả; Style Match: đưa một ảnh mẫu, AI hiểu bảng màu và tông của ảnh đó rồi áp lên ảnh của bạn, vẫn giữ nét tự nhiên của ảnh gốc.",
+        "AI Mind Space — kho thông tin cá nhân: lưu tài liệu, link video, ảnh chụp màn hình, ghi chú; AI đọc nội dung rồi biến thành ký ức có cấu trúc, tìm kiếm được.",
+        "OSee — AI thị giác: bấm chụp là AI hiểu vật thể và cảnh trước mắt, nhận diện đồ vật, tra thông tin, kết nối dịch vụ.",
+        "AI Notes + dịch trực tiếp — ghi chú AI chép lời họp trực tiếp, dịch trực tiếp, phiên dịch trực tiếp qua tai nghe tương thích.",
+        "Chống lừa đảo bằng AI — phát hiện deepfake (đổi mặt, giọng nói giả), cảnh báo cuộc gọi và app đáng ngờ; dữ liệu AI xử lý qua đám mây riêng mã hóa kép; có báo cáo minh bạch cho biết dịch vụ nào đã dùng dữ liệu của bạn khi nào.",
+        "Một hệ thống cho cả 3 hãng — OPPO, OnePlus và Realme dùng chung ColorOS 17 (Realme UI bị khai tử, gộp vào ColorOS); chạm là chia sẻ file qua lại giữa 3 hãng; Car+ kết nối ô tô."
+      ],
+      "sub": "Phần mềm",
+      "tags": [
+        "coloros-17",
+        "oppo",
+        "android-17",
+        "ai",
+        "phan-mem",
+        "meo"
+      ],
+      "title": "ColorOS 17 có gì mới: 9 tính năng hot nhất (AI làm việc thay bạn, giao diện kính mờ, chống deepfake)",
+      "id": 72,
+      "img": "assets/coloros-17-tinh-nang-moi.webp"
     }
   ],
   "subs": {
