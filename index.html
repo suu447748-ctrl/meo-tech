@@ -116,6 +116,70 @@ body:not(.admin-on) .admin-only{display:none!important}
 .adminnote{border:1.5px dashed var(--accent2);border-radius:12px;padding:12px 14px;font-size:.93rem}
 @media(max-width:820px){.hero-in{grid-template-columns:1fr}.grid,.hot-strip,.gallery,.two-col{grid-template-columns:1fr}.hero-img img{min-height:200px}}
 @media(min-width:821px) and (max-width:1020px){.grid,.gallery{grid-template-columns:repeat(2,1fr)}}
+
+/* Tra cứu mã cường lực */
+.cl-stats{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.cl-stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 14px;min-width:92px}
+.cl-stat b{display:block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.35rem;line-height:1.1}
+.cl-stat span{font-size:12px;color:var(--muted)}
+.cl-stat.main b{color:#1e7b34}
+.cl-bar{position:sticky;top:64px;z-index:5;background:var(--surface);padding:12px;border:1px solid var(--line);border-radius:14px;display:grid;gap:8px;margin:0 0 14px}
+.cl-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.cl-search{position:relative;flex:1 1 280px;min-width:0}
+.cl-search input{width:100%;font:inherit;font-size:16px;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.cl-search input:focus{outline:none;border-color:var(--accent)}
+.cl-chips{display:flex;gap:6px;flex-wrap:wrap}
+.cl-chip{font:inherit;font-size:13px;font-weight:600;padding:7px 12px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.cl-chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cl-lbl{font-size:12px;color:var(--muted);font-weight:600}
+.cl-count{color:var(--muted);font-size:13px;white-space:nowrap}
+.cl-answer{background:var(--surface);border:1.5px solid var(--ink);border-radius:12px;padding:12px 14px;margin-bottom:6px}
+.cl-answer h3{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.cl-ans{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;align-items:center;padding:7px 0;border-top:1px solid var(--line)}
+.cl-ans:first-of-type{border-top:0}
+.cl-ans .cl-who{font-weight:600;min-width:0}
+.cl-ans .cl-who small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.cl-ans .cl-to{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.cl-more{font-size:12px;color:var(--muted);margin-top:6px}
+.cl-sec{margin-top:24px}
+.cl-sh{display:flex;align-items:baseline;gap:10px;margin:0 0 10px}
+.cl-sh h2{font-size:1rem;margin:0;text-transform:uppercase;letter-spacing:.07em}
+.cl-sh span{color:var(--muted);font-size:13px}
+.cl-sec.cl-drop .cl-sh h2{color:#1f6fb2}.cl-sec.cl-flat .cl-sh h2{color:#b0610f}.cl-sec.cl-curved .cl-sh h2{color:#7c3aed}.cl-sec.cl-ip .cl-sh h2{color:#4b5563}
+.cl-grid{display:grid;gap:10px}
+.cl-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;display:grid;grid-template-columns:92px 1fr;overflow:hidden}
+.cl-card.cl-lv-old{opacity:.82}
+.cl-size{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:12px 6px;text-align:center}
+.cl-sec.cl-drop .cl-size{background:#e3eef8;color:#1f6fb2}.cl-sec.cl-flat .cl-size{background:#fbeedd;color:#b0610f}.cl-sec.cl-curved .cl-size{background:#ede9fe;color:#7c3aed}.cl-sec.cl-ip .cl-size{background:#e8eaee;color:#4b5563}
+.cl-size b{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.4rem;line-height:1}
+.cl-size small{font-size:11px;font-weight:600;margin-top:6px}
+.cl-body{padding:12px 14px;min-width:0;display:grid;gap:9px}
+.cl-head{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+.cl-code{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:800;font-size:1.05rem;padding:4px 10px;border-radius:7px;border:1.5px solid currentColor;line-height:1.3}
+.cl-sec.cl-drop .cl-code{color:#1f6fb2}.cl-sec.cl-flat .cl-code{color:#b0610f}.cl-sec.cl-curved .cl-code{color:#7c3aed}.cl-sec.cl-ip .cl-code{color:#4b5563}
+.cl-card.cl-lv-main .cl-code{color:#fff;border-color:transparent;font-size:1.15rem}
+.cl-sec.cl-drop .cl-card.cl-lv-main .cl-code{background:#1f6fb2}.cl-sec.cl-flat .cl-card.cl-lv-main .cl-code{background:#b0610f}.cl-sec.cl-curved .cl-card.cl-lv-main .cl-code{background:#7c3aed}.cl-sec.cl-ip .cl-card.cl-lv-main .cl-code{background:#4b5563}
+.cl-answer .cl-code.cl-drop{background:#1f6fb2;color:#fff;border-color:transparent}.cl-answer .cl-code.cl-flat{background:#b0610f;color:#fff;border-color:transparent}.cl-answer .cl-code.cl-curved{background:#7c3aed;color:#fff;border-color:transparent}.cl-answer .cl-code.cl-ip{background:#4b5563;color:#fff;border-color:transparent}
+.cl-badge{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+.cl-b-main{background:#1e7b34;color:#fff}
+.cl-b-sub{border:1px solid var(--muted);color:var(--muted)}
+.cl-b-new{border:1px solid #7a4fd0;color:#7a4fd0}
+.cl-b-old{background:var(--surface2);color:var(--muted)}
+.cl-order{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.cl-order b{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--ink);font-weight:700}
+.cl-models{display:flex;flex-wrap:wrap;gap:4px}
+.cl-m{font-size:13px;padding:2px 7px;border-radius:5px;background:var(--surface2);border:1px solid var(--line);display:inline-flex;align-items:center}
+.cl-m.cl-hit{background:#ffe58a;border-color:transparent;font-weight:700;color:#17202a}
+.cl-m.cl-kk::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#c0262d;margin-right:5px;flex:none}
+.cl-note{font-size:13px;color:#8a5a00;display:flex;gap:6px}
+.cl-note::before{content:"!";flex:none;width:16px;height:16px;border-radius:50%;border:1.5px solid currentColor;font-size:11px;font-weight:800;display:grid;place-items:center;margin-top:2px}
+.cl-loose{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:8px}
+.cl-empty{padding:24px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:12px}
+.cl-source{color:var(--muted);font-size:.9rem;margin-top:16px}
+.cl-br{font-style:normal;display:inline-block;font-size:9px;font-weight:800;letter-spacing:.03em;line-height:1;padding:3px 4px;border-radius:3px;margin-right:5px;vertical-align:1px;color:#fff;min-width:22px;text-align:center}
+.cl-ans .cl-who .cl-br{font-size:10px;padding:3px 5px}
+.cl-br-sam{background:#1d4ed8}.cl-br-opp{background:#0f8a5f}.cl-br-viv{background:#3b5bdb}.cl-br-rlm{background:#c99700;color:#1a1a1a}.cl-br-rdm{background:#e4572e}.cl-br-xmi{background:#f97316}.cl-br-poc{background:#b8860b}.cl-br-onp{background:#b91c1c}.cl-br-hon{background:#0e7490}.cl-br-hwe{background:#9f1239}.cl-br-tec{background:#2b6cb0}.cl-br-inf{background:#4d7c0f}.cl-br-mot{background:#334155}.cl-br-iph{background:#111827}.cl-br-lg{background:#a21caf}.cl-br-itl{background:#7c3aed}.cl-br-bs{background:#15803d}
+@media(max-width:520px){.cl-bar{top:58px}.cl-bar .cl-chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;max-width:100%}.cl-bar .cl-chips::-webkit-scrollbar{display:none}.cl-chip{font-size:12px;padding:6px 10px;white-space:nowrap}.cl-lbl{display:none}.cl-card{grid-template-columns:70px 1fr}.cl-size b{font-size:1.1rem}.cl-ans{grid-template-columns:1fr}.cl-ans .cl-to{justify-content:flex-start}}
 </style>
 </head>
 <body>
@@ -223,9 +287,17 @@ body:not(.admin-on) .admin-only{display:none!important}
 
 <!-- CUONG LUC -->
 <section class="view" id="view-cuongluc">
-  <div class="section-head"><div><h2>🛡️ Mã cường lực dùng chung</h2><p>Tra xem kính cường lực của máy nào dùng chung được cho máy nào — khỏi mua nhầm. Bảng tra của Camera Ba Đồn, nhúng trực tiếp vào web này, luôn cập nhật theo trang gốc.</p></div></div>
-  <iframe src="https://cuong-luc-dung-chung.netlify.app/" title="Bảng tra mã cường lực dùng chung" style="width:100%;height:80vh;min-height:640px;border:1px solid var(--line);border-radius:16px;background:#fff" loading="lazy"></iframe>
-  <p style="color:var(--muted);margin-top:10px">Nếu bảng không hiện, mở trang gốc tại đây: <a href="https://cuong-luc-dung-chung.netlify.app/" target="_blank" rel="noopener">cuong-luc-dung-chung.netlify.app</a></p>
+  <div class="section-head"><div><h2>🛡️ Mã cường lực dùng chung</h2><p>Tra xem kính cường lực của máy nào dùng chung được cho máy nào — khỏi mua nhầm. Gõ tên máy là biết lấy hộp kính nào. Dữ liệu gốc từ bảng tra KingKong Full của Camera Ba Đồn, đã đưa về web này và bổ sung thêm các máy mới ra mắt.</p></div><button class="readbtn" data-read="70">Bài bổ sung mã mới →</button></div>
+  <div class="cl-stats" id="cl-stats"></div>
+  <div class="cl-bar">
+    <div class="cl-row"><div class="cl-search"><input id="cl-q" type="search" placeholder="Tìm máy: a32, reno 5, note 13, y20…" autocomplete="off" aria-label="Tìm tên máy"></div><span class="cl-count" id="cl-count"></span></div>
+    <div class="cl-row"><span class="cl-lbl">Loại:</span><div class="cl-chips"><button class="cl-chip" data-f="all" aria-pressed="true">Tất cả</button><button class="cl-chip" data-f="drop" aria-pressed="false">Giọt nước</button><button class="cl-chip" data-f="flat" aria-pressed="false">Đục lỗ</button><button class="cl-chip" data-f="curved" aria-pressed="false">Màn cong</button><button class="cl-chip" data-f="ip" aria-pressed="false">iPhone</button></div></div>
+    <div class="cl-row"><span class="cl-lbl">Mức:</span><div class="cl-chips"><button class="cl-chip" data-l="all" aria-pressed="true">Tất cả</button><button class="cl-chip" data-l="main" aria-pressed="false">Mã chính</button><button class="cl-chip" data-l="sub" aria-pressed="false">Mã phụ</button><button class="cl-chip" data-l="new" aria-pressed="false">Máy mới</button><button class="cl-chip" data-l="old" aria-pressed="false">Đời cũ</button></div></div>
+  </div>
+  <div id="cl-ans"></div>
+  <div id="cl-out"></div>
+  <div id="cl-loose"></div>
+  <p class="cl-source">Nguồn: bảng dùng chung KingKong Full, đối chiếu 2 bảng mã cũ và bảng iPhone của cửa hàng Camera Ba Đồn — <a href="https://cuong-luc-dung-chung.netlify.app/" target="_blank" rel="noopener">xem trang gốc</a>. Các mã mới bổ sung do Mẹo Tech tra cứu thêm, ghi rõ “dán thử” khi chưa xác nhận. Máy có chấm đỏ là máy có hộp KingKong in tên riêng.</p>
 </section>
 
 <!-- GALLERY -->
@@ -332,6 +404,7 @@ Nên làm gì tiếp theo.</pre><button class="btn alt" id="copyTemplate">Copy m
 <dialog id="reader"><div class="dialog-in"><button class="closebtn" id="closeReader">Đóng ✕</button><div class="kicker" id="rCat"></div><h2 id="rTitle"></h2><p id="rExcerpt" style="color:var(--muted)"></p><img class="article-img" id="rImg" alt=""><div class="meta" id="rTags"></div><h3>Cách làm từng bước</h3><ol id="rSteps"></ol><h3>Lưu ý</h3><p id="rNote"></p></div></dialog>
 <div class="toast" id="toast">Đã copy!</div>
 
+<script src="assets/cuong-luc.js"></script>
 <script>
 /* ===== ADMIN =====
    File này KHÔNG chứa mật khẩu mặc định hay mã băm nào. Lần đầu bấm "Đăng nhập Admin" trên một trình duyệt,
@@ -547,8 +620,98 @@ function loadData(){
   var timer=setTimeout(function(){finish(null)},1500);
   try{fetch('assets/data.json').then(function(r){return r.ok?r.json():null}).then(function(d){clearTimeout(timer);finish(d)}).catch(function(){clearTimeout(timer);finish(null)})}catch(e){clearTimeout(timer);finish(null)}
 }
+/* Tra cứu mã cường lực (dữ liệu: assets/cuong-luc.js) */
+(function(){
+  var D=window.CUONG_LUC;
+  var out=document.getElementById('cl-out');
+  if(!out) return;
+  if(!D||!D.G||!D.G.length){
+    out.innerHTML='<div class="cl-empty">Chưa tải được bảng mã. Mở trang gốc tại đây: <a href="https://cuong-luc-dung-chung.netlify.app/" target="_blank" rel="noopener">cuong-luc-dung-chung.netlify.app</a></div>';
+    return;
+  }
+  var G=D.G, KK=D.KK||[], MAIN_X=new Set(D.MAIN_X||[]), SUB=new Set(D.SUB||[]);
+  for(var i=0;i<G.length;i++){var g=G[i];g.m=g.m.flatMap(function(x){if(x.indexOf('/')<0)return [x];var sp=x.indexOf(' ');var b=x.slice(0,sp+1);return x.slice(sp+1).split('/').map(function(y){return b+y.trim()})});}
+  for(var j=0;j<G.length;j++){var gg=G[j];gg.lv=(gg.mine||MAIN_X.has(gg.code))?'main':gg.new?'new':(SUB.has(gg.code)||gg.t==='ip')?'sub':'old';}
+  var LV={main:['cl-b-main','Mã chính'],sub:['cl-b-sub','Mã phụ'],new:['cl-b-new','Máy mới'],old:['cl-b-old','Đời cũ']};
+  var TYPES=[['drop','Giọt nước / tai thỏ'],['flat','Phẳng / đục lỗ cam'],['curved','Màn cong'],['ip','iPhone']];
+  function normFull(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/gi,'d').toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-z0-9+]/g,'')}
+  function norm(s){return normFull(s.replace(/^(samsung|ss|oppo|op|vivo|realme|redmi|rm|xiaomi|mi|poco|iphone|ip|oneplus|honor|huawei|tecno|infinix|moto|itel)\s+/i,''))}
+  var kkSet=new Set(KK.map(normFull));
+  function isKK(x){return kkSet.has(normFull(x))}
+  function match(model,raw){
+    if(!raw) return false;
+    var a=normFull(model), b=normFull(raw);
+    function ok(r){return !/^[0-9]/.test(r)||/^[45]g/.test(r)||/^20\d\d/.test(r)}
+    if(b && a.indexOf(b)===0 && ok(a.slice(b.length))) return true;
+    var bm=raw.trim().toLowerCase().match(/^(samsung|ss|oppo|op|vivo|realme|redmi|rm|xiaomi|mi|poco|iphone|ip|oneplus|honor|huawei|tecno|infinix|moto|itel)\s+/);
+    if(bm){var c={ss:'samsung',op:'oppo',rm:'redmi',ip:'iphone',mi:'xiaomi'}[bm[1]]||bm[1];if(a.indexOf(c)!==0)return false}
+    var qa=norm(raw); if(!qa) return false;
+    var m=norm(model);
+    return m===qa || (m.indexOf(qa)===0 && ok(m.slice(qa.length)));
+  }
+  var BR=[['Black Shark','bs','BS'],['Samsung','sam','SAM'],['Oppo','opp','OPPO'],['Vivo','viv','VIVO'],['Realme','rlm','REAL'],['Redmi','rdm','REDMI'],['Xiaomi','xmi','MI'],['Poco','poc','POCO'],['OnePlus','onp','1+'],['Honor','hon','HONOR'],['Huawei','hwe','HW'],['Tecno','tec','TECNO'],['Infinix','inf','INFIN'],['Moto','mot','MOTO'],['iPhone','iph','iPhone'],['LG','lg','LG'],['Itel','itl','ITEL']];
+  function brandSplit(x){for(var k=0;k<BR.length;k++){var b=BR[k];if(x.indexOf(b[0]+' ')===0)return [b[1],b[2],x.slice(b[0].length+1)]}return [null,null,x]}
+  function chip(x,cls){var p=brandSplit(x);return '<span class="cl-m'+cls+'" title="'+esc(x)+'">'+(p[0]?'<i class="cl-br cl-br-'+p[0]+'">'+p[1]+'</i>':'')+esc(p[2])+'</span>'}
+  function orderLine(g){return g.kk?('Đặt KingKong: <b>'+esc(g.kk)+'</b>'):(g.t==='ip'?'':'Đặt hộp theo tên máy')}
+  function card(g,hits){
+    var ms=g.m.map(function(x){return chip(x,(hits.indexOf(x)>-1?' cl-hit':'')+(isKK(x)?' cl-kk':''))}).join('');
+    var lv=LV[g.lv];
+    var ord=orderLine(g);
+    return '<article class="cl-card cl-lv-'+g.lv+'"><div class="cl-size"><b>'+(g.label||g.in)+'&quot;</b><small>'+esc(g.hole||'Giọt nước')+'</small></div><div class="cl-body">'+
+      '<div class="cl-head"><span class="cl-code">'+esc(g.code)+'</span><span class="cl-badge '+lv[0]+'">'+lv[1]+'</span></div>'+
+      (ord?'<div class="cl-order">'+ord+'</div>':'')+
+      '<div class="cl-models">'+ms+'</div>'+(g.note?'<div class="cl-note">'+esc(g.note)+'</div>':'')+'</div></article>';
+  }
+  var filter='all', level='all';
+  var q=document.getElementById('cl-q'), cnt=document.getElementById('cl-count'), ans=document.getElementById('cl-ans'), loose=document.getElementById('cl-loose');
+  function render(){
+    var raw=q.value.trim();
+    if(raw){
+      var rows=[];
+      for(var i=0;i<G.length;i++)for(var j=0;j<G[i].m.length;j++)if(match(G[i].m[j],raw))rows.push([G[i].m[j],G[i]]);
+      rows.sort(function(a,b){return a[0].length-b[0].length||a[0].localeCompare(b[0])});
+      if(rows.length){
+        var show=rows.slice(0,8);
+        ans.innerHTML='<div class="cl-answer"><h3>Lấy hộp nào?</h3>'+show.map(function(r){var m=r[0],g=r[1];var p=brandSplit(m);return '<div class="cl-ans"><div class="cl-who">'+(p[0]?'<i class="cl-br cl-br-'+p[0]+'">'+p[1]+'</i>':'')+esc(p[2])+'<small>'+(g.label||g.in)+'&quot; · '+esc(g.hole||'Giọt nước')+'</small></div><div class="cl-to"><span class="cl-code '+g.t+'">'+esc(g.code)+'</span>'+(g.kk?'<span class="cl-order">KK: <b>'+esc(g.kk)+'</b></span>':'')+'</div></div>'}).join('')+(rows.length>8?'<div class="cl-more">Còn '+(rows.length-8)+' máy khớp nữa, xem các thẻ bên dưới hoặc gõ cụ thể hơn.</div>':'')+'</div>';
+      } else ans.innerHTML='';
+    } else ans.innerHTML='';
+    var html='',total=0;
+    for(var t=0;t<TYPES.length;t++){
+      var ty=TYPES[t][0], name=TYPES[t][1];
+      if(filter!=='all'&&filter!==ty) continue;
+      var list=G.filter(function(g){return g.t===ty&&(level==='all'||g.lv===level)}).sort(function(a,b){return a.in-b.in||(a.lv==='main'?0:1)-(b.lv==='main'?0:1)})
+        .map(function(g){return {g:g,hits:raw?g.m.filter(function(x){return match(x,raw)}):[]}})
+        .filter(function(r){return !raw||r.hits.length||match(r.g.code,raw)||(r.g.kk&&match(r.g.kk,raw))});
+      if(!list.length) continue;
+      total+=list.length;
+      html+='<section class="cl-sec cl-'+ty+'"><div class="cl-sh"><h2>'+name+'</h2><span>'+list.length+' mã</span></div><div class="cl-grid">'+list.map(function(r){return card(r.g,r.hits)}).join('')+'</div></section>';
+    }
+    out.innerHTML=html||('<div class="cl-empty">Không thấy &quot;'+esc(raw)+'&quot;. Thử gõ ngắn hơn, ví dụ &quot;a16&quot; thay vì &quot;oppo a16k 2022&quot;, hoặc chọn lại mức &quot;Tất cả&quot;.</div>');
+    cnt.textContent=raw?(total+' mã khớp'):(total+' mã đang hiện');
+  }
+  (function(){
+    var nMain=G.filter(function(g){return g.lv==='main'}).length, nModels=G.reduce(function(n,g){return n+g.m.length},0);
+    var st=document.getElementById('cl-stats');
+    if(st) st.innerHTML='<div class="cl-stat main"><b>'+nMain+'</b><span>mã chính</span></div><div class="cl-stat"><b>'+G.length+'</b><span>mã kính</span></div><div class="cl-stat"><b>'+nModels+'</b><span>dòng máy</span></div>';
+  })();
+  (function(){
+    var all=new Set();G.forEach(function(g){g.m.forEach(function(x){all.add(normFull(x))})});
+    var orphan=KK.filter(function(x){return !all.has(normFull(x))});
+    if(orphan.length) loose.innerHTML='<section class="cl-sec"><div class="cl-sh"><h2>Hộp riêng, chưa có nhóm</h2><span>'+orphan.length+' máy</span></div><div class="cl-loose"><div class="cl-models">'+orphan.map(function(x){return chip(x,' cl-kk')}).join('')+'</div><div class="cl-note">KingKong có hộp in tên các máy này nhưng chưa thấy trong bảng dùng chung. Nhập đúng hộp theo tên máy.</div></div></section>';
+  })();
+  q.addEventListener('input',render);
+  function bindChips(sel,key,set){
+    document.querySelectorAll(sel).forEach(function(b){b.addEventListener('click',function(){set(b.dataset[key]);document.querySelectorAll(sel).forEach(function(c){c.setAttribute('aria-pressed',c===b)});try{localStorage.setItem('cl-'+key,b.dataset[key])}catch(e){}render()})});
+  }
+  bindChips('.cl-chip[data-f]','f',function(v){filter=v});
+  bindChips('.cl-chip[data-l]','l',function(v){level=v});
+  try{['f','l'].forEach(function(k){var v=localStorage.getItem('cl-'+k);if(v){var b=document.querySelector('.cl-chip[data-'+k+'="'+v+'"]');if(b)b.click()}})}catch(e){}
+  render();
+})();
+
 loadData();
 </script>
 </body>
 </html>
+
 
