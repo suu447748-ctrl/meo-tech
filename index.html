@@ -145,6 +145,7 @@ body:not(.admin-on) .admin-only{display:none!important}
   <button class="navbtn" data-view="laptop">💻 Laptop</button>
   <button class="navbtn" data-view="pc">🖥️ PC</button>
   <button class="navbtn" data-view="accessory">🎧 Phụ kiện</button>
+  <button class="navbtn" data-view="cuongluc">🛡️ Cường lực</button>
   <button class="navbtn" data-view="gallery">🖼️ Thư viện ảnh</button>
   <button class="navbtn admin-only" data-view="guide">✍️ Đăng bài & up ảnh</button>
   <button class="navbtn" id="adminBtn" type="button">🔐 Đăng nhập Admin</button>
@@ -171,6 +172,7 @@ body:not(.admin-on) .admin-only{display:none!important}
     <article class="card"><img src="assets/phone.webp" alt="Điện thoại cầm trên tay"><div class="card-body"><h3>Điện thoại — có mục Sửa chữa</h3><p>Tin mới, so sánh, mẹo iPhone/Android, sửa chữa theo triệu chứng và Phần mềm điện thoại.</p><button class="readbtn" data-goto="phone">Vào mục Điện thoại →</button></div></article>
     <article class="card"><img src="assets/laptop.jpg" alt="Laptop trên bàn làm việc"><div class="card-body"><h3>Laptop — theo nhu cầu & hãng</h3><p>Học tập, văn phòng, gaming, đồ họa. Có mục Lỗi thường gặp và Phần mềm laptop riêng.</p><button class="readbtn" data-goto="laptop">Vào mục Laptop →</button></div></article>
     <article class="card"><img src="assets/pc.webp" alt="PC gaming lắp ráp với đèn RGB bên trong case"><div class="card-body"><h3>PC — Build theo ngân sách</h3><p>Build 10–30 triệu, linh kiện, benchmark, lỗi PC và Phần mềm PC (OBS, Steam, driver).</p><button class="readbtn" data-goto="pc">Vào mục PC →</button></div></article>
+    <article class="card"><img src="assets/repair.jpg" alt="Dán kính cường lực cho điện thoại"><div class="card-body"><h3>🛡️ Cường lực dùng chung</h3><p>Tra mã kính cường lực dùng chung cho từng máy — khỏi mua nhầm, dán thử là vừa.</p><button class="readbtn" data-goto="cuongluc">Tra mã cường lực →</button></div></article>
   </div>
 </section>
 
@@ -217,6 +219,13 @@ body:not(.admin-on) .admin-only{display:none!important}
   <div class="section-head"><div><h2>🎧 Phụ kiện & mở rộng</h2><p>Tai nghe · Chuột · Bàn phím · Loa · Màn hình · Tablet · Đồng hồ thông minh · Hỏi đáp</p></div></div>
   <div class="searchbox"><label for="s-accessory">Tìm riêng trong Phụ kiện</label><div class="search-row"><input id="s-accessory" type="search" placeholder="Ví dụ: tai nghe, chuột, màn hình…"><button class="btn" data-clear="s-accessory">Xóa lọc</button></div><div class="result-count" id="c-accessory"></div></div>
   <div class="chips" data-chips="accessory"></div><div class="grid" data-grid="accessory"></div><div class="empty" data-empty="accessory" hidden>Chưa có bài khớp trong Phụ kiện.</div>
+</section>
+
+<!-- CUONG LUC -->
+<section class="view" id="view-cuongluc">
+  <div class="section-head"><div><h2>🛡️ Mã cường lực dùng chung</h2><p>Tra xem kính cường lực của máy nào dùng chung được cho máy nào — khỏi mua nhầm. Bảng tra của Camera Ba Đồn, nhúng trực tiếp vào web này, luôn cập nhật theo trang gốc.</p></div></div>
+  <iframe src="https://cuong-luc-dung-chung.netlify.app/" title="Bảng tra mã cường lực dùng chung" style="width:100%;height:80vh;min-height:640px;border:1px solid var(--line);border-radius:16px;background:#fff" loading="lazy"></iframe>
+  <p style="color:var(--muted);margin-top:10px">Nếu bảng không hiện, mở trang gốc tại đây: <a href="https://cuong-luc-dung-chung.netlify.app/" target="_blank" rel="noopener">cuong-luc-dung-chung.netlify.app</a></p>
 </section>
 
 <!-- GALLERY -->
@@ -312,7 +321,7 @@ Nên làm gì tiếp theo.</pre><button class="btn alt" id="copyTemplate">Copy m
 </section>
 </main>
 
-<footer>Mẹo Tech — Tin hot · Mẹo hay · Mua đúng, không phí tiền &nbsp;|&nbsp; Điện thoại (có Sửa chữa & Phần mềm) · Laptop (có Phần mềm) · PC (có Phần mềm)</footer>
+<footer>Mẹo Tech — Tin hot · Mẹo hay · Mua đúng, không phí tiền &nbsp;|&nbsp; Điện thoại (có Sửa chữa & Phần mềm) · Laptop (có Phần mềm) · PC (có Phần mềm) · Cường lực dùng chung</footer>
 
 <dialog id="loginDialog"><div class="dialog-in"><button class="closebtn" id="closeLogin">Đóng ✕</button><div class="kicker">Khu vực Admin</div><h2 id="loginTitle">Đăng nhập Admin</h2>
 <form class="postform" id="loginForm"><p style="color:var(--muted);margin:0">Nhập mật khẩu Admin của trình duyệt này để mở chế độ chỉnh sửa: thêm / sửa / xóa bài viết và quản lý mục con. Người xem bình thường chỉ xem được bài, không sửa được gì.</p><label>Mật khẩu Admin<input type="password" id="adminPass" autocomplete="current-password" placeholder="Nhập mật khẩu…"></label><p id="loginError" style="color:var(--hot);font-weight:700;margin:0" hidden>Sai mật khẩu, thử lại nhé.</p><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" type="submit">Đăng nhập</button><button class="btn alt" type="button" id="resetPassBtn">Quên mật khẩu — đặt lại</button></div></form>
@@ -542,3 +551,4 @@ loadData();
 </script>
 </body>
 </html>
+
