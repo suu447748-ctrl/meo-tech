@@ -1963,6 +1963,50 @@
       "title": "Samsung A04e sự cố lỗi sạc: kiểm tra linh kiện bị chập (Short)",
       "id": 64,
       "img": "assets/samsung-a04e-loi-sac-linh-kien-chap.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Touchpad bỗng dưng không di chuyển, con trỏ đứng yên hoặc nhảy loạn khi bạn chạm vào — lỗi rất hay gặp và phần lớn trường hợp chỉ do bạn vô tình tắt touchpad, cài đặt bị đổi hoặc bề mặt touchpad bị bẩn. Bạn có thể tự kiểm tra và xử lý tại nhà trong vài phút, chưa cần mang ra tiệm ngay.",
+      "mins": 4,
+      "note": "Lưu ý: bài này chỉ hướng dẫn kiểm tra phím tắt, cài đặt và vệ sinh bề mặt bên ngoài, an toàn cho người dùng phổ thông. Tuyệt đối không tự tháo máy nếu bạn không có kinh nghiệm.",
+      "steps": [
+        "Nhận biết lỗi: Touchpad bỗng dưng không di chuyển, con trỏ đứng yên hoặc nhảy loạn khi bạn chạm vào — lỗi rất hay gặp và phần lớn trường hợp chỉ do bạn vô tình tắt touchpad, cài đặt bị đổi hoặc bề mặt touchpad bị bẩn. Dấu hiệu dễ thấy nhất: bạn chạm, vuốt trên touchpad nhưng con trỏ không nhúc nhích, hoặc con trỏ tự nhảy lung tung, bấm nhầm liên tục.",
+        "Touchpad lúc nhận lúc không: có lúc vuốt được, có lúc phải vuốt nhiều lần mới di chuyển.",
+        "Chuột ngoài cắm qua cổng USB vẫn dùng bình thường, chỉ riêng touchpad là không hoạt động.",
+        "Kiểm tra trước khi xử lý — Nhớ lại xem bạn có vừa bấm nhầm phím tắt nào trên bàn phím không: nhiều laptop có phím tắt bật/tắt touchpad, chỉ cần bấm nhầm một lần là touchpad ngừng hoạt động.",
+        "Nhìn bề mặt touchpad: có dính nước, mồ hôi, dầu mỡ hay bụi bẩn không — bề mặt bẩn là nguyên nhân rất phổ biến khiến touchpad nhận cảm ứng kém.",
+        "Để ý xem tay bạn có đang đeo găng, tay ướt, hoặc lòng bàn tay tì đè lên touchpad khi gõ phím không.",
+        "Các bước xử lý — Bước 1: Bật lại touchpad bằng phím tắt. Trên hàng phím chức năng, tìm phím có biểu tượng hình touchpad (thường là F5, F6, F7 hoặc F9 tùy hãng), bấm giữ phím Fn rồi bấm phím đó một lần, sau đó thử vuốt touchpad xem đã hoạt động chưa.",
+        "Bước 2: Nếu phím tắt không có tác dụng, vào Cài đặt của máy, mở mục Bluetooth & thiết bị rồi chọn Touchpad, kiểm tra xem touchpad có đang bị tắt không và bật lại nếu cần.",
+        "Bước 3: Trong cùng mục cài đặt Touchpad, kiểm tra độ nhạy: nếu đang để mức thấp, hãy tăng lên mức trung bình rồi thử lại.",
+        "Bước 4: Vệ sinh bề mặt touchpad. Tắt máy, dùng khăn mềm hơi ẩm vắt thật khô lau nhẹ toàn bộ bề mặt touchpad, sau đó lau lại bằng khăn khô. Đợi bề mặt khô hẳn rồi mới bật máy dùng lại.",
+        "Bước 5: Khởi động lại máy. Nhiều trường hợp touchpad đơ do lỗi phần mềm tạm thời, chỉ cần khởi động lại là hoạt động bình thường.",
+        "Bước 6: Cắm thử một con chuột USB để dùng tạm trong lúc kiểm tra. Nếu chuột ngoài dùng tốt mà touchpad vẫn không nhận, lỗi nằm ở touchpad hoặc cài đặt, không phải do hệ điều hành.",
+        "Test lại — Mở máy và vuốt thử touchpad theo nhiều hướng, thử chạm một lần và chạm hai lần để bấm, thử cuộn trang bằng hai ngón tay.",
+        "Gõ thử một đoạn văn bản xem con trỏ có còn nhảy loạn khi lòng bàn tay chạm vào touchpad không. Nếu còn, vào cài đặt Touchpad chỉnh độ nhạy của tính năng chống chạm nhầm lòng bàn tay lên mức cao hơn.",
+        "Nếu touchpad đã hoạt động ổn định trong khoảng 10–15 phút dùng bình thường thì coi như đã xử lý xong.",
+        "Khi nào nên mang ra tiệm — Đã thử phím tắt, cài đặt, vệ sinh và khởi động lại mà touchpad vẫn hoàn toàn không nhận.",
+        "Touchpad lúc nhận lúc không, phải ấn mạnh mới di chuyển, hoặc bề mặt touchpad bị phồng, nứt, bong tróc.",
+        "Touchpad hỏng kèm theo các lỗi khác như bàn phím liệt nhiều phím, máy hay tự tắt — có thể lỗi nằm sâu bên trong, cần thợ kiểm tra.",
+        "Máy còn bảo hành: mang ra trung tâm bảo hành chính hãng, đừng tự tháo máy vì có thể mất bảo hành."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop touchpad không nhận",
+        "touchpad không di chuyển",
+        "con trỏ nhảy loạn",
+        "chuột cảm ứng laptop",
+        "bật touchpad laptop",
+        "touchpad laptop",
+        "con tro nhay loan",
+        "bat touchpad",
+        "chuot cam ung"
+      ],
+      "title": "Laptop touchpad không di chuyển, con trỏ nhảy loạn: kiểm tra phím tắt, cài đặt và vệ sinh trước khi mang ra tiệm",
+      "id": 65,
+      "img": "assets/laptop-touchpad-khong-nhan.jpg"
     }
   ],
   "subs": {
