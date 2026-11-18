@@ -2035,6 +2035,34 @@
       "title": "Samsung Galaxy A18 4G ra mắt: màn hình Super AMOLED 90Hz, chip Exynos 1610, pin 5.000mAh, 6 năm cập nhật",
       "id": 66,
       "img": "assets/samsung-galaxy-a18-mau-sac.webp"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung Galaxy A08 4G vừa ra mắt tháng 9/2026: pin 6.000mAh lớn nhất từ trước đến nay trong dòng A giá rẻ, màn hình 6.7 inch 90Hz, chip Helio G99, camera 50MP, kháng nước IP64 và 6 năm cập nhật phần mềm. Giá từ khoảng €150, chưa có giá Việt Nam.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Ảnh minh họa trong bài là ảnh do AI tạo, không phải ảnh chính thức của Samsung. Giá và ngày bán tại Việt Nam chưa được công bố; giá trên là giá tham khảo tại châu Âu và một số thị trường khác, có thể khác khi về Việt Nam.",
+      "steps": [
+        "Pin: 6.000mAh, lớn nhất từ trước đến nay trong dòng Galaxy A giá rẻ, sạc nhanh có dây 25W. Pin lớn giúp máy dùng thoải mái cả ngày dài, thậm chí sang ngày thứ hai với nhu cầu vừa phải.",
+        "Màn hình: 6.7 inch PLS LCD, độ phân giải HD+ (720 x 1600), tần số quét 90Hz. Màn hình lớn, lướt mượt, phù hợp xem phim, lướt mạng xã hội.",
+        "Hiệu năng: chip MediaTek Helio G99 (6nm), RAM 4GB (một số thị trường có bản 6GB), bộ nhớ 64GB / 128GB / 256GB, hỗ trợ thẻ nhớ microSD. Máy chạy Android 17 với One UI 9, được cập nhật hệ điều hành tới 6 lần và bảo mật 6 năm.",
+        "Camera: camera chính 50MP lấy nét tự động (f/1.8), camera đo chiều sâu 2MP; camera trước 8MP. Camera chính 50MP chụp đủ sáng tốt, quay video Full HD.",
+        "Thiết kế và độ bền: kháng bụi, kháng nước bắn IP64, 3 màu Xanh navy, Bạc, Xanh lá. Máy ra mắt ngày 15/9/2026, giá từ khoảng €150 (bản 6GB/128GB tại Malaysia khoảng RM899, tương đương 220 USD). Giá và ngày bán tại Việt Nam chưa công bố."
+      ],
+      "sub": "Tin mới & Đánh giá",
+      "tags": [
+        "samsung",
+        "galaxy a08",
+        "a08",
+        "ra mat",
+        "tin moi",
+        "danh gia"
+      ],
+      "title": "Samsung Galaxy A08 4G ra mắt: pin 6.000mAh lớn nhất dòng A giá rẻ, màn hình 90Hz, 6 năm cập nhật",
+      "id": 67,
+      "img": "assets/samsung-galaxy-a08-mau-sac.webp"
     }
   ],
   "subs": {
