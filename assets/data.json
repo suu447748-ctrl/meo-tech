@@ -2091,6 +2091,38 @@
       "title": "Samsung Galaxy A07s ra mắt: chip Helio G99+, màn hình 90Hz, camera 50MP, pin 5.000mAh",
       "id": 68,
       "img": "assets/samsung-galaxy-a07s-mau-sac.webp"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Chuột, bàn phím cắm vào PC lúc nhận lúc không, USB cắm không thấy gì — phần lớn do cổng lỏng, dây hỏng hoặc driver lỗi. Bạn có thể tự kiểm tra theo các bước dưới đây trước khi mang máy ra tiệm.",
+      "mins": 3,
+      "note": "Mang máy ra tiệm khi: tất cả các cổng USB đều không nhận thiết bị nào dù bạn đã thử thiết bị khác và khởi động lại; cổng USB bị lỏng, lún sâu hoặc gãy chân tiếp xúc; PC có mùi khét hoặc cổng nóng bất thường; hoặc lỗi vẫn tái diễn sau khi bạn đã cập nhật driver. Những trường hợp này có thể liên quan đến mạch bên trong thùng máy, bạn không nên tự tháo máy để kiểm tra.",
+      "steps": [
+        "Nhận biết lỗi: chuột hoặc bàn phím lúc dùng được lúc không, đèn chuột tắt hẳn, cắm USB vào không thấy ổ đĩa hiện lên, hoặc Windows báo thiết bị không nhận dạng được.",
+        "Thử cổng USB khác: rút thiết bị ra, cắm sang cổng khác — ưu tiên cổng phía sau thùng máy vì các cổng này thường ổn định hơn cổng mặt trước. Nếu cổng khác nhận bình thường thì cổng cũ có thể đã lỏng hoặc bám bụi.",
+        "Thử thiết bị khác: cắm một con chuột hoặc USB khác vào cùng cổng đó. Nếu thiết bị khác vẫn chạy tốt thì khả năng cao chuột, bàn phím hoặc USB của bạn đã hỏng dây hoặc đầu cắm.",
+        "Thử thiết bị của bạn trên máy khác: cắm chuột, bàn phím hoặc USB sang một máy tính khác. Nếu sang máy khác vẫn không nhận thì lỗi nằm ở thiết bị, bạn chỉ cần thay thiết bị đó, không cần sửa PC.",
+        "Khởi động lại PC: nhiều lỗi nhận thiết bị chỉ là do Windows bị treo tạm thời. Tắt máy hẳn, chờ khoảng 10 giây rồi bật lại, sau đó cắm lại thiết bị.",
+        "Kiểm tra cổng và vệ sinh nhẹ: nhìn vào trong cổng USB xem có bụi bám hay chân tiếp xúc bị lệch không. Dùng chổi mềm hoặc bình xịt khí nén thổi sạch bụi, lau đầu cắm bằng khăn khô. Không dùng vật nhọn chọc vào cổng, không đổ nước hay dung dịch vào cổng.",
+        "Kiểm tra driver trong Device Manager: bấm chuột phải vào nút Start, chọn Device Manager, tìm mục chuột, bàn phím và Universal Serial Bus controllers. Nếu thấy thiết bị có dấu chấm than vàng thì bấm chuột phải, chọn Update driver để Windows tự cập nhật; hoặc chọn Uninstall device rồi rút ra cắm lại để Windows tự cài lại driver.",
+        "Tắt tính năng tiết kiệm điện của cổng USB: vào Control Panel > Power Options > Change plan settings > Change advanced power settings, tìm mục USB settings > USB selective suspend setting và chuyển sang Disabled. Tính năng này đôi khi khiến Windows tự ngắt nguồn cổng USB làm thiết bị chập chờn.",
+        "Test lại từng thiết bị: sau mỗi bước, cắm lại từng thiết bị một và thử dùng vài phút. Ghi nhớ cổng nào nhận tốt, cổng nào chập chờn để tránh dùng cổng lỗi."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "usb",
+        "chuot",
+        "ban phim",
+        "khong nhan usb",
+        "loi pc",
+        "driver"
+      ],
+      "title": "PC không nhận USB, chuột và bàn phím lúc nhận lúc không: kiểm tra cổng, dây và driver trước khi mang ra tiệm",
+      "id": 69,
+      "img": "assets/pc-khong-nhan-usb-chuot-ban-phim.jpg"
     }
   ],
   "subs": {
