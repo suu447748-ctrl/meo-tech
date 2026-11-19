@@ -2232,6 +2232,36 @@
       "title": "ColorOS 17 có gì mới: 9 tính năng hot nhất (AI làm việc thay bạn, giao diện kính mờ, chống deepfake)",
       "id": 72,
       "img": "assets/coloros-17-tinh-nang-moi.webp"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Laptop không bắt được Wi-Fi, sóng yếu hay rớt mạng liên tục thường chỉ do công tắc Wi-Fi bị tắt, mạng lưu sai mật khẩu hoặc router chưa được khởi động lại. Bạn có thể tự kiểm tra trong vài phút theo các bước dưới đây trước khi nghĩ tới chuyện mang ra tiệm.",
+      "mins": 3,
+      "note": "Bạn nên mang laptop ra tiệm khi đã thử hết các bước trên mà laptop vẫn không thấy bất kỳ mạng Wi-Fi nào, card Wi-Fi vẫn báo lỗi trong Device Manager sau khi đã cập nhật driver, hoặc laptop từng bị rơi, va đập rồi mới mất Wi-Fi — có thể card Wi-Fi bên trong bị lỏng hoặc hỏng, cần thợ mở máy kiểm tra. Bạn đừng tự tháo máy để thay card Wi-Fi nếu không có kinh nghiệm, vì có thể làm mất tem bảo hành.",
+      "steps": [
+        "Nhận biết lỗi: laptop không thấy tên mạng Wi-Fi nhà bạn, thấy tên mạng nhưng bấm kết nối mãi không được, hoặc đã kết nối mà sóng yếu, xem video cứ xoay vòng rồi rớt mạng. Trước hết, bạn hãy lấy điện thoại thử vào cùng mạng Wi-Fi đó: nếu điện thoại cũng không vào được thì lỗi nằm ở router hoặc đường mạng, không phải ở laptop.",
+        "Kiểm tra chế độ máy bay và công tắc Wi-Fi: bạn tắt chế độ máy bay nếu đang bật, rồi bật Wi-Fi trong phần Cài đặt mạng. Trên nhiều laptop còn có phím tắt bật/tắt Wi-Fi trên hàng phím chức năng (phím có biểu tượng sóng Wi-Fi, thường bấm kèm phím Fn) — bạn thử bấm một lần rồi xem lại biểu tượng Wi-Fi trên thanh tác vụ.",
+        "Quên mạng rồi kết nối lại: bạn mở danh sách Wi-Fi, bấm vào tên mạng nhà mình và chọn Quên mạng (Forget), sau đó nhập lại mật khẩu và kết nối từ đầu. Cách này xử lý được lỗi do máy lưu sai mật khẩu cũ hoặc cấu hình mạng đã thay đổi sau khi bạn đổi mật khẩu router.",
+        "Khởi động lại laptop và router: bạn tắt hẳn laptop rồi bật lại. Với router/modem, bạn rút dây điện ra, chờ khoảng 30 giây rồi cắm lại, đợi các đèn báo sáng ổn định rồi mới kết nối lại. Router chạy liên tục nhiều ngày rất hay bị treo nhẹ, khởi động lại là cách xử lý đơn giản mà hiệu quả.",
+        "Ngồi gần router hơn và dọn vật cản: bạn thử mang laptop lại gần router để dùng thử. Nếu ở gần sóng khỏe mà ra xa thì yếu hoặc rớt, nguyên nhân là vị trí đặt router — tường dày, tủ kim loại, gương lớn hay lò vi sóng đang chạy đều làm suy giảm sóng. Bạn nên đặt router ở vị trí cao, thoáng, giữa nhà thay vì giấu trong góc tủ.",
+        "Kiểm tra driver Wi-Fi trên Windows: bạn bấm chuột phải vào nút Start, chọn Device Manager, mở mục Network adapters và tìm card Wi-Fi. Nếu thấy card có dấu chấm than vàng, bạn bấm chuột phải vào nó và chọn Update driver, hoặc vào phần Windows Update để hệ thống tự tìm bản cập nhật. Driver cũ hoặc lỗi sau khi cập nhật Windows là nguyên nhân khá phổ biến khiến Wi-Fi chập chờn.",
+        "Test lại: sau mỗi bước, bạn mở trình duyệt thử tải một trang web hoặc xem một video ngắn. Để chắc chắn, bạn thử phát Wi-Fi từ điện thoại (điểm phát sóng cá nhân) rồi cho laptop kết nối vào: nếu vào mạng này bình thường mà mạng nhà vẫn lỗi, vấn đề nằm ở router nhà bạn; nếu mạng nào cũng không vào được, vấn đề nằm ở laptop."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "wifi",
+        "khong-bat-duoc-wifi",
+        "mang-yeu",
+        "rot-mang",
+        "router",
+        "sua-laptop"
+      ],
+      "title": "Laptop không bắt được Wi-Fi, mạng yếu hay rớt liên tục: kiểm tra công tắc Wi-Fi, quên mạng và khởi động lại router trước khi mang ra tiệm",
+      "id": 73,
+      "img": "assets/laptop-wifi-yeu-khong-bat-duoc.jpg"
     }
   ],
   "subs": {
