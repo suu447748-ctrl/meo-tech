@@ -2291,6 +2291,33 @@
       "title": "PC khởi động chậm, vào Windows lâu: tắt ứng dụng khởi động cùng máy và dọn ổ đĩa trước khi mang ra tiệm",
       "id": 74,
       "img": "assets/pc-khoi-dong-cham.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Ảnh chụp tự nhiên bị mờ, lấy nét chậm hoặc có vệt sáng lạ thường chỉ do ống kính bám bẩn, ốp lưng che mất camera hoặc cài đặt chưa đúng. Bạn chỉ cần vài phút kiểm tra theo các bước dưới đây trước khi nghĩ đến chuyện mang máy ra tiệm.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi đã lau sạch ống kính, tháo ốp lưng và khởi động lại mà ảnh vẫn mờ, khi mặt kính camera bị nứt vỡ, khi camera lấy nét kêu rè hoặc rung liên tục, hoặc khi chỉ một ống kính bị mờ trong khi các ống kính còn lại vẫn nét. Đó có thể là lỗi phần cứng bên trong, bạn không nên tự tháo máy.",
+      "steps": [
+        "Nhận biết lỗi: bạn mở camera và chụp thử vài tấm ở nơi đủ sáng. Nếu ảnh mờ đều, lấy nét chậm, có vệt sáng hoặc đốm lạ ở cùng một vị trí trên mọi tấm ảnh thì khả năng cao ống kính đang bẩn hoặc bị che, chưa hẳn camera đã hỏng.",
+        "Lau ống kính: bạn dùng khăn mềm sạch, khô (khăn lau kính hoặc khăn microfiber) lau nhẹ mặt kính camera sau theo vòng tròn. Không dùng giấy ráp, khăn giấy khô ráp hay thổi hơi mạnh vào ống kính vì dễ làm xước kính.",
+        "Tháo ốp lưng và kiểm tra: bạn tháo ốp lưng ra rồi chụp thử lại. Nhiều ốp lưng dày, ốp có nắp che camera hoặc miếng dán bảo vệ ống kính bị trầy sẽ làm ảnh mờ mà bạn không để ý. Nếu tháo ốp mà ảnh nét lại thì bạn chỉ cần đổi ốp khác.",
+        "Chạm lấy nét thủ công: bạn chạm vào chủ thể trên màn hình để máy lấy nét lại, thử chụp ở chế độ chụp ảnh thường thay vì chế độ chân dung hay ban đêm. Nếu máy lấy nét được khi chạm tay thì phần lớn chỉ là lỗi lấy nét tự động tạm thời, không phải hỏng camera.",
+        "Khởi động lại máy và kiểm tra cập nhật: bạn tắt hẳn máy rồi bật lại, sau đó vào phần cập nhật phần mềm để kiểm tra xem có bản cập nhật mới không. Nhiều lỗi camera sau khi cập nhật phần mềm được khắc phục chỉ bằng cách khởi động lại máy.",
+        "Dọn bộ nhớ và test lại: bạn xóa bớt ảnh, video cũ hoặc ứng dụng không dùng để máy còn đủ bộ nhớ trống, rồi mở camera chụp thử vài tấm ở đủ sáng. Nếu ảnh đã nét, lấy nét nhanh trở lại thì bạn đã xử lý xong mà không cần mang máy đi sửa."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "chup anh mo",
+        "lay net cham",
+        "lau ong kinh",
+        "camera mo",
+        "dien thoai chup anh mo"
+      ],
+      "title": "Điện thoại chụp ảnh bị mờ, lấy nét chậm: lau ống kính và kiểm tra ốp lưng, cài đặt trước khi mang ra tiệm",
+      "id": 75,
+      "img": "assets/dien-thoai-chup-anh-mo-lau-ong-kinh.jpg"
     }
   ],
   "subs": {
