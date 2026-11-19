@@ -2262,6 +2262,35 @@
       "title": "Laptop không bắt được Wi-Fi, mạng yếu hay rớt liên tục: kiểm tra công tắc Wi-Fi, quên mạng và khởi động lại router trước khi mang ra tiệm",
       "id": 73,
       "img": "assets/laptop-wifi-yeu-khong-bat-duoc.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Bấm nút nguồn rồi chờ mãi mới vào được Windows? Phần lớn trường hợp chỉ do quá nhiều ứng dụng chạy cùng máy và ổ đĩa hệ thống gần đầy — bạn tự xử lý được trong vài phút.",
+      "mins": 3,
+      "note": "Bạn chỉ nên tự làm các bước kiểm tra phần mềm bên ngoài. Nếu máy vẫn chậm sau khi đã dọn dẹp, ổ đĩa báo lỗi hoặc phát ra tiếng kêu lạ, bạn mang ra tiệm để kỹ thuật viên kiểm tra ổ đĩa và tư vấn nâng cấp SSD hoặc RAM.",
+      "steps": [
+        "Nhận biết lỗi: bạn bấm nút nguồn, máy lên nhưng phải chờ 2-3 phút mới vào được màn hình chính, con trỏ chuột xoay vòng, mở ứng dụng nào cũng chậm. Nếu máy hoàn toàn không lên hình hoặc kêu bíp liên tục thì đó là lỗi khác, bạn xem bài bắt bệnh PC không lên hình.",
+        "Kiểm tra ứng dụng khởi động cùng Windows: bạn bấm chuột phải vào thanh Taskbar rồi chọn Task Manager, sang tab Startup. Tại đây bạn thấy danh sách các ứng dụng tự chạy khi máy bật lên, kèm mức ảnh hưởng (High, Medium, Low).",
+        "Tắt bớt ứng dụng không cần chạy cùng máy: bạn chọn những ứng dụng như phần mềm chat, trình phát nhạc, ứng dụng của hãng máy in mà bạn không dùng ngay khi mở máy, rồi bấm Disable. Bạn chỉ tắt ứng dụng quen thuộc, đừng tắt driver hay phần mềm diệt virus.",
+        "Dọn ổ đĩa hệ thống: bạn mở Settings rồi vào System > Storage, bấm Temporary files và xóa các file tạm, thùng rác, file cập nhật cũ. Bạn kiểm tra ổ C còn trống bao nhiêu — nên giữ ít nhất 15-20% dung lượng trống để Windows chạy ổn định.",
+        "Quét virus và cập nhật hệ thống: bạn mở Windows Security để quét nhanh một lượt, rồi vào Settings > Windows Update để cài các bản cập nhật đang chờ. Virus và bản cập nhật dở dang đều có thể làm máy khởi động chậm.",
+        "Test lại: bạn khởi động lại máy và bấm giờ xem từ lúc bấm nút nguồn đến lúc vào được màn hình chính mất bao lâu. Nếu máy vào nhanh hơn hẳn và mở ứng dụng mượt thì bạn đã xử lý xong.",
+        "Lưu ý mang ra tiệm: nếu bạn đã làm đủ các bước trên mà máy vẫn chậm, ổ đĩa báo lỗi, máy kêu lạch cạch khi chạy, hoặc máy vẫn dùng ổ cứng HDD đời cũ, bạn nên mang ra tiệm để kỹ thuật viên kiểm tra sức khỏe ổ đĩa và tư vấn nâng cấp SSD hoặc thêm RAM. Bạn đừng tự tháo thùng máy nếu không rành, vì có thể làm mất bảo hành hoặc chạm nhầm linh kiện."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "khoi dong cham",
+        "windows",
+        "o dia",
+        "tang toc pc",
+        "sua pc"
+      ],
+      "title": "PC khởi động chậm, vào Windows lâu: tắt ứng dụng khởi động cùng máy và dọn ổ đĩa trước khi mang ra tiệm",
+      "id": 74,
+      "img": "assets/pc-khoi-dong-cham.jpg"
     }
   ],
   "subs": {
