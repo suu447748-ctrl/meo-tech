@@ -2348,6 +2348,34 @@
       "title": "Laptop bàn phím liệt một vài phím, gõ lúc được lúc không: vệ sinh phím, kiểm tra cài đặt và driver trước khi mang ra tiệm",
       "id": 76,
       "img": "assets/laptop-ban-phim-liet-ve-sinh-phim.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Quạt PC rú to, vỏ máy nóng ran mỗi khi chơi game hay mở nhiều ứng dụng thường do bụi bám khe gió, thùng máy đặt kín hoặc có ứng dụng chạy ngầm ngốn tài nguyên. Bạn hoàn toàn có thể kiểm tra và xử lý tại nhà bằng vài bước đơn giản dưới đây.",
+      "mins": 4,
+      "note": "Bạn mang máy ra tiệm khi quạt kêu lạch cạch, kẹt cứng hoặc dừng hẳn, máy tự tắt liên tục dù đã vệ sinh và đặt thoáng, có mùi khét, hoặc máy vẫn nóng ran sau khi đã làm đủ các bước trên. Những trường hợp này có thể cần thay quạt, thay keo tản nhiệt hoặc kiểm tra sâu bên trong thùng máy, bạn nên nhờ thợ có kinh nghiệm xử lý thay vì tự tháo linh kiện.",
+      "steps": [
+        "Nhận biết lỗi: bạn nghe quạt quay rú to hơn bình thường, sờ vỏ thùng thấy nóng ran, máy chạy chậm, giật lag khi chơi game hoặc mở nhiều tab, nặng hơn là máy tự tắt giữa chừng. Nếu quạt kêu lạch cạch, có tiếng va chạm hoặc có mùi khét thì bạn tắt máy ngay và mang ra tiệm, không cố dùng tiếp.",
+        "Kiểm tra cách đặt máy: bạn xem thùng máy có đang kê sát tường, nhét trong hộc bàn kín, đặt trên thảm hoặc dưới gầm bàn thiếu thoáng không. Khe gió trước, sau và trên nóc thùng cần khoảng trống để hút và thoát khí. Bạn kê thùng lên mặt phẳng cứng, thoáng, cách tường một khoảng tay, không để đồ đạc che kín các khe gió.",
+        "Kiểm tra ứng dụng chạy ngầm: bạn mở Task Manager bằng tổ hợp Ctrl + Shift + Esc, sang tab Processes và xem ứng dụng nào đang chiếm CPU, RAM cao bất thường. Bạn tắt những ứng dụng nặng không dùng đến, gỡ các phần mềm lạ tự chạy cùng máy, rồi khởi động lại PC để kiểm tra lại tiếng quạt.",
+        "Vệ sinh bụi ở khe gió bên ngoài: bạn tắt máy, rút dây nguồn, dùng cọ mềm quét sạch bụi bám ở lưới lọc, khe gió trước và sau thùng, sau đó xịt khí nén nhẹ theo chiều từ trong ra ngoài để đẩy bụi ra. Bạn lau sạch lưới lọc bụi nếu thùng có lưới tháo được, rồi lắp lại đúng vị trí. Bạn không dùng máy hút bụi công suất lớn dí sát vào quạt và không xịt nước hay dung dịch tẩy rửa vào máy.",
+        "Kiểm tra lại sau khi xử lý: bạn cắm nguồn, bật máy và mở lại đúng tác vụ nặng lúc trước như game hay phần mềm chỉnh sửa. Bạn lắng nghe tiếng quạt trong vài phút: quạt êm dần và vỏ máy chỉ ấm nhẹ là đạt. Bạn có thể lặp lại bước vệ sinh sau 2-3 tháng nếu nhà bạn nhiều bụi hoặc nuôi thú cưng.",
+        "Dọn bớt gánh nặng cho máy: bạn tắt các hiệu ứng, ứng dụng khởi động cùng Windows không cần thiết, cập nhật driver card đồ họa và Windows lên bản mới nhất. Nếu máy vẫn nóng dù đã làm đủ các bước trên, bạn ghi lại lúc nào quạt kêu to nhất để kể cho thợ nghe khi mang máy đi kiểm tra."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "quat keu to",
+        "may nong",
+        "ve sinh pc",
+        "tan nhiet",
+        "chay nang"
+      ],
+      "title": "PC quạt kêu to, máy nóng ran khi chạy nặng: vệ sinh khe gió, kiểm tra cách đặt máy và ứng dụng chạy ngầm trước khi mang ra tiệm",
+      "id": 77,
+      "img": "assets/pc-quat-keu-to-may-nong.jpg"
     }
   ],
   "subs": {
