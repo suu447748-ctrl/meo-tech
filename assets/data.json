@@ -2376,6 +2376,51 @@
       "title": "PC quạt kêu to, máy nóng ran khi chạy nặng: vệ sinh khe gió, kiểm tra cách đặt máy và ứng dụng chạy ngầm trước khi mang ra tiệm",
       "id": 77,
       "img": "assets/pc-quat-keu-to-may-nong.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Bạn nghe nhạc, xem video hay nghe chuông báo mà tiếng cứ rè rè, nhỏ hẳn dù đã vặn hết âm lượng — phần lớn do lưới loa bám bụi, ốp lưng che mất loa hoặc máy đang phát nhầm sang tai nghe Bluetooth. Bạn chỉ cần kiểm tra theo các bước dưới đây trước khi mang ra tiệm.",
+      "mins": 4,
+      "note": "Lưu ý an toàn: Tuyệt đối không dùng vật kim loại, tăm nhọn hay ghim chọc vào lưới loa, không đổ nước hay dung dịch vào loa, không tự tháo máy. Bài này chỉ hướng dẫn các thao tác vệ sinh và kiểm tra bên ngoài, an toàn cho người dùng phổ thông.",
+      "steps": [
+        "Nhận biết lỗi: Bạn mở nhạc, xem video hoặc nghe chuông báo mà tiếng cứ rè rè, nhỏ hẳn dù đã vặn âm lượng lên hết cỡ, có khi chỉ nghe rõ một bên loa, có khi tiếng lúc to lúc nhỏ. Nếu bạn đeo tai nghe thì âm thanh vẫn bình thường, còn loa ngoài thì rè — khả năng cao nguyên nhân nằm ở lưới loa hoặc cài đặt, bạn hoàn toàn có thể tự kiểm tra tại nhà trước khi mang ra tiệm.",
+        "Kiểm tra nhanh trước khi xử lý — Thử mở nhiều ứng dụng khác nhau: Bạn thử phát nhạc, xem video trên YouTube rồi nghe thử một bản ghi âm. Nếu chỉ một ứng dụng bị rè thì lỗi nằm ở ứng dụng đó, bạn chỉ cần cập nhật hoặc cài đặt lại ứng dụng.",
+        "Kiểm tra tai nghe Bluetooth: Bạn xem máy có đang kết nối với tai nghe hay loa Bluetooth không. Nhiều khi máy tự chuyển âm thanh sang tai nghe đang để trong túi nên loa ngoài nghe rất nhỏ hoặc không phát tiếng. Bạn tắt Bluetooth rồi phát nhạc thử lại.",
+        "Xem bạn có đang bật chế độ Không làm phiền hay đang tắt tiếng chuông không: Bạn kiểm tra nút gạt im lặng trên cạnh máy và biểu tượng loa trong phần cài đặt âm thanh, đảm bảo âm lượng phương tiện và âm lượng chuông đều đang mở.",
+        "Xem cách bạn cầm máy: Khi xem video, bạn có thể vô tình che mất lưới loa ở cạnh dưới máy bằng tay, hoặc ốp lưng dày che mất loa. Thử tháo ốp lưng ra rồi phát nhạc lại xem tiếng có to và rõ hơn không.",
+        "Các bước xử lý — Bước 1: Tắt nguồn điện thoại trước khi vệ sinh để đảm bảo an toàn.",
+        "Bước 2: Tìm lưới loa trên máy của bạn, thường là dãy lỗ nhỏ ở cạnh dưới, gần cổng sạc. Dùng cọ mềm nhỏ hoặc bàn chải lông mềm, nhẹ nhàng quét bụi quanh miệng các lỗ loa. Tuyệt đối không dùng vật kim loại, tăm nhọn hay ghim chọc sâu vào trong vì rất dễ làm rách màng loa bên trong.",
+        "Bước 3: Dùng bóng thổi bụi hoặc thổi nhẹ để đẩy bụi còn sót ra ngoài. Không dùng máy sấy tóc thổi hơi nóng trực tiếp vào loa, không đổ nước hay dung dịch tẩy rửa vào loa.",
+        "Bước 4: Kiểm tra ốp lưng: Bạn lắp ốp lưng vào rồi soi xem lỗ loa trên ốp có khớp đúng vị trí lưới loa trên máy không. Nếu ốp che lệch, bịt kín loa hoặc ốp quá dày thì bạn nên đổi ốp khác có lỗ khoét đúng vị trí.",
+        "Bước 5: Kiểm tra cài đặt âm thanh và cân bằng loa. Bạn vào phần cài đặt âm thanh, đảm bảo âm lượng phương tiện đang ở mức cao, tắt chế độ mono nếu đang bật nhầm, và kiểm tra xem máy có đang bật chế độ giới hạn âm lượng an toàn hay không.",
+        "Bước 6: Khởi động lại điện thoại một lần. Sau khi khởi động lại, bạn mở nhạc thử để kiểm tra.",
+        "Bước 7: Cập nhật phần mềm lên bản mới nhất. Bạn vào phần cài đặt, kiểm tra cập nhật hệ thống — bản cập nhật thường sửa các lỗi âm thanh đã biết.",
+        "Test lại sau khi xử lý — Mở một bài nhạc quen thuộc rồi nghe thử: nếu tiếng đã to, rõ và không còn rè thì loa đã hoạt động bình thường trở lại.",
+        "Thử nghe chuông báo và âm báo tin nhắn: nếu chuông đã to như trước thì bạn đã xử lý xong.",
+        "Thử lắp lại ốp lưng rồi phát nhạc một lần nữa: nếu lắp ốp vào mà tiếng lại nhỏ hoặc rè thì chắc chắn ốp lưng của bạn đang che loa, bạn nên đổi ốp khác.",
+        "Khi nào nên mang ra tiệm — Đã vệ sinh lưới loa, đổi ốp lưng, kiểm tra cài đặt và khởi động lại mà loa vẫn rè hoặc nghe rất nhỏ.",
+        "Loa mất tiếng hẳn sau khi máy bị rơi mạnh hoặc vào nước, hoặc loa lúc được lúc mất không theo quy luật.",
+        "Cả loa ngoài, loa thoại và tai nghe cắm dây đều rè cùng lúc — khả năng cao phần cứng âm thanh bên trong máy đã có vấn đề.",
+        "Khi mang ra tiệm, bạn hãy mô tả rõ những gì mình đã thử (đã vệ sinh loa, đã tháo ốp, đã thử tai nghe Bluetooth) để thợ kiểm tra nhanh hơn và tránh bị báo sai lỗi."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "loa rè",
+        "loa ngoài nhỏ",
+        "loa điện thoại",
+        "vệ sinh loa",
+        "sua-chua",
+        "loa re",
+        "loa ngoai nho",
+        "loa dien thoai",
+        "am thanh nho",
+        "loa bi re"
+      ],
+      "title": "Điện thoại loa ngoài rè, nghe nhỏ: vệ sinh lưới loa và kiểm tra ốp lưng, cài đặt trước khi mang ra tiệm",
+      "id": 78,
+      "img": "assets/dien-thoai-loa-ngoai-re-ve-sinh-luoi-loa.jpg"
     }
   ],
   "subs": {
