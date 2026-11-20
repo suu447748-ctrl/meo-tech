@@ -2318,6 +2318,36 @@
       "title": "Điện thoại chụp ảnh bị mờ, lấy nét chậm: lau ống kính và kiểm tra ốp lưng, cài đặt trước khi mang ra tiệm",
       "id": 75,
       "img": "assets/dien-thoai-chup-anh-mo-lau-ong-kinh.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Bàn phím laptop bỗng liệt vài phím, gõ lúc được lúc không thường chỉ do bụi kẹt, cài đặt vô tình bật hoặc driver lỗi. Bạn có thể tự kiểm tra và xử lý tại nhà theo các bước dưới đây trước khi mang ra tiệm.",
+      "mins": 3,
+      "note": "Bạn nên mang laptop ra tiệm khi: nhiều phím liệt cùng lúc hoặc liệt cả một hàng phím; phím bị bung, gãy lẫy sau khi rơi máy; máy từng bị đổ nước vào bàn phím; hoặc bạn đã thử hết các bước trên mà phím vẫn liệt. Bạn nói rõ với thợ phím nào liệt và máy từng bị đổ nước hay rơi hay chưa, để thợ kiểm tra đúng chỗ và báo giá thay bàn phím trước khi sửa.",
+      "steps": [
+        "Nhận biết lỗi: mở Notepad hoặc Word rồi gõ thử từng phím, ghi lại chính xác phím nào liệt, phím nào gõ lúc được lúc không, và lỗi xuất hiện sau khi bạn làm đổ nước, làm rơi máy hay chỉ tự nhiên xảy ra.",
+        "Khởi động lại laptop: nhiều lỗi bàn phím tạm thời hết sau một lần khởi động lại, vì vậy bạn hãy thử bước đơn giản này trước, rồi gõ thử lại các phím bị liệt.",
+        "Kiểm tra phím chức năng: bấm thử phím Fn kết hợp với phím bị liệt, tắt NumLock nếu hàng phím số gõ ra ký tự lạ, vì đôi khi bạn vô tình bật nhầm chế độ phím.",
+        "Vệ sinh bàn phím: tắt máy, rút sạc, nghiêng nhẹ laptop rồi dùng cọ mềm hoặc bóng thổi bụi quét sạch vụn bánh, tóc và bụi kẹt dưới phím. Bạn tuyệt đối không xịt nước hay dung dịch tẩy rửa trực tiếp lên phím.",
+        "Kiểm tra cài đặt: vào Settings > Accessibility > Keyboard trên Windows, tắt Sticky Keys và Filter Keys nếu đang bật, vì hai tính năng này có thể làm phím phản hồi chậm hoặc không nhận. Bạn cũng kiểm tra lại ngôn ngữ bàn phím đang chọn đúng Vietnamese/English hay chưa.",
+        "Cập nhật driver bàn phím: mở Device Manager, tìm mục Keyboards, chuột phải vào bàn phím rồi chọn Update driver, sau đó khởi động lại máy. Nếu vẫn liệt, bạn chọn Uninstall device rồi khởi động lại để Windows tự cài lại driver.",
+        "Test để xác định nguyên nhân: mở bàn phím ảo trên màn hình (On-Screen Keyboard) và gõ thử các phím bị liệt, rồi cắm thử bàn phím USB ngoài. Nếu bàn phím ảo và bàn phím ngoài đều gõ được thì lỗi nằm ở bàn phím laptop; nếu cả hai đều liệt cùng phím thì lỗi có thể do phần mềm.",
+        "Test lại sau mỗi bước: sau mỗi bước trên, bạn gõ thử lại đoạn văn ngắn để xem phím đã nhận đều chưa. Bạn chỉ chuyển sang bước tiếp theo khi bước trước chưa khắc phục được."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "ban phim",
+        "ban phim liet",
+        "ve sinh laptop",
+        "sua laptop",
+        "loi thuong gap"
+      ],
+      "title": "Laptop bàn phím liệt một vài phím, gõ lúc được lúc không: vệ sinh phím, kiểm tra cài đặt và driver trước khi mang ra tiệm",
+      "id": 76,
+      "img": "assets/laptop-ban-phim-liet-ve-sinh-phim.jpg"
     }
   ],
   "subs": {
