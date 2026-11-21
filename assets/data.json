@@ -2455,6 +2455,35 @@
       "title": "Laptop cắm sạc không vào pin, phần trăm pin đứng yên: kiểm tra củ sạc, cổng sạc và driver pin trước khi mang ra tiệm",
       "id": 79,
       "img": "assets/laptop-cam-sac-khong-vao-pin.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "PC bỗng dưng không vào được mạng, Wi-Fi biến mất khỏi danh sách hoặc mạng dây báo không kết nối thường chỉ do dây lỏng, router bị treo hoặc cài đặt mạng bị sai. Bạn hoàn toàn có thể tự kiểm tra và xử lý tại nhà bằng vài bước đơn giản dưới đây.",
+      "mins": 4,
+      "note": "Bạn mang máy ra tiệm khi đã thử đủ các bước trên mà máy vẫn không nhận mạng, cổng mạng trên thùng máy bị lỏng hoặc gãy, card Wi-Fi không còn hiện trong Trình quản lý thiết bị, hoặc router và đường truyền nhà mạng có vấn đề mà bạn không tự xử lý được. Những trường hợp này có thể cần thay card mạng, sửa cổng mạng hoặc liên hệ nhà mạng kiểm tra đường truyền, bạn nên nhờ thợ có kinh nghiệm xử lý thay vì tự tháo linh kiện bên trong thùng máy.",
+      "steps": [
+        "Nhận biết lỗi: bạn mở trình duyệt thì báo không có kết nối Internet, biểu tượng mạng dưới góc màn hình có dấu chấm than hoặc dấu X, Wi-Fi biến mất khỏi danh sách mạng, hoặc chỉ riêng máy tính này mất mạng trong khi điện thoại vẫn vào mạng bình thường. Bạn ghi nhớ xem lỗi xảy ra với cả Wi-Fi lẫn mạng dây hay chỉ một trong hai, vì điều này giúp bạn khoanh vùng nguyên nhân nhanh hơn.",
+        "Kiểm tra cáp và cổng mạng dây: nếu bạn dùng dây mạng, bạn rút dây ra rồi cắm lại cho chắc tay, thử đổi sang một cổng LAN khác trên router và thử một sợi dây khác nếu có sẵn. Bạn nhìn đèn ở cổng mạng phía sau thùng máy: đèn nhấp nháy là đang có tín hiệu, đèn tắt hẳn thì dây hoặc cổng có thể có vấn đề. Bạn kiểm tra cả đầu dây xem có bị gãy lẫy, cong chân cắm hay chuột cắn đứt không.",
+        "Kiểm tra router và modem: bạn xem đèn trên router và modem có sáng bình thường không, nếu đèn nhấp nháy lạ hoặc tắt hẳn thì bạn rút nguồn router ra, chờ khoảng 30 giây rồi cắm lại, chờ 1-2 phút cho router khởi động xong rồi thử lại. Bạn thử vào mạng bằng điện thoại: nếu điện thoại cũng mất mạng thì lỗi ở đường truyền hoặc router, không phải ở máy tính của bạn.",
+        "Kiểm tra cài đặt mạng trên máy: bạn xem chế độ máy bay có đang bật không và tắt đi nếu có. Với Wi-Fi, bạn bấm quên mạng rồi kết nối lại và nhập lại mật khẩu cho đúng, chú ý phân biệt chữ hoa, chữ thường. Với mạng dây, bạn kiểm tra xem máy có đang tắt card mạng không. Bạn mở phần Cài đặt mạng của Windows và chạy trình khắc phục sự cố mạng có sẵn, làm theo hướng dẫn trên màn hình.",
+        "Khởi động lại máy và cập nhật driver mạng: bạn khởi động lại máy tính để hệ thống nhận lại card mạng, sau đó kiểm tra và cài các bản cập nhật Windows đang chờ. Nếu máy vẫn không nhận Wi-Fi, bạn mở Trình quản lý thiết bị, tìm mục Bộ điều hợp mạng, bấm chuột phải vào card mạng và chọn cập nhật trình điều khiển. Bạn chỉ tải driver từ trang chính thức của hãng máy hoặc hãng main, không tải driver từ trang lạ.",
+        "Test lại: bạn mở trình duyệt thử vào vài trang web khác nhau, thử xem một đoạn video ngắn để chắc mạng đã ổn định, rồi thử lại sau khi tắt và mở lại máy một lần nữa. Nếu mạng chập chờn lúc được lúc không, bạn thử đặt máy gần router hơn hoặc thử đổi sang mạng dây để xác định lỗi nằm ở Wi-Fi hay ở đường truyền."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "khong-vao-duoc-mang",
+        "wifi",
+        "mang-day",
+        "router",
+        "loi-pc",
+        "cai-dat-mang"
+      ],
+      "title": "PC không vào được mạng, Wi-Fi mất tích hoặc mạng dây không kết nối: kiểm tra cáp, router và cài đặt mạng trước khi mang ra tiệm",
+      "id": 80,
+      "img": "assets/pc-khong-vao-duoc-mang.jpg"
     }
   ],
   "subs": {
