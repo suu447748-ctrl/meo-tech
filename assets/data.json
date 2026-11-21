@@ -2421,6 +2421,40 @@
       "title": "Điện thoại loa ngoài rè, nghe nhỏ: vệ sinh lưới loa và kiểm tra ốp lưng, cài đặt trước khi mang ra tiệm",
       "id": 78,
       "img": "assets/dien-thoai-loa-ngoai-re-ve-sinh-luoi-loa.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Bạn cắm sạc cả buổi mà phần trăm pin vẫn đứng yên, thậm chí máy báo đã cắm sạc nhưng không sạc — lỗi này rất hay gặp và nhiều trường hợp chỉ do củ sạc, cổng sạc hoặc driver pin, bạn hoàn toàn có thể tự kiểm tra tại nhà trước khi mang ra tiệm.",
+      "mins": 5,
+      "note": "Bạn nên mang máy ra tiệm khi: pin bị phồng, nóng bất thường hoặc có mùi khét; cổng sạc lỏng lẻo, gãy chân hoặc cắm không khớp; đã thử đủ các bước trên mà pin vẫn không vào; hoặc báo cáo pin cho thấy pin chai nặng. Những trường hợp này liên quan đến phần cứng bên trong máy, bạn không nên tự tháo máy vì có thể làm hỏng thêm hoặc mất bảo hành.",
+      "steps": [
+        "Nhận biết lỗi: Bạn cắm sạc, đèn báo sạc vẫn sáng nhưng phần trăm pin không tăng, hoặc máy báo \"Đã cắm sạc, không sạc\" (Plugged in, not charging). Có khi pin còn tụt dần dù đang cắm sạc. Đừng vội kết luận pin đã hỏng — rất nhiều trường hợp lỗi nằm ở củ sạc, cổng sạc hoặc phần mềm, bạn có thể tự kiểm tra theo các bước dưới đây.",
+        "Kiểm tra củ sạc và dây sạc trước: Bạn thử cắm củ sạc vào một ổ điện khác, chắc chắn ổ điện có điện. Quan sát dây sạc xem có bị gập, nứt vỏ hay đứt ngầm ở đoạn gần đầu cắm không, và lắc nhẹ đầu cắm xem có bị lỏng, chập chờn không. Nếu nhà có củ sạc khác cùng loại, bạn cắm thử để loại trừ khả năng củ sạc đã hỏng.",
+        "Kiểm tra và vệ sinh cổng sạc: Bạn nhìn vào cổng sạc của laptop xem có bụi bẩn, xơ vải hay dị vật kẹt bên trong không, vì bụi bẩn lâu ngày có thể làm đầu cắm tiếp xúc kém. Bạn dùng cọ mềm hoặc bóng thổi hơi để làm sạch, tuyệt đối không dùng vật kim loại chọc vào cổng sạc. Cắm lại sạc cho chắc tay, nghe tiếng \"tách\" khớp hẳn rồi xem pin có nhận sạc không.",
+        "Khởi động lại máy và kiểm tra lại: Bạn rút sạc ra, tắt máy hoàn toàn, chờ khoảng 1 phút rồi bật lại và cắm sạc. Cách này giúp hệ thống nhận lại pin và củ sạc, nhiều trường hợp lỗi báo sạc sai chỉ do phần mềm tạm thời. Sau khi cắm lại, bạn chờ 10-15 phút rồi xem phần trăm pin có tăng lên không.",
+        "Kiểm tra giới hạn sạc trong phần mềm của hãng: Một số laptop có chế độ giới hạn sạc ở 60% hoặc 80% để bảo vệ pin (trong ứng dụng của hãng như MyASUS, Lenovo Vantage, Dell Power Manager...). Bạn mở ứng dụng của hãng máy mình và kiểm tra xem chế độ này có đang bật không, nếu có thì tắt đi hoặc chỉnh lại mức giới hạn rồi cắm sạc thử.",
+        "Cài đặt lại driver pin trên Windows: Bạn nhấn chuột phải vào nút Start, chọn Device Manager, mở mục Batteries, nhấn chuột phải vào dòng \"Microsoft ACPI-Compliant Control Method Battery\" rồi chọn Uninstall device. Sau đó bạn khởi động lại máy để Windows tự cài lại driver pin, rồi cắm sạc kiểm tra lại. Đây là thao tác phần mềm an toàn, không ảnh hưởng đến dữ liệu của bạn.",
+        "Kiểm tra sức khỏe pin bằng báo cáo của Windows: Bạn mở Command Prompt, gõ lệnh powercfg /batteryreport rồi nhấn Enter, Windows sẽ tạo một file báo cáo pin. Bạn mở file đó lên, so sánh hai con số Design Capacity (dung lượng thiết kế) và Full Charge Capacity (dung lượng đầy thực tế): nếu dung lượng thực tế còn dưới khoảng một nửa dung lượng thiết kế thì pin đã chai nặng và cần thay.",
+        "Test lại sau mỗi bước: Sau mỗi bước kiểm tra ở trên, bạn cắm sạc lại và chờ 10-15 phút để xem phần trăm pin có tăng không, đồng thời để ý đèn báo sạc và biểu tượng pin trên thanh taskbar. Nếu pin bắt đầu tăng phần trăm thì lỗi đã được xử lý, bạn chỉ cần dùng tiếp và theo dõi thêm vài ngày."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop không sạc được",
+        "laptop cắm sạc không vào pin",
+        "pin laptop không lên",
+        "củ sạc laptop",
+        "driver pin",
+        "khong sac duoc",
+        "pin laptop",
+        "cu sac laptop",
+        "laptop sac khong vao",
+        "loi sac laptop"
+      ],
+      "title": "Laptop cắm sạc không vào pin, phần trăm pin đứng yên: kiểm tra củ sạc, cổng sạc và driver pin trước khi mang ra tiệm",
+      "id": 79,
+      "img": "assets/laptop-cam-sac-khong-vao-pin.jpg"
     }
   ],
   "subs": {
