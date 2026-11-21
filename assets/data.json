@@ -2484,6 +2484,51 @@
       "title": "PC không vào được mạng, Wi-Fi mất tích hoặc mạng dây không kết nối: kiểm tra cáp, router và cài đặt mạng trước khi mang ra tiệm",
       "id": 80,
       "img": "assets/pc-khong-vao-duoc-mang.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Bạn lướt web, xem video hay chơi game một lúc là máy nóng ran, cầm lâu thấy khó chịu, có khi sạc cũng nóng — phần lớn do ốp lưng bí hơi, ứng dụng chạy ngầm hoặc thói quen vừa sạc vừa dùng. Bạn chỉ cần kiểm tra theo các bước dưới đây trước khi mang ra tiệm.",
+      "mins": 4,
+      "note": "Lưu ý an toàn: Tuyệt đối không bỏ điện thoại vào tủ lạnh hay ngăn đá để làm mát, không dùng quạt lạnh thổi hơi lạnh trực tiếp vào máy, không đổ nước lên máy để hạ nhiệt — hơi lạnh và nước ngưng tụ rất dễ làm hỏng linh kiện bên trong. Bài này chỉ hướng dẫn các thao tác kiểm tra và xử lý bên ngoài, an toàn cho người dùng phổ thông; nếu nghi ngờ pin có vấn đề, bạn ngừng sử dụng và mang máy ra tiệm ngay.",
+      "steps": [
+        "Nhận biết lỗi: Bạn dùng điện thoại bình thường một lúc là thấy mặt lưng ấm lên, cầm lâu thấy nóng ran tay, có khi máy báo nhiệt độ cao hoặc tự giảm độ sáng màn hình. Nếu máy chỉ hơi ấm khi sạc nhanh hay chơi game nặng thì đó là bình thường, nhưng nếu máy nóng cả khi bạn chỉ lướt web, xem tin nhắn hay để không trong túi thì bạn nên kiểm tra theo các bước dưới đây trước khi mang ra tiệm.",
+        "Kiểm tra nhanh trước khi xử lý — Sờ xem máy nóng ở đâu: Bạn sờ nhẹ mặt lưng để xem chỗ nóng nhất nằm ở đâu. Nóng ở nửa trên gần camera thường do chip và màn hình đang làm việc nặng, nóng ở nửa dưới gần cổng sạc thường liên quan đến việc sạc, còn nóng đều cả máy kèm pin tụt nhanh thì bạn cần chú ý hơn.",
+        "Để ý xem máy nóng vào lúc nào: Bạn nhớ lại máy nóng khi đang sạc, khi chơi game, khi xem video lâu, hay nóng ngay cả lúc bạn không dùng. Máy nóng khi sạc nhanh hoặc chơi game nặng trong thời gian ngắn là chuyện thường gặp, còn máy nóng liên tục cả khi để yên thì khả năng cao có ứng dụng đang chạy ngầm.",
+        "Kiểm tra ứng dụng chạy ngầm: Bạn vào phần cài đặt pin trên máy để xem ứng dụng nào đang dùng pin nhiều nhất. Nếu thấy một ứng dụng lạ chiếm pin cao dù bạn ít mở nó, hoặc ứng dụng cứ chạy nền liên tục, bạn hãy tắt nó đi hoặc gỡ cài đặt rồi cài lại.",
+        "Xem ốp lưng của bạn: Ốp lưng dày, ốp kín cả mặt lưng hoặc ốp làm bằng chất liệu giữ nhiệt sẽ khiến máy khó thoát nhiệt, nóng lâu hơn hẳn. Bạn thử tháo ốp lưng ra, dùng máy trần một lúc rồi sờ lại xem máy có mát hơn không.",
+        "Các bước xử lý — Bước 1: Tháo ốp lưng ra và đặt máy ở nơi thoáng mát, tránh để máy dưới nắng, trên nệm, gối hay trong túi kín khi đang sạc hoặc đang dùng nặng. Bạn để máy nghỉ vài phút cho nguội hẳn rồi mới dùng tiếp.",
+        "Bước 2: Đóng các ứng dụng đang chạy ngầm mà bạn không dùng đến. Bạn tắt Bluetooth, định vị GPS và điểm phát Wi-Fi khi không cần, đồng thời tắt chế độ tự động làm mới ứng dụng trong nền nếu máy bạn có mục này.",
+        "Bước 3: Giảm độ sáng màn hình xuống mức vừa đủ dùng và bật chế độ tiết kiệm pin khi máy đang nóng. Màn hình sáng hết cỡ trong thời gian dài là một trong những nguyên nhân khiến máy nóng nhanh nhất.",
+        "Bước 4: Kiểm tra cách sạc của bạn. Khi máy đang nóng, bạn rút sạc ra để máy nguội hẳn rồi mới sạc lại. Bạn tránh vừa sạc vừa chơi game hay xem video, và nên dùng củ sạc, cáp sạc chính hãng hoặc loại có chất lượng tốt, tránh sạc qua cổng máy tính hay củ sạc trôi nổi.",
+        "Bước 5: Khởi động lại điện thoại một lần. Sau khi khởi động lại, các ứng dụng chạy ngầm bị kẹt sẽ được dọn sạch, máy thường mát hơn hẳn.",
+        "Bước 6: Cập nhật phần mềm lên bản mới nhất. Bạn vào phần cài đặt, kiểm tra cập nhật hệ thống — bản cập nhật thường tối ưu hiệu năng và sửa các lỗi khiến máy nóng bất thường.",
+        "Test lại sau khi xử lý — Dùng máy bình thường khoảng 15–20 phút sau khi đã tháo ốp, đóng ứng dụng chạy ngầm và giảm độ sáng: nếu máy chỉ hơi ấm nhẹ thì bạn đã xử lý xong.",
+        "Cắm sạc thử lại và sờ mặt lưng sau khoảng 10 phút: nếu máy chỉ ấm nhẹ như mọi khi thì cách sạc của bạn đã ổn.",
+        "Mở lại ứng dụng bạn hay dùng nhất rồi dùng thử một lúc: nếu máy lại nóng ran ngay thì ứng dụng đó có thể đang gặp lỗi, bạn thử cập nhật hoặc gỡ rồi cài lại ứng dụng.",
+        "Khi nào nên mang ra tiệm — Máy nóng ran ngay cả khi bạn không dùng gì, để yên trong túi hay trên bàn cũng nóng, kèm theo pin tụt rất nhanh hoặc phần trăm pin nhảy lung tung.",
+        "Máy nóng kèm theo tự tắt nguồn, tự khởi động lại, hoặc hiện cảnh báo nhiệt độ liên tục dù bạn đã làm đủ các bước trên.",
+        "Mặt lưng máy bị phồng lên, cong vênh hoặc nắp lưng bung ra — đây là dấu hiệu pin đã có vấn đề, bạn ngừng sử dụng và mang ra tiệm ngay, tuyệt đối không tự tháo máy hay cố sạc tiếp.",
+        "Máy nóng bất thường sau khi bị rơi mạnh hoặc vào nước, hoặc máy nóng kèm mùi khét — bạn tắt nguồn ngay và mang ra tiệm, không cố dùng tiếp.",
+        "Khi mang ra tiệm, bạn hãy mô tả rõ máy nóng ở vị trí nào, nóng vào lúc nào và bạn đã thử những gì (đã tháo ốp, đã đóng ứng dụng chạy ngầm, đã đổi củ sạc) để thợ kiểm tra nhanh hơn và tránh bị báo sai lỗi."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "nóng máy",
+        "điện thoại nóng",
+        "nong may",
+        "dien thoai nong",
+        "sua-chua",
+        "nhiệt độ cao",
+        "pin nóng",
+        "sạc nóng máy",
+        "may nong",
+        "dien thoai nong may"
+      ],
+      "title": "Điện thoại nóng máy, dùng một lúc đã ấm ran tay: kiểm tra ốp lưng, ứng dụng chạy ngầm và cách sạc trước khi mang ra tiệm",
+      "id": 81,
+      "img": "assets/dien-thoai-nong-may.jpg"
     }
   ],
   "subs": {
