@@ -2529,6 +2529,36 @@
       "title": "Điện thoại nóng máy, dùng một lúc đã ấm ran tay: kiểm tra ốp lưng, ứng dụng chạy ngầm và cách sạc trước khi mang ra tiệm",
       "id": 81,
       "img": "assets/dien-thoai-nong-may.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Laptop bật Bluetooth mà không tìm thấy tai nghe hay loa? Bạn chỉ cần kiểm tra công tắc Bluetooth, chế độ máy bay, ghép nối lại thiết bị và cập nhật driver là phần lớn trường hợp tự xử lý được tại nhà.",
+      "mins": 3,
+      "note": "Bạn không nên tự tháo máy để kiểm tra card Bluetooth bên trong, vì việc này có thể làm mất bảo hành và dễ làm hỏng các linh kiện khác. Nếu laptop còn bảo hành, bạn mang máy đến trung tâm bảo hành chính hãng để được kiểm tra miễn phí.",
+      "steps": [
+        "Nhận biết lỗi: Bạn bật Bluetooth trên laptop nhưng danh sách thiết bị trống, tai nghe hoặc loa không hiện lên, hoặc hiện lên nhưng bấm kết nối thì báo lỗi. Trước hết, bạn hãy thử kết nối tai nghe hoặc loa đó với điện thoại: nếu điện thoại kết nối được bình thường thì vấn đề nằm ở laptop, còn nếu điện thoại cũng không thấy thì khả năng tai nghe hoặc loa đang hết pin hoặc chưa vào chế độ ghép nối.",
+        "Kiểm tra công tắc Bluetooth và chế độ máy bay: Bạn bấm tổ hợp phím Windows + A để mở Trung tâm hành động, xem biểu tượng Bluetooth đã bật hay chưa. Nếu máy đang ở chế độ máy bay thì Bluetooth sẽ bị tắt theo, bạn hãy tắt chế độ máy bay rồi bật lại Bluetooth. Một số laptop có phím tắt riêng để bật/tắt Bluetooth (thường là phím Fn kết hợp với một phím chức năng), bạn thử bấm phím đó rồi kiểm tra lại.",
+        "Đưa tai nghe hoặc loa vào chế độ ghép nối: Bạn kiểm tra xem tai nghe hoặc loa còn pin không, sạc đầy rồi bật nguồn. Hầu hết tai nghe Bluetooth cần giữ nút nguồn hoặc nút ghép nối vài giây cho đến khi đèn nhấp nháy, lúc đó thiết bị mới hiện trong danh sách để laptop tìm thấy. Bạn cũng nên để tai nghe hoặc loa cách laptop trong vòng 1 mét khi ghép nối lần đầu.",
+        "Quên thiết bị rồi ghép nối lại từ đầu: Bạn vào Cài đặt > Bluetooth và thiết bị, tìm tên tai nghe hoặc loa trong danh sách thiết bị đã lưu, bấm vào dấu ba chấm và chọn Gỡ thiết bị (hoặc Quên thiết bị). Sau đó bạn tắt Bluetooth trên laptop, bật lại, đưa tai nghe vào chế độ ghép nối rồi bấm Thêm thiết bị để kết nối lại. Cách này xử lý được nhiều trường hợp ghép nối cũ bị lỗi.",
+        "Kiểm tra và cập nhật driver Bluetooth: Bạn bấm chuột phải vào nút Start, chọn Trình quản lý thiết bị (Device Manager), mở mục Bluetooth và xem có thiết bị nào hiện dấu chấm than vàng không. Nếu có, bạn bấm chuột phải vào thiết bị đó, chọn Cập nhật driver rồi chọn tự động tìm kiếm. Bạn cũng nên kiểm tra Windows Update để cài bản cập nhật mới nhất, vì nhiều lỗi Bluetooth được sửa qua bản cập nhật hệ thống.",
+        "Khởi động lại laptop và kiểm tra lại: Sau các bước trên, bạn khởi động lại laptop rồi thử kết nối lại tai nghe hoặc loa. Bạn thử phát một đoạn nhạc hoặc video để chắc chắn âm thanh đã chuyển sang tai nghe hoặc loa Bluetooth. Nếu laptop vẫn không thấy thiết bị, bạn thử kết nối một thiết bị Bluetooth khác (điện thoại, chuột Bluetooth) để xác định lỗi nằm ở laptop hay ở tai nghe.",
+        "Mang ra tiệm khi nào: Nếu bạn đã thử hết các bước trên mà laptop vẫn không bật được Bluetooth, biểu tượng Bluetooth biến mất khỏi Cài đặt, hoặc Trình quản lý thiết bị báo lỗi driver dù đã cập nhật nhiều lần, bạn nên mang máy ra tiệm. Bạn nhớ mô tả rõ với thợ là bạn đã thử những gì, để thợ kiểm tra nhanh phần cứng Bluetooth bên trong máy."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "bluetooth",
+        "tai nghe",
+        "loa",
+        "ket noi",
+        "khong nhan thiet bi",
+        "driver"
+      ],
+      "title": "Laptop không kết nối được Bluetooth, không tìm thấy tai nghe hoặc loa: kiểm tra công tắc, ghép nối lại và driver trước khi mang ra tiệm",
+      "id": 82,
+      "img": "assets/laptop-bluetooth-khong-ket-noi.jpg"
     }
   ],
   "subs": {
