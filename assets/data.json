@@ -2619,6 +2619,36 @@
       "title": "PC màn hình nhấp nháy, chập chờn: kiểm tra dây cáp, tần số quét và driver trước khi mang ra tiệm",
       "id": 84,
       "img": "assets/pc-man-hinh-nhap-nhay.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A04 liệt cảm ứng, chạm không ăn: gỡ cường lực, lau màn hình, bật Độ nhạy cảm ứng, tắt TalkBack và cập nhật phần mềm trước; nếu vẫn liệt thì lỗi có thể nằm ở đường cảm ứng trên main, cần thợ kiểm tra.",
+      "mins": 5,
+      "note": "Phần cứng trên main chỉ mang tính tham khảo theo video sửa chữa — bạn nên mang ra thợ có kinh nghiệm kiểm tra trực tiếp, không tự tháo máy hay tự khò main nếu chưa quen.",
+      "steps": [
+        "Nhận biết lỗi: màn hình vẫn hiển thị bình thường nhưng chạm không ăn, chạm chỗ này nhảy chỗ khác, hoặc liệt hẳn một vùng hay toàn màn hình.",
+        "Gỡ miếng dán cường lực và ốp lưng ra, lau sạch màn hình bằng khăn mềm khô rồi thử lại — cường lực dán không khít là nguyên nhân hay gặp nhất.",
+        "Khởi động lại máy: giữ phím nguồn và phím giảm âm lượng cùng lúc hơn 7 giây cho máy tự khởi động lại, rồi thử cảm ứng.",
+        "Bật Độ nhạy cảm ứng: vào Cài đặt > Màn hình > bật Độ nhạy cảm ứng — khi đang dán cường lực thì nên bật tính năng này.",
+        "Kiểm tra TalkBack: vào Cài đặt > Hỗ trợ > TalkBack, nếu đang bật thì tắt đi — TalkBack bật làm cảm ứng chỉ nhận thao tác đặc biệt nên chạm thường không ăn.",
+        "Cập nhật phần mềm lên bản mới nhất (Cài đặt > Cập nhật phần mềm > Tải xuống và cài đặt) rồi thử lại cảm ứng.",
+        "Nếu làm hết các bước trên mà cảm ứng vẫn liệt thì lỗi có thể nằm ở đường cảm ứng trên main — theo video sửa chữa, thợ đo thấy mất trở kháng ở chân số 4 của đường cảm ứng, phải khò và hàn lại chip trên main thì cảm ứng mới hoạt động lại. Đây là việc của thợ có đồ nghề, bạn nên mang máy ra tiệm để kiểm tra."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a04",
+        "samsung",
+        "liet cam ung",
+        "cam ung khong nhan",
+        "man hinh cam ung",
+        "loi cam ung",
+        "sua chua"
+      ],
+      "title": "Samsung A04 liệt cảm ứng, chạm không nhận: kiểm tra cường lực, độ nhạy cảm ứng và đường cảm ứng trên main",
+      "id": 85,
+      "img": "assets/samsung-a04-liet-cam-ung.webp"
     }
   ],
   "subs": {
