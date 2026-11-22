@@ -34,7 +34,7 @@ nav.main .wrap{max-width:1180px;margin:auto;padding:8px 12px;display:flex;flex-w
 .navbtn.active{background:var(--ink);color:#fff}
 .navbtn.hot{color:var(--hot)}
 main{max-width:1180px;margin:auto;padding:22px 16px 40px}
-.view{display:none}.view.active{display:block}
+.view{display:none;scroll-margin-top:70px}.view.active{display:block}
 .section-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;flex-wrap:wrap;margin:26px 0 14px}
 .section-head h2{margin:0;font-size:1.55rem;letter-spacing:-.02em}
 .section-head p{margin:4px 0 0;color:var(--muted)}
@@ -212,7 +212,6 @@ body:not(.admin-on) .admin-only{display:none!important}
   <button class="navbtn" data-view="cuongluc">🛡️ Cường lực</button>
   <button class="navbtn" data-view="gallery">🖼️ Thư viện ảnh</button>
   <button class="navbtn admin-only" data-view="guide">✍️ Đăng bài & up ảnh</button>
-  <button class="navbtn" id="adminBtn" type="button">🔐 Đăng nhập Admin</button>
   <button class="navbtn admin-only" id="logoutBtn" type="button">Đăng xuất</button>
 </div></nav>
 
@@ -497,7 +496,7 @@ function renderBrandFolders(cat){
   var folders=names.map(function(b){return {name:b,count:base.filter(function(a){return brandOf(a)===b}).length}});
   folders.sort(function(x,y){return (y.count-x.count)||x.name.localeCompare(y.name)});
   box.innerHTML='<div class="folders-head">📁 Thư mục hãng trong mục '+esc(rsub)+'<small>Mỗi hãng một thư mục riêng — bấm vào thư mục của hãng để xem riêng các bài '+esc(rsub.toLowerCase())+' của hãng đó. Khi đăng bài sửa, chọn đúng hãng là bài tự vào đúng thư mục này.</small></div><div class="folders">'+folders.map(function(f){return '<button class="folder'+(f.count?'':' empty-folder')+'" data-folder="'+cat+'" data-brand="'+esc(f.name)+'" type="button"><span class="fic">📁</span><span class="fname">'+esc(f.name)+'</span><span class="fcount">'+(f.count?f.count+' bài':'Chưa có bài')+'</span></button>'}).join('')+'</div>';
-  box.querySelectorAll('[data-folder]').forEach(function(btn){btn.addEventListener('click',function(){activeBrand[cat]=btn.dataset.brand;renderSection(cat);window.scrollTo({top:0,behavior:'smooth'})})});
+  box.querySelectorAll('[data-folder]').forEach(function(btn){btn.addEventListener('click',function(){activeBrand[cat]=btn.dataset.brand;renderSection(cat);scrollToSection(cat)})});
 }
 function renderRepairBrands(cat){
   var box=document.querySelector('[data-repairbrands="'+cat+'"]'); if(!box)return;
@@ -506,7 +505,7 @@ function renderRepairBrands(cat){
   var names=brandListFor(cat).filter(function(b){return base.some(function(a){return brandOf(a)===b})});
   if(base.some(function(a){return brandOf(a)==='Chung'}))names.push('Chung');
   box.innerHTML=names.length?names.map(function(b){var n=base.filter(function(a){return brandOf(a)===b}).length;return '<button class="bchip" data-rbrand="'+cat+'" data-brand="'+esc(b)+'" type="button">📁 '+esc(b)+' <span class="cnt">('+n+' bài)</span></button>'}).join(''):'<span style="color:var(--muted);font-size:.9rem">Chưa có bài sửa chữa nào — đăng bài mới và chọn hãng là thư mục hãng sẽ hiện ở đây.</span>';
-  box.querySelectorAll('[data-rbrand]').forEach(function(btn){btn.addEventListener('click',function(){activeSub[cat]=rsub;syncSubChips(cat);activeBrand[cat]=btn.dataset.brand;var inp=document.getElementById('s-'+cat);if(inp)inp.value='';renderSection(cat);window.scrollTo({top:0,behavior:'smooth'})})});
+  box.querySelectorAll('[data-rbrand]').forEach(function(btn){btn.addEventListener('click',function(){activeSub[cat]=rsub;syncSubChips(cat);activeBrand[cat]=btn.dataset.brand;var inp=document.getElementById('s-'+cat);if(inp)inp.value='';renderSection(cat);scrollToSection(cat)})});
 }
 function bindRead(){document.querySelectorAll('[data-read]').forEach(function(b){b.onclick=function(){openReader(+b.dataset.read)}});document.querySelectorAll('[data-edit]').forEach(function(b){b.onclick=function(){startEdit(+b.dataset.edit)}});document.querySelectorAll('[data-del]').forEach(function(b){b.onclick=function(){askDelete(+b.dataset.del)}})}
 function openReader(id){var a=ARTICLES.find(function(x){return x.id===id});if(!a)return;document.getElementById('rCat').textContent=a.catLabel+' · '+a.sub+(brandOf(a)?' · Hãng: '+brandOf(a):'');document.getElementById('rTitle').textContent=a.title;document.getElementById('rExcerpt').textContent=a.excerpt;var rImg=document.getElementById('rImg');rImg.src=a.img||'';rImg.alt=a.title||'';rImg.style.display=a.img?'block':'none';document.getElementById('rTags').innerHTML=(brandOf(a)?'<span class="tag brand">Hãng: '+esc(brandOf(a))+'</span>':'')+a.tags.map(function(t){return '<span class="tag">#'+esc(t)+'</span>'}).join('');document.getElementById('rSteps').innerHTML=a.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('');document.getElementById('rNote').textContent=a.note;document.getElementById('reader').showModal()}
@@ -519,11 +518,12 @@ var GALLERY=[{img:'assets/laptop-nong-may-ve-sinh-khe-tan-nhiet.jpg',title:'Lapt
 function renderGallery(){var q=document.getElementById('s-gallery').value.trim();var list=GALLERY.filter(function(g){return !q||norm(g.title+' '+g.cat+' '+(g.brand||'')+' '+g.tags).indexOf(norm(q))>-1});document.getElementById('galleryGrid').innerHTML=list.map(function(g){return '<article class="gitem"><img src="'+esc(g.img)+'" class="'+(g.fit==='contain'?'contain':'')+'" alt="'+esc(g.title)+'"><div><span class="tag">'+esc(g.cat)+'</span>'+(g.brand?'<span class="tag brand" style="margin-left:6px">Hãng: '+esc(g.brand)+'</span>':'')+'<h3 style="margin:8px 0 4px;font-size:1rem">'+esc(g.title)+'</h3><p style="margin:0;color:var(--muted);font-size:.88rem">'+g.tags.split(' ').map(function(t){return '#'+esc(t)}).join(' ')+'</p></div></article>'}).join('');document.getElementById('galleryEmpty').hidden=list.length>0;document.getElementById('c-gallery').textContent='Đang hiện '+list.length+' / '+GALLERY.length+' ảnh'}
 document.getElementById('s-gallery').addEventListener('input',renderGallery);renderGallery();
 /* Nav */
-function go(view){document.querySelectorAll('.view').forEach(function(v){v.classList.toggle('active',v.id==='view-'+view)});document.querySelectorAll('.navbtn').forEach(function(b){b.classList.toggle('active',b.dataset.view===view)});window.scrollTo({top:0,behavior:'smooth'})}
+function scrollToSection(view){var el=document.getElementById('view-'+view);if(!el)return;if(view==='home'){window.scrollTo({top:0,behavior:'smooth'})}else{el.scrollIntoView({behavior:'smooth'})}}
+function go(view){document.querySelectorAll('.view').forEach(function(v){v.classList.toggle('active',v.id==='view-'+view)});document.querySelectorAll('.navbtn').forEach(function(b){b.classList.toggle('active',b.dataset.view===view)});scrollToSection(view)}
 document.querySelectorAll('.navbtn[data-view]').forEach(function(b){b.addEventListener('click',function(){go(b.dataset.view)})});
 document.querySelectorAll('[data-goto]').forEach(function(b){b.addEventListener('click',function(){go(b.dataset.goto)})});
 document.querySelectorAll('[data-clear]').forEach(function(b){b.addEventListener('click',function(){var inp=document.getElementById(b.dataset.clear);inp.value='';inp.dispatchEvent(new Event('input'));if(b.dataset.clear==='s-gallery')renderGallery()})});
-document.querySelectorAll('[data-phoneq]').forEach(function(b){b.addEventListener('click',function(){var inp=document.getElementById('s-phone');inp.value=b.dataset.phoneq;activeSub.phone='Sửa chữa';syncSubChips('phone');activeBrand.phone='Tất cả hãng';renderSection('phone');window.scrollTo({top:0,behavior:'smooth'})})});
+document.querySelectorAll('[data-phoneq]').forEach(function(b){b.addEventListener('click',function(){var inp=document.getElementById('s-phone');inp.value=b.dataset.phoneq;activeSub.phone='Sửa chữa';syncSubChips('phone');activeBrand.phone='Tất cả hãng';renderSection('phone');scrollToSection('phone')})});
 /* Global search */
 function doGlobal(q){var box=document.getElementById('globalResults');if(!q){box.innerHTML='';return}var list=ARTICLES.filter(function(a){return matches(a,q)});box.innerHTML='<div class="section-head"><div><h2>Kết quả tìm tất cả cho “'+esc(q)+'”</h2><p>'+list.length+' bài ở mọi mục. Muốn tìm nhanh hơn, vào từng mục và dùng ô tìm riêng của mục đó.</p></div></div>'+(list.length?'<div class="grid">'+list.map(cardHTML).join('')+'</div>':'<div class="empty">Không thấy bài nào khớp. Thử từ ngắn hơn.</div>');bindRead()}
 document.getElementById('globalForm').addEventListener('submit',function(e){e.preventDefault();doGlobal(document.getElementById('globalInput').value.trim())});
@@ -597,10 +597,9 @@ function renameSub(cat,oldName){askPrompt('Đổi tên mục con','Tên mới ch
 function deleteSub(cat,name){askConfirm('Xóa mục con?','Xóa mục con “'+name+'”? Các bài trong mục con này sẽ chuyển sang mục con đầu tiên còn lại.',function(){var i=SUBS[cat].indexOf(name);if(i>-1)SUBS[cat].splice(i,1);var rest=SUBS[cat].slice(1);var target=rest.length?rest[0]:'Khác';if(!rest.length)SUBS[cat].push('Khác');ARTICLES.forEach(function(a){if(a.cat===cat&&a.sub===name)a.sub=target});saveData();refreshAll();toast('Đã xóa mục con — bài đã chuyển sang “'+target+'”')})}
 /* Đăng nhập / đăng xuất Admin */
 var isAdmin=false;
-function setAdmin(on){isAdmin=on;document.body.classList.toggle('admin-on',on);document.getElementById('adminBtn').textContent=on?'🔓 Admin đang bật — mở khu vực Admin':'🔐 Đăng nhập Admin'}
+function setAdmin(on){isAdmin=on;document.body.classList.toggle('admin-on',on);var ab=document.getElementById('adminBtn');if(ab)ab.textContent=on?'🔓 Admin đang bật — mở khu vực Admin':'🔐 Đăng nhập Admin'}
 function getAdminHash(){try{return localStorage.getItem(LS_ADMIN)}catch(e){return null}}
 function setAdminHash(h){try{localStorage.setItem(LS_ADMIN,h)}catch(e){}}
-document.getElementById('adminBtn').onclick=function(){if(isAdmin){go('guide')}else{var has=!!getAdminHash();document.getElementById('loginForm').hidden=!has;document.getElementById('setupForm').hidden=has;document.getElementById('loginTitle').textContent=has?'Đăng nhập Admin':'Thiết lập Admin lần đầu';document.getElementById('loginError').hidden=true;document.getElementById('setupError').hidden=true;document.getElementById('adminPass').value='';document.getElementById('loginDialog').showModal();setTimeout(function(){var f=has?document.getElementById('adminPass'):document.getElementById('setupPass1');f.focus()},60)}};
 document.getElementById('closeLogin').onclick=function(){document.getElementById('loginDialog').close()};
 document.getElementById('loginForm').addEventListener('submit',function(e){e.preventDefault();var v=document.getElementById('adminPass').value;if(!window.crypto||!crypto.subtle){toast('Trình duyệt này không hỗ trợ đăng nhập Admin');return}sha256Hex(v).then(function(h){if(h===getAdminHash()){document.getElementById('loginDialog').close();setAdmin(true);go('guide');toast('Xin chào Admin! Đã bật chế độ chỉnh sửa')}else{document.getElementById('loginError').hidden=false}})});
 document.getElementById('setupForm').addEventListener('submit',function(e){e.preventDefault();var p1=document.getElementById('setupPass1').value,p2=document.getElementById('setupPass2').value,err=document.getElementById('setupError');function fail(m){err.textContent=m;err.hidden=false}if(p1.length<8){fail('Mật khẩu cần ít nhất 8 ký tự.');return}if(p1!==p2){fail('Hai lần nhập chưa giống nhau.');return}if(!window.crypto||!crypto.subtle){toast('Trình duyệt này không hỗ trợ tạo mật khẩu Admin');return}sha256Hex(p1).then(function(h){setAdminHash(h);document.getElementById('loginDialog').close();setAdmin(true);go('guide');toast('Đã tạo mật khẩu Admin cho trình duyệt này — chào Admin!')})});
@@ -713,5 +712,6 @@ loadData();
 </script>
 </body>
 </html>
+
 
 
