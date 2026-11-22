@@ -2559,6 +2559,37 @@
       "title": "Laptop không kết nối được Bluetooth, không tìm thấy tai nghe hoặc loa: kiểm tra công tắc, ghép nối lại và driver trước khi mang ra tiệm",
       "id": 82,
       "img": "assets/laptop-bluetooth-khong-ket-noi.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi Note 10 Pro cắm sạc chỉ nhấp nháy logo sạc, máy không lên nguồn. Ảnh hướng dẫn câu 1 dây jumper từ chân kết nối pin xuống linh kiện ngay dưới socket pin để khôi phục đường sạc.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và hàn câu dây — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: cắm sạc, màn hình chỉ hiện logo sạc nhấp nháy liên tục, máy không lên nguồn, không vào hệ điều hành. Thử đổi củ sạc và cáp sạc tốt khác mà vẫn vậy thì lỗi nằm bên trong máy, không phải do sạc.",
+        "Vệ sinh chân sạc và kiểm tra cổng sạc: làm sạch bụi trong cổng, xem chân sạc có lỏng, gãy hay oxy hóa không. Nếu cổng sạc hỏng thì xử lý cổng trước.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main để tránh chập mạch trong lúc hàn câu dây.",
+        "Xác định vị trí câu jumper theo ảnh: một đầu dây câu vào chân kết nối pin (điểm mũi tên đỏ phía trên, bên trái socket pin), đầu còn lại câu xuống linh kiện nhỏ ngay dưới bên phải socket pin (điểm mũi tên đỏ phía dưới).",
+        "Câu dây jumper chắc chắn, đúng 2 điểm như ảnh, cố định dây gọn gàng, tránh để dây chạm sang linh kiện bên cạnh.",
+        "Lắp pin lại, cắm sạc thử: logo sạc hiện ổn định, máy lên nguồn bình thường thì test sạc đầy, test nghe gọi và cảm ứng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà máy vẫn nhấp nháy logo sạc hoặc không lên nguồn thì mang ra tiệm để kiểm tra sâu phần nguồn và đường sạc trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "redmi note 10 pro",
+        "xiaomi",
+        "sac nhap nhay",
+        "khong len nguon",
+        "cau jumper",
+        "loi sac",
+        "khong nhan sac"
+      ],
+      "title": "Redmi Note 10 Pro cắm sạc logo sạc nhấp nháy, không lên nguồn: câu jumper theo ảnh",
+      "id": 83,
+      "img": "assets/redmi-note-10-pro-sac-nhap-nhay-khong-len-nguon.jpg"
     }
   ],
   "subs": {
