@@ -2649,6 +2649,50 @@
       "title": "Samsung A04 liệt cảm ứng, chạm không nhận: kiểm tra cường lực, độ nhạy cảm ứng và đường cảm ứng trên main",
       "id": 85,
       "img": "assets/samsung-a04-liet-cam-ung.webp"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Bạn đang lướt web, xem video hay nhắn tin thì màn hình bỗng đứng yên, chạm vào đâu cũng không phản hồi, bấm nút cũng không ăn — phần lớn chỉ do một ứng dụng bị kẹt, bộ nhớ đầy hoặc phần mềm gặp lỗi tạm thời. Bạn chỉ cần làm theo các bước dưới đây trước khi mang ra tiệm.",
+      "mins": 4,
+      "note": "Lưu ý an toàn: Bài này chỉ hướng dẫn các thao tác kiểm tra và xử lý bằng phần mềm, an toàn cho người dùng phổ thông — bạn tuyệt đối không tự tháo máy, không tự sửa main hay thay linh kiện. Khởi động lại cứng không làm mất dữ liệu, nhưng trước khi khôi phục cài đặt gốc bạn nhớ sao lưu dữ liệu quan trọng trước. Nếu máy còn bảo hành, bạn mang ra trung tâm bảo hành chính hãng thay vì tự xử lý.",
+      "steps": [
+        "Nhận biết lỗi: Bạn đang dùng điện thoại bình thường thì màn hình bỗng đứng yên ở một khung hình, chạm vào đâu cũng không phản hồi, vuốt lên vuốt xuống không được, bấm nút nguồn hay nút âm lượng cũng không có tác dụng. Có khi máy chỉ đơ vài giây rồi tự chạy lại, có khi đơ hẳn cả phút, màn hình tối đen nhưng máy vẫn rung khi có cuộc gọi đến. Nếu máy đơ ngay khi bạn vừa mở một ứng dụng nào đó, hoặc đơ sau khi máy nóng lên, bạn hãy ghi nhớ lại để kiểm tra ở các bước dưới đây.",
+        "Kiểm tra nhanh trước khi xử lý — Nhớ lại máy đơ vào lúc nào: Bạn nhớ xem máy đơ khi đang mở ứng dụng nào, khi chơi game, xem video, hay đơ ngay cả khi bạn chỉ ở màn hình chính. Máy chỉ đơ khi mở một ứng dụng cụ thể thì khả năng cao ứng dụng đó đang gặp lỗi, còn máy đơ lung tung, mở gì cũng đơ thì bạn cần kiểm tra bộ nhớ và phần mềm của máy.",
+        "Xem bộ nhớ máy còn trống bao nhiêu: Bạn vào phần cài đặt, mở mục bộ nhớ để xem dung lượng còn trống. Điện thoại gần đầy bộ nhớ thường chạy chậm, hay đơ và treo ứng dụng, nhất là khi bộ nhớ trống còn dưới khoảng 1-2 GB. Nếu máy bạn đã gần đầy, bạn hãy dọn bớt ảnh, video và ứng dụng ít dùng trước khi làm các bước tiếp theo.",
+        "Để ý xem máy có đang nóng không: Bạn sờ nhẹ mặt lưng xem máy có nóng ran không. Máy nóng kèm theo đơ thường do có ứng dụng chạy ngầm quá tải hoặc máy đang cập nhật phần mềm trong nền. Bạn cứ để máy nguội bớt rồi mới xử lý tiếp.",
+        "Các bước xử lý — Bước 1: Khởi động lại cứng. Khi màn hình đã đơ hoàn toàn và chạm không còn tác dụng, bạn giữ đồng thời nút nguồn và nút giảm âm lượng trong khoảng 10 giây cho đến khi máy rung nhẹ và hiện logo khởi động rồi buông tay ra. Cách bấm có thể khác nhau đôi chút tùy từng hãng máy, bạn cứ giữ tổ hợp phím nguồn và phím âm lượng, không cần bấm thêm phím nào khác. Thao tác này chỉ buộc máy khởi động lại, không làm mất dữ liệu của bạn.",
+        "Bước 2: Sau khi máy lên lại, bạn đóng ứng dụng gây đơ. Bạn mở phần ứng dụng đang chạy gần đây và vuốt tắt hết các ứng dụng, nhất là ứng dụng mà máy đơ ngay khi bạn vừa mở nó. Nếu một ứng dụng vừa cài gần đây khiến máy đơ liên tục, bạn hãy gỡ ứng dụng đó ra rồi dùng thử máy một lúc xem còn đơ không.",
+        "Bước 3: Dọn bộ nhớ và bộ nhớ đệm của ứng dụng. Bạn vào phần cài đặt, mở mục bộ nhớ và xóa các tệp tạm, ảnh và video trùng lặp, ứng dụng ít dùng. Bạn cũng có thể vào phần cài đặt của từng ứng dụng hay dùng để xóa bộ nhớ đệm, việc này không làm mất tài khoản hay dữ liệu quan trọng của bạn.",
+        "Bước 4: Kiểm tra miếng dán cường lực và ốp lưng. Miếng dán cường lực bị nứt, bong mép hoặc dán lệch có thể khiến cảm ứng chập chờn, chạm lúc được lúc không. Bạn thử tháo miếng dán cũ ra, lau sạch màn hình rồi chạm thử. Nếu cảm ứng trở lại bình thường, bạn chỉ cần dán miếng cường lực mới là xong.",
+        "Bước 5: Cập nhật phần mềm và ứng dụng lên bản mới nhất. Bạn vào phần cài đặt, kiểm tra cập nhật hệ thống rồi cập nhật ứng dụng trong cửa hàng ứng dụng. Bản cập nhật thường sửa các lỗi khiến máy đơ, treo ứng dụng mà bạn đang gặp phải.",
+        "Bước 6: Sao lưu dữ liệu rồi khôi phục cài đặt gốc nếu máy vẫn đơ liên tục. Đây là bước cuối cùng khi bạn đã làm đủ các bước trên mà máy vẫn đơ nhiều lần trong ngày. Bạn sao lưu ảnh, danh bạ và dữ liệu quan trọng lên đám mây hoặc máy tính trước, rồi mới khôi phục cài đặt gốc trong phần cài đặt của máy. Sau khi khôi phục, bạn cài lại từng ứng dụng và dùng thử một thời gian để xem ứng dụng nào gây đơ.",
+        "Test lại sau khi xử lý — Dùng máy bình thường khoảng 15-20 phút sau khi đã khởi động lại cứng và dọn bộ nhớ: mở các ứng dụng bạn hay dùng, lướt web, xem video thử xem máy còn đơ không. Nếu máy chạy mượt trở lại thì bạn đã xử lý xong.",
+        "Mở lại đúng ứng dụng từng khiến máy đơ: nếu máy lại đơ ngay khi mở ứng dụng đó thì bạn đã tìm ra thủ phạm, bạn cập nhật ứng dụng đó hoặc gỡ đi rồi cài lại.",
+        "Khởi động lại máy một lần nữa theo cách bình thường rồi dùng thử thêm một lúc: nếu máy không còn đơ, bạn có thể yên tâm dùng tiếp.",
+        "Khi nào nên mang ra tiệm — Máy đơ kèm theo màn hình xuất hiện sọc, đốm, chảy mực hoặc cảm ứng liệt hẳn một vùng dù bạn đã tháo miếng dán cường lực ra.",
+        "Máy đơ ngay từ màn hình khởi động, cứ hiện logo rồi đứng yên, hoặc tự tắt nguồn rồi tự bật lại liên tục dù bạn đã khởi động lại cứng nhiều lần.",
+        "Máy đơ kèm theo mặt lưng phồng lên, nắp lưng bung ra hoặc có mùi khét — đây là dấu hiệu pin đã có vấn đề, bạn tắt nguồn ngay và mang ra tiệm, tuyệt đối không tự tháo máy hay cố sạc tiếp.",
+        "Máy bị đơ sau khi rơi mạnh hoặc vào nước, hoặc máy đơ kèm theo không nhận SIM, không bắt được sóng — bạn tắt nguồn và mang ra tiệm, không cố khởi động lại nhiều lần.",
+        "Khi mang ra tiệm, bạn hãy mô tả rõ máy đơ vào lúc nào, đơ khi mở ứng dụng nào, bạn đã thử những gì (đã khởi động lại cứng, đã dọn bộ nhớ, đã tháo miếng dán) để thợ kiểm tra nhanh hơn và tránh bị báo sai lỗi."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "điện thoại bị đơ",
+        "treo máy",
+        "dien thoai bi do",
+        "treo may",
+        "chạm không phản hồi",
+        "khởi động lại cứng",
+        "sua-chua",
+        "máy đơ",
+        "đơ cảm ứng",
+        "may do"
+      ],
+      "title": "Điện thoại bị đơ, treo máy, chạm không phản hồi: khởi động lại cứng và kiểm tra ứng dụng trước khi mang ra tiệm",
+      "id": 86,
+      "img": "assets/dien-thoai-bi-do-treo-may.jpg"
     }
   ],
   "subs": {
