@@ -17,7 +17,7 @@ a{color:inherit}button,input,select{font:inherit;min-height:44px}
 .topbar-in{max-width:1180px;margin:auto;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;font-size:.85rem}
 .topbar b{letter-spacing:.02em}.live-dot{display:inline-block;width:8px;height:8px;background:#f87171;border-radius:50%;margin-right:6px}
 header.hero{background:var(--surface);border-bottom:1px solid var(--line)}
-.hero-in{max-width:1180px;margin:auto;padding:28px 16px 22px;display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:center}
+.hero-in{max-width:1180px;margin:auto;padding:28px 16px 22px}
 .hero h1{font-size:clamp(28px,5vw,46px);line-height:1.05;margin:8px 0 10px;font-weight:900;letter-spacing:-.02em}
 .hero h1 em{font-style:normal;color:var(--accent)}
 .hero p{color:var(--muted);max-width:56ch;margin:0 0 16px}
@@ -191,14 +191,8 @@ body:not(.admin-on) .admin-only{display:none!important}
       <div class="kicker">Mẹo Tech — Tin hot · Mẹo hay · Mua đúng</div>
       <h1>Mẹo công nghệ <em>dễ hiểu,</em><br>tra là thấy ngay.</h1>
       <p>Chia sẻ tin hot, mẹo hay và kinh nghiệm sửa chữa cho điện thoại, laptop và PC. Mỗi mục có ô tìm kiếm riêng — gõ đúng từ khóa trong mục đó là ra bài, không lẫn sang mục khác.</p>
-      <form class="global-search" id="globalForm">
-        <input id="globalInput" type="search" placeholder="Tìm tất cả: hao pin, RTX 4060, OBS, chai pin…" aria-label="Tìm kiếm toàn trang">
-        <button class="btn" type="submit">Tìm tất cả</button>
-      </form>
-      <p style="margin-top:10px;font-size:.88rem">Thử gõ: <button type="button" class="chip" data-q="hao pin">hao pin</button> <button type="button" class="chip" data-q="RTX">RTX</button> <button type="button" class="chip" data-q="phần mềm">phần mềm</button></p>
       <p style="margin-top:6px"><button type="button" class="btn alt admin-only" data-goto="guide">✍️ Đăng bài mới</button></p>
     </div>
-    <div class="hero-img"><img src="assets/repair.jpg" alt="Kỹ thuật viên đang sửa chữa điện thoại, mở máy kiểm tra linh kiện bên trong"></div>
   </div>
 </header>
 
@@ -225,7 +219,6 @@ body:not(.admin-on) .admin-only{display:none!important}
     <article class="hot-card"><span>Sự kiện & Sale</span><h3>11.11 · Black Friday · Tết</h3><p style="color:var(--muted)">Săn sale đúng món, tránh mua hớ với checklist kiểm tra giá.</p></article>
   </div>
 
-  <div id="globalResults"></div>
 
   <div class="section-head"><div><h2>Bài mới nhất</h2><p>Bài mẫu để bạn hình dung cách trình bày — thay bằng bài của bạn khi đăng lên GitHub.</p></div></div>
   <div class="grid" id="homeGrid"></div>
@@ -524,10 +517,6 @@ document.querySelectorAll('.navbtn[data-view]').forEach(function(b){b.addEventLi
 document.querySelectorAll('[data-goto]').forEach(function(b){b.addEventListener('click',function(){go(b.dataset.goto)})});
 document.querySelectorAll('[data-clear]').forEach(function(b){b.addEventListener('click',function(){var inp=document.getElementById(b.dataset.clear);inp.value='';inp.dispatchEvent(new Event('input'));if(b.dataset.clear==='s-gallery')renderGallery()})});
 document.querySelectorAll('[data-phoneq]').forEach(function(b){b.addEventListener('click',function(){var inp=document.getElementById('s-phone');inp.value=b.dataset.phoneq;activeSub.phone='Sửa chữa';syncSubChips('phone');activeBrand.phone='Tất cả hãng';renderSection('phone');scrollToSection('phone')})});
-/* Global search */
-function doGlobal(q){var box=document.getElementById('globalResults');if(!q){box.innerHTML='';return}var list=ARTICLES.filter(function(a){return matches(a,q)});box.innerHTML='<div class="section-head"><div><h2>Kết quả tìm tất cả cho “'+esc(q)+'”</h2><p>'+list.length+' bài ở mọi mục. Muốn tìm nhanh hơn, vào từng mục và dùng ô tìm riêng của mục đó.</p></div></div>'+(list.length?'<div class="grid">'+list.map(cardHTML).join('')+'</div>':'<div class="empty">Không thấy bài nào khớp. Thử từ ngắn hơn.</div>');bindRead()}
-document.getElementById('globalForm').addEventListener('submit',function(e){e.preventDefault();doGlobal(document.getElementById('globalInput').value.trim())});
-document.querySelectorAll('[data-q]').forEach(function(b){b.addEventListener('click',function(){document.getElementById('globalInput').value=b.dataset.q;doGlobal(b.dataset.q)})});
 /* Copy / download */
 function toast(msg){var t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(function(){t.style.display='none'},2200)}
 function copyText(txt,msg){
@@ -712,6 +701,7 @@ loadData();
 </script>
 </body>
 </html>
+
 
 
 
