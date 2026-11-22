@@ -2590,6 +2590,35 @@
       "title": "Redmi Note 10 Pro cắm sạc logo sạc nhấp nháy, không lên nguồn: câu jumper theo ảnh",
       "id": 83,
       "img": "assets/redmi-note-10-pro-sac-nhap-nhay-khong-len-nguon.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Màn hình PC đang dùng bỗng nhấp nháy, chập chờn khiến bạn mỏi mắt và khó làm việc? Trước khi mang ra tiệm, bạn có thể tự kiểm tra dây cáp, tần số quét và driver — nhiều trường hợp chỉ cần cắm lại dây hoặc chỉnh lại cài đặt là hết.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi đã thử đổi dây khác, chỉnh đúng tần số quét và cập nhật driver mà màn hình vẫn nhấp nháy, hoặc khi màn hình xuất hiện sọc cố định, đốm đen, nhấp nháy kèm mùi khét hay tiếng lạ. Bạn không nên tự tháo vỏ màn hình vì bên trong có tụ điện và tấm nền rất dễ hỏng.",
+      "steps": [
+        "Nhận biết lỗi: bạn hãy để ý màn hình nhấp nháy như thế nào — chớp tắt liên tục, xuất hiện sọc ngang, hình rung nhẹ — và lúc nào thì bị (vừa bật máy, khi mở game hay video, hay lúc nào cũng bị). Ghi lại giúp bạn mô tả đúng cho thợ nếu sau này cần mang ra tiệm.",
+        "Kiểm tra dây cáp: bạn tắt máy, rút dây HDMI hoặc DisplayPort ở cả hai đầu màn hình và thùng máy rồi cắm lại cho chặt, siết ốc giữ nếu dây có ốc. Nếu nhà có dây khác, bạn thử đổi dây để loại trừ dây bị đứt ngầm. Bạn cũng nhìn kỹ chân cắm xem có cong, gãy hay bám bụi không, và lau nhẹ bằng khăn khô.",
+        "Kiểm tra nguồn điện và vị trí đặt màn hình: bạn cắm màn hình vào ổ điện riêng, tránh cắm chung ổ với thiết bị công suất lớn. Bạn cũng thử di chuyển màn hình ra xa loa, quạt hay các thiết bị điện khác vì nhiễu điện từ gần đó cũng có thể làm hình chập chờn.",
+        "Chỉnh tần số quét và độ phân giải: bạn chuột phải lên màn hình nền, chọn Cài đặt hiển thị, rồi chọn đúng độ phân giải khuyến nghị và tần số quét mà màn hình hỗ trợ (thường là 60Hz, 75Hz hoặc 144Hz tùy màn hình). Tần số quét đặt sai là một nguyên nhân rất hay gây nhấp nháy.",
+        "Cập nhật driver card màn hình: bạn mở Device Manager, vào mục Display adapters, chuột phải vào card màn hình rồi chọn cập nhật driver. Bạn cũng có thể tải driver mới nhất từ trang web của hãng card màn hình rồi cài đặt và khởi động lại máy.",
+        "Test lại: bạn khởi động lại máy, mở video hoặc game vài phút để xem màn hình còn nhấp nháy không. Nếu có màn hình khác, bạn thử cắm sang màn hình đó; nếu hết nhấp nháy thì lỗi ở màn hình cũ, còn vẫn bị thì lỗi nằm ở thùng máy hoặc dây cáp."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "man hinh",
+        "nhap nhay",
+        "man hinh chap chon",
+        "hdmi",
+        "driver",
+        "tan so quet"
+      ],
+      "title": "PC màn hình nhấp nháy, chập chờn: kiểm tra dây cáp, tần số quét và driver trước khi mang ra tiệm",
+      "id": 84,
+      "img": "assets/pc-man-hinh-nhap-nhay.jpg"
     }
   ],
   "subs": {
