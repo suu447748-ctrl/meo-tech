@@ -3033,6 +3033,37 @@
       "title": "Samsung A53 lỗi sạc (Charging Error): gỡ điện trở trên main",
       "id": 97,
       "img": "assets/samsung-a53-loi-sac-go-dien-tro.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A52 màn hình tự mất hiển thị (blank display): gỡ IC 2EA T7 và câu jumper theo ảnh. Cùng bệnh mất hiển thị nhưng đây là cách xử lý ở vị trí IC 2EA T7 trên main.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và hàn câu dây — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: màn hình tự mất hiển thị, máy vẫn chạy nhưng màn trắng đen không lên hình, có lúc tự tắt rồi tự lên lại.",
+        "Thử bước đơn giản trước: khởi động lại máy, kiểm tra lại cáp màn hình; nếu màn vẫn tự mất thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: IC có ghi 2EA T7 trên main (vòng tròn bên trái, mũi tên đỏ chỉ vào IC) — đây là IC gây mất hiển thị trong trường hợp này.",
+        "Gỡ IC 2EA T7 ra khỏi main, rồi câu jumper (đường đỏ trong vòng tròn bên phải) nối 2 điểm như ảnh.",
+        "Lắp pin lại, lắp màn hình vào và bật máy thử: màn hình lên bình thường, không còn tự mất thì test cảm ứng và hiển thị trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà màn vẫn tự mất thì mang ra tiệm để đo kiểm đường hiển thị trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a52",
+        "samsung",
+        "man hinh trang",
+        "blank display",
+        "ic 2ea",
+        "cau jumper",
+        "sua chua"
+      ],
+      "title": "Samsung A52 màn hình tự mất hiển thị: gỡ IC 2EA T7 và câu jumper",
+      "id": 98,
+      "img": "assets/samsung-a52-ic-2ea-jumper.jpg"
     }
   ],
   "subs": {
