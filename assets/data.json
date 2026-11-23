@@ -3033,6 +3033,35 @@
       "title": "Samsung A53 lỗi sạc (Charging Error): gỡ điện trở trên main",
       "id": 97,
       "img": "assets/samsung-a53-loi-sac-go-dien-tro.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Màn hình chính vẫn chạy bình thường nhưng màn hình thứ hai tối đen hoặc báo mất tín hiệu? Bạn chỉ cần kiểm tra lại dây, cổng và vài cài đặt hiển thị là thường xử lý được ngay.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi đã thử đổi dây, đổi cổng và đổi thiết bị mà màn hình thứ hai vẫn không lên hình, khi cổng xuất hình trên thùng máy bị lỏng hoặc gãy chân, hoặc khi màn hình có dấu hiệu chập chờn, sọc, đốm hay mùi khét. Bạn nhớ nói rõ với thợ những gì mình đã thử để thợ kiểm tra nhanh hơn và tránh bị báo thay linh kiện không cần thiết.",
+      "steps": [
+        "Nhận biết lỗi: màn hình thứ hai tối đen, báo \"No Signal\" hoặc \"Không có tín hiệu\" dù bạn đã cắm dây, trong khi màn hình chính vẫn hiển thị bình thường. Nếu cả hai màn hình đều tối thì đó là lỗi khác, bạn nên xem bài bắt bệnh PC không lên hình.",
+        "Kiểm tra dây và cổng: rút dây tín hiệu ra rồi cắm lại cho chắc chắn ở cả hai đầu (đầu màn hình và đầu thùng máy). Nếu có dây khác, bạn thử đổi dây để loại trừ dây bị đứt ngầm. Thử cắm sang cổng khác trên thùng máy, và nhớ cắm vào cổng xuất hình của card màn hình rời nếu máy bạn có card rời.",
+        "Kiểm tra nguồn của màn hình thứ hai: bấm nút nguồn trên màn hình, xem đèn báo nguồn có sáng không. Bạn thử đổi sang ổ cắm điện khác và kiểm tra dây nguồn của màn hình đã cắm chặt chưa.",
+        "Mở cài đặt hiển thị trên Windows: bấm chuột phải vào khoảng trống trên màn hình nền, chọn Display settings, rồi bấm nút Detect để Windows tìm màn hình mới. Nếu Windows đã thấy màn hình thứ hai, bạn chọn chế độ Extend these displays để mở rộng màn hình, và chỉnh độ phân giải về mức màn hình hỗ trợ.",
+        "Cập nhật driver màn hình: vào Windows Update để kiểm tra bản cập nhật, hoặc mở Device Manager, tìm mục Display adapters, bấm chuột phải vào card màn hình rồi chọn Update driver. Sau khi cập nhật xong, bạn khởi động lại máy rồi kiểm tra lại.",
+        "Test lại để xác định lỗi ở đâu: bạn thử màn hình thứ hai với một thiết bị khác, ví dụ cắm vào laptop. Nếu màn hình lên hình bình thường với laptop thì lỗi nằm ở dây, cổng hoặc cài đặt trên PC; nếu cắm đâu cũng không lên thì lỗi nằm ở chính màn hình đó."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "man hinh thu hai",
+        "khong nhan man hinh",
+        "hdmi",
+        "displayport",
+        "cai dat hien thi",
+        "man hinh khong len"
+      ],
+      "title": "PC không nhận màn hình thứ hai, cắm thêm màn hình mà không lên hình: kiểm tra dây, cổng và cài đặt hiển thị trước khi mang ra tiệm",
+      "id": 98,
+      "img": "assets/pc-khong-nhan-man-hinh-thu-hai.jpg"
     }
   ],
   "subs": {
