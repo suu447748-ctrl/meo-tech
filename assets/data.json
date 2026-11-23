@@ -2753,6 +2753,39 @@
       "title": "Vivo Y20 mất đèn màn hình: câu jumper từ socket màn lên mạch đèn nền",
       "id": 88,
       "img": "assets/vivo-y20-mat-den-man-hinh.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A20, A30, A50 tự rơi vào chế độ Sleep Mode, màn hình tắt không lên dù bấm nút nguồn. Ảnh hướng dẫn gỡ linh kiện trên bo mạch sạc (sub board) và nối 2 chân 1–3 để máy thức dậy bình thường.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên bo sạc, cần tháo máy và hàn gỡ linh kiện — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy tự rơi vào chế độ Sleep Mode — màn hình tắt đen, bấm nút nguồn không lên, cắm sạc có lúc cũng không phản hồi, dù máy vẫn còn pin và main vẫn chạy.",
+        "Thử bước đơn giản trước: cắm sạc 15–30 phút, bấm giữ nút nguồn + giảm âm lượng khoảng 15–20 giây để khởi động lại cứng; nếu máy vẫn ngủ không dậy thì lỗi nằm ở phần cứng trên bo sạc.",
+        "Tháo máy và ngắt pin trước khi làm việc trên bo mạch.",
+        "Xác định vị trí theo ảnh: trên bo mạch sạc (sub board), linh kiện nhỏ được khoanh đỏ ở phía trên, gần chân kết nối sạc — đây là linh kiện gây lỗi Sleep Mode.",
+        "Gỡ linh kiện đó ra khỏi bo sạc (ảnh Before → After), rồi câu nối 2 chân số 1 và 3 bằng thiếc như ảnh After (chân 1 nối xuống chân 3, chân 2 và 4 để nguyên).",
+        "Lắp pin lại, lắp máy vào và bật nguồn thử: màn hình lên bình thường, máy không còn tự ngủ thì test cảm ứng, sạc pin và các phím trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi làm mà máy vẫn Sleep Mode thì mang ra tiệm để đo kiểm đường tín hiệu trên bo sạc và main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a20",
+        "samsung a30",
+        "samsung a50",
+        "sleep mode",
+        "bo sac",
+        "sub board",
+        "cau jumper",
+        "man hinh tat",
+        "sua chua"
+      ],
+      "title": "Samsung A20, A30, A50 bị Sleep Mode: gỡ linh kiện trên bo sạc và nối chân 1–3",
+      "id": 89,
+      "img": "assets/samsung-a20-a30-a50-sleep-mode.jpg"
     }
   ],
   "subs": {
