@@ -3003,6 +3003,36 @@
       "title": "Redmi Note 9 sóng yếu, mạng chập chờn: câu jumper theo ảnh",
       "id": 96,
       "img": "assets/redmi-note-9-song-yeu-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A53 lỗi sạc (Charging Error): gỡ điện trở trên main theo ảnh. Cùng lỗi sạc nhưng nguyên nhân khác với bài IC 177 C1-8 — đây là cách xử lý ở vị trí điện trở.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và gỡ linh kiện — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy báo lỗi sạc, cắm sạc không vào hoặc sạc chập chờn dù đã thử củ sạc và dây cáp khác.",
+        "Thử bước đơn giản trước: đổi củ sạc và dây cáp khác, vệ sinh sạch cổng sạc, khởi động lại máy; nếu vẫn lỗi sạc thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: điện trở được ghi nhãn Resistor và chỉ bằng tay (gần IC đen trên main) — đây là điện trở gây lỗi sạc trong trường hợp này.",
+        "Gỡ điện trở được chỉ ra khỏi main (ảnh Before → After), vệ sinh sạch khu vực xung quanh.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy nhận sạc bình thường, pin lên đều thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi gỡ điện trở mà máy vẫn lỗi sạc thì mang ra tiệm để đo kiểm đường sạc và các linh kiện liên quan trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a53",
+        "samsung",
+        "loi sac",
+        "charging error",
+        "go dien tro",
+        "sua chua"
+      ],
+      "title": "Samsung A53 lỗi sạc (Charging Error): gỡ điện trở trên main",
+      "id": 97,
+      "img": "assets/samsung-a53-loi-sac-go-dien-tro.jpg"
     }
   ],
   "subs": {
