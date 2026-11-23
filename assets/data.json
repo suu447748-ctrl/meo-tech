@@ -2693,6 +2693,35 @@
       "title": "Điện thoại bị đơ, treo máy, chạm không phản hồi: khởi động lại cứng và kiểm tra ứng dụng trước khi mang ra tiệm",
       "id": 86,
       "img": "assets/dien-thoai-bi-do-treo-may.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Màn hình laptop bỗng tối mờ, tăng độ sáng mãi vẫn không sáng lên? Bạn hãy kiểm tra phím tắt, cài đặt nguồn và driver màn hình theo các bước dưới đây trước khi mang máy ra tiệm.",
+      "mins": 3,
+      "note": "Nếu màn hình tối hẳn dù đã tăng độ sáng tối đa, nhấp nháy, có sọc hoặc đốm sáng, bạn hãy mang máy ra tiệm uy tín để kiểm tra đèn nền và cáp màn hình. Đừng tự tháo màn hình hay mở máy vì dễ làm hỏng thêm và mất bảo hành.",
+      "steps": [
+        "Nhận biết lỗi: màn hình vẫn hiển thị chữ và hình ảnh nhưng tối mờ, nhìn nghiêng mới thấy rõ; kéo thanh trượt độ sáng hoặc bấm phím tăng độ sáng mà màn hình không sáng lên, hoặc thanh trượt độ sáng bị mờ không kéo được. Bạn hãy thử cắm sạc và nhìn màn hình ở nơi ít ánh sáng để chắc chắn không phải do ánh nắng chiếu vào.",
+        "Thử phím tắt tăng độ sáng: bạn bấm tổ hợp phím Fn cùng phím có biểu tượng mặt trời (thường nằm ở hàng phím F, ví dụ F5, F6 hoặc phím mũi tên). Nếu máy có phím tăng độ sáng riêng, bạn bấm trực tiếp phím đó vài lần và quan sát màn hình có sáng dần lên không.",
+        "Kiểm tra cài đặt độ sáng trong Windows: bạn vào Cài đặt > Hệ thống > Màn hình, kéo thanh trượt độ sáng lên mức cao nhất. Nếu đang dùng pin, bạn kiểm tra xem chế độ tiết kiệm pin có đang bật không, vì chế độ này thường tự hạ độ sáng; bạn cắm sạc rồi tắt tiết kiệm pin và thử tăng độ sáng lại.",
+        "Tắt tính năng tự điều chỉnh độ sáng: trong phần Cài đặt > Hệ thống > Màn hình, bạn bỏ chọn mục tự thay đổi độ sáng theo ánh sáng môi trường (nếu có). Tính năng này đôi khi nhận sai ánh sáng xung quanh nên tự hạ độ sáng xuống mức rất thấp.",
+        "Khởi động lại máy và cập nhật driver màn hình: bạn khởi động lại laptop, sau đó vào Cài đặt > Windows Update để kiểm tra và cài đặt bản cập nhật đang chờ. Nếu vẫn chưa được, bạn mở Device Manager, tìm mục Display adapters, bấm chuột phải vào card màn hình và chọn Update driver, chỉ dùng driver do Windows cung cấp, không tải driver từ trang lạ.",
+        "Test lại: bạn cắm sạc, tăng độ sáng lên mức cao nhất, mở một trang web nền trắng và xem màn hình có sáng rõ không. Nếu nhà bạn có màn hình ngoài hoặc TV có cổng HDMI, bạn cắm thử: nếu màn hình ngoài hiển thị sáng bình thường thì lỗi nằm ở màn hình laptop, bạn ghi lại kết quả này để báo cho thợ.",
+        "Mang ra tiệm khi nào: bạn nên mang máy ra tiệm khi màn hình tối hẳn dù đã tăng độ sáng tối đa, màn hình nhấp nháy, xuất hiện sọc hoặc đốm sáng, hoặc chỉ bị tối khi rút sạc. Bạn đừng tự tháo màn hình hay mở máy để thay đèn nền, vì việc này dễ làm hỏng cáp màn hình và mất bảo hành."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "man hinh toi",
+        "do sang",
+        "man hinh mo",
+        "driver man hinh",
+        "man hinh laptop"
+      ],
+      "title": "Laptop màn hình tối, độ sáng không chỉnh được: kiểm tra phím tắt, cài đặt nguồn và driver trước khi mang ra tiệm",
+      "id": 87,
+      "img": "assets/laptop-man-hinh-toi-do-sang.jpg"
     }
   ],
   "subs": {
