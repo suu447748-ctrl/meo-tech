@@ -2722,6 +2722,37 @@
       "title": "Laptop màn hình tối, độ sáng không chỉnh được: kiểm tra phím tắt, cài đặt nguồn và driver trước khi mang ra tiệm",
       "id": 87,
       "img": "assets/laptop-man-hinh-toi-do-sang.jpg"
+    },
+    {
+      "brand": "Vivo",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Vivo Y20 mất đèn màn hình, máy vẫn chạy nhưng màn tối đen. Video hướng dẫn câu 1 dây jumper từ chân socket màn lên linh kiện mạch đèn nền để khôi phục đèn màn hình.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và hàn câu dây — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy vẫn lên nguồn, vẫn có tiếng, cảm ứng có thể vẫn nhận nhưng màn hình tối đen không thấy gì — đây là mất đèn nền (backlight), khác với màn hình chết hẳn hay máy sập nguồn.",
+        "Thử màn hình khác trước để loại trừ hư màn: nếu màn khác lên đèn bình thường thì chỉ cần thay màn; nếu màn khác vẫn tối thì lỗi nằm trên main, ở mạch đèn nền.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main để tránh chập mạch trong lúc hàn câu dây.",
+        "Xác định vị trí câu jumper theo video: một đầu dây câu vào chân socket màn hình (điểm dưới socket, nơi dây đỏ bắt đầu), đầu còn lại câu lên linh kiện mạch đèn nền phía trên main (điểm dây đỏ kết thúc, gần cuộn cảm lớn).",
+        "Câu dây jumper chắc chắn, đúng 2 điểm như video, cố định dây gọn gàng, tránh để dây chạm sang linh kiện bên cạnh.",
+        "Lắp pin lại, lắp màn hình vào và bật máy thử: đèn màn hình sáng lại bình thường thì test cảm ứng, hiển thị và độ sáng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà đèn vẫn không sáng thì mang ra tiệm để đo kiểm mạch đèn nền và IC đèn trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "vivo y20",
+        "vivo",
+        "mat den man hinh",
+        "mat den nen",
+        "cau jumper",
+        "den man hinh",
+        "sua chua"
+      ],
+      "title": "Vivo Y20 mất đèn màn hình: câu jumper từ socket màn lên mạch đèn nền",
+      "id": 88,
+      "img": "assets/vivo-y20-mat-den-man-hinh.jpg"
     }
   ],
   "subs": {
