@@ -2786,6 +2786,38 @@
       "title": "Samsung A20, A30, A50 bị Sleep Mode: gỡ linh kiện trên bo sạc và nối chân 1–3",
       "id": 89,
       "img": "assets/samsung-a20-a30-a50-sleep-mode.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A13 lỗi sạc: sạc không vào, không sạc nhanh, chỉ lên 1% hoặc cổng sạc không hoạt động. Ảnh hướng dẫn xử lý linh kiện trên bo mạch sạc (sub board) để khôi phục sạc.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên bo sạc, cần tháo máy và xử lý linh kiện — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: cắm sạc không vào pin, không nhận sạc nhanh, pin chỉ lên 1% rồi dừng, hoặc cổng sạc không hoạt động — dù đã thử củ sạc và dây cáp khác.",
+        "Thử bước đơn giản trước: đổi củ sạc và dây cáp khác, vệ sinh sạch cổng sạc (bụi bẩn, xơ vải), khởi động lại máy; nếu vẫn không vào thì lỗi nằm trên bo sạc.",
+        "Tháo máy và ngắt pin trước khi làm việc trên bo mạch.",
+        "Xác định vị trí theo ảnh: trên bo mạch sạc (sub board, mã AIS.LTE REV002), linh kiện nhỏ được khoanh đỏ ở phía trên, gần chữ R và cụm chân kết nối — đây là linh kiện gây lỗi sạc.",
+        "Xử lý linh kiện được chỉ trong ảnh (kiểm tra, làm lại chân hoặc thay linh kiện nếu cần), vệ sinh sạch khu vực cổng sạc trên bo sạc.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy nhận sạc bình thường, pin lên đều và nhận sạc nhanh thì test thêm cổng sạc và các phím trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi xử lý mà máy vẫn không vào sạc thì mang ra tiệm để đo kiểm đường sạc trên bo sạc và main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a13",
+        "samsung",
+        "loi sac",
+        "sac khong vao",
+        "khong sac nhanh",
+        "bo sac",
+        "sub board",
+        "sua chua"
+      ],
+      "title": "Samsung A13 lỗi sạc, sạc không vào, chỉ lên 1%: xử lý linh kiện trên bo sạc",
+      "id": 90,
+      "img": "assets/samsung-a13-loi-sac.jpg"
     }
   ],
   "subs": {
