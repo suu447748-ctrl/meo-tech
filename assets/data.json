@@ -2973,6 +2973,36 @@
       "title": "Samsung A14 nút nguồn không hoạt động: câu jumper nút nguồn",
       "id": 95,
       "img": "assets/samsung-a14-nut-nguon-jumper.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi Note 9 sóng yếu, mạng chập chờn, bắt sóng kém. Ảnh hướng dẫn câu 1 dây jumper trên main (khu vực mạch sóng) để khôi phục sóng.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và hàn câu dây — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy sóng yếu, mạng chập chờn, cột sóng thấp hoặc mất sóng ở nơi sóng bình thường, dù đã thử SIM khác.",
+        "Thử bước đơn giản trước: khởi động lại máy, tháo lắp lại SIM, kiểm tra lại cài đặt mạng; nếu vẫn sóng yếu thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: dây jumper màu vàng trong ảnh nối 2 điểm trên main ở khu vực mạch sóng (gần IC có ghi 27 8AK) — đây là đường sóng bị đứt.",
+        "Câu dây jumper chắc chắn theo đúng 2 điểm trong ảnh, cố định dây gọn gàng, tránh để dây chạm sang linh kiện bên cạnh.",
+        "Lắp pin lại, lắp máy vào và bật máy thử: cột sóng lên cao, sóng ổn định thì test gọi điện và dữ liệu di động trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà sóng vẫn yếu thì mang ra tiệm để đo kiểm đường sóng và các IC sóng trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "redmi note 9",
+        "xiaomi",
+        "song yeu",
+        "mang chap chon",
+        "cau jumper",
+        "sua chua"
+      ],
+      "title": "Redmi Note 9 sóng yếu, mạng chập chờn: câu jumper theo ảnh",
+      "id": 96,
+      "img": "assets/redmi-note-9-song-yeu-jumper.jpg"
     }
   ],
   "subs": {
