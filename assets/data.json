@@ -2849,6 +2849,38 @@
       "title": "Redmi 9 Power mất sóng (No Service): đóng lại IC (reball) theo ảnh",
       "id": 91,
       "img": "assets/redmi-9-power-mat-song-reball.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A15 5G không lên nguồn, máy chết hẳn (No booting). Ảnh hướng dẫn gỡ tụ bị chập và kiểm tra chập trên main để cứu máy.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và gỡ linh kiện — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy không lên nguồn, bấm nút nguồn không phản hồi, cắm sạc cũng không có dấu hiệu gì — máy chết hẳn.",
+        "Thử bước đơn giản trước: cắm sạc 30 phút, bấm giữ nút nguồn + giảm âm lượng khoảng 15–20 giây; nếu vẫn không lên thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: tụ được khoanh đỏ trên main (Remove Capacitor) — đây là tụ bị chập gây chết máy trên Samsung A15 5G.",
+        "Gỡ tụ bị chập ra khỏi main, rồi kiểm tra chập (Check Shorting) quanh khu vực đó bằng đồng hồ đo trước khi cấp nguồn lại.",
+        "Lắp pin lại, lắp máy vào và bật nguồn thử: máy lên nguồn bình thường thì test sạc, cảm ứng và các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi gỡ tụ mà máy vẫn không lên nguồn thì mang ra tiệm để đo kiểm các đường nguồn và IC nguồn trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a15 5g",
+        "samsung",
+        "khong len nguon",
+        "may chet",
+        "no booting",
+        "go tu",
+        "chap mach",
+        "sua chua"
+      ],
+      "title": "Samsung A15 5G không lên nguồn, máy chết: gỡ tụ chập theo ảnh",
+      "id": 92,
+      "img": "assets/samsung-a15-5g-khong-len-nguon.jpg"
     }
   ],
   "subs": {
