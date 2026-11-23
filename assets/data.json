@@ -2881,6 +2881,37 @@
       "title": "Samsung A15 5G không lên nguồn, máy chết: gỡ tụ chập theo ảnh",
       "id": 92,
       "img": "assets/samsung-a15-5g-khong-len-nguon.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A23 lỗi sạc: chân số 6 trên cổng sạc bị đứt, máy không nhận sạc. Ảnh hướng dẫn câu jumper từ chân số 6 trên bo sạc để khôi phục sạc.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên bo sạc, cần tháo máy và hàn câu dây — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: cắm sạc máy không nhận, sạc lúc được lúc không, dù đã thử củ sạc và dây cáp khác — chân sạc trên bo sạc bị đứt đường (chân số 6).",
+        "Thử bước đơn giản trước: đổi củ sạc và dây cáp khác, vệ sinh sạch cổng sạc; nếu vẫn không vào thì lỗi nằm trên bo sạc.",
+        "Tháo máy và ngắt pin trước khi làm việc trên bo mạch.",
+        "Xác định vị trí theo ảnh: trên bo sạc, chân số 6 của cổng sạc bị đứt (6 No Pin) — dây jumper màu hồng trong ảnh nối từ chân số 6 xuống điểm được khoanh đỏ bên dưới.",
+        "Câu dây jumper chắc chắn từ chân số 6 xuống đúng điểm được chỉ trong ảnh, cố định dây gọn gàng, tránh để dây chạm sang chân bên cạnh.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy nhận sạc bình thường, pin lên đều thì test thêm cổng sạc và các phím trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà máy vẫn không vào sạc thì mang ra tiệm để đo kiểm đường sạc trên bo sạc và main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a23",
+        "samsung",
+        "loi sac",
+        "cau jumper",
+        "chan sac",
+        "bo sac",
+        "sua chua"
+      ],
+      "title": "Samsung A23 lỗi sạc: câu jumper chân số 6 trên bo sạc",
+      "id": 93,
+      "img": "assets/samsung-a23-loi-sac-jumper-chan-6.jpg"
     }
   ],
   "subs": {
