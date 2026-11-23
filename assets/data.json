@@ -3128,6 +3128,36 @@
       "title": "Samsung A71 cắm sạc báo quá nhiệt rồi sập nguồn: test cụm sạc, gỡ điện trở và đóng lại IC nguồn",
       "id": 100,
       "img": "assets/samsung-a71-cam-sac-bao-qua-nhiet-sap-nguon.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A24 báo nhiệt độ quá cao. Ảnh hướng dẫn gỡ linh kiện được khoanh đỏ bên dưới con chip lớn trên main để hết báo lỗi nhiệt độ.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và gỡ linh kiện — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy báo nhiệt độ quá cao khi sạc hoặc khi dùng, có thể tạm dừng sạc hoặc tự sập nguồn.",
+        "Thử bước đơn giản trước: để máy nguội hẳn, gỡ ốp lưng, đổi củ sạc và dây cáp khác, khởi động lại máy; nếu vẫn báo nhiệt độ quá cao thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: linh kiện nhỏ được khoanh đỏ bên dưới con chip lớn trên main — đây là linh kiện gây báo nhiệt độ quá cao trên Samsung A24.",
+        "Gỡ linh kiện được khoanh ra khỏi main, vệ sinh sạch khu vực xung quanh.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy sạc bình thường, không còn báo nhiệt độ quá cao thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi gỡ mà máy vẫn báo nhiệt độ quá cao thì mang ra tiệm để đo kiểm đường cảm biến nhiệt trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a24",
+        "samsung",
+        "bao nhiet do qua cao",
+        "nhiet do cao",
+        "go linh kien",
+        "sua chua"
+      ],
+      "title": "Samsung A24 báo nhiệt độ quá cao: gỡ linh kiện được khoanh trên main",
+      "id": 101,
+      "img": "assets/samsung-a24-bao-nhiet-do-qua-cao.jpg"
     }
   ],
   "subs": {
