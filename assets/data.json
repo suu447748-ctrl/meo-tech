@@ -3186,6 +3186,40 @@
       "title": "Điện thoại mất rung, có cuộc gọi đến mà không rung: kiểm tra chế độ rung và cài đặt trước khi mang ra tiệm",
       "id": 102,
       "img": "assets/dien-thoai-mat-rung.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A04 / A045F mất đèn màn hình (Backlight). Sơ đồ đường đèn nền trong ảnh: nguồn VPH_PWR, LED_A, LED_K và tín hiệu CABC — kiểm tra đủ 3 đường này trước khi thay IC.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và đo kiểm trên mạch — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy vẫn lên nguồn, có tiếng, màn hình hiển thị mờ hoặc tối hẳn, soi đèn vào màn vẫn thấy hình mờ — đó là lỗi đèn nền (Backlight), không phải lỗi hiển thị.",
+        "Thử bước đơn giản trước: tăng độ sáng lên tối đa, tắt chế độ tiết kiệm pin và độ sáng thích ứng, khởi động lại máy; thử màn khác còn tốt để loại trừ lỗi màn.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Đo kiểm theo sơ đồ trong ảnh: đường nguồn VPH_PWR cấp cho mạch đèn nền, đường LED_A (cực dương) và LED_K (cực âm) từ socket màn lên mạch đèn nền, và tín hiệu CABC điều khiển độ sáng.",
+        "Kiểm tra lần lượt đường nguồn, tín hiệu CABC và mạch LED theo sơ đồ trước khi thay IC — linh kiện nào mất áp hoặc đứt đường thì xử lý đúng chỗ đó.",
+        "Lắp pin lại, lắp màn vào và bật máy thử: đèn nền sáng đều, chỉnh độ sáng lên xuống bình thường thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu đo đủ các đường mà đèn nền vẫn không sáng thì mang ra tiệm để kiểm tra IC đèn nền trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a04",
+        "samsung a045f",
+        "samsung",
+        "mat den man hinh",
+        "backlight",
+        "den nen",
+        "led_a",
+        "led_k",
+        "cabc",
+        "vph_pwr"
+      ],
+      "title": "Samsung A04 / A045F mất đèn màn hình (Backlight): kiểm tra đường LED, CABC và nguồn VPH_PWR theo sơ đồ",
+      "id": 103,
+      "img": "assets/samsung-a04-backlight-ways.jpg"
     }
   ],
   "subs": {
