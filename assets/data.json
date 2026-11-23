@@ -3096,6 +3096,38 @@
       "title": "Điện thoại bị mất nguồn, kiểm tra từ đâu? Bảng tra cứu điện áp từng bước",
       "id": 99,
       "img": "assets/dien-thoai-mat-nguon-bang-tra-dien-ap.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A71 cắm sạc báo quá nhiệt rồi sập nguồn. Ảnh hướng dẫn 3 bước: test cụm sạc và điện áp, gỡ điện trở được khoanh tròn, rồi đóng lại IC nguồn Qualcomm PM7250B.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và xử lý IC — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn và đóng IC.",
+      "steps": [
+        "Nhận biết lỗi: cắm sạc máy báo quá nhiệt rồi tự sập nguồn, không sạc được dù pin vẫn còn.",
+        "Thử bước đơn giản trước: đổi củ sạc và dây cáp khác, vệ sinh sạch cổng sạc, để máy nguội rồi cắm sạc lại; nếu vẫn báo quá nhiệt rồi sập thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Bước 1 trong ảnh: test cụm sạc và điện áp nối (đo điện áp đường sạc) để xác định lỗi ở cụm sạc hay trên main.",
+        "Bước 2 trong ảnh: xem con trở được khoanh tròn bên dưới (gần IC nguồn) — nếu còn thì gỡ nó ra.",
+        "Bước 3 trong ảnh: lắc nhẹ IC đen (IC nguồn Qualcomm PM7250B được mũi tên đỏ chỉ) — nếu không được thì làm chân, đóng lại IC.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy sạc bình thường, không còn báo quá nhiệt hay sập nguồn thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi làm mà máy vẫn báo quá nhiệt rồi sập thì mang ra tiệm để đo kiểm đường sạc và IC nguồn trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a71",
+        "samsung",
+        "bao qua nhiet",
+        "sap nguon",
+        "pm7250b",
+        "ic nguon",
+        "sua chua"
+      ],
+      "title": "Samsung A71 cắm sạc báo quá nhiệt rồi sập nguồn: test cụm sạc, gỡ điện trở và đóng lại IC nguồn",
+      "id": 100,
+      "img": "assets/samsung-a71-cam-sac-bao-qua-nhiet-sap-nguon.jpg"
     }
   ],
   "subs": {
