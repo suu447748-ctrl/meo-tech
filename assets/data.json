@@ -2912,6 +2912,37 @@
       "title": "Samsung A23 lỗi sạc: câu jumper chân số 6 trên bo sạc",
       "id": 93,
       "img": "assets/samsung-a23-loi-sac-jumper-chan-6.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung M15 sạc lỗi do IC OVP trên main. Ảnh hướng dẫn câu jumper bypass IC OVP (nối tắt qua IC bảo vệ quá áp) để máy sạc lại bình thường.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và hàn câu dây — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn. Bypass IC OVP chỉ làm khi đã chắc chắn IC này hỏng.",
+      "steps": [
+        "Nhận biết lỗi: máy sạc không vào hoặc sạc chập chờn dù đã thử củ sạc và dây cáp khác — IC OVP (bảo vệ quá áp) trên main bị lỗi.",
+        "Thử bước đơn giản trước: đổi củ sạc và dây cáp khác, vệ sinh sạch cổng sạc, khởi động lại máy; nếu vẫn không vào thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: IC OVP trên main, dây jumper màu đỏ trong ảnh nối từ chân trên của IC xuống điểm bên dưới — đây là đường bypass IC OVP.",
+        "Câu dây jumper chắc chắn theo đúng 2 điểm trong ảnh, cố định dây gọn gàng, tránh để dây chạm sang linh kiện bên cạnh.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy nhận sạc bình thường, pin lên đều thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi bypass mà máy vẫn không vào sạc thì mang ra tiệm để đo kiểm đường sạc và IC nguồn trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung m15",
+        "samsung",
+        "loi sac",
+        "ovp",
+        "bypass ovp",
+        "cau jumper",
+        "sua chua"
+      ],
+      "title": "Samsung M15 sạc lỗi: câu jumper bypass IC OVP",
+      "id": 94,
+      "img": "assets/samsung-m15-ovp-bypass-jumper.jpg"
     }
   ],
   "subs": {
