@@ -2943,6 +2943,36 @@
       "title": "Samsung M15 sạc lỗi: câu jumper bypass IC OVP",
       "id": 94,
       "img": "assets/samsung-m15-ovp-bypass-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A14 nút nguồn không hoạt động, bấm không ăn. Ảnh hướng dẫn câu jumper nút nguồn (từ cáp nút nguồn tới chân kết nối trên main) để nút nguồn bấm lại bình thường.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng, cần tháo máy và hàn câu dây — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: bấm nút nguồn không có phản hồi, máy không lên nguồn bằng nút nguồn (cắm sạc máy vẫn có thể lên), nút bấm bị liệt.",
+        "Thử bước đơn giản trước: vệ sinh quanh nút nguồn, kiểm tra nút có bị kẹt hay lỏng không; nếu nút vẫn không ăn thì lỗi nằm ở đường nút nguồn trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: cáp nút nguồn (màu vàng, có nút tròn) và chân kết nối trên main — 2 mũi tên đỏ chỉ 2 chân cần câu jumper.",
+        "Câu dây jumper chắc chắn nối 2 điểm được chỉ trong ảnh, cố định dây gọn gàng, tránh để dây chạm sang chân bên cạnh.",
+        "Lắp pin lại, lắp máy vào và bấm nút nguồn thử: máy lên nguồn bình thường, nút bấm nhạy thì test thêm các phím và chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà nút nguồn vẫn không ăn thì mang ra tiệm để đo kiểm đường phím nguồn trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a14",
+        "samsung",
+        "nut nguon",
+        "nut nguon khong an",
+        "cau jumper",
+        "sua chua"
+      ],
+      "title": "Samsung A14 nút nguồn không hoạt động: câu jumper nút nguồn",
+      "id": 95,
+      "img": "assets/samsung-a14-nut-nguon-jumper.jpg"
     }
   ],
   "subs": {
