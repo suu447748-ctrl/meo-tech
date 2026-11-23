@@ -3220,6 +3220,38 @@
       "title": "Samsung A04 / A045F mất đèn màn hình (Backlight): kiểm tra đường LED, CABC và nguồn VPH_PWR theo sơ đồ",
       "id": 103,
       "img": "assets/samsung-a04-backlight-ways.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A34 5G mở loa to thì sập nguồn. Ảnh hướng dẫn đóng lại 2 IC được khoanh cam trên main: MTK MT6316DP và MTK MT6315FP.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và đóng lại IC — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy dùng bình thường nhưng cứ mở loa to, nhất là mở nhạc hoặc âm lượng lớn, là sập nguồn; bật lại máy vẫn dùng được cho tới khi mở loa to lần nữa.",
+        "Thử bước đơn giản trước: giảm âm lượng xuống, thử nghe bằng tai nghe, khởi động lại máy, kiểm tra cập nhật phần mềm; nếu chỉ mở loa to mới sập nguồn thì lỗi nằm ở phần cứng trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: 2 IC được khoanh cam trên main là MTK MT6316DP và MTK MT6315FP — đây là 2 IC gây lỗi sập nguồn khi mở loa to trên Samsung A34 5G.",
+        "Đóng lại (reball) 2 IC này, vệ sinh sạch khu vực xung quanh.",
+        "Lắp pin lại, lắp máy vào và mở loa to thử: máy không còn sập nguồn, loa kêu bình thường thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi đóng lại mà máy vẫn sập nguồn khi mở loa to thì mang ra tiệm để đo kiểm đường cấp nguồn cho IC trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a34 5g",
+        "samsung a34",
+        "samsung",
+        "mo loa to sap nguon",
+        "sap nguon",
+        "dong lai ic",
+        "mt6316dp",
+        "mt6315fp"
+      ],
+      "title": "Samsung A34 5G mở loa to bị sập nguồn: đóng lại 2 IC MT6316DP và MT6315FP",
+      "id": 104,
+      "img": "assets/samsung-a34-5g-mo-loa-to-sap-nguon.jpg"
     }
   ],
   "subs": {
