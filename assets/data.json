@@ -3158,6 +3158,34 @@
       "title": "Samsung A24 báo nhiệt độ quá cao: gỡ linh kiện được khoanh trên main",
       "id": 101,
       "img": "assets/samsung-a24-bao-nhiet-do-qua-cao.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Điện thoại đổ chuông bình thường nhưng không rung khi có cuộc gọi, tin nhắn đến, hoặc rung rất yếu đến mức bạn không cảm nhận được. Phần lớn trường hợp chỉ do cài đặt rung bị tắt hoặc ốp lưng quá dày, bạn có thể tự kiểm tra và khắc phục tại nhà trong vài phút.",
+      "mins": 3,
+      "note": "Nếu máy vẫn không rung sau khi bạn đã kiểm tra cài đặt, tháo ốp lưng và khởi động lại, đặc biệt khi máy từng bị rơi hoặc dính nước, bạn nên mang ra tiệm để thợ kiểm tra mô-tơ rung bên trong, không tự tháo máy tại nhà.",
+      "steps": [
+        "Nhận biết lỗi: bạn hãy nhờ người khác gọi thử vào máy, hoặc tự nhắn tin cho mình từ một máy khác. Nếu máy vẫn đổ chuông, màn hình vẫn sáng nhưng hoàn toàn không rung, hoặc rung yếu hẳn so với trước đây, thì đúng là lỗi rung. Bạn cũng thử bật chế độ rung rồi bấm thử các phím cảm ứng xem máy có phản hồi rung nhẹ không.",
+        "Kiểm tra chế độ im lặng và chế độ rung: bạn nhìn xem máy có đang ở chế độ im lặng hoặc chế độ không làm phiền hay không, vì nhiều máy khi bật chế độ này sẽ tắt luôn cả rung. Bạn vào phần Cài đặt > Âm thanh và rung, bật lại mục Rung khi có cuộc gọi và Rung khi có tin nhắn nếu đang tắt.",
+        "Kiểm tra cường độ rung: trong phần cài đặt âm thanh và rung, bạn thử tăng mức cường độ rung lên cao nhất, rồi nhờ người khác gọi thử lại. Nếu rung đã mạnh trở lại thì lỗi chỉ do mức rung trước đó bị đặt quá thấp.",
+        "Tháo ốp lưng và kiểm tra: bạn tháo ốp lưng ra rồi thử lại, vì ốp lưng dày, ốp lưng cứng ôm sát thân máy có thể làm rung bị triệt tiêu, khiến bạn tưởng máy mất rung. Bạn cũng kiểm tra xem máy có đang đặt trên bề mặt mềm như nệm, gối hay không, vì bề mặt mềm cũng hấp thụ rung.",
+        "Khởi động lại máy và kiểm tra ứng dụng: bạn khởi động lại điện thoại, vì lỗi phần mềm tạm thời đôi khi làm rung ngừng hoạt động. Sau khi khởi động lại, bạn thử lại ngay. Nếu gần đây bạn mới cài một ứng dụng quản lý âm thanh hoặc chế độ tập trung, bạn thử tắt ứng dụng đó rồi kiểm tra lại.",
+        "Test lại bằng nhiều cách: bạn bật chế độ rung, nhờ người khác gọi thử, gửi thử tin nhắn, rồi bấm thử bàn phím xem máy có rung phản hồi không. Nếu máy rung lại bình thường ở tất cả các trường hợp thì bạn đã khắc phục xong, chỉ cần giữ nguyên cài đặt vừa chỉnh.",
+        "Lưu ý mang ra tiệm khi nào: nếu bạn đã làm đủ các bước trên mà máy vẫn hoàn toàn không rung, hoặc rung yếu bất thường kèm theo máy từng bị rơi mạnh hay dính nước, thì có thể mô-tơ rung bên trong đã hỏng hoặc lỏng tiếp xúc. Lúc này bạn nên mang máy ra tiệm uy tín để thợ kiểm tra và thay mô-tơ rung, không nên tự tháo máy tại nhà vì dễ làm hỏng thêm các linh kiện khác."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "mat rung",
+        "dien thoai khong rung",
+        "cuoc goi den",
+        "cai dat rung",
+        "kiem tra rung"
+      ],
+      "title": "Điện thoại mất rung, có cuộc gọi đến mà không rung: kiểm tra chế độ rung và cài đặt trước khi mang ra tiệm",
+      "id": 102,
+      "img": "assets/dien-thoai-mat-rung.jpg"
     }
   ],
   "subs": {
