@@ -3062,6 +3062,40 @@
       "title": "PC không nhận màn hình thứ hai, cắm thêm màn hình mà không lên hình: kiểm tra dây, cổng và cài đặt hiển thị trước khi mang ra tiệm",
       "id": 98,
       "img": "assets/pc-khong-nhan-man-hinh-thu-hai.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Điện thoại mất nguồn, kiểm tra từ đâu? Bảng tra cứu điện áp 19 điểm: pin, nguồn chính, PMC, CPU, RAM, eMMC/UFS, tín hiệu nút nguồn và cách đo chập — làm theo từng bước để bắt đúng bệnh.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Bảng tra cứu này dùng cho thợ sửa chữa, cần đồng hồ đo điện và kiến thức đo mạch trên main — bạn không nên tự đo nếu chưa quen, hãy mang ra tiệm.",
+      "steps": [
+        "Nhận biết lỗi: máy mất nguồn hoàn toàn, bấm nút nguồn không lên, cắm sạc không có dấu hiệu gì — cần đo điện áp từng điểm trên main để tìm ra điểm lỗi.",
+        "Chuẩn bị dụng cụ: đồng hồ đo điện, nguồn DC, cáp test, camera nhiệt, phần mềm sơ đồ.",
+        "Đo theo đúng trình tự trong bảng: 1. Pin (VBAT) 3.7–4.4V → 2. VPH_PWR 3.7–4.4V (nguồn chính của main) → 3. VSYS 3.3–4.2V (nguồn hệ thống) → 4. PMC-Output (LDO) 1.8 / 2.8 / 1.2V (nguồn điều áp PMC).",
+        "Đo tiếp nguồn CPU và RAM: CPU Power VDD_CORE 0.6–1.1V, VDD_CPU 0.8–1.2V; RAM Power VDDQ 0.6–0.8V, VDD2 1.1–1.2V (nguồn RAM Core).",
+        "Đo nguồn bộ nhớ: eMMC / UFS VCC 2.7–3.6V (Flash Storage Power), VCCQ 1.8 / 1.2V (I/O Power), VCCQ2 1.8V (Secondary I/O Power).",
+        "Kiểm tra tín hiệu khởi động: PWRKEY Signal 1.8–2.8V (bấm nút nguồn điện áp phải tụt), RTC Crystal 32.768 KHz (giữ thời gian), Main Crystal 26 MHz (xung nhịp hệ thống).",
+        "Kiểm tra dòng tiêu thụ và chập: dòng khi bật nguồn 0.00A–0.80A+; đo chập VBAT, VPH_PWR, VSYS và PMIC Output — nếu đo được 0Ω là bị chập xuống mass, cần kiểm tra chập IC/đường đó.",
+        "Lưu ý quan trọng: điện áp thấp bất thường có thể do chập linh kiện; đo đúng điểm, đúng mạch để tránh nhầm lẫn; CPU, RAM, eMMC cần có điện áp đúng mới hoạt động.",
+        "Điểm nào sai lệch thì xử lý đúng điểm đó rồi test lại toàn bộ; nếu đo hết các điểm mà vẫn không xác định được thì mang ra tiệm để đo kiểm sâu hơn."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "mat nguon",
+        "kiem tra dien ap",
+        "bang tra dien ap",
+        "vbat",
+        "vph_pwr",
+        "vsys",
+        "pmic",
+        "sua chua"
+      ],
+      "title": "Điện thoại bị mất nguồn, kiểm tra từ đâu? Bảng tra cứu điện áp từng bước",
+      "id": 99,
+      "img": "assets/dien-thoai-mat-nguon-bang-tra-dien-ap.jpg"
     }
   ],
   "subs": {
