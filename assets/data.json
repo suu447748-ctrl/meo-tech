@@ -2818,6 +2818,37 @@
       "title": "Samsung A13 lỗi sạc, sạc không vào, chỉ lên 1%: xử lý linh kiện trên bo sạc",
       "id": 90,
       "img": "assets/samsung-a13-loi-sac.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Redmi 9 Power mất sóng (No Service) dù đã thử SIM khác. Ảnh hướng dẫn đóng lại IC (reball) theo vị trí được chỉ để khôi phục sóng.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần đóng lại IC bằng máy khò và bi chì chuyên dụng — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen.",
+      "steps": [
+        "Nhận biết lỗi: máy mất sóng hoàn toàn, báo No Service, không nhận mạng dù đã thử SIM khác và kiểm tra khay SIM.",
+        "Thử bước đơn giản trước: khởi động lại máy, tháo lắp lại SIM, kiểm tra lại cài đặt mạng và chế độ máy bay; nếu vẫn mất sóng thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: IC được chỉ bằng mũi tên đỏ trong vòng tròn (khu vực bo mạch có IC nhỏ màu tím) — đây là IC gây mất sóng trên Redmi 9 Power.",
+        "Đóng lại IC (reball): gỡ IC ra, vệ sinh sạch chân, làm bi chì mới và đóng lại đúng vị trí như ảnh.",
+        "Lắp pin lại, lắp máy vào và bật máy thử: máy nhận sóng, cột sóng lên bình thường thì test gọi điện và dữ liệu di động trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi đóng lại IC mà máy vẫn mất sóng thì mang ra tiệm để đo kiểm đường sóng và các IC liên quan trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "redmi 9 power",
+        "xiaomi",
+        "mat song",
+        "no service",
+        "reball",
+        "dong lai ic",
+        "sua chua"
+      ],
+      "title": "Redmi 9 Power mất sóng (No Service): đóng lại IC (reball) theo ảnh",
+      "id": 91,
+      "img": "assets/redmi-9-power-mat-song-reball.jpg"
     }
   ],
   "subs": {
