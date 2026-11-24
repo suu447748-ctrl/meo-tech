@@ -3311,6 +3311,37 @@
       "title": "PC không nhận máy in, in không ra giấy: kiểm tra dây, driver và hàng đợi in trước khi mang ra tiệm",
       "id": 106,
       "img": "assets/pc-may-in-khong-nhan.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A15 4G lỗi sạc: bypass IC OVP (U771) theo ảnh — câu jumper nối 2 điểm như hình After để máy sạc lại bình thường.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và câu jumper trên mạch — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: cắm sạc nhưng máy không vào pin, pin không lên %, có thể báo lỗi sạc hoặc sạc chập chờn lúc được lúc không.",
+        "Thử bước đơn giản trước: đổi củ sạc và dây cáp khác, vệ sinh chân sạc, khởi động lại máy, thử cụm sạc khác còn tốt để loại trừ lỗi cụm sạc.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: IC OVP (U771) được khoanh đỏ trên main — đây là IC gây lỗi sạc trên Samsung A15 4G.",
+        "Bypass IC OVP theo ảnh: câu jumper nối 2 điểm được đánh dấu như hình After, bỏ qua IC OVP (U771).",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy vào pin bình thường, % pin lên đều thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi bypass mà máy vẫn không sạc được thì mang ra tiệm để đo kiểm đường sạc trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a15 4g",
+        "samsung a15",
+        "samsung",
+        "loi sac",
+        "bypass ic ovp",
+        "ovp ic",
+        "u771"
+      ],
+      "title": "Samsung A15 4G lỗi sạc: bypass IC OVP (U771) theo ảnh",
+      "id": 107,
+      "img": "assets/samsung-a15-4g-bypass-ic-ovp.jpg"
     }
   ],
   "subs": {
