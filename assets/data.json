@@ -3404,6 +3404,33 @@
       "title": "Samsung A15 5G nhiệt cao: bẻ tụ trước rồi thay trở 100k theo ảnh",
       "id": 109,
       "img": "assets/samsung-a15-5g-nhiet-cao-thay-tro-100k.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Điện thoại không tìm thấy tai nghe hay loa Bluetooth, ghép nối rồi lại tự ngắt? Bạn chỉ cần kiểm tra lại chế độ ghép nối, quên thiết bị rồi kết nối lại và rà soát vài cài đặt là phần lớn trường hợp sẽ kết nối lại bình thường.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi đã thử hết các bước trên mà điện thoại vẫn không kết nối được với bất kỳ thiết bị Bluetooth nào, Bluetooth trên máy tự tắt liên tục, hoặc máy từng bị rơi, vào nước rồi mới mất Bluetooth. Bạn đừng tự mở máy hay can thiệp vào phần cứng bên trong, vì việc đó có thể làm mất bảo hành và làm lỗi nặng thêm.",
+      "steps": [
+        "Nhận biết lỗi: bạn mở cài đặt Bluetooth mà điện thoại không tìm thấy tai nghe hoặc loa, hoặc đã ghép nối nhưng không phát ra tiếng, kết nối được một lúc rồi tự ngắt. Hãy ghi nhớ xem lỗi xảy ra với một thiết bị hay với mọi thiết bị Bluetooth, vì điều này giúp bạn xác định lỗi nằm ở điện thoại hay ở tai nghe, loa.",
+        "Kiểm tra những điều cơ bản trước: bạn bật Bluetooth trên điện thoại, tắt chế độ máy bay, sạc đủ pin cho tai nghe hoặc loa, rồi để hai thiết bị gần nhau trong khoảng 1-2 m. Nếu tai nghe hoặc loa đang kết nối với một điện thoại hay laptop khác, bạn hãy ngắt kết nối đó trước vì nhiều thiết bị chỉ giữ được một kết nối cùng lúc.",
+        "Đưa tai nghe hoặc loa về chế độ ghép nối: bạn nhấn giữ nút nguồn hoặc nút ghép nối trên tai nghe, loa cho đến khi đèn báo nhấp nháy (thường là đèn xanh hoặc trắng nhấp nháy liên tục). Sau đó bạn mở Cài đặt > Bluetooth trên điện thoại, đợi vài giây để danh sách thiết bị hiện ra rồi chạm đúng tên tai nghe, loa của bạn.",
+        "Nếu thiết bị đã từng ghép nối mà giờ không kết nối được: bạn vào Cài đặt > Bluetooth, chạm vào tên thiết bị rồi chọn Quên thiết bị này (hoặc Hủy ghép nối), sau đó ghép nối lại từ đầu như bước trên. Bạn cũng nên khởi động lại cả điện thoại và tai nghe, loa rồi thử kết nối lại một lần nữa.",
+        "Kiểm tra cài đặt âm thanh và phần mềm: bạn mở thử một đoạn nhạc, kiểm tra xem điện thoại đã chọn đúng đầu ra là tai nghe hoặc loa Bluetooth chưa, tăng âm lượng lên và tắt các ứng dụng khác đang chiếm Bluetooth. Bạn cũng nên vào Cài đặt > Cập nhật phần mềm để cập nhật điện thoại lên bản mới nhất, vì nhiều lỗi Bluetooth được sửa qua bản cập nhật.",
+        "Test lại để kết luận: bạn phát một bài nhạc hoặc một đoạn video để nghe thử xem tiếng đã ra tai nghe, loa chưa. Để chắc chắn, bạn thử kết nối tai nghe hoặc loa đó với một điện thoại khác: nếu vẫn không được thì lỗi nhiều khả năng ở tai nghe, loa; nếu kết nối bình thường thì lỗi nằm ở điện thoại của bạn."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "bluetooth",
+        "tai nghe",
+        "loa bluetooth",
+        "ket noi bluetooth",
+        "dien thoai"
+      ],
+      "title": "Điện thoại không kết nối được Bluetooth với tai nghe, loa: kiểm tra ghép nối, quên thiết bị và cài đặt trước khi mang ra tiệm",
+      "id": 110,
+      "img": "assets/dien-thoai-bluetooth-khong-ket-noi.jpg"
     }
   ],
   "subs": {
