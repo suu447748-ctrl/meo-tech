@@ -3252,6 +3252,36 @@
       "title": "Samsung A34 5G mở loa to bị sập nguồn: đóng lại 2 IC MT6316DP và MT6315FP",
       "id": 104,
       "img": "assets/samsung-a34-5g-mo-loa-to-sap-nguon.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Sắp vào buổi họp trực tuyến mà webcam laptop bỗng đen thui, hình mờ hoặc tối? Bạn hãy kiểm tra nắp che camera, quyền riêng tư và driver theo các bước dưới đây trước khi mang máy ra tiệm.",
+      "mins": 3,
+      "note": "Nếu camera vẫn đen thui dù đã mở nắp che, cấp quyền và cập nhật driver, hoặc hình có sọc, đốm màu lạ, bạn hãy mang máy ra tiệm uy tín để kiểm tra camera và cáp màn hình. Đừng tự tháo màn hình hay mở máy vì dễ làm hỏng thêm và mất bảo hành.",
+      "steps": [
+        "Nhận biết lỗi: bạn mở ứng dụng họp trực tuyến hoặc ứng dụng Camera của Windows mà màn hình camera đen thui, hình mờ, tối, hoặc ứng dụng báo không tìm thấy camera. Bạn hãy thử mở camera trong một ứng dụng khác để biết lỗi nằm ở một ứng dụng hay ở cả máy.",
+        "Kiểm tra nắp che camera và lau ống kính: nhiều laptop có nắp che camera vật lý là một thanh trượt nhỏ ngay trên ống kính, bạn gạt nó sang bên để mở camera. Bạn cũng kiểm tra xem có miếng dán hay bụi bám trên ống kính không, rồi lau nhẹ ống kính bằng vải mềm khô, không dùng giấy nhám hay chất tẩy.",
+        "Kiểm tra quyền dùng camera trong Windows: bạn vào Cài đặt > Quyền riêng tư & bảo mật > Camera, bật quyền truy cập camera cho máy, rồi bật quyền cho ứng dụng họp trực tuyến mà bạn đang dùng. Nhiều máy sau khi cập nhật Windows sẽ tự tắt quyền này nên camera bỗng dưng không lên hình.",
+        "Đóng ứng dụng khác đang chiếm camera: camera chỉ dùng được cho một ứng dụng tại một thời điểm, bạn đóng hẳn các ứng dụng gọi video, trình duyệt hay ứng dụng Camera đang chạy nền, sau đó mở lại ứng dụng cần dùng. Nếu camera lên hình trong ứng dụng Camera của Windows nhưng không lên trong ứng dụng họp, bạn gỡ rồi cài lại ứng dụng họp đó.",
+        "Khởi động lại máy và cập nhật driver camera: bạn khởi động lại laptop, sau đó mở Device Manager, tìm mục Cameras, bấm chuột phải vào tên camera và chọn Update driver, chỉ dùng driver do Windows cung cấp, không tải driver từ trang lạ. Bạn cũng vào Cài đặt > Windows Update để cài các bản cập nhật đang chờ.",
+        "Kiểm tra ánh sáng xung quanh: bạn ngồi đối diện nguồn sáng như cửa sổ hoặc đèn bàn, tránh ngồi ngược sáng vì hình sẽ tối và mờ. Bạn tăng độ sáng màn hình và thử lại, nếu hình vẫn tối thì thử bật đèn phòng sáng hơn.",
+        "Test lại: bạn mở ứng dụng Camera của Windows, chụp thử một tấm ảnh và quay thử một đoạn ngắn để xem hình có rõ, sáng và đúng màu không. Bạn gọi thử một cuộc gọi video ngắn với người quen để chắc chắn phía bên kia nhìn thấy bạn rõ ràng.",
+        "Mang ra tiệm khi nào: bạn nên mang máy ra tiệm khi camera vẫn đen thui dù đã làm đủ các bước trên, hình xuất hiện sọc, đốm màu lạ, hoặc ống kính bị lung lay, nứt vỡ. Bạn đừng tự tháo màn hình hay mở máy để thay camera, vì việc này dễ làm hỏng cáp màn hình và mất bảo hành."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "webcam",
+        "camera laptop",
+        "hop truc tuyen",
+        "camera mo",
+        "driver camera"
+      ],
+      "title": "Laptop webcam không hoạt động, hình mờ hoặc tối khi họp trực tuyến: kiểm tra nắp che camera, quyền riêng tư và driver trước khi mang ra tiệm",
+      "id": 105,
+      "img": "assets/laptop-webcam-khong-hoat-dong.jpg"
     }
   ],
   "subs": {
