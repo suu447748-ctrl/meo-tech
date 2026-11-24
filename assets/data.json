@@ -3373,6 +3373,37 @@
       "title": "Samsung A34 5G pin báo 0%, sạc không lên: câu jumper theo ảnh",
       "id": 108,
       "img": "assets/samsung-a34-5g-pin-0-phan-tram-jumper.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A15 5G bị nhiệt cao: bẻ tụ được khoanh đỏ trước, rồi thay thế trở 100k theo ảnh.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và thay linh kiện — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: máy nóng ran khi dùng hoặc khi sạc, có thể báo nhiệt độ cao, sạc chập chờn hoặc tự sập nguồn.",
+        "Thử bước đơn giản trước: để máy nguội hẳn, gỡ ốp lưng, đổi củ sạc và dây cáp khác, khởi động lại máy; nếu máy vẫn nóng bất thường thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: tụ được khoanh đỏ bên cạnh IC MT6375P — bẻ tụ này trước.",
+        "Sau khi bẻ tụ thì thay thế trở 100k theo ảnh.",
+        "Lắp pin lại, lắp máy vào và dùng thử: máy không còn nóng bất thường, sạc bình thường thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi thay trở mà máy vẫn nhiệt cao thì mang ra tiệm để đo kiểm đường nhiệt trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a15 5g",
+        "samsung a15",
+        "samsung",
+        "nhiet cao",
+        "nong may",
+        "thay tro 100k",
+        "be tu"
+      ],
+      "title": "Samsung A15 5G nhiệt cao: bẻ tụ trước rồi thay trở 100k theo ảnh",
+      "id": 109,
+      "img": "assets/samsung-a15-5g-nhiet-cao-thay-tro-100k.jpg"
     }
   ],
   "subs": {
