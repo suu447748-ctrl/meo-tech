@@ -3282,6 +3282,35 @@
       "title": "Laptop webcam không hoạt động, hình mờ hoặc tối khi họp trực tuyến: kiểm tra nắp che camera, quyền riêng tư và driver trước khi mang ra tiệm",
       "id": 105,
       "img": "assets/laptop-webcam-khong-hoat-dong.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Bạn bấm lệnh in mà máy in im lặng, hoặc PC báo không tìm thấy máy in? Đa số trường hợp chỉ do dây lỏng, driver lỗi hoặc lệnh in kẹt trong hàng đợi — bạn tự kiểm tra được trong vài phút.",
+      "mins": 3,
+      "note": "Nếu bạn đã làm đủ các bước trên mà máy in vẫn không nhận, máy in báo lỗi phần cứng, kẹt giấy liên tục hoặc có tiếng kêu lạ khi in, bạn nên mang máy in (kèm dây nguồn và cáp USB) ra tiệm để thợ kiểm tra — không tự tháo máy in vì bên trong có bộ phận nóng và mực dễ lem.",
+      "steps": [
+        "Kiểm tra máy in đã bật nguồn và còn giấy, mực: bạn nhìn đèn báo trên máy in — nếu đèn đỏ hoặc nhấp nháy, hãy mở nắp kiểm tra xem có kẹt giấy, hết giấy hay hết mực không, xử lý xong rồi thử in lại.",
+        "Kiểm tra dây kết nối: bạn rút cáp USB nối máy in với PC rồi cắm lại cho chặt, thử đổi sang cổng USB khác trên PC. Nếu dùng máy in Wi-Fi, bạn kiểm tra xem máy in và PC có đang cùng một mạng Wi-Fi không, rồi tắt/bật lại Wi-Fi trên máy in.",
+        "Đặt đúng máy in mặc định: bạn vào Cài đặt > Bluetooth & thiết bị > Máy in & máy quét (hoặc Control Panel > Devices and Printers), kiểm tra máy in của bạn có đang ở trạng thái 'Sẵn sàng' không và đặt nó làm máy in mặc định.",
+        "Xóa lệnh in kẹt trong hàng đợi: bạn mở hàng đợi in của máy in, chọn 'Hủy tất cả tài liệu' để xóa các lệnh in cũ bị kẹt, rồi thử in lại một trang test.",
+        "Cài lại driver máy in: bạn gỡ máy in khỏi danh sách thiết bị, tải driver mới nhất từ trang web chính hãng của máy in, cài đặt lại rồi khởi động lại cả PC và máy in.",
+        "Thử in từ thiết bị khác: bạn thử in từ điện thoại hoặc một PC khác. Nếu máy khác in được bình thường thì lỗi nằm ở PC của bạn; nếu máy nào cũng không in được thì lỗi nằm ở máy in."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "may in",
+        "khong nhan may in",
+        "in khong ra giay",
+        "driver",
+        "usb",
+        "sua chua pc"
+      ],
+      "title": "PC không nhận máy in, in không ra giấy: kiểm tra dây, driver và hàng đợi in trước khi mang ra tiệm",
+      "id": 106,
+      "img": "assets/pc-may-in-khong-nhan.jpg"
     }
   ],
   "subs": {
