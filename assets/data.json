@@ -3342,6 +3342,37 @@
       "title": "Samsung A15 4G lỗi sạc: bypass IC OVP (U771) theo ảnh",
       "id": 107,
       "img": "assets/samsung-a15-4g-bypass-ic-ovp.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A34 5G pin báo 0%, sạc không lên: câu jumper từ chân kết nối pin xuống linh kiện được khoanh đỏ theo ảnh.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và câu jumper trên mạch — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: pin báo 0%, cắm sạc không lên pin, máy có thể không lên nguồn hoặc lên rồi lại sập.",
+        "Thử bước đơn giản trước: cắm sạc để yên 30 phút, đổi củ sạc và dây cáp khác, vệ sinh chân sạc, thử cụm sạc khác còn tốt để loại trừ lỗi cụm sạc.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: dây jumper được câu từ chân kết nối pin xuống linh kiện được khoanh đỏ trên main — đây là đường pin bị đứt trên Samsung A34 5G.",
+        "Câu jumper theo ảnh, hàn chắc 2 đầu dây và vệ sinh sạch khu vực xung quanh.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: % pin bắt đầu lên, máy lên nguồn bình thường thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà pin vẫn báo 0% thì mang ra tiệm để đo kiểm đường pin và IC nguồn trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a34 5g",
+        "samsung a34",
+        "samsung",
+        "pin 0%",
+        "pin bao 0",
+        "sac khong len",
+        "cau jumper"
+      ],
+      "title": "Samsung A34 5G pin báo 0%, sạc không lên: câu jumper theo ảnh",
+      "id": 108,
+      "img": "assets/samsung-a34-5g-pin-0-phan-tram-jumper.jpg"
     }
   ],
   "subs": {
