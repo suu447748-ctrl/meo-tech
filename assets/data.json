@@ -3580,6 +3580,33 @@
       "title": "POCO C40 pin báo 0%, cắm sạc một lúc báo đầy nhưng không lên nguồn: kiểm tra pin trước",
       "id": 115,
       "img": "assets/poco-c40-pin-0-dung.webp"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Đang gọi điện mà màn hình không tắt khi bạn áp máy lên tai, má chạm nhầm phím tắt mic hay kết thúc cuộc gọi? Phần lớn trường hợp chỉ do miếng dán cường lực che mất cảm biến tiệm cận hoặc vùng cảm biến bị bám bụi — bạn kiểm tra vài bước đơn giản là biết ngay có cần ra tiệm hay không.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi đã thử hết các bước trên mà màn hình vẫn không tắt khi áp tai, hoặc màn hình tắt rồi không sáng lại khi bạn rời máy khỏi tai, hoặc máy từng bị rơi, vào nước rồi mới xuất hiện lỗi này. Bạn đừng tự mở máy hay can thiệp vào phần cứng bên trong, vì việc đó có thể làm mất bảo hành và làm lỗi nặng thêm.",
+      "steps": [
+        "Nhận biết lỗi: khi bạn gọi điện và áp điện thoại lên tai, màn hình đáng lẽ phải tự tắt để tránh chạm nhầm phím. Nếu màn hình vẫn sáng, má bạn chạm nhầm vào nút tắt mic, bật loa ngoài hoặc kết thúc cuộc gọi thì nhiều khả năng cảm biến tiệm cận đang bị che hoặc hoạt động không đúng. Cũng có trường hợp ngược lại: màn hình tắt rồi không sáng lại khi bạn rời máy khỏi tai.",
+        "Kiểm tra miếng dán cường lực và ốp lưng trước: bạn tháo ốp lưng ra, rồi nhìn kỹ mép trên của miếng dán cường lực — nếu miếng dán dán lệch, quá dày hoặc có bọt khí, bụi bám đúng vùng cảm biến nằm cạnh loa thoại thì đó là nguyên nhân thường gặp nhất. Bạn thử gọi một cuộc điện thoại sau khi đã tháo miếng dán cường lực cũ ra để xem lỗi có hết không.",
+        "Lau sạch vùng cảm biến: bạn dùng khăn mềm, khô lau nhẹ vùng trên cùng của màn hình, quanh loa thoại và camera trước, nơi đặt cảm biến tiệm cận. Bạn đừng dùng vật nhọn hay dung dịch tẩy rửa mạnh để cạy, chùi vì dễ làm xước kính hoặc làm hỏng lớp phủ màn hình.",
+        "Kiểm tra cài đặt và khởi động lại máy: bạn vào Cài đặt cuộc gọi của điện thoại để xem có mục cảm biến tiệm cận hay tự động tắt màn hình khi gọi điện không, nếu có thì bật nó lên. Sau đó bạn khởi động lại điện thoại, vì nhiều lỗi cảm biến tạm thời sẽ hết sau khi khởi động lại. Bạn cũng nên cập nhật phần mềm lên bản mới nhất, vì nhiều lỗi cảm biến được sửa qua bản cập nhật.",
+        "Test lại bằng một cuộc gọi thật: bạn gọi cho người thân, áp điện thoại lên tai xem màn hình có tắt không, rồi rời máy khỏi tai xem màn hình có sáng lại ngay không. Bạn lặp lại vài lần và thử cả khi đeo ốp lưng lẫn khi không đeo ốp, để biết chắc lỗi do ốp lưng, cường lực hay do cảm biến trong máy.",
+        "Kết luận để quyết định: nếu tháo cường lực và lau sạch mà màn hình đã tắt, sáng lại bình thường thì lỗi đã xong, bạn chỉ cần dán lại miếng cường lực mới cho đúng vị trí, đừng để che vùng cảm biến. Nếu đã thử hết mà lỗi vẫn còn, bạn mang máy ra tiệm để thợ kiểm tra cảm biến."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "cam bien tiem can",
+        "man hinh khong tat",
+        "goi dien",
+        "cuong luc",
+        "dien thoai"
+      ],
+      "title": "Điện thoại gọi điện màn hình không tắt khi áp tai, hay chạm nhầm phím: kiểm tra cường lực và cảm biến tiệm cận trước khi mang ra tiệm",
+      "id": 116,
+      "img": "assets/dien-thoai-cam-bien-tiem-can.jpg"
     }
   ],
   "subs": {
