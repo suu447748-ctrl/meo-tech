@@ -3431,6 +3431,34 @@
       "title": "Điện thoại không kết nối được Bluetooth với tai nghe, loa: kiểm tra ghép nối, quên thiết bị và cài đặt trước khi mang ra tiệm",
       "id": 110,
       "img": "assets/dien-thoai-bluetooth-khong-ket-noi.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Laptop mới sạc đầy mà dùng chưa được bao lâu đã báo pin yếu? Trước khi nghĩ đến chuyện thay pin, bạn hãy kiểm tra xem có ứng dụng nào đang ngốn pin và bật chế độ tiết kiệm pin đúng cách hay chưa.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi: pin đã chai nặng (dùng chưa tới 30 phút đã hết dù đã tắt hết ứng dụng nặng), pin bị phồng làm đội nắp đáy hoặc bàn phím, máy báo lỗi pin hoặc tự tắt nguồn dù pin còn trên 20%. Đừng tự tháo pin trong máy vì pin laptop gắn chặt và dễ chập cháy nếu tháo sai cách.",
+      "steps": [
+        "Nhận biết lỗi: pin tụt nhanh là khi máy sạc đầy 100% nhưng chỉ dùng lướt web, gõ văn bản khoảng 1-2 giờ đã xuống dưới 20%, trong khi trước đây dùng được lâu hơn hẳn. Bạn cũng có thể thấy máy nóng hơn bình thường khi chỉ làm việc nhẹ, quạt chạy liên tục dù không mở gì nặng.",
+        "Xem ứng dụng nào đang ngốn pin: trên Windows, bạn vào Cài đặt > Hệ thống > Nguồn & pin (hoặc Pin) để xem mức pin từng ứng dụng đã dùng trong 24 giờ qua. Ứng dụng nào chiếm phần trăm cao bất thường thì chính là nghi phạm đầu tiên. Trên macOS, bạn bấm vào biểu tượng pin trên thanh menu để xem ứng dụng nào đang dùng nhiều năng lượng.",
+        "Tắt hoặc hạn chế ứng dụng ngốn pin: đóng hẳn các ứng dụng chạy nền không cần thiết, nhất là trình duyệt mở quá nhiều tab, phần mềm đồng bộ đám mây hay ứng dụng nhắn tin chạy nền. Bạn có thể tắt quyền chạy nền của từng ứng dụng trong phần Cài đặt > Ứng dụng > Ứng dụng chạy nền.",
+        "Bật chế độ tiết kiệm pin và giảm độ sáng màn hình: bật Tiết kiệm pin (Battery Saver) khi pin dưới 40%, giảm độ sáng màn hình xuống mức vừa mắt, tắt đèn nền bàn phím nếu không cần. Màn hình sáng là một trong những thứ ngốn pin nhiều nhất trên laptop.",
+        "Kiểm tra cài đặt nguồn và cập nhật hệ thống: bạn vào Cài đặt > Hệ thống > Nguồn & pin, chọn chế độ nguồn Balanced thay vì Best performance khi chỉ làm việc nhẹ. Đồng thời cập nhật Windows/macOS và driver mới nhất, vì bản cập nhật thường sửa lỗi gây hao pin.",
+        "Test lại: sau khi làm các bước trên, bạn sạc đầy pin rồi dùng máy bình thường trong khoảng 1 giờ và ghi lại phần trăm pin còn lại. Nếu pin tụt chậm hơn rõ rệt so với trước thì lỗi đã được khắc phục. Bạn nên test thêm một lần nữa vào hôm sau để chắc chắn."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "pin",
+        "pin tut nhanh",
+        "het pin",
+        "tiet kiem pin",
+        "chai pin"
+      ],
+      "title": "Laptop pin tụt nhanh, dùng một lúc đã hết pin: kiểm tra ứng dụng ngốn pin và cài đặt tiết kiệm pin trước khi mang ra tiệm",
+      "id": 111,
+      "img": "assets/laptop-pin-tut-nhanh.jpg"
     }
   ],
   "subs": {
