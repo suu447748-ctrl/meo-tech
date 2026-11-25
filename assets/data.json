@@ -3491,6 +3491,34 @@
       "title": "Samsung A12 (A125) sạc lỗi nhiệt độ: kiểm tra TH 60K và R 150K trên bo sạc theo ảnh",
       "id": 112,
       "img": "assets/samsung-a12-sac-loi-nhiet-do-th-60k-r-150k.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Ổ cứng đầy khiến máy báo hết dung lượng, không lưu được file và chạy chậm hẳn. Bạn chỉ cần kiểm tra xem dung lượng đang nằm ở đâu rồi dọn dẹp đúng chỗ là máy lại thoáng.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi: ổ cứng phát ra tiếng kêu lạch cạch, máy không nhận ổ cứng hoặc báo lỗi ổ đĩa khi khởi động, bạn nghi ngờ ổ cứng bị lỗi vật lý (bad sector) hoặc muốn nâng cấp lên ổ SSD dung lượng lớn hơn. Bạn không nên tự tháo ổ cứng trong thùng máy nếu chưa rành, vì tháo lắp sai có thể làm mất dữ liệu.",
+      "steps": [
+        "Nhận biết lỗi: bạn mở This PC thấy ổ C (hoặc ổ chứa Windows) hiện màu đỏ, máy báo hết dung lượng khi lưu file, cập nhật Windows thất bại, hoặc máy chạy chậm hẳn so với trước. Đây là dấu hiệu ổ cứng sắp đầy, không phải lỗi màn hình hay lỗi mạng.",
+        "Kiểm tra dung lượng đang nằm ở đâu: bạn vào Settings > System > Storage để xem ổ nào đầy và phần nào chiếm nhiều nhất (ứng dụng, tài liệu, ảnh, video hay file tạm). Bạn cũng mở thư mục Downloads và Recycle Bin để xem có nhiều file cũ không còn dùng nữa không.",
+        "Dọn file tạm và thùng rác: bạn bật Storage Sense trong Settings > System > Storage để máy tự dọn file tạm, hoặc chạy Disk Cleanup có sẵn trong Windows. Sau đó bạn dọn sạch Recycle Bin và xóa các file trong Downloads đã tải về từ lâu mà không còn cần.",
+        "Gỡ ứng dụng nặng không còn dùng: bạn vào Settings > Apps > Installed apps, sắp xếp theo dung lượng từ lớn xuống nhỏ, rồi gỡ những game hoặc phần mềm đã lâu không mở. Bạn đừng gỡ những ứng dụng có tên lạ mà bạn không chắc là gì — cứ để nguyên để tránh xóa nhầm phần mềm của hệ thống.",
+        "Chuyển dữ liệu lớn sang chỗ khác: bạn chuyển ảnh, video và file dung lượng lớn sang ổ đĩa khác trong máy, sang USB hoặc ổ cứng ngoài, hoặc lên dịch vụ lưu trữ đám mây. Sau khi chuyển xong bạn nhớ kiểm tra lại là file đã mở được ở chỗ mới rồi mới xóa bản cũ trong máy.",
+        "Test lại: bạn khởi động lại máy, mở lại This PC để xem ổ C đã còn trống ít nhất 10-15% dung lượng chưa, rồi thử lưu một file mới và thử cập nhật Windows. Nếu máy không còn báo hết dung lượng và chạy mượt hơn thì bạn đã xử lý xong.",
+        "Lưu ý: bạn nên dọn dẹp định kỳ mỗi tháng một lần để ổ cứng không bị đầy trở lại, và đừng để ổ C còn trống dưới 10% vì Windows cần chỗ trống để chạy ổn định."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "o cung day",
+        "het dung luong",
+        "don dep o dia",
+        "windows"
+      ],
+      "title": "PC ổ cứng đầy, báo hết dung lượng: dọn dẹp ổ đĩa và gỡ ứng dụng nặng trước khi mang ra tiệm",
+      "id": 113,
+      "img": "assets/pc-o-cung-day.jpg"
     }
   ],
   "subs": {
