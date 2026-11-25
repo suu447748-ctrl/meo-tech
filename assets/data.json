@@ -3459,6 +3459,38 @@
       "title": "Laptop pin tụt nhanh, dùng một lúc đã hết pin: kiểm tra ứng dụng ngốn pin và cài đặt tiết kiệm pin trước khi mang ra tiệm",
       "id": 111,
       "img": "assets/laptop-pin-tut-nhanh.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A12 (A125) sạc lỗi nhiệt độ: kiểm tra TH 60K và R 150K trên bo sạc theo ảnh — đường 1.8v_cpu và 0.555_cpu.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên bo sạc, cần tháo máy và thay linh kiện — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: cắm sạc Type-C thì máy báo lỗi nhiệt độ, sạc chập chờn hoặc không vào pin.",
+        "Thử bước đơn giản trước: để máy nguội hẳn, đổi củ sạc và dây cáp khác, vệ sinh chân sạc Type-C, khởi động lại máy; thử cụm sạc khác còn tốt để loại trừ lỗi cụm sạc.",
+        "Tháo máy và ngắt pin trước khi làm việc trên bo sạc.",
+        "Xác định vị trí theo ảnh: trên bo sạc Sub A125 - A12, cụm TH 60K và R 150K được khoanh đỏ ở góc dưới — đường 1.8v_cpu và 0.555_cpu đi qua đây.",
+        "Kiểm tra và thay TH 60K và R 150K theo ảnh; nếu mạch bị đứt thì thay linh kiện hoặc nối lại đường mạch để khôi phục.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy sạc bình thường, không còn báo lỗi nhiệt độ thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi thay mà máy vẫn báo lỗi nhiệt độ khi sạc thì mang ra tiệm để đo kiểm đường cảm biến nhiệt trên bo sạc."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a12",
+        "samsung a125",
+        "samsung",
+        "sac loi nhiet do",
+        "th 60k",
+        "r 150k",
+        "bo sac",
+        "type-c"
+      ],
+      "title": "Samsung A12 (A125) sạc lỗi nhiệt độ: kiểm tra TH 60K và R 150K trên bo sạc theo ảnh",
+      "id": 112,
+      "img": "assets/samsung-a12-sac-loi-nhiet-do-th-60k-r-150k.jpg"
     }
   ],
   "subs": {
