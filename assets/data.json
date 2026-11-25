@@ -3519,6 +3519,37 @@
       "title": "PC ổ cứng đầy, báo hết dung lượng: dọn dẹp ổ đĩa và gỡ ứng dụng nặng trước khi mang ra tiệm",
       "id": 113,
       "img": "assets/pc-o-cung-day.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo A15, A15s, A16e sạc tự ngắt, lúc sạc lúc không (Disconnect Charge Off): câu jumper tại điểm được khoanh đỏ trên main theo ảnh.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và câu jumper trên mạch — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: cắm sạc lúc nhận lúc không, sạc tự ngắt giữa chừng, pin lên không đều — đây là lỗi sạc tự ngắt (Disconnect Charge Off), khác với lỗi không sạc được hẳn.",
+        "Thử bước đơn giản trước: đổi củ sạc và dây cáp khác, vệ sinh chân sạc, khởi động lại máy, thử cụm sạc khác còn tốt để loại trừ lỗi cụm sạc.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: điểm câu jumper được khoanh đỏ trên main, nối theo hình After — các chân được đánh số 1, 2, 3, mũi tên chỉ đúng điểm câu jumper.",
+        "Câu jumper theo ảnh, hàn chắc đầu dây và vệ sinh sạch khu vực xung quanh.",
+        "Lắp pin lại, lắp máy vào và cắm sạc thử: máy sạc ổn định, không còn tự ngắt thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu jumper mà máy vẫn sạc tự ngắt thì mang ra tiệm để đo kiểm đường sạc trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo a15",
+        "oppo a15s",
+        "oppo a16e",
+        "oppo",
+        "sac tu ngat",
+        "disconnect charge off",
+        "cau jumper"
+      ],
+      "title": "Oppo A15, A15s, A16e sạc tự ngắt, lúc sạc lúc không (Disconnect Charge Off): câu jumper theo ảnh",
+      "id": 114,
+      "img": "assets/oppo-a15-a15s-a16e-sac-tu-ngat-jumper.jpg"
     }
   ],
   "subs": {
