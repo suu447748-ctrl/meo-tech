@@ -3550,6 +3550,36 @@
       "title": "Oppo A15, A15s, A16e sạc tự ngắt, lúc sạc lúc không (Disconnect Charge Off): câu jumper theo ảnh",
       "id": 114,
       "img": "assets/oppo-a15-a15s-a16e-sac-tu-ngat-jumper.jpg"
+    },
+    {
+      "brand": "POCO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "POCO C40 pin báo 0%, cắm sạc một lúc báo đầy nhưng bấm nguồn vẫn không lên: kiểm tra pin trước khi kiểm tra main.",
+      "mins": 5,
+      "note": "Bài này hướng dẫn kiểm tra và thay pin, không có chi tiết sửa main. Nếu thử pin khác vẫn không lên nguồn thì cần thợ đo kiểm đường pin trên main, không tự tháo main nếu chưa quen.",
+      "steps": [
+        "Nhận biết lỗi: máy báo 0% pin, cắm sạc lên pin không hiện gì, một lúc sau báo đầy nhưng bấm nguồn vẫn không lên được.",
+        "Đây là dấu hiệu pin ảo / pin chết: pin chai nặng nên áp vọt lên nhanh khi sạc, máy tưởng đầy, nhưng pin không giữ được điện — vừa bấm nguồn, tải lớn kéo áp sụt xuống là máy sập.",
+        "Thử pin khác còn tốt trước (pin BN66, 6000mAh) — nếu máy lên nguồn bình thường thì chỉ cần thay pin là xong.",
+        "Đo áp pin cũ: pin tốt lúc đầy khoảng 4,2V, lúc dùng khoảng 3,7–3,8V. Pin đo dưới 3,4V, hoặc cắm sạc áp vọt lên 4,2V ngay nhưng rút sạc tụt nhanh thì pin hỏng.",
+        "Kiểm tra socket pin, vệ sinh chân tiếp xúc, xem có gãy hay cháy chân không.",
+        "Cắm sạc đo dòng: dòng lên rồi tụt nhanh về 0 trong khi pin vẫn 0% thì pin không nhận sạc.",
+        "Nếu thử pin khác mà vẫn không lên nguồn thì lỗi trên main, đường pin lên IC sạc / IC nguồn — mang ra tiệm đo kiểm."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "poco c40",
+        "poco",
+        "pin 0%",
+        "pin ao",
+        "pin chet",
+        "khong len nguon",
+        "thay pin"
+      ],
+      "title": "POCO C40 pin báo 0%, cắm sạc một lúc báo đầy nhưng không lên nguồn: kiểm tra pin trước",
+      "id": 115,
+      "img": "assets/poco-c40-pin-0-bao-day-khong-len-nguon.webp"
     }
   ],
   "subs": {
