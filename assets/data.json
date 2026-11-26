@@ -3728,6 +3728,33 @@
       "title": "Oppo Reno 8T mất đèn màn hình: đo linh kiện khoanh đỏ, đứt thì câu tắt theo ảnh",
       "id": 120,
       "img": "assets/oppo-reno-8t-mat-den-man-hinh.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Điện thoại mở khóa vân tay lúc được lúc không, hoặc khuôn mặt quét mãi không nhận? Phần lớn trường hợp chỉ do cảm biến bám bẩn, tay ướt, miếng dán cường lực che mất vùng quét hoặc dữ liệu vân tay đã cũ — bạn tự kiểm tra và khắc phục tại nhà trong vài phút.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi đã thử hết các bước trên mà vân tay và khuôn mặt vẫn hoàn toàn không nhận, cảm biến không sáng hoặc không phản hồi khi chạm, hoặc máy từng bị rơi, vào nước rồi mới xuất hiện lỗi này. Bạn đừng tự mở máy hay can thiệp vào phần cứng bên trong, vì việc đó có thể làm mất bảo hành và làm lỗi nặng thêm.",
+      "steps": [
+        "Nhận biết lỗi: bạn thử mở khóa bằng vân tay vài lần liên tiếp. Nếu máy báo không nhận vân tay, phải thử đi thử lại nhiều lần mới mở được, hoặc khuôn mặt quét mãi không nhận dù bạn đã đưa máy đúng tầm, thì đúng là lỗi mở khóa sinh trắc học. Bạn cũng thử xem lỗi xảy ra với vân tay hay khuôn mặt, hay cả hai, vì điều này giúp bạn xác định nguyên nhân nằm ở đâu.",
+        "Lau sạch cảm biến và giữ tay khô ráo: bạn dùng khăn mềm, khô lau nhẹ vùng cảm biến vân tay (dưới màn hình, cạnh bên hoặc mặt lưng tùy máy) và lau cả camera trước nếu bạn dùng mở khóa khuôn mặt. Bạn nhớ lau khô tay trước khi chạm, vì tay ướt, tay dính mồ hôi, dầu mỡ hoặc kem dưỡng da là nguyên nhân thường gặp nhất khiến vân tay không nhận. Bạn cũng kiểm tra xem đầu ngón tay có bị trầy xước, bong da hay quá khô không, vì những lúc đó cảm biến rất khó đọc vân tay.",
+        "Kiểm tra miếng dán cường lực và ốp lưng: bạn nhìn kỹ miếng dán cường lực xem có che mất vùng cảm biến vân tay dưới màn hình không, hoặc có bọt khí, bụi bám đúng vùng đó không. Với máy dùng vân tay siêu âm dưới màn hình, miếng dán quá dày hoặc dán lệch rất hay gây lỗi. Bạn thử tháo miếng dán cũ ra rồi mở khóa lại để xem lỗi có hết không. Bạn cũng kiểm tra ốp lưng có cấn vào nút cảm biến cạnh bên hay không.",
+        "Đăng ký lại vân tay và khuôn mặt: bạn vào Cài đặt > Bảo mật > Vân tay, xóa vân tay cũ rồi đăng ký lại từ đầu, chạm nhẹ nhiều góc khác nhau của ngón tay để máy ghi đủ dữ liệu. Bạn nên đăng ký thêm cùng một ngón tay hai lần (nếu máy cho phép) và đăng ký thêm một ngón khác để dự phòng. Với khuôn mặt, bạn vào phần Mở khóa bằng khuôn mặt, xóa dữ liệu cũ rồi đăng ký lại ở nơi đủ sáng, giữ máy ngang tầm mặt và không đeo kính râm hay khẩu trang khi đăng ký.",
+        "Kiểm tra cài đặt và cập nhật phần mềm: bạn khởi động lại điện thoại, vì nhiều lỗi cảm biến tạm thời sẽ hết sau khi khởi động lại. Bạn vào Cài đặt > Cập nhật phần mềm để cập nhật máy lên bản mới nhất, vì nhiều lỗi vân tay và khuôn mặt được sửa qua bản cập nhật. Bạn cũng kiểm tra xem máy có đang ở chế độ tiết kiệm pin quá mức hay không, vì một số máy sẽ hạn chế cảm biến khi pin yếu.",
+        "Test lại để kết luận: bạn khóa màn hình rồi mở lại bằng vân tay và khuôn mặt nhiều lần, thử cả khi tay khô, tay hơi ẩm và trong điều kiện ánh sáng khác nhau. Nếu máy mở khóa nhanh và ổn định trở lại thì bạn đã khắc phục xong, chỉ cần giữ thói quen lau cảm biến sạch và đăng ký lại vân tay sau một thời gian dùng."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "van tay",
+        "mo khoa van tay",
+        "khuon mat",
+        "cam bien van tay",
+        "dien thoai"
+      ],
+      "title": "Điện thoại mở khóa vân tay lúc được lúc không, khuôn mặt không nhận: lau cảm biến, đăng ký lại và kiểm tra cường lực trước khi mang ra tiệm",
+      "id": 121,
+      "img": "assets/dien-thoai-van-tay-khong-nhan.jpg"
     }
   ],
   "subs": {
