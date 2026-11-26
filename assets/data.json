@@ -3637,6 +3637,37 @@
       "title": "Laptop loa rè, mất tiếng, cắm tai nghe không nghe được: kiểm tra cài đặt âm thanh và driver trước khi mang ra tiệm",
       "id": 117,
       "img": "assets/laptop-loa-re-mat-tieng.jpg"
+    },
+    {
+      "brand": "Samsung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Samsung A21s gắn SIM vào máy khởi động lại liên tục: câu tắt chip áp sóng a1 sang b1, c1 theo ảnh.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và câu jumper trên mạch — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: Samsung A21s gắn SIM vào thì máy khởi động lại liên tục, không vào được màn hình chính; tháo SIM ra máy dùng bình thường — lỗi liên quan đến đường sóng và SIM.",
+        "Thử bước đơn giản trước: thử SIM khác còn tốt, vệ sinh khay SIM và chân tiếp xúc, khởi động lại máy. Nếu vẫn khởi động lại liên tục khi gắn SIM thì lỗi nằm trên main.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: chip áp sóng được khoanh đỏ trên main — câu tắt a1 sang b1, c1 như ảnh chỉ.",
+        "Câu jumper theo ảnh: nối a1 sang b1 và c1, hàn chắc đầu dây và vệ sinh sạch khu vực xung quanh.",
+        "Ảnh còn đánh dấu các điểm nguồn và phím nguồn/volume (1=mass, 2, 3, 4, 5) để đo kiểm đường nguồn và phím khi cần.",
+        "Lắp pin lại, gắn SIM vào và bật máy thử: máy lên nguồn bình thường, nhận SIM, không còn khởi động lại liên tục thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu mà máy vẫn khởi động lại khi gắn SIM thì mang ra tiệm để đo kiểm chip áp sóng và đường sóng trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "samsung a21s",
+        "samsung",
+        "gan sim khoi dong lai",
+        "chip ap song",
+        "cau jumper",
+        "a1 b1 c1"
+      ],
+      "title": "Samsung A21s gắn SIM máy khởi động lại liên tục: câu tắt chip áp sóng a1 sang b1, c1",
+      "id": 118,
+      "img": "assets/samsung-a21s-gan-sim-khoi-dong-lai-lien-tuc.jpg"
     }
   ],
   "subs": {
