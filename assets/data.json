@@ -3607,6 +3607,36 @@
       "title": "Điện thoại gọi điện màn hình không tắt khi áp tai, hay chạm nhầm phím: kiểm tra cường lực và cảm biến tiệm cận trước khi mang ra tiệm",
       "id": 116,
       "img": "assets/dien-thoai-cam-bien-tiem-can.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Laptop mở nhạc không nghe tiếng, loa rè rè hoặc cắm tai nghe vào vẫn im lặng? Trước khi nghĩ đến chuyện thay loa, bạn hãy kiểm tra cài đặt âm thanh, giắc cắm và driver theo các bước dưới đây.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi: loa vẫn rè hoặc mất tiếng dù đã kiểm tra cài đặt, tai nghe và driver; loa chỉ kêu một bên kèm tiếng rè lớn; loa bị rè sau khi máy bị rơi hay dính nước. Đừng tự tháo máy để thay loa vì loa laptop gắn chặt bên trong, tự tháo dễ làm hỏng cáp, hỏng vỏ và mất bảo hành.",
+      "steps": [
+        "Nhận biết lỗi: bạn mở nhạc hoặc video mà loa laptop không phát ra tiếng, tiếng rè, nhỏ hẳn một bên, hoặc cắm tai nghe vào vẫn không nghe được. Bạn hãy thử mở một video khác và một ứng dụng khác để biết lỗi nằm ở một ứng dụng hay ở cả máy.",
+        "Kiểm tra âm lượng và thiết bị phát mặc định: bạn bấm vào biểu tượng loa ở góc phải thanh tác vụ, xem âm lượng có đang ở mức 0 hay đang tắt tiếng không. Bạn bấm chuột phải vào biểu tượng loa, chọn Cài đặt âm thanh, xem thiết bị phát mặc định có đang là Loa của laptop hay đang chọn nhầm sang màn hình ngoài hoặc thiết bị Bluetooth đã ngắt kết nối.",
+        "Kiểm tra giắc tai nghe và kết nối Bluetooth: nếu bạn cắm tai nghe có dây, hãy rút ra cắm lại cho chắc, thử xoay nhẹ đầu giắc và thử một chiếc tai nghe khác để loại trừ tai nghe hỏng. Nếu bạn dùng tai nghe Bluetooth, bạn kiểm tra xem tai nghe có đang kết nối với điện thoại thay vì laptop không, rồi ngắt kết nối và ghép nối lại với laptop.",
+        "Vệ sinh lưới loa: bụi bám lâu ngày trên lưới loa khiến tiếng rè và nhỏ dần. Bạn dùng cọ mềm khô hoặc chổi nhỏ quét nhẹ bụi trên lưới loa ở hai bên bàn phím hoặc cạnh máy, không dùng vật nhọn chọc vào lỗ loa và không xịt nước hay dung dịch tẩy rửa trực tiếp vào loa.",
+        "Chạy trình khắc phục sự cố âm thanh của Windows: bạn vào Cài đặt > Hệ thống > Âm thanh, bấm vào mục Khắc phục sự cố ở phần đầu ra âm thanh và làm theo hướng dẫn trên màn hình. Trên macOS, bạn vào Cài đặt hệ thống > Âm thanh, kiểm tra thiết bị đầu ra đang chọn đúng loa trong của máy.",
+        "Cập nhật hoặc cài lại driver âm thanh: bạn mở Device Manager, tìm mục Âm thanh, video và bộ điều khiển trò chơi, bấm chuột phải vào tên thiết bị âm thanh và chọn Update driver, chỉ dùng driver do Windows cung cấp. Nếu vẫn không được, bạn gỡ driver rồi khởi động lại máy để Windows tự cài lại. Bạn cũng vào Cài đặt > Windows Update để cài các bản cập nhật đang chờ.",
+        "Test lại: sau các bước trên, bạn mở một video trên YouTube và một bài nhạc trong ứng dụng khác để nghe thử loa ngoài, rồi cắm tai nghe vào nghe thử tiếp. Bạn thử tăng giảm âm lượng bằng phím tắt trên bàn phím để chắc chắn phím âm lượng vẫn hoạt động.",
+        "Mang ra tiệm khi nào: bạn nên mang máy ra tiệm khi loa vẫn rè hoặc mất tiếng dù đã kiểm tra cài đặt, tai nghe và driver, khi loa chỉ kêu một bên kèm tiếng rè lớn, hoặc khi loa bị rè sau khi máy bị rơi hay dính nước. Bạn đừng tự tháo máy để thay loa, vì loa laptop gắn chặt bên trong và tự tháo dễ làm hỏng cáp, hỏng vỏ và mất bảo hành."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "loa laptop",
+        "loa re",
+        "mat tieng",
+        "tai nghe",
+        "driver am thanh"
+      ],
+      "title": "Laptop loa rè, mất tiếng, cắm tai nghe không nghe được: kiểm tra cài đặt âm thanh và driver trước khi mang ra tiệm",
+      "id": 117,
+      "img": "assets/laptop-loa-re-mat-tieng.jpg"
     }
   ],
   "subs": {
