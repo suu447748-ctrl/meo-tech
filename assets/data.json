@@ -3755,6 +3755,35 @@
       "title": "Điện thoại mở khóa vân tay lúc được lúc không, khuôn mặt không nhận: lau cảm biến, đăng ký lại và kiểm tra cường lực trước khi mang ra tiệm",
       "id": 121,
       "img": "assets/dien-thoai-van-tay-khong-nhan.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Laptop đang dùng tự dưng sập nguồn, bật lại thì lên rồi lại tắt: kiểm tra pin, nhiệt độ và nguồn trước khi mang ra tiệm.",
+      "mins": 5,
+      "note": "Đây là mẹo kiểm tra chung, an toàn cho người dùng tự làm. Nếu máy vẫn sập nguồn sau các bước trên, hoặc sập kèm mùi khét, hãy mang ra tiệm để kỹ thuật viên kiểm tra pin và phần cứng bên trong.",
+      "steps": [
+        "Nhận biết lỗi: laptop đang dùng bình thường thì tự dưng sập nguồn, không báo trước; bật lại thì lên được rồi có thể lại tắt; cắm sạc thì đỡ hơn hoặc vẫn bị.",
+        "Thử bước đơn giản trước: kiểm tra củ sạc và cổng sạc có bị lỏng, chập chờn không; thử một củ sạc khác mà bạn biết là còn tốt. Nếu pin tháo rời được, tháo pin ra rồi cắm sạc trực tiếp để thử máy.",
+        "Kiểm tra nhiệt độ: sờ xem máy có nóng ran không, xem khe tản nhiệt có bị bụi bít kín không. Đặt máy trên mặt phẳng cứng, thoáng khí, không đặt lên chăn, nệm hay đùi khi dùng lâu.",
+        "Dọn bớt gánh nặng cho máy: tắt các ứng dụng nặng đang chạy, kiểm tra xem có ứng dụng nào ngốn CPU bất thường không, cập nhật Windows và driver rồi quét virus.",
+        "Kiểm tra tình trạng pin: vào cài đặt pin để xem pin còn giữ được bao nhiêu phần trăm dung lượng. Pin chai nặng có thể khiến máy sập nguồn đột ngột dù vẫn báo còn pin.",
+        "Test lại: dùng máy với sạc cắm trực tiếp, để ý xem máy còn sập không và sập vào lúc nào — khi mở ứng dụng nặng hay lúc nào cũng sập — để ghi lại cho thợ kiểm tra.",
+        "Khi nào mang ra tiệm: máy vẫn sập dù đã vệ sinh và thử sạc khác, pin và sạc đều tốt, hoặc máy sập kèm mùi khét, sập ngay khi vừa bật nguồn."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "sap nguon dot ngot",
+        "laptop sap nguon",
+        "pin chai",
+        "nong may",
+        "nguon"
+      ],
+      "title": "Laptop đang dùng tự dưng sập nguồn, bật lại thì lên rồi lại tắt: kiểm tra pin, nhiệt độ và nguồn trước khi mang ra tiệm",
+      "id": 122,
+      "img": "assets/laptop-sap-nguon-dot-ngot.jpg"
     }
   ],
   "subs": {
