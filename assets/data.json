@@ -3698,6 +3698,36 @@
       "title": "PC bị treo, đơ khi đang dùng, ứng dụng không phản hồi: đóng ứng dụng, kiểm tra bộ nhớ và cập nhật driver trước khi mang ra tiệm",
       "id": 119,
       "img": "assets/pc-bi-treo-do-khi-dang-dung.jpg"
+    },
+    {
+      "brand": "OPPO",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Oppo Reno 8T mất đèn màn hình: đo linh kiện được khoanh đỏ, đứt thì câu tắt theo ảnh.",
+      "fit": "contain",
+      "mins": 5,
+      "note": "Đây là lỗi phần cứng trên main, cần tháo máy và câu jumper trên mạch — bạn nên mang ra thợ sửa chữa có kinh nghiệm, không tự làm nếu chưa quen tay hàn.",
+      "steps": [
+        "Nhận biết lỗi: Oppo Reno 8T mất đèn màn hình — máy vẫn chạy, vẫn có tiếng, nhưng màn hình tối đen không hiện gì; soi đèn vào màn vẫn thấy mờ mờ hình.",
+        "Thử bước đơn giản trước: khởi động lại máy, kiểm tra độ sáng màn hình, thử màn hình khác còn tốt để loại trừ lỗi màn. Nếu màn khác vẫn tối thì lỗi nằm trên main, đường đèn nền.",
+        "Tháo máy và ngắt pin trước khi làm việc trên main.",
+        "Xác định vị trí theo ảnh: linh kiện được khoanh đỏ trên main, ở khu vực mạch đèn nền.",
+        "Đo kiểm linh kiện khoanh đỏ xem có đứt không; nếu đứt thì câu tắt (nối tắt) như ảnh chỉ.",
+        "Lắp pin lại, lắp máy vào và bật máy thử: đèn màn hình sáng lại bình thường thì test thêm các chức năng trước khi ráp máy hoàn chỉnh.",
+        "Nếu sau khi câu tắt mà màn vẫn tối thì mang ra tiệm để đo kiểm đường đèn nền trên main."
+      ],
+      "sub": "Sửa chữa",
+      "tags": [
+        "oppo reno 8t",
+        "oppo",
+        "reno 8t",
+        "mat den man hinh",
+        "backlight",
+        "cau tat"
+      ],
+      "title": "Oppo Reno 8T mất đèn màn hình: đo linh kiện khoanh đỏ, đứt thì câu tắt theo ảnh",
+      "id": 120,
+      "img": "assets/oppo-reno-8t-mat-den-man-hinh.jpg"
     }
   ],
   "subs": {
