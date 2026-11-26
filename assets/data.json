@@ -3668,6 +3668,36 @@
       "title": "Samsung A21s gắn SIM máy khởi động lại liên tục: câu tắt chip áp sóng a1 sang b1, c1",
       "id": 118,
       "img": "assets/samsung-a21s-gan-sim-khoi-dong-lai-lien-tuc.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Đang dùng thì cửa sổ đứng yên, ứng dụng báo không phản hồi nhưng chuột vẫn di chuyển — bạn có thể tự xử lý trong vài phút bằng Task Manager, dọn ổ đĩa và cập nhật driver trước khi nghĩ tới chuyện mang máy ra tiệm.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm nếu máy treo thường xuyên ngay cả khi chỉ mở 1-2 ứng dụng nhẹ, treo kèm màn hình xanh, máy tự tắt hoặc tự khởi động lại, hoặc thùng máy phát ra tiếng kêu lạ. Những dấu hiệu này có thể liên quan tới phần cứng bên trong, bạn không nên tự mở thùng máy để tháo lắp linh kiện.",
+      "steps": [
+        "Nhận biết lỗi: chuột vẫn di chuyển được nhưng cửa sổ ứng dụng đứng yên, tiêu đề cửa sổ hiện chữ Not Responding, bấm gì cũng không ăn. Đôi khi quạt máy kêu to hơn bình thường vì máy đang gồng xử lý một tác vụ nặng.",
+        "Chờ 1-2 phút rồi hãy xử lý: đừng bấm chuột liên tục hay mở thêm ứng dụng, vì mỗi lần bấm máy lại phải xếp thêm việc vào hàng chờ. Nếu máy chỉ đang xử lý file nặng hoặc cập nhật ngầm, nó sẽ tự chạy tiếp sau ít phút.",
+        "Mở Task Manager bằng tổ hợp Ctrl + Shift + Esc, bấm vào cột CPU hoặc Memory để xem ứng dụng nào đang ngốn tài nguyên nhiều nhất. Bấm chọn ứng dụng bị treo rồi bấm End Task để đóng nó. Nếu cả màn hình đứng yên, bạn bấm Ctrl + Alt + Delete rồi chọn Task Manager.",
+        "Lưu lại công việc đang mở ở các ứng dụng khác rồi khởi động lại máy: bấm Start, chọn Power rồi Restart. Khởi động lại giúp giải phóng bộ nhớ tạm và tắt các tiến trình kẹt từ trước, nhiều trường hợp máy chạy mượt lại ngay sau bước này.",
+        "Kiểm tra dung lượng ổ đĩa: mở File Explorer, bấm chuột phải vào ổ C rồi chọn Properties để xem dung lượng còn trống. Nếu ổ gần đầy, bạn gỡ ứng dụng không dùng tới và dọn file tạm bằng Disk Cleanup trong Windows, vì ổ đầy cũng là nguyên nhân khiến máy hay treo.",
+        "Cập nhật Windows và driver: vào Settings, chọn Windows Update rồi bấm Check for updates và cài các bản cập nhật đang chờ. Driver card đồ họa lỗi thời cũng gây treo khi mở ứng dụng nặng, bạn cập nhật driver qua Windows Update hoặc phần mềm của hãng card đồ họa.",
+        "Quét virus bằng Windows Defender: vào Settings, chọn Privacy & security, mở Windows Security rồi chạy Quick scan. Virus hoặc phần mềm độc hại chạy ngầm cũng có thể làm máy treo, giật liên tục.",
+        "Test lại: mở lại đúng ứng dụng hay bị treo và dùng thử một lúc như bình thường, mở thêm 1-2 ứng dụng bạn hay dùng cùng lúc. Nếu máy chạy mượt, không còn hiện Not Responding thì lỗi đã được xử lý xong."
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc bi treo",
+        "pc bi do",
+        "ung dung khong phan hoi",
+        "task manager",
+        "sua pc",
+        "meo pc"
+      ],
+      "title": "PC bị treo, đơ khi đang dùng, ứng dụng không phản hồi: đóng ứng dụng, kiểm tra bộ nhớ và cập nhật driver trước khi mang ra tiệm",
+      "id": 119,
+      "img": "assets/pc-bi-treo-do-khi-dang-dung.jpg"
     }
   ],
   "subs": {
