@@ -3812,6 +3812,36 @@
       "title": "CapCut trên điện thoại: cách cắt video, thêm chữ, thêm nhạc và xuất video nét cho người mới",
       "id": 124,
       "img": "assets/capcut-cat-video-dien-thoai.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Máy đang chạy ngon, cài thêm phần mềm hoặc cập nhật Windows xong thì lỗi? Bạn bật System Protection, tạo điểm khôi phục trước mỗi thay đổi lớn, rồi dùng điểm khôi phục để đưa máy về trạng thái cũ — không mất file cá nhân.",
+      "mins": 5,
+      "note": "System Restore chỉ hoàn tác thay đổi hệ thống (phần mềm, driver, cài đặt) — ảnh, tài liệu của bạn không bị xóa, nhưng phần mềm cài sau điểm khôi phục sẽ bị gỡ và bạn phải cài lại sau. System Restore không diệt được virus và không cứu được ổ cứng hỏng. Bạn mang máy ra tiệm khi: máy không có điểm khôi phục nào, máy không vào được cả màn hình Khôi phục, khôi phục xong vẫn lỗi, hoặc máy kêu lạch cạch, ổ cứng có dấu hiệu hỏng.",
+      "steps": [
+        "Nhận biết lỗi có phải do thay đổi gần đây không: máy bắt đầu lỗi ngay sau khi bạn cài một phần mềm mới, cập nhật driver, cập nhật Windows, hoặc đổi một thiết lập hệ thống — ví dụ ứng dụng hay treo, Wi-Fi mất sau cập nhật, máy chạy chậm hẳn. Nếu lỗi xuất hiện đúng sau một thay đổi thì điểm khôi phục (System Restore) là cách xử lý đúng. Nếu máy lỗi từ lâu, không rõ từ khi nào, bạn xử lý theo các nguyên nhân khác trước.",
+        "Bật System Protection (bước bắt buộc, làm một lần duy nhất): bấm phím Windows, gõ \"Create a restore point\" (Tạo điểm khôi phục), mở kết quả đầu tiên. Trong cửa sổ System Properties, mở tab System Protection, chọn ổ C: (ổ chứa Windows, thường ghi chữ System bên cạnh), bấm nút Configure. Chọn \"Turn on system protection\", kéo thanh Max Usage lên khoảng 5% đến 10% dung lượng ổ (ví dụ ổ 256 GB thì để khoảng 10 đến 15 GB), bấm Apply rồi bấm OK. Lưu ý: mặc định Windows tắt tính năng này, nếu bạn chưa bật thì máy sẽ không có điểm khôi phục nào để dùng.",
+        "Tạo điểm khôi phục thủ công trước mỗi thay đổi lớn: vẫn trong tab System Protection, bấm nút Create, gõ một cái tên gợi nhớ, ví dụ \"Truoc khi cai driver card man hinh\" hoặc \"Truoc khi cap nhat Windows\", bấm Create, đợi thông báo \"The restore point was created successfully\" hiện ra rồi bấm Close. Từ nay, trước khi cài driver mới, cài phần mềm lạ hoặc cập nhật Windows lớn, bạn lặp lại bước này — chỉ mất khoảng 1 phút.",
+        "Dùng điểm khôi phục khi máy đã lỗi: bấm tổ hợp phím Windows + R, gõ rstrui.exe, bấm Enter. Bấm Next, chọn điểm khôi phục có ngày giờ TRƯỚC lúc máy bắt đầu lỗi (nếu không thấy điểm mình cần thì tick ô \"Show more restore points\" để hiện thêm), bấm \"Scan for affected programs\" để xem những phần mềm và driver nào sẽ bị gỡ, rồi bấm Next, bấm Finish, bấm Yes để xác nhận. Máy sẽ tự khởi động lại, quá trình khôi phục mất vài phút — bạn không tắt máy giữa chừng.",
+        "Test lại sau khi máy khởi động xong: mở lại đúng phần mềm hay bị treo lúc trước, kiểm tra Wi-Fi, âm thanh và tốc độ máy. Nếu lỗi đã hết thì xong. Nếu vẫn lỗi, bạn chạy lại rstrui.exe và chọn một điểm khôi phục cũ hơn. Nếu lần khôi phục vừa rồi làm máy tệ hơn, bạn mở lại System Restore và chọn \"Undo System Restore\" để hoàn tác.",
+        "Nếu máy lỗi nặng không vào được Windows: vào Cài đặt > Hệ thống > Khôi phục (Settings > System > Recovery), ở mục Khởi động nâng cao (Advanced startup) bấm \"Khởi động lại ngay\" (Restart now). Màn hình xanh hiện ra, bạn chọn Khắc phục sự cố (Troubleshoot) > Tùy chọn nâng cao (Advanced options) > Khôi phục hệ thống (System Restore), rồi chọn điểm khôi phục như bước 4. Nếu máy có mã hóa BitLocker, bạn chuẩn bị sẵn khóa khôi phục BitLocker trước khi làm.",
+        "Hướng dẫn từng bước chính thức của Microsoft (đã mở thử, link còn dùng được): https://support.microsoft.com/en-gb/windows/experience/backup-recovery/system-restore"
+      ],
+      "sub": "Lỗi PC",
+      "tags": [
+        "pc",
+        "windows 11",
+        "diem khoi phuc",
+        "system restore",
+        "cap nhat windows",
+        "loi phan mem",
+        "khoi phuc he thong"
+      ],
+      "title": "PC lỗi sau khi cài phần mềm, cập nhật Windows: bật điểm khôi phục và đưa máy về trạng thái cũ trên Windows 11",
+      "id": 125,
+      "img": "assets/pc-diem-khoi-phuc-windows.jpg"
     }
   ],
   "subs": {
