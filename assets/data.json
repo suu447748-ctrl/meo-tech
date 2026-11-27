@@ -3842,6 +3842,36 @@
       "title": "PC lỗi sau khi cài phần mềm, cập nhật Windows: bật điểm khôi phục và đưa máy về trạng thái cũ trên Windows 11",
       "id": 125,
       "img": "assets/pc-diem-khoi-phuc-windows.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Zalo lưu tin nhắn trên chính điện thoại của bạn, không tự đồng bộ lên đám mây như Messenger — đổi máy mà quên sao lưu là mất sạch tin nhắn cũ. Bạn chỉ cần 5 phút sao lưu trên máy cũ rồi khôi phục trên máy mới là đủ.",
+      "mins": 4,
+      "note": "Bạn mang máy ra tiệm khi: máy cũ hỏng không mở lên được để sao lưu, hoặc máy mới đăng nhập Zalo xong báo lỗi không khôi phục được dù đã nhập đúng mật khẩu. Tiệm chỉ giúp chuyển dữ liệu khi máy cũ còn mở được — còn nếu bạn đã xóa Zalo trước khi sao lưu, hoặc đã mất máy cũ và quên mật khẩu sao lưu, thì không ai lấy lại được tin nhắn, kể cả Zalo. Khi đó bạn chỉ còn cách nhờ người đã nhắn tin gửi lại nội dung quan trọng.",
+      "steps": [
+        "Nhận biết vì sao tin nhắn Zalo dễ mất khi đổi máy: Zalo lưu lịch sử trò chuyện trên chính thiết bị bạn đang dùng, không tự đồng bộ lên máy chủ như Messenger hay Telegram. Vì vậy, nếu bạn đăng nhập tài khoản Zalo trên điện thoại mới mà chưa sao lưu trước, toàn bộ tin nhắn cũ sẽ không hiện ra. Bạn kiểm tra ngay trên máy cũ: mở Zalo, nếu các đoạn chat quan trọng vẫn còn đầy đủ thì sao lưu ngay trước khi làm gì khác. Tuyệt đối đừng xóa Zalo trên máy cũ trước khi sao lưu xong — xóa rồi là mất vĩnh viễn, không cách nào lấy lại.",
+        "Sao lưu tin nhắn trên máy cũ: mở Zalo trên máy cũ, bấm tab Cá nhân ở góc dưới bên phải màn hình, rồi bấm biểu tượng Cài đặt (hình bánh răng) ở góc trên bên phải. Chọn mục Sao lưu và khôi phục, bấm Sao lưu ngay rồi bấm Tiếp tục. Zalo yêu cầu bạn đặt mật khẩu cho bản sao lưu — bạn gõ một mật khẩu dễ nhớ (ví dụ ngày sinh của bạn cộng thêm 2 ký tự), bấm Tiếp tục rồi chờ quá trình sao lưu chạy xong, thường chỉ vài phút. Bạn ghi mật khẩu này ra giấy hoặc lưu vào ghi chú ngay, vì lúc khôi phục trên máy mới Zalo sẽ hỏi lại đúng mật khẩu này, quên là không mở được bản sao lưu.",
+        "Lưu ý về giới hạn của bản sao lưu miễn phí: theo trang hỗ trợ chính thức của Zalo, bản sao lưu tiêu chuẩn chỉ lưu tin nhắn văn bản, không lưu ảnh, video, file đính kèm và tin nhắn thoại. Tin nhắn đã xóa hoặc đã thu hồi trước lúc sao lưu cũng không được khôi phục. Vì vậy, trước khi sao lưu, bạn tự lưu riêng những ảnh, file quan trọng ra Thư viện hoặc Google Photos: mở đoạn chat, bấm giữ vào ảnh hoặc file cần giữ, chọn Lưu về máy. Nếu muốn sao lưu đầy đủ cả ảnh, video và file thì bạn nâng cấp dịch vụ zCloud của Zalo (trong Zalo: Cá nhân, chọn zCloud) — zCloud tự động sao lưu tin nhắn văn bản hằng ngày và lưu cả tin nhắn media.",
+        "Bật sao lưu tự động để lần sau khỏi lo: vẫn trong mục Sao lưu và khôi phục trên máy cũ (hoặc vào Cá nhân, chọn zCloud rồi chọn Sao lưu tin nhắn văn bản), bạn bật mục Tự động sao lưu hàng ngày và chọn chỉ sao lưu khi có Wi-Fi để không tốn dữ liệu di động. Từ nay Zalo sẽ tự cập nhật bản sao lưu mỗi ngày một lần, lần sau đổi máy bạn chỉ cần khôi phục, không phải nhớ sao lưu thủ công nữa.",
+        "Khôi phục tin nhắn trên máy mới: đăng nhập đúng tài khoản Zalo của bạn trên điện thoại mới. Ngay sau khi đăng nhập, Zalo sẽ hiện thông báo hỏi bạn có muốn khôi phục tin nhắn cũ không — bạn bấm Khôi phục, nhập đúng mật khẩu bản sao lưu đã đặt ở bước 2, rồi chờ vài phút cho quá trình khôi phục hoàn tất. Nếu bạn đã bỏ qua thông báo lúc đăng nhập thì vào Cá nhân, bấm biểu tượng Cài đặt, chọn Sao lưu và khôi phục rồi bấm Khôi phục. Lưu ý quan trọng: một tài khoản Zalo chỉ đăng nhập trên một điện thoại tại một thời điểm — đăng nhập máy mới thì tài khoản trên máy cũ sẽ tự đăng xuất, nên bạn phải sao lưu xong trên máy cũ rồi mới đăng nhập máy mới.",
+        "Test lại sau khi khôi phục: mở 2-3 đoạn chat quan trọng nhất (chat với người thân, nhóm công việc) để kiểm tra tin nhắn văn bản đã về đầy đủ chưa, kiểm tra danh bạ và các nhóm chat còn đủ không. Nếu thấy thiếu đoạn chat mới nhất thì bạn quay lại máy cũ (nếu còn đăng nhập được) và bấm Sao lưu một lần nữa để cập nhật bản sao lưu mới nhất, rồi khôi phục lại trên máy mới.",
+        "Hướng dẫn từng bước chính thức của Zalo (đã mở thử, link còn dùng được): https://help.zalo.me/huong-dan/chuyen-muc/dich-vu-nang-cao/giai-dap-ve-zcloud/chi-tiet-cac-loai-du-lieu-duoc-luu-tru-tren-zcloud/"
+      ],
+      "sub": "Phần mềm",
+      "tags": [
+        "zalo",
+        "sao luu zalo",
+        "khoi phuc tin nhan",
+        "doi dien thoai",
+        "zcloud",
+        "phan mem",
+        "huong dan"
+      ],
+      "title": "Đổi điện thoại mới không mất tin nhắn Zalo: sao lưu và khôi phục đúng cách trước khi chuyển máy",
+      "id": 126,
+      "img": "assets/zalo-sao-luu-khoi-phuc-tin-nhan.jpg"
     }
   ],
   "subs": {
