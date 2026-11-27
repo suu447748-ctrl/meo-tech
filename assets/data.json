@@ -3812,6 +3812,34 @@
       "title": "Laptop màn hình bị sọc ngang, sọc dọc hoặc nhiễu màu: kiểm tra dây, driver và test màn hình ngoài trước khi mang ra tiệm",
       "id": 123,
       "img": "assets/laptop-man-hinh-bi-soc.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "CapCut trên điện thoại: cách cắt video, thêm chữ, thêm nhạc và xuất video nét cho người mới bắt đầu.",
+      "mins": 5,
+      "note": "Hướng dẫn chung cho bản CapCut miễn phí trên điện thoại; giao diện và vị trí nút bấm có thể khác nhau đôi chút theo phiên bản ứng dụng.",
+      "steps": [
+        "Tải CapCut trên CH Play hoặc App Store rồi mở ứng dụng, bấm \"Dự án mới\" và chọn video muốn chỉnh từ thư viện.",
+        "Cắt video: kéo 2 đầu của thanh video để cắt bỏ đoạn thừa ở đầu hoặc cuối; muốn cắt giữa video thì bấm \"Tách\" để chia video thành nhiều đoạn rồi xóa đoạn không cần.",
+        "Thêm chữ: bấm \"Văn bản\" rồi chọn \"Thêm văn bản\", gõ chữ, chọn font, màu và hiệu ứng; kéo chữ đến đúng vị trí và chỉnh thời gian chữ xuất hiện trên video.",
+        "Thêm nhạc và hiệu ứng: bấm \"Âm thanh\" để thêm nhạc nền rồi chỉnh âm lượng cho vừa; bấm \"Hiệu ứng\" để thêm hiệu ứng chuyển cảnh giữa các đoạn.",
+        "Chỉnh tốc độ: bấm \"Tốc độ\" để tua nhanh đoạn dài dòng hoặc quay chậm đoạn muốn nhấn mạnh.",
+        "Xuất video nét: bấm nút xuất ở góc phải màn hình, chọn độ phân giải 1080p và tốc độ khung hình 30fps rồi bấm \"Xuất\"; đợi ứng dụng xử lý xong là có video thành phẩm.",
+        "Lưu ý: video xuất từ bản miễn phí có thể kèm đoạn logo CapCut ở cuối — xóa đoạn cuối đó trước khi xuất; nhớ cấp quyền truy cập thư viện ảnh cho ứng dụng để lưu video về máy."
+      ],
+      "sub": "Phần mềm",
+      "tags": [
+        "capcut",
+        "cat video",
+        "chinh sua video",
+        "phan mem",
+        "huong dan"
+      ],
+      "title": "CapCut trên điện thoại: cách cắt video, thêm chữ, thêm nhạc và xuất video nét cho người mới",
+      "id": 124,
+      "img": "assets/capcut-cat-video-dien-thoai.jpg"
     }
   ],
   "subs": {
