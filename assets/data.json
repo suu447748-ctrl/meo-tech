@@ -3784,6 +3784,34 @@
       "title": "Laptop đang dùng tự dưng sập nguồn, bật lại thì lên rồi lại tắt: kiểm tra pin, nhiệt độ và nguồn trước khi mang ra tiệm",
       "id": 122,
       "img": "assets/laptop-sap-nguon-dot-ngot.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Laptop đang dùng bỗng xuất hiện sọc ngang, sọc dọc hay vệt màu lạ trên màn hình? Trước khi nghĩ đến chuyện thay màn hình, bạn hãy thử vài bước kiểm tra đơn giản để biết lỗi nằm ở màn hình, dây cáp hay phần mềm.",
+      "mins": 3,
+      "note": "Bạn nên mang máy ra tiệm khi: sọc xuất hiện ngay từ lúc bật máy và màn hình ngoài vẫn hiển thị bình thường; sọc ngày càng lan rộng hoặc màn hình bắt đầu chớp tắt, tối dần; màn hình bị sọc sau khi máy rơi, va đập hoặc dính nước; sọc vẫn còn sau khi đã cập nhật driver và thử màn hình ngoài. Đừng tự tháo màn hình laptop để thay tấm nền hay cáp màn hình vì cáp rất mỏng, dễ đứt gãy và tự tháo dễ làm hỏng bản lề, mất bảo hành.",
+      "steps": [
+        "Nhận biết lỗi: bạn thấy trên màn hình laptop xuất hiện một hoặc nhiều vệt sọc ngang, sọc dọc, vệt màu hồng, xanh hoặc trắng, chữ và hình bị nhòe theo chiều sọc. Bạn hãy chụp ảnh màn hình bằng điện thoại để ghi lại hiện tượng, đồng thời để ý xem sọc xuất hiện ngay từ lúc bật máy hay chỉ xuất hiện khi vào Windows, và sọc có thay đổi khi bạn gập mở màn hình không.",
+        "Khởi động lại máy và kiểm tra ở màn hình khởi động: bạn khởi động lại laptop và quan sát ngay từ lúc máy vừa bật, trước khi logo Windows hiện lên. Nếu sọc đã có sẵn ngay từ lúc bật máy thì lỗi thường nằm ở phần cứng màn hình hoặc dây cáp nối màn hình. Nếu sọc chỉ xuất hiện sau khi vào Windows thì bạn nên nghi ngờ driver hoặc phần mềm, và làm tiếp các bước dưới đây.",
+        "Test bằng màn hình ngoài để khoanh vùng lỗi: bạn cắm laptop vào một chiếc tivi hoặc màn hình rời bằng dây HDMI hoặc dây VGA đang dùng tốt, rồi bấm tổ hợp phím chuyển màn hình trên bàn phím (thường là phím Windows + P) để chọn chế độ hiển thị ra màn hình ngoài. Nếu màn hình ngoài hiển thị bình thường, không sọc, thì lỗi nằm ở màn hình laptop hoặc dây cáp nối màn hình. Nếu màn hình ngoài cũng bị sọc giống hệt thì lỗi nằm ở card đồ họa hoặc driver, bạn làm tiếp bước cập nhật driver.",
+        "Kiểm tra dây cáp và vị trí đặt máy: nếu bạn đang dùng màn hình ngoài mà hình bị sọc, bạn hãy rút dây ra cắm lại cho chắc, thử một sợi dây khác đang dùng tốt và thử một cổng cắm khác trên laptop. Bạn cũng kiểm tra xem laptop có đang bị đè, bị kẹp ở phần bản lề hay vừa bị rơi, va đập không, vì va đập ở viền màn hình rất dễ làm nứt tấm nền và gây sọc.",
+        "Cập nhật driver card đồ họa và Windows: bạn bấm chuột phải vào nút Start, chọn Device Manager, mở mục Display adapters, bấm chuột phải vào card đồ họa rồi chọn Update driver và làm theo hướng dẫn. Sau đó bạn vào Cài đặt > Windows Update để kiểm tra và cài đặt các bản cập nhật đang chờ, rồi khởi động lại máy và xem sọc đã hết chưa.",
+        "Thử thay đổi độ phân giải và tần số quét: bạn bấm chuột phải lên màn hình nền, chọn Cài đặt hiển thị, thử đổi độ phân giải về mức được đề xuất và đổi tần số quét về 60Hz rồi khởi động lại máy. Nếu sọc biến mất sau khi đổi độ phân giải thì lỗi có thể do cài đặt hiển thị chưa phù hợp, bạn cứ để ở mức ổn định đó và theo dõi thêm vài ngày.",
+        "Test lại sau mỗi bước: sau mỗi bước trên, bạn mở một trang web có nền trắng và một video để xem sọc còn hay không, đồng thời gập mở nhẹ màn hình vài lần để xem sọc có thay đổi không. Nếu sọc biến mất sau khi cập nhật driver hoặc đổi cài đặt thì bạn đã xử lý xong. Nếu sọc vẫn còn dù màn hình ngoài hiển thị bình thường, bạn nên sao lưu dữ liệu quan trọng rồi mang máy ra tiệm."
+      ],
+      "sub": "Lỗi thường gặp",
+      "tags": [
+        "laptop",
+        "man hinh soc",
+        "man hinh nhieu mau",
+        "man hinh laptop",
+        "sua laptop"
+      ],
+      "title": "Laptop màn hình bị sọc ngang, sọc dọc hoặc nhiễu màu: kiểm tra dây, driver và test màn hình ngoài trước khi mang ra tiệm",
+      "id": 123,
+      "img": "assets/laptop-man-hinh-bi-soc.jpg"
     }
   ],
   "subs": {
