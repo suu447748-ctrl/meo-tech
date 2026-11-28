@@ -3907,6 +3907,37 @@
       "title": "Laptop Windows 11: chia màn hình làm việc với Snap Layouts (Win + Z) — mở 2–4 cửa sổ cùng lúc, khỏi kéo thả thủ công",
       "id": 127,
       "img": "assets/laptop-chia-man-hinh-snap-layouts.jpg"
+    },
+    {
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "sub": "Sửa chữa",
+      "brand": "Samsung",
+      "title": "Samsung A54 lỗi sạc, báo Charging Error: gỡ linh kiện khoanh đỏ trên bo sạc theo ảnh",
+      "excerpt": "Samsung A54 cắm sạc báo Charging Error, sạc không vào: lỗi nằm trên bo sạc, gỡ bỏ linh kiện nhỏ được khoanh đỏ ngay trên chân sạc là hết lỗi.",
+      "tags": [
+        "samsung",
+        "a54",
+        "loi-sac",
+        "charging-error",
+        "bo-sac",
+        "go-linh-kien",
+        "chan-sac"
+      ],
+      "mins": 5,
+      "steps": [
+        "Nhận biết lỗi: Samsung A54 cắm sạc thì báo Charging Error, máy không nhận sạc hoặc sạc lúc vào lúc không. Lỗi này nằm trên bo sạc (cụm chân sạc), không phải do pin hay củ sạc.",
+        "Thử bước đơn giản trước: đổi củ sạc và dây sạc khác còn tốt, vệ sinh chân sạc bằng bàn chải khô, thử cắm sạc khi máy đã tắt nguồn. Vẫn báo lỗi thì mới mở máy.",
+        "Mở máy: tháo nắp lưng, ngắt socket pin trước rồi mới tháo bo sạc (cụm chân sạc) ra khỏi máy.",
+        "Vị trí khoanh đỏ trong ảnh (vòng tròn bên trái): linh kiện nhỏ nằm ngay trên chân sạc USB-C trên bo sạc — đây là linh kiện gây ra lỗi báo sạc.",
+        "Gỡ bỏ linh kiện đó khỏi bo sạc (vòng tròn bên phải: linh kiện đã được gỡ ra, để hở 2 chân tiếp xúc) — dùng máy khò hoặc mỏ hàn, không cạy bằng vật cứng làm tróc mạch.",
+        "Vệ sinh sạch mối hàn, lắp lại bo sạc, cắm lại socket pin rồi ráp máy.",
+        "Test lại trước khi giao máy: cắm sạc, máy phải nhận sạc bình thường và không còn báo Charging Error; sạc 10-15 phút xem % pin có tăng đều không."
+      ],
+      "note": "Bài này là sửa chữa phần cứng trên bo sạc, cần thợ có tay nghề và dụng cụ chuyên dụng (máy khò, mỏ hàn). Nếu bạn không quen mở máy thì mang ra tiệm, đừng tự khò linh kiện.",
+      "fit": "contain",
+      "id": 128,
+      "img": "assets/samsung-a54-loi-sac-go-linh-kien.webp"
     }
   ],
   "subs": {
