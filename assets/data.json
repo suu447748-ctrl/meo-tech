@@ -3938,6 +3938,38 @@
       "fit": "contain",
       "id": 128,
       "img": "assets/samsung-a54-loi-sac-go-linh-kien.webp"
+    },
+    {
+      "brand": "Chung",
+      "cat": "pc",
+      "catLabel": "PC",
+      "excerpt": "Tải Google Drive for desktop, đăng nhập tài khoản Google rồi bật đồng bộ thư mục trên máy — file tự lên đám mây, mở ngay trong File Explorer như một ổ đĩa thường.",
+      "mins": 4,
+      "note": "Nếu tài khoản Google hết 15 GB miễn phí thì file mới sẽ không tải lên được — bạn dọn file cũ trên drive.google.com hoặc mua thêm dung lượng Google One. Lưu ý: đừng xóa file trong thư mục đã đồng bộ trên máy, vì file đó trên Drive cũng sẽ bị xóa theo. Hướng dẫn từng bước chính thức của Google: https://support.google.com/drive/answer/10838124",
+      "steps": [
+        "Trước khi cài, bạn kiểm tra dung lượng Google còn trống: mở drive.google.com, nhìn góc trái phía dưới sẽ thấy số GB đã dùng trên tổng 15 GB miễn phí của tài khoản Google (dùng chung cho Gmail, Drive và Photos). Nếu thư mục Desktop, Documents, Pictures của bạn nặng hơn số GB còn trống thì dọn bớt file cũ trên Drive trước, hoặc mua thêm dung lượng Google One.",
+        "Tải Google Drive for desktop: vào drive.google.com, bấm nút tải Drive cho máy tính, mở file GoogleDriveSetup.exe vừa tải về rồi làm theo hướng dẫn trên màn hình để cài đặt.",
+        "Đăng nhập: mở ứng dụng Google Drive for desktop, bấm Get started rồi bấm Sign in và đăng nhập tài khoản Google bạn muốn dùng. Một máy có thể đăng nhập tối đa 4 tài khoản Google cùng lúc.",
+        "Bật đồng bộ thư mục trên máy: bấm biểu tượng Google Drive ở khay hệ thống góc phải dưới màn hình (bấm mũi tên ^ nếu biểu tượng bị ẩn), bấm biểu tượng bánh răng Settings rồi chọn Preferences. Trong mục My Computer, bấm Add folder, chọn lần lượt các thư mục Desktop, Documents, Pictures rồi chọn Sync with Google Drive.",
+        "Chọn chế độ đồng bộ cho My Drive: vẫn trong Preferences, bấm mục Google Drive ở cột trái, dưới dòng My Drive syncing options bạn chọn Stream files (mặc định, gần như không tốn dung lượng ổ cứng vì file chỉ tải về khi bạn mở) hoặc Mirror files (tải toàn bộ bản sao về máy, tốn dung lượng nhưng dùng được khi mất mạng).",
+        "Mở file Drive ngay trong File Explorer: mở File Explorer, bạn sẽ thấy ổ Google Drive (mặc định là ổ G:) với 2 thư mục My Drive và Shared drives. File Google Docs, Sheets, Slides bấm đúp sẽ mở bằng trình duyệt, file khác mở bằng ứng dụng mặc định trên máy. Muốn tìm nhanh file trong Drive thì bấm Ctrl + Alt + G.",
+        "Dùng file khi mất mạng (chế độ Stream files): chuột phải vào file hoặc thư mục cần dùng ngoại tuyến, chọn Offline Access rồi chọn Available offline. File đã sẵn sàng ngoại tuyến sẽ có biểu tượng dấu tích.",
+        "Kiểm tra đã đồng bộ xong chưa: bấm biểu tượng Google Drive ở khay hệ thống, xem mục Sync status — khi nào không còn file nào đang tải lên thì mới tắt máy hoặc cài lại Windows, tránh mất file chưa kịp lên đám mây.",
+        "Test lại: tạo 1 file .txt mới trong thư mục Documents trên máy, đợi vài chục giây rồi mở ứng dụng Google Drive trên điện thoại — nếu thấy file đó xuất hiện là đồng bộ đã chạy đúng."
+      ],
+      "sub": "Phần mềm",
+      "tags": [
+        "google drive",
+        "dong bo",
+        "sao luu",
+        "windows",
+        "file explorer",
+        "luu tru dam may",
+        "drive for desktop"
+      ],
+      "title": "PC: Cài Google Drive cho máy tính — sao lưu tự động thư mục Desktop, Documents, Pictures, cài lại Windows cũng không mất file",
+      "id": 129,
+      "img": "assets/pc-google-drive-dong-bo.jpg"
     }
   ],
   "subs": {
