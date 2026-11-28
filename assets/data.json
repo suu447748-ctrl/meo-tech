@@ -3872,6 +3872,41 @@
       "title": "Đổi điện thoại mới không mất tin nhắn Zalo: sao lưu và khôi phục đúng cách trước khi chuyển máy",
       "id": 126,
       "img": "assets/zalo-sao-luu-khoi-phuc-tin-nhan.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "laptop",
+      "catLabel": "Laptop",
+      "excerpt": "Bạn hay mở Word một bên, trình duyệt một bên mà cứ phải kéo cửa sổ qua lại cho vừa màn hình? Windows 11 có sẵn tính năng Snap Layouts: chỉ cần bấm Win + Z là xếp được 2–4 cửa sổ gọn gàng trong vài giây, không cần cài thêm phần mềm nào.",
+      "mins": 4,
+      "note": "Lưu ý: số bố cục hiện ra khi bấm Win + Z tùy thuộc kích thước màn hình — màn hình laptop nhỏ (13–14 inch) thường chỉ hiện 4 bố cục, màn hình lớn hơn mới hiện đủ 6 bố cục, đây là bình thường chứ không phải lỗi. Nếu bấm Win + Z mà không thấy bảng bố cục hiện ra, bạn kiểm tra lại bước 2 xem công tắc Snap windows đã Bật chưa, và mở Cài đặt > Windows Update > Kiểm tra cập nhật để chắc máy đang chạy Windows 11 bản mới. Đây là tính năng có sẵn của Windows nên không cần mang ra tiệm; chỉ mang máy ra tiệm hoặc nhờ kỹ thuật viên khi bạn đã bật Snap, đã cập nhật Windows mới nhất mà Win + Z vẫn không hoạt động, vì khi đó có thể hệ thống đang lỗi sâu hơn. Hướng dẫn từng bước chính thức của Microsoft: https://support.microsoft.com/en-us/windows/experience/snap-your-windows",
+      "steps": [
+        "Nhận biết khi nào cần dùng: bạn đang làm việc với 2 cửa sổ trở lên cùng lúc — ví dụ vừa gõ Word vừa tra cứu trên Chrome, hoặc vừa xem bảng tính Excel vừa chat Zalo — mà cửa sổ cứ chồng lên nhau, bạn phải bấm Alt + Tab liên tục để đổi qua đổi lại. Đó là lúc Snap Layouts phát huy tác dụng: nó chia màn hình thành 2, 3 hoặc 4 ô cố định, mỗi ô một cửa sổ.",
+        "Kiểm tra Snap đã bật chưa: bấm phím Windows + I để mở Cài đặt, chọn Hệ thống (System) ở cột bên trái, rồi bấm Đa nhiệm (Multitasking) ở khung bên phải. Ở mục Cửa sổ Snap (Snap windows), gạt công tắc sang Bật. Nếu công tắc đã Bật sẵn thì bạn bỏ qua bước này — Windows 11 mặc định đã bật sẵn Snap.",
+        "Cách nhanh nhất — phím Win + Z: mở cửa sổ bạn muốn xếp đầu tiên (ví dụ Word), bấm giữ phím Windows rồi bấm phím Z. Một bảng bố cục nhỏ hiện ra ngay phía trên cửa sổ, có 4 hoặc 6 ô tùy kích thước màn hình. Bạn bấm chuột vào 1 ô, ví dụ ô trái, cửa sổ Word sẽ tự thu lại vừa đúng nửa trái màn hình.",
+        "Điền nốt các ô còn lại bằng Snap Assist: ngay sau khi cửa sổ đầu tiên đã vào vị trí, Windows tự hiện các ảnh thu nhỏ của những cửa sổ đang mở khác (Chrome, Zalo, Excel...). Bạn chỉ cần bấm vào 1 ảnh thu nhỏ, cửa sổ đó sẽ lấp đầy ô còn trống. Nếu bạn chọn bố cục 4 ô, Snap Assist sẽ hỏi tiếp cho đến khi đủ 4 cửa sổ.",
+        "Cách thứ hai — di chuột lên nút phóng to: ở góc phải trên của bất kỳ cửa sổ nào cũng có 3 nút: thu nhỏ (–), phóng to (▢) và đóng (×). Bạn chỉ cần di chuột lên nút phóng to (▢) và giữ yên khoảng 1 giây, bảng bố cục Snap sẽ hiện ra, bạn bấm chọn 1 ô rồi chọn tiếp các cửa sổ còn lại như cách trên.",
+        "Cách thứ ba — kéo thả bằng chuột: bạn giữ chuột vào thanh tiêu đề của cửa sổ rồi kéo nó sát mép trái màn hình, cửa sổ sẽ tự thu về đúng nửa trái; kéo sát mép phải thì vào nửa phải; kéo vào 1 góc màn hình thì vào đúng 1/4 màn hình. Kéo cửa sổ lên sát mép trên màn hình, một thanh bố cục (Snap bar) sẽ hiện ra ở giữa mép trên, bạn thả cửa sổ vào 1 ô trong đó.",
+        "Cách thứ tư — chỉ dùng bàn phím: bấm giữ phím Windows rồi bấm phím Mũi tên Trái để đưa cửa sổ đang mở sang nửa trái, Mũi tên Phải sang nửa phải; sau khi đã sang một bên, bấm tiếp Windows + Mũi tên Lên hoặc Mũi tên Xuống để đưa cửa sổ vào 1/4 góc màn hình. Thả phím Windows ra là cửa sổ nằm yên tại vị trí đó.",
+        "Chỉnh lại tỉ lệ 2 cửa sổ cho vừa ý: bạn di chuột tới đường ranh giới giữa 2 cửa sổ đã xếp, con trỏ chuột sẽ đổi thành mũi tên 2 đầu. Giữ chuột và kéo sang trái hoặc phải, cửa sổ bên kia sẽ tự co lại theo, không để thừa khoảng trống nào trên màn hình.",
+        "Quay lại bố cục cũ bằng Snap Groups: khi bạn đã xếp xong 1 nhóm cửa sổ, Windows tự lưu nhóm đó lại. Nếu bạn mở thêm ứng dụng khác rồi muốn quay về nhóm cũ, chỉ cần di chuột lên biểu tượng của 1 ứng dụng trong nhóm ở thanh tác vụ (Taskbar) phía dưới màn hình, một bảng nhỏ hiện ra cho bạn chọn khôi phục cả nhóm hoặc chỉ 1 cửa sổ. Nhóm này cũng hiện trong Task View (bấm Windows + Tab) và khi bấm Alt + Tab.",
+        "Test lại: bạn mở Word và Chrome, bấm Win + Z, chọn bố cục 2 ô trái — phải, rồi bấm ảnh thu nhỏ của Chrome. Nếu Word nằm gọn nửa trái và Chrome nằm gọn nửa phải, không chồng lấn, không thừa khoảng trống thì Snap đã hoạt động đúng. Thử kéo đường ranh giới giữa 2 cửa sổ để chắc chắn bạn chỉnh được tỉ lệ.",
+        "Muốn xem lại từng bước kèm hình minh họa chính thức, bạn mở trang hỗ trợ của Microsoft: https://support.microsoft.com/en-us/windows/experience/snap-your-windows — trang này hướng dẫn đầy đủ cách dùng Snap bằng chuột, bàn phím, Snap layouts, Snap bar và Snap groups trên Windows 11."
+      ],
+      "sub": "Phần mềm",
+      "tags": [
+        "laptop",
+        "windows 11",
+        "snap layouts",
+        "chia man hinh",
+        "da nhiem",
+        "win z",
+        "snap assist",
+        "meo dung laptop"
+      ],
+      "title": "Laptop Windows 11: chia màn hình làm việc với Snap Layouts (Win + Z) — mở 2–4 cửa sổ cùng lúc, khỏi kéo thả thủ công",
+      "id": 127,
+      "img": "assets/laptop-chia-man-hinh-snap-layouts.jpg"
     }
   ],
   "subs": {
