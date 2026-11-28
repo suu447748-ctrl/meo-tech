@@ -3970,6 +3970,35 @@
       "title": "PC: Cài Google Drive cho máy tính — sao lưu tự động thư mục Desktop, Documents, Pictures, cài lại Windows cũng không mất file",
       "id": 129,
       "img": "assets/pc-google-drive-dong-bo.jpg"
+    },
+    {
+      "brand": "Chung",
+      "cat": "phone",
+      "catLabel": "Điện thoại",
+      "excerpt": "Bật sao lưu Google Photos để ảnh tự động lên đám mây: đổi điện thoại mới chỉ cần đăng nhập đúng tài khoản Google là thấy lại toàn bộ ảnh, không cần chép tay từng tấm.",
+      "mins": 4,
+      "note": "Sao lưu Google Photos chỉ chạy với 1 tài khoản Google tại 1 thời điểm, dung lượng miễn phí 15 GB dùng chung cho Photos, Drive và Gmail. Nếu ứng dụng báo lỗi sao lưu liên tục, dung lượng đầy mà bạn không tự dọn được, hoặc tài khoản Google bị quên mật khẩu/bị khóa thì mang máy ra tiệm nhờ hỗ trợ khôi phục tài khoản — tuyệt đối không đưa mật khẩu cho người lạ. Hướng dẫn từng bước chính thức của Google: https://support.google.com/photos/answer/6193313",
+      "steps": [
+        "Nhận biết: ảnh chụp bằng điện thoại mặc định chỉ nằm trên máy. Nếu máy hỏng, mất máy hoặc đổi máy mới mà chưa sao lưu thì toàn bộ ảnh sẽ mất theo. Cách chắc chắn nhất là bật sao lưu Google Photos để ảnh tự động lên tài khoản Google của bạn.",
+        "Bật sao lưu: mở ứng dụng Google Photos, đăng nhập đúng tài khoản Google của bạn. Bấm vào ảnh đại diện ở góc phải phía trên màn hình, chọn Cài đặt Photos, rồi chọn Sao lưu và gạt công tắc Sao lưu sang Bật.",
+        "Chọn chất lượng sao lưu: vẫn trong mục Sao lưu, bấm Chất lượng sao lưu. Chọn Tiết kiệm dung lượng nếu bạn muốn tiết kiệm bộ nhớ (ảnh bị nén nhẹ, vẫn xem tốt), hoặc chọn Chất lượng gốc nếu bạn muốn giữ nguyên file gốc không nén. Lưu ý: ảnh sao lưu tối đa 200 MB hoặc 200 MP, video tối đa 10 GB.",
+        "Chọn sao lưu qua Wi-Fi hay 4G: trong mục Sao lưu, bấm Sao lưu qua mạng di động nếu bạn muốn sao lưu cả khi không có Wi-Fi; nếu không bật, máy chỉ sao lưu khi có Wi-Fi. Nên để mặc định chỉ Wi-Fi để khỏi tốn dung lượng 4G, và cắm sạc trong lúc sao lưu lần đầu vì có thể mất nhiều thời gian.",
+        "Kiểm tra sao lưu đã xong chưa: bấm ảnh đại diện ở góc phải phía trên, xem dòng trạng thái. Hiện Đã sao lưu xong là toàn bộ ảnh đã lên đám mây; còn hiện Đang sao lưu… còn X mục thì cứ chờ, giữ máy kết nối Wi-Fi. Kiểm tra từng ảnh: mở ảnh, bấm dấu ba chấm rồi chọn Giới thiệu, dòng Đã sao lưu kèm dung lượng nghĩa là ảnh đó đã được sao lưu.",
+        "Sao lưu thủ công 1 ảnh hoặc video: mở ảnh đó trong Google Photos rồi bấm Sao lưu ngay. Muốn sao lưu nhiều ảnh cùng lúc: chạm giữ 1 ảnh để chọn, chạm thêm các ảnh khác rồi bấm Sao lưu.",
+        "Kiểm tra dung lượng còn lại: bấm ảnh đại diện ở góc phải phía trên, chọn Cài đặt Photos, rồi chọn Sao lưu và bấm Quản lý bộ nhớ để xem đã dùng bao nhiêu trên 15 GB miễn phí. Nếu gần đầy, xóa ảnh trùng hoặc video nặng trong mục Quản lý bộ nhớ, hoặc mua thêm dung lượng Google One.",
+        "Test lại trên máy mới hoặc máy tính: trên máy mới, đăng nhập đúng tài khoản Google rồi mở Google Photos — toàn bộ ảnh đã sao lưu sẽ hiện ra. Hoặc mở photos.google.com trên máy tính, đăng nhập cùng tài khoản: thấy ảnh mới chụp gần nhất là sao lưu đã chạy đúng. Muốn lưu 1 ảnh về máy: mở ảnh, bấm dấu ba chấm rồi chọn Tải xuống."
+      ],
+      "sub": "Phần mềm",
+      "tags": [
+        "google photos",
+        "sao luu anh",
+        "dong bo anh",
+        "phan mem",
+        "huong dan"
+      ],
+      "title": "Đổi điện thoại mới không mất ảnh: bật sao lưu Google Photos, kiểm tra dung lượng và tải ảnh gốc về máy",
+      "id": 130,
+      "img": "assets/google-photos-sao-luu-anh.jpg"
     }
   ],
   "subs": {
